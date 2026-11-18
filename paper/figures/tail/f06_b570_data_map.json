@@ -1,0 +1,815 @@
+{
+  "layout_coordinates": "PostScript points measured from top left",
+  "source_notes": "INTEGRATION_NOTES.md",
+  "marks": [
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/90-0018",
+      "kind": "root_ratio",
+      "x": 144.13404603283914,
+      "y": 50.8,
+      "key": "247/TO_C/TO_A/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 0.7354152122471939,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/124-0019",
+      "kind": "root_ratio",
+      "x": 145.93720412124372,
+      "y": 52.9,
+      "key": "247/TO_C/TO_A/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 0.7486972304765259,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/algebra/train/1050-0020",
+      "kind": "root_ratio",
+      "x": 145.9677481965088,
+      "y": 55.0,
+      "key": "247/TO_C/TO_A/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 0.7489242713772848,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/60-0021",
+      "kind": "root_ratio",
+      "x": 146.07280137806288,
+      "y": 57.1,
+      "key": "247/TO_C/TO_A/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 0.7497056807841037,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/algebra/train/355-0022",
+      "kind": "root_ratio",
+      "x": 146.1699981136206,
+      "y": 59.2,
+      "key": "247/TO_C/TO_A/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 0.7504293782679725,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/prealgebra/train/316-0023",
+      "kind": "root_ratio",
+      "x": 146.1958212724054,
+      "y": 50.8,
+      "key": "247/TO_C/TO_A/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 0.7506217671230149,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/116-0024",
+      "kind": "root_ratio",
+      "x": 147.0853660481926,
+      "y": 52.9,
+      "key": "247/TO_C/TO_A/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 0.7572792934832495,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/81-0025",
+      "kind": "root_ratio",
+      "x": 147.38631210731018,
+      "y": 55.0,
+      "key": "247/TO_C/TO_A/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 0.7595449739600082,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/129-0026",
+      "kind": "root_ratio",
+      "x": 147.58861761477476,
+      "y": 57.1,
+      "key": "247/TO_C/TO_A/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 0.7610718451698673,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/108-0027",
+      "kind": "root_ratio",
+      "x": 147.66878150416687,
+      "y": 59.2,
+      "key": "247/TO_C/TO_A/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 0.7616777191443372,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/counting_and_probability/train/35-0028",
+      "kind": "root_ratio",
+      "x": 147.6770585014068,
+      "y": 50.8,
+      "key": "247/TO_C/TO_A/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 0.7617403036686798,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/geometry/train/545-0029",
+      "kind": "root_ratio",
+      "x": 147.90965871023727,
+      "y": 52.9,
+      "key": "247/TO_C/TO_A/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 0.7635011585536234,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/geometry/train/701-0030",
+      "kind": "root_ratio",
+      "x": 147.99625823565628,
+      "y": 55.0,
+      "key": "247/TO_C/TO_A/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 0.7641577828494875,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/52-0031",
+      "kind": "root_ratio",
+      "x": 150.6489287883115,
+      "y": 57.1,
+      "key": "247/TO_C/TO_A/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 0.784547065061405,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/0-0032",
+      "kind": "root_ratio",
+      "x": 150.66180904879195,
+      "y": 59.2,
+      "key": "247/TO_C/TO_A/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 0.784647382506887,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/geometry/train/387-0033",
+      "kind": "root_ratio",
+      "x": 151.79820584238553,
+      "y": 50.8,
+      "key": "247/TO_C/TO_A/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 0.7935488467602249,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/71-0034",
+      "kind": "root_ratio",
+      "x": 152.03809028150954,
+      "y": 52.9,
+      "key": "247/TO_C/TO_A/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 0.7954407459054285,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/6-0035",
+      "kind": "root_ratio",
+      "x": 152.69889600510052,
+      "y": 55.0,
+      "key": "247/TO_C/TO_A/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 0.8006756877853313,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:CodeContests/test/159-0036",
+      "kind": "root_ratio",
+      "x": 153.27955052176995,
+      "y": 57.1,
+      "key": "247/TO_C/TO_A/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 0.8053040968657548,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/geometry/train/567-0037",
+      "kind": "root_ratio",
+      "x": 156.45243687662656,
+      "y": 59.2,
+      "key": "247/TO_C/TO_A/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 0.8310718626186655,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/counting_and_probability/train/398-0038",
+      "kind": "root_ratio",
+      "x": 157.94061909514107,
+      "y": 50.8,
+      "key": "247/TO_C/TO_A/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 0.843440206500752,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/algebra/train/320-0039",
+      "kind": "root_ratio",
+      "x": 158.26046947553,
+      "y": 52.9,
+      "key": "247/TO_C/TO_A/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 0.8461224355483801,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/algebra/train/337-0040",
+      "kind": "root_ratio",
+      "x": 158.6311912030552,
+      "y": 55.0,
+      "key": "247/TO_C/TO_A/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 0.8492419403599096,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:TO_C/TO_A:MATH/algebra/train/917-0041",
+      "kind": "root_ratio",
+      "x": 159.76267468926707,
+      "y": 57.1,
+      "key": "247/TO_C/TO_A/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 0.8588343113101632,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-interval-0042",
+      "kind": "interval",
+      "x": 148.7461732104255,
+      "y": 66,
+      "x_hi": 152.17689425202917,
+      "key": "247/TO_C/TO_A/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        0.7698675395853886,
+        0.7965375119826233
+      ]
+    },
+    {
+      "gid": "f06_b570-estimate:TO_C/TO_A-0045",
+      "kind": "summary",
+      "x": 150.41510598599643,
+      "y": 66,
+      "key": "247/TO_C/TO_A/ratio",
+      "shape": "D",
+      "value": 0.782728172718679,
+      "fill": "white"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/prealgebra/train/316-0049",
+      "kind": "root_ratio",
+      "x": 160.26635795717624,
+      "y": 94.8,
+      "key": "247/SD_C/SD_A/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 0.8631391623959127,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/90-0050",
+      "kind": "root_ratio",
+      "x": 160.5097813852052,
+      "y": 96.9,
+      "key": "247/SD_C/SD_A/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 0.8652273670853862,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/60-0051",
+      "kind": "root_ratio",
+      "x": 160.66186741290417,
+      "y": 99.0,
+      "key": "247/SD_C/SD_A/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 0.8665345985357055,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/124-0052",
+      "kind": "root_ratio",
+      "x": 160.68832781389705,
+      "y": 101.1,
+      "key": "247/SD_C/SD_A/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 0.8667622363564791,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/algebra/train/1050-0053",
+      "kind": "root_ratio",
+      "x": 160.70330605361542,
+      "y": 103.2,
+      "key": "247/SD_C/SD_A/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 0.8668911200867632,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/116-0054",
+      "kind": "root_ratio",
+      "x": 160.70396367045157,
+      "y": 94.8,
+      "key": "247/SD_C/SD_A/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 0.8668967791421871,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/algebra/train/355-0055",
+      "kind": "root_ratio",
+      "x": 160.78519667546604,
+      "y": 96.9,
+      "key": "247/SD_C/SD_A/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 0.8675961057859318,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/geometry/train/701-0056",
+      "kind": "root_ratio",
+      "x": 160.92412711892507,
+      "y": 99.0,
+      "key": "247/SD_C/SD_A/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 0.8687934515302385,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/129-0057",
+      "kind": "root_ratio",
+      "x": 160.96338788028032,
+      "y": 101.1,
+      "key": "247/SD_C/SD_A/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 0.8691321123379019,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/108-0058",
+      "kind": "root_ratio",
+      "x": 160.96836291365577,
+      "y": 103.2,
+      "key": "247/SD_C/SD_A/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 0.8691750360794379,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/geometry/train/387-0059",
+      "kind": "root_ratio",
+      "x": 161.07941453748353,
+      "y": 94.8,
+      "key": "247/SD_C/SD_A/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 0.8701337225749803,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/81-0060",
+      "kind": "root_ratio",
+      "x": 161.15972171109192,
+      "y": 96.9,
+      "key": "247/SD_C/SD_A/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 0.8708276571265551,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/counting_and_probability/train/35-0061",
+      "kind": "root_ratio",
+      "x": 161.2278767397878,
+      "y": 99.0,
+      "key": "247/SD_C/SD_A/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 0.8714170190728165,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/geometry/train/545-0062",
+      "kind": "root_ratio",
+      "x": 161.30803778679322,
+      "y": 101.1,
+      "key": "247/SD_C/SD_A/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 0.8721107120117575,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/52-0063",
+      "kind": "root_ratio",
+      "x": 161.44945030346645,
+      "y": 103.2,
+      "key": "247/SD_C/SD_A/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 0.8733358059266115,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/71-0064",
+      "kind": "root_ratio",
+      "x": 161.5288662659808,
+      "y": 94.8,
+      "key": "247/SD_C/SD_A/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 0.874024561805866,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/0-0065",
+      "kind": "root_ratio",
+      "x": 161.56617255015962,
+      "y": 96.9,
+      "key": "247/SD_C/SD_A/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 0.8743482978845142,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/159-0066",
+      "kind": "root_ratio",
+      "x": 161.75662188717402,
+      "y": 99.0,
+      "key": "247/SD_C/SD_A/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 0.8760028466624561,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/counting_and_probability/train/398-0067",
+      "kind": "root_ratio",
+      "x": 161.76661508766807,
+      "y": 101.1,
+      "key": "247/SD_C/SD_A/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 0.876089750051128,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:CodeContests/test/6-0068",
+      "kind": "root_ratio",
+      "x": 161.93285415865117,
+      "y": 103.2,
+      "key": "247/SD_C/SD_A/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 0.8775366721229672,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/algebra/train/320-0069",
+      "kind": "root_ratio",
+      "x": 162.04764425570582,
+      "y": 94.8,
+      "key": "247/SD_C/SD_A/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 0.8785371839110034,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/geometry/train/567-0070",
+      "kind": "root_ratio",
+      "x": 162.23339794440977,
+      "y": 96.9,
+      "key": "247/SD_C/SD_A/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 0.8801586322292888,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/algebra/train/917-0071",
+      "kind": "root_ratio",
+      "x": 162.51437603137813,
+      "y": 99.0,
+      "key": "247/SD_C/SD_A/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 0.8826169853240737,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/SD_A:MATH/algebra/train/337-0072",
+      "kind": "root_ratio",
+      "x": 162.8451247519888,
+      "y": 101.1,
+      "key": "247/SD_C/SD_A/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 0.8855195950659005,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f06_b570-interval-0073",
+      "kind": "interval",
+      "x": 161.06987414659466,
+      "y": 110,
+      "x_hi": 161.57272224450296,
+      "key": "247/SD_C/SD_A/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        0.8700513207829158,
+        0.8744051471257424
+      ]
+    },
+    {
+      "gid": "f06_b570-estimate:SD_C/SD_A-0076",
+      "kind": "summary",
+      "x": 161.3162855372215,
+      "y": 110,
+      "key": "247/SD_C/SD_A/ratio",
+      "shape": "D",
+      "value": 0.8721821172319397,
+      "fill": "white"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/algebra/train/337-0080",
+      "kind": "root_ratio",
+      "x": 263.1578854000442,
+      "y": 138.8,
+      "key": "247/SD_C/TO_C/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 2.396943403060885,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/counting_and_probability/train/398-0081",
+      "kind": "root_ratio",
+      "x": 263.6866729221667,
+      "y": 140.9,
+      "key": "247/SD_C/TO_C/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 2.4095583189751797,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/159-0082",
+      "kind": "root_ratio",
+      "x": 263.7939506826332,
+      "y": 143.0,
+      "key": "247/SD_C/TO_C/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 2.4121256593847553,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/6-0083",
+      "kind": "root_ratio",
+      "x": 265.09561561719397,
+      "y": 145.1,
+      "key": "247/SD_C/TO_C/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 2.4434955510989336,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/0-0084",
+      "kind": "root_ratio",
+      "x": 265.35232457623306,
+      "y": 147.2,
+      "key": "247/SD_C/TO_C/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 2.449730187036307,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/geometry/train/567-0085",
+      "kind": "root_ratio",
+      "x": 265.49194528812694,
+      "y": 138.8,
+      "key": "247/SD_C/TO_C/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 2.4531278019094644,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/52-0086",
+      "kind": "root_ratio",
+      "x": 266.4304489220664,
+      "y": 140.9,
+      "key": "247/SD_C/TO_C/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 2.476088535161742,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/algebra/train/320-0087",
+      "kind": "root_ratio",
+      "x": 266.65660523396934,
+      "y": 143.0,
+      "key": "247/SD_C/TO_C/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 2.481653565272018,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/prealgebra/train/316-0088",
+      "kind": "root_ratio",
+      "x": 266.91940425652643,
+      "y": 145.1,
+      "key": "247/SD_C/TO_C/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 2.488135976133723,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/71-0089",
+      "kind": "root_ratio",
+      "x": 267.27674374447366,
+      "y": 147.2,
+      "key": "247/SD_C/TO_C/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 2.4969775721334395,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/116-0090",
+      "kind": "root_ratio",
+      "x": 267.5022530024053,
+      "y": 138.8,
+      "key": "247/SD_C/TO_C/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 2.5025734761688185,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/60-0091",
+      "kind": "root_ratio",
+      "x": 268.1310433207062,
+      "y": 140.9,
+      "key": "247/SD_C/TO_C/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 2.5182429290763615,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/129-0092",
+      "kind": "root_ratio",
+      "x": 268.30118100286035,
+      "y": 143.0,
+      "key": "247/SD_C/TO_C/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 2.5224995990531154,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/algebra/train/917-0093",
+      "kind": "root_ratio",
+      "x": 268.41150156861164,
+      "y": 145.1,
+      "key": "247/SD_C/TO_C/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 2.525263550834497,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/geometry/train/387-0094",
+      "kind": "root_ratio",
+      "x": 268.6806894869434,
+      "y": 147.2,
+      "key": "247/SD_C/TO_C/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 2.5320204541609304,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/algebra/train/1050-0095",
+      "kind": "root_ratio",
+      "x": 269.0595930097819,
+      "y": 138.8,
+      "key": "247/SD_C/TO_C/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 2.541561981715834,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/124-0096",
+      "kind": "root_ratio",
+      "x": 269.1883222878961,
+      "y": 140.9,
+      "key": "247/SD_C/TO_C/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 2.5448118114218543,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/81-0097",
+      "kind": "root_ratio",
+      "x": 269.52613111181654,
+      "y": 143.0,
+      "key": "247/SD_C/TO_C/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 2.5533597242193125,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/geometry/train/701-0098",
+      "kind": "root_ratio",
+      "x": 269.53510267475383,
+      "y": 145.1,
+      "key": "247/SD_C/TO_C/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 2.5535871315721903,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/algebra/train/355-0099",
+      "kind": "root_ratio",
+      "x": 269.57390581122803,
+      "y": 147.2,
+      "key": "247/SD_C/TO_C/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 2.5545709301933073,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/108-0100",
+      "kind": "root_ratio",
+      "x": 269.94488595939015,
+      "y": 138.8,
+      "key": "247/SD_C/TO_C/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 2.5639957618622886,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/geometry/train/545-0101",
+      "kind": "root_ratio",
+      "x": 270.7467189087013,
+      "y": 140.9,
+      "key": "247/SD_C/TO_C/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 2.5844854711297405,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:CodeContests/test/90-0102",
+      "kind": "root_ratio",
+      "x": 271.97764900918196,
+      "y": 143.0,
+      "key": "247/SD_C/TO_C/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 2.616259228871667,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-root:SD_C/TO_C:MATH/counting_and_probability/train/35-0103",
+      "kind": "root_ratio",
+      "x": 274.7867567989782,
+      "y": 145.1,
+      "key": "247/SD_C/TO_C/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 2.690240789808621,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f06_b570-interval-0104",
+      "kind": "interval",
+      "x": 266.8198109653212,
+      "y": 154,
+      "x_hi": 268.9574546875946,
+      "key": "247/SD_C/TO_C/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        2.485677338153511,
+        2.5389864059459275
+      ]
+    },
+    {
+      "gid": "f06_b570-estimate:SD_C/TO_C-0107",
+      "kind": "summary",
+      "x": 267.8844721081954,
+      "y": 154,
+      "key": "247/SD_C/TO_C/ratio",
+      "shape": "D",
+      "value": 2.512086715810322,
+      "fill": "white"
+    },
+    {
+      "gid": "f06_b570-root-legend-0109",
+      "kind": "legend",
+      "x": 7,
+      "y": 195,
+      "key": "root-legend",
+      "shape": "o",
+      "value": null,
+      "fill": "#465965"
+    },
+    {
+      "gid": "f06_b570-summary-legend-0111",
+      "kind": "legend",
+      "x": 91,
+      "y": 195,
+      "key": "summary-legend",
+      "shape": "D",
+      "value": null,
+      "fill": "white"
+    }
+  ]
+}

@@ -1,0 +1,1260 @@
+{
+  "reason": "Optional SYCL and OpenVINO backends are not part of this CPU/CUDA-only private candidate. Their additional Apache-2.0 / LLVM-exception licensing is outside the retained subset. Original recovery tree is unchanged. No claim of support for these backends.",
+  "files": [
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-openvino.cpp",
+      "sha256": "665d61302a84801c71a67d9fe9a92cb4d9be8611a42be6ceb4297f2f1378d9f9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/.clang-format",
+      "sha256": "db5014482657b40a6c8720ba1e68287baffe931f784e7aae4ad33b94f8c5a776",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-decoder.h",
+      "sha256": "e138c1a3a6df91f5bfc4406a5356bbf822de0b63439814451870269a58141ecd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-openvino-extra.h",
+      "sha256": "57dc7dd7b014076d51e9052bc2d4baaa72e3e54b9d0b569aaccfe1fa929590c2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-openvino-extra.cpp",
+      "sha256": "4e5b64289e88e1493e90adac2ee4a7cb767ee4f9d03a821bf053d3b7c466c6db",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-quants.cpp",
+      "sha256": "c06473e388ac141c83274848542cba4f5a1bab6097766a38642b1debd667e27e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/utils.h",
+      "sha256": "3be6400c4ca66d2fe248abdf8edd65164b299d8f24ab8fc1a002ce6b689b27ac",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/model-cache.h",
+      "sha256": "e86f1901c312cf265d0f9b00f993e2042f7ad0a3f7b2c71869a4bd93f2bea379",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-decoder.cpp",
+      "sha256": "49fd92027106ca998a8bc8e1194ad91df1307a35dca1930875452e75601e7792",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/ggml-quants.h",
+      "sha256": "925b05e5c5b07beb9bae2eb35b4433e685843ac1b3b6e2108db27fbedff515a6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/model-cache.cpp",
+      "sha256": "40edac360341efbdbc4176355aa23e7df4783f033c3b74c48b1da373cfd4b94c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/utils.cpp",
+      "sha256": "6fccaae63181fa35877bd9e9e39337f879a0a4189dc5c9bf3b07b70c559a39ef",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/CMakeLists.txt",
+      "sha256": "1b65bb114455e7dbcac2e6e7a472d5114a27ab054bf8b21c0a4c9c31f57b938e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/add-id.cpp",
+      "sha256": "ff398721c753d75ad6e4af2f953d96b04798ac6aabdbad872c582310a5e619bd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/ssm_scan.cpp",
+      "sha256": "5be723c3faf1bf1b30d84126a5381dcfd4a62d0fcff2e528ec95de6dc71bfbf8",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/backend.hpp",
+      "sha256": "9e2af276d48fd4e20f00918d6c15fc339e77f2b5c35e06163f78f9eefb75fd71",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/wkv.cpp",
+      "sha256": "42629c0565fd2de2767868ab5917255ad3654ed321b159bd188ee25c87bde073",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-buffers.hpp",
+      "sha256": "1e840426a0a5a105b3df616a999aefacf88be49822031ee41f95ac445b02714a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/norm.cpp",
+      "sha256": "7a0edb9c356f42d4195de5c339ca028ca892e496f259807a256c7e5a2d6c94cf",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fwht.hpp",
+      "sha256": "9080ddc12b04e695f6da64187a6e7574d052ac4fab92894bb25e9e9623524ecf",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dmmv.cpp",
+      "sha256": "253cb083c169548338f6a3ce56cb939452d88cdb4533b9b1b3cebe0ab07f99bd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/gated_delta_net.hpp",
+      "sha256": "9cb65aae0c953f32d9b4b58375a323dc1c1f6bc3b5aa1f487001586d161a9d8c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv3d.cpp",
+      "sha256": "ff4d0ef5fd51530ff583631e5beb2726f10690cc78c5380c9c2b42a1680e79ff",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mem.hpp",
+      "sha256": "309800877d604132998aca095887e18368904ceebd56dd60325db7c8e8445372",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/type.hpp",
+      "sha256": "b29cab33f50a9d0fe0179a800505f32e9bc7f53d6b4249933c415301e2d60c07",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/gemm.hpp",
+      "sha256": "98ccaf6a2986f48308b6ab86ebbf36ee76a1baa36b9653f2548e9e91209d3330",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/topk-moe.cpp",
+      "sha256": "f345e0d58a1ba444aeed48da386b7576526bca5cdbbd86bffb838017343f15b4",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/lightning-indexer.cpp",
+      "sha256": "2166e4d624dd4e05257208f2d89c8a1871bd966c7e5dd1ca24dc7ca12b108a69",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/quants.hpp",
+      "sha256": "afd1622ca8942bf76303eb286c0fbf1db2d3ced5a622ceedafa82271679462a5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d-transpose.cpp",
+      "sha256": "71d92d1057b3d7109e14fc528168587e44b609108ebb4b9976bc12049b082ee2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/ssm_conv.hpp",
+      "sha256": "92e42f23d385252e63e4e828048e8e18dc3e62d1325d0edce451200dc64f2d21",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pool.hpp",
+      "sha256": "887184660d6acd4007ff4d896e0a6d24281c96c65a6604bf48f32749d07a46b2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/add-id.hpp",
+      "sha256": "8c8fca4101a1d33cd41cb8f12bcefc04e25d7fdc4c58c6ff86dbde5203b398ca",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cumsum.hpp",
+      "sha256": "eb3756f2f8d987b55c4ecf8bfe0c68397952117c3390309bba3dd407ff892e6a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pool.cpp",
+      "sha256": "4ba2ffabb522ebb0c927e5a3c580d9c27b584a1a5b30f709793bc2bd72eada1a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/set.cpp",
+      "sha256": "9c953ce25724692472dccaf8d3f12e0d627edcf2ef2936caa9f554a5f2073719",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/outprod.cpp",
+      "sha256": "d8c2c02f61099c2eb76962a98b3b4342646f5138715a959059bb64d8c3599685",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/solve_tri.hpp",
+      "sha256": "cffc840de6010f4c282df4c41c0a59a4c1628839e5096f277788fbb4b8f9a1c9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/opt-step.hpp",
+      "sha256": "fc8caa77a49d6f1b7846f0d5f38cb7f993cbc39e6ec61e08f3dc0fbdb1db9d6d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/roll.cpp",
+      "sha256": "55c4a345a25379da7c77549b17f6c677f8f8a2bd0c560c05b91f90fe4ce2476f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/convert.hpp",
+      "sha256": "b0583509d34d94ecea2be2b904ab549cc137d43a250199dd94a92d8253a21269",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cumsum.cpp",
+      "sha256": "6de95e76d4d8562df600952d4b83801c83911a139fef81d7209be1db62af1609",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/topk-moe.hpp",
+      "sha256": "b03476fc506ee2191515efdf0a0116dba924e12c7e43cb71cef8a23b2fe59824",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/binbcast.cpp",
+      "sha256": "0b04784f191d2b9092a1aec95a270b1dd09d3970e48d173ff8bcf94614e56a5b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/ssm_conv.cpp",
+      "sha256": "64fb917c830a05dde81697c2950875336a2e33d8fa87c0eebf0fbef8f17565f6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/repeat_back.hpp",
+      "sha256": "d1df429151ffe975a305c58763736806cd333b88d33b24c4d96b1e527c9027c2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fill.hpp",
+      "sha256": "14f26e1dca8615acd72edd9fd1e2388647efb7b63ad7a4f32288774c2f78058f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/sycl_hw.cpp",
+      "sha256": "929337ae517bebd693c5b61981250a79b983287a871703e34a1b5960fc7d6be2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv.hpp",
+      "sha256": "54af3d5fc204f28ef2a331603cd8cf04a40313794302a5dbdc7a20fe3c61c1fe",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-common.hpp",
+      "sha256": "55ebe89a2311e66b97fdbf01bbb079038fc858f44091c4d2a895fea1695a2c2e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/concat.cpp",
+      "sha256": "786b6cd2948aeb34bbbb49803e335cf11260b5d0914d89f5974fc7f20d96fb94",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/softmax.cpp",
+      "sha256": "a3d50e23b5932d13f75aca53037d7e0dd1c341cdccafccf69760335c339ebe86",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-tile.cpp",
+      "sha256": "0e8a1853c78927f43c3a0b6b8f25e02dd4de57475b05b2df4124bed97f39b5fb",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mem.cpp",
+      "sha256": "faa2fe43e300e142f1d48b434b4e85077ccbc01e2e485f7ace5e0ff31fd744ed",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fill.cpp",
+      "sha256": "4c136c7c09efa51c2549e7d181d104d2282e6df7825729bf0e1a296aa897cd72",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn.hpp",
+      "sha256": "a8c324ee38942b63e78f1d6e60f0bf675a65431b01da1ab3c2dcd3c2dbc54c60",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/count-equal.cpp",
+      "sha256": "ad6c68a1aa18e5418f8ef413769405fc444e15bfc68efe276b39a0c40743f292",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d-dw.cpp",
+      "sha256": "cfdb6a3fb9400a821048dcd67b62a24b92272bc1ed4283eb4bc28401660f066c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dequantize.hpp",
+      "sha256": "0295f8c9d2cc3f8691c89e312212d1e8f491b6c55df269915a71916c984018e1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/tsembd.hpp",
+      "sha256": "178b18f0eb9de65568deb089e61684defe8df5f9792fb437e2df5f592dcc814b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/outprod.hpp",
+      "sha256": "6486c0de4112d787200bd0b519a6d8f688a536aee99a23008c6168e52575979b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/lightning-indexer.hpp",
+      "sha256": "5bbd63890ff5f634ca53a99b7ba82652c71b3cabf6d79e028091c58023c2e25a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d-dw.hpp",
+      "sha256": "67167495d12df6bc87e77c197ce7a8d07502e845bfb9be7fcba997e5d3b031b7",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/gla.cpp",
+      "sha256": "491d864e2765f27b31ba160c5ec42ff466266eacc4ad06f866c69e79a3bb38dd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dsv4-hc.cpp",
+      "sha256": "1d877292a97ac24cec1ccebd933844fc05be8fb80de43592abe42ea8121f245f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/wkv.hpp",
+      "sha256": "cc0b2bfdd3527d3f8efa61758d22d4d48be52417ed7da0979fa111c5dc5b280c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/diag.cpp",
+      "sha256": "4459060af16a1b11c758b37d481a4fd03825cbc13ecd8d0f3e85e1ec5e1d217d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pad.cpp",
+      "sha256": "74ef67e10e5b2ee5f4d851324e83fe5af99a53b1aefcb20c909099de55755f10",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mmq.cpp",
+      "sha256": "a1cc91f1ae0ed78972303343b23e13b549993b41f0fed43213792e4143773522",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/set.hpp",
+      "sha256": "a3ed90e89acb10defb1cb86a689753594ec326c56e89ea610cc612a6d272a66f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/common.cpp",
+      "sha256": "06b360cd2745f36a99bef6eebee08b68bf08c6e527472afdfc573dc967b3aca3",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-vec.hpp",
+      "sha256": "199be0febdba7d85052e7e3b8a9e413157cd714bc258751e88f895fea6694f95",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/element_wise.cpp",
+      "sha256": "c5f702a0ac8f5b8a52fe600fc83e08ff1f29d95748797f98a28b1f96eaafb0cf",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn.cpp",
+      "sha256": "1769b03960dc26e75c4af6912f7e3c0d4ef9b00bc95c8b1b69bde7f22d40811c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/presets.hpp",
+      "sha256": "5af0f95a12ade1ffb353457d2e0daa5c34aabef0de04fa53ddcedcbd7c352867",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d.cpp",
+      "sha256": "490172fe0030949707f94ea21ee16c0abb24e3fbf3d118a3a3710eb2d37677f1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pad_reflect_1d.hpp",
+      "sha256": "4b3518786bf0f0241f8401b12eeed328b2144e8e1dd228997fb519eea95aee08",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/binbcast.hpp",
+      "sha256": "a314c158f144876913a6c0bb21b0c2289c2d3848e7ac9f4af587567a6526bfe2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/gated_delta_net.cpp",
+      "sha256": "35bf25e3e071616762df9c133f8711467e5695a13d19abe8765d9b8961ebabfd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/concat.hpp",
+      "sha256": "1e670862b2d31fcc3d3aee135a20c083add525d3b34ab994a406590cf46a793b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/common.hpp",
+      "sha256": "89eba8c6144d747002c521a953c391019d55879a2b9072f532218f77fa30abc3",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/element_wise.hpp",
+      "sha256": "96a04ce30981464bef247d2b46959d10e060b607b836bff8c00c43d88e3f523d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/memtrace.cpp",
+      "sha256": "b317a386e49f2dff4b2bf6eed483e6c62759b462709278a595ccb65b9f764fde",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fwht.cpp",
+      "sha256": "df503f8fdd25b048dd478338c59bf069ead42eedfc1df14871c86a1a1471e150",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/gla.hpp",
+      "sha256": "c640155256ea48afd0c0bf2be60fc2a9d492e131926f17650aa60adc446cd16a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/tsembd.cpp",
+      "sha256": "a8248934b3e17d444de3346cbb7784928cb0f618f02de3399a7bc9138d98a3b1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mmq.hpp",
+      "sha256": "96e1a604f9fa3ca85e4d0a5334519185f2696fe5cdf317afd8179b2af4103442",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/getrows.hpp",
+      "sha256": "3bf08782cb45af1b1d8e92e0a933667d0d8b2c8aac149aef72eb0300f84318fe",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dmmv.hpp",
+      "sha256": "546f61ce466e553eaa789168f0a86bcf0d89c899dbc2026837559f001068b4aa",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-buffers.cpp",
+      "sha256": "7180d9beb13904c7de4faec2dc978de6c1d1d51bbb7530d4a775fb20f01b87a0",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/memtrace.hpp",
+      "sha256": "7ebfe00680cbbd0db44682d9cb18f15113aed63202c67f78252b4eb3ee509ce3",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/ggml-sycl.cpp",
+      "sha256": "fca44205b827eebef5df8a53e19716a54323328a438b5d87a2e6c4eeec76dc43",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/base.hpp",
+      "sha256": "7cbc9353698fe7f9b650ad403619080543ac21b8c76681919e90d24954ca5d1d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cpy.cpp",
+      "sha256": "53e20d8208f9db541a81f5ebcfd3b6f73ec5a4f6b6a2da25b5d2388ced412e6c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/upscale.hpp",
+      "sha256": "0fe75bf9efa333ee389fc73d9277810a6d366cd6af9358da1f45d69209525538",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cpy.hpp",
+      "sha256": "bdae023d66c6598dd69b742530b733c6479856f6e33a2b0c5a90b89e45c810c5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/rope.hpp",
+      "sha256": "3c31631ad845748627c79a212631ff2d05fa8fe5d833b506a653ebf8ef45fecf",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pad.hpp",
+      "sha256": "c779c78b8b13abb7db7fb2c1f057c03c0b6edc5dc5f6f06652bd749346a0aae5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dsv4-hc.hpp",
+      "sha256": "5256e9e153ca752bd655d0b3834102d3b95d0e59780756a20e53faa9d08e09c8",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-mkl.cpp",
+      "sha256": "bc442c6e823b7c7b4ea533afb0a95b8774fdf3de5f3e9d9cc418488425148703",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/quantize.hpp",
+      "sha256": "93951892aab6459d4471cca180cf69cb04a736294823f0bece08e58107bdbf51",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/upscale.cpp",
+      "sha256": "9274028d1554a7294b05835a8e3f24697589eedada0908b7901b42c325bc5be1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-tile.hpp",
+      "sha256": "ccbbde8c58a3090b406b19e770ccf46710bc768d015f3dfb185ae5da338d40d6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/getrows.cpp",
+      "sha256": "a57f275805a1436f35b65457eb3d247781d4ff878ed043f1ba97417b22c10bac",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mmvq.cpp",
+      "sha256": "16f8f0e8a41b11f8c4b681b1177382f63edf1f22c1e80c2c0be73a024f8a84b0",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/col2im-1d.hpp",
+      "sha256": "13a2e073af0d106b9ac21efd4d3ea979ca691eec9b4326c7ed1fb61d022c9de6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/sycl_hw.hpp",
+      "sha256": "9c18bc0b7bbfa0285962e9e1cc88fba39d914134898d24f533a0375d55ecc23a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv.cpp",
+      "sha256": "12ed1cbd4006b46124386f7cd7eb3252d2f5f14238db3cfaa229df47ee9c3f63",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cross_entropy_loss.hpp",
+      "sha256": "1ca0fc0077e5957b21e08c2018024221762668c658305a2cf00d49e7caae5ad0",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/esimd.hpp",
+      "sha256": "9b8074ae893793c5d5bb81caa0a10f031c6c0ea1b312847a33b136e25f0e9b95",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/set_rows.hpp",
+      "sha256": "03b5a0dcfc1cb95b55644dcbd3dfdc32036f54b02dc8091fa7e8b98394430496",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d-transpose.hpp",
+      "sha256": "0b904617c36c1c98245be5b7f367e33efd5518b53e9d10ef58b0610210d300ea",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/roll.hpp",
+      "sha256": "a89b6caccad79125f84fe5ceae0696cc5ca3fddc13cd3f7a45fd9f71a5076300",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/set_rows.cpp",
+      "sha256": "f86e74a1d427480c8fbd543df52176715b8b4fb73a0cadb814f6d5c67d4d46f1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/pad_reflect_1d.cpp",
+      "sha256": "c8c3b00a9eb2fc4002fc1a94ed766fc867d188d2cc1d2f5b6523364d87a864e5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/vecdotq.hpp",
+      "sha256": "5b87c11dfd5d2a1605e468da69f30216e5e146bc15cceb02fddb2ed30dd88ebe",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/softmax.hpp",
+      "sha256": "8131917954c3c0c0457aed2173e41cb266280dfc2207be26994854f7d6c73d73",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/col2im-1d.cpp",
+      "sha256": "5a3e74afbf4282f87a66c33c71dc21400b3278295a2172355e8694945954d81b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fusion.hpp",
+      "sha256": "8785fc0f93cebdc21aaf5eb4a7d7584e976db982c5402cdbb911ee5ec591e2f4",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/repeat_back.cpp",
+      "sha256": "ccea5f6c53630c5d2e3c731b13601f044f1d501bcdb0030e450a854f78cbd9e1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/im2col.hpp",
+      "sha256": "d454582e3fd193cf1190eba7bdc74feac1214632ed3f916a65afc0bd588eb50d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/ssm_scan.hpp",
+      "sha256": "fff2b712160544019f7da45f981c5fd2a34b0b6ce0ec28d2fdee203a6bdd8377",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-onednn.hpp",
+      "sha256": "73f3539894f428e55d18b8feff47af4b72dfaa43a6e2b04c114b6e759a3ad7a0",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/opt-step.cpp",
+      "sha256": "38806986e307f8a7c71beb28ee98e6c63781ea1538ec5d225caa2813d5ae82ac",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/mmvq.hpp",
+      "sha256": "4b7253095e21b4b3587895c14b336e71803138ff27f11cab88dbfdf072a7f2f2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fattn-onednn.cpp",
+      "sha256": "3d8d037dd3019236ebd0b089b9c6eec09c6306b613697d3c533596359c444a84",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/solve_tri.cpp",
+      "sha256": "e9b0edaf3e5b35f2aa5042de893e01dbfd0d3bd3f593a371fc0d8aa588ab86e9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv2d.hpp",
+      "sha256": "7723d9e9008a7e1870eeee7ce3f16c584b37eb1f2158dff24623160b2c09fef2",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/diag.hpp",
+      "sha256": "0f0c48bf3951e09c8e6c5f8c1c871913dd05c9524d0a043702e98cddf803cd17",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/cross_entropy_loss.cpp",
+      "sha256": "be4fe2470eb2b5a4d421d11996a46a05141bd02dcc246370cf71de321ab01514",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/conv3d.hpp",
+      "sha256": "07d8d4b52f07afc91d0e6741adda766fa958503964a1a13d4ea8c3cc7fbe2c39",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/norm.hpp",
+      "sha256": "968f061241842d3d50cb592e0592b4ec71b50b18eac35177bf64af99311b25b1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/count-equal.hpp",
+      "sha256": "6c93107e59dde0a53ba444b424022b73c7c72cbdedcd597edb7726fdabd07882",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/im2col.cpp",
+      "sha256": "25e4cf331e1836cefd779eb43b6702501717842b287a1ccea9d756e3f05675b5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/rope.cpp",
+      "sha256": "749d0d55d347533ee26e709bfd377efb672a06abf3f9069ff011c6068db9e3d1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/fusion.cpp",
+      "sha256": "7b30768fa9ceeb77c62eb739cdd7846da78d2f439da37d34b4b1d9eff6a1ff79",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/CMakeLists.txt",
+      "sha256": "732e32b41c9075902753327cbf467c3c5d836253e6bc4f53a9c26f4d4a05ff5e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/convert.cpp",
+      "sha256": "b18c29c5b8dc75b94433c523be5482b011f0693c701747e11ff4db7fcfe0efcd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/translate_session.h",
+      "sha256": "2b440f3fc7343eb1da0ce4eb505493d3b940bdb23869e41bb962b2aafca3c5fa",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/node_context.h",
+      "sha256": "63914539f74f57f4f7a0d82f2d8ce99b0149697a59cc4582c0e2bc841d6b3b11",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/decoder.h",
+      "sha256": "41236f7ba36ab7af35ed1cad40bd7bafb07a3568051087dca7a0da24310408c6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/utils.h",
+      "sha256": "ff1a120c629f253a76e18eb11eae41a627f1c80f7debd45d0ea9f466970ca93d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op_table.h",
+      "sha256": "9097e3ac261963a5ed9bc5203a6b42d642033d71dc7c6fda04b65c3851c66acc",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/input_model.h",
+      "sha256": "1daea4a6b9387eacf29760eb07916b6e317b7adcf856bf2f56a533e94b4a6919",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/input_model.cpp",
+      "sha256": "ac28e7ab7a83d93be527db2c8d4c610e1259224b36727501d111ddadf665eeb8",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/translate_session.cpp",
+      "sha256": "7813e25a867565db89261cfc2c0492171283bab116d9fceb7fc73c57bb600fb1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/frontend.h",
+      "sha256": "f191bf4d3e01dcad82248dcabfd0891ae5e0557bf4d57b167496caf73a8ceaa8",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/frontend.cpp",
+      "sha256": "2df6964ea539fd1e3d070c7a6e20045287332c2f86cf57a3d9e3d183c044c91e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/utils.cpp",
+      "sha256": "f2773ea3624187eee74b3d143f69d9081ada16969ef29a401653eb5fe24b03ea",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op_table.cpp",
+      "sha256": "b7270996165bcc2ee0b6b0ac4cba85bdf2854f051932d31407d1c3d8b1913203",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/mark_decompression_convert_constant_folding.h",
+      "sha256": "35eed8a5505679e186e5d866050bfced7fcd1096bf2e4fd9860ac1fd3650299b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/squeeze_matmul.cpp",
+      "sha256": "eabd213c3ec3153f63a7ead2475bb08c866b48c39740dbc23e334eef0c1f0344",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/fuse_to_sdpa.cpp",
+      "sha256": "89b4fdd9279485b562b493a4c258bfc956e94f6d6758854b0327a9225f538e28",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/fuse_to_conv.h",
+      "sha256": "6774a08be697cf813443f6aae31dcd7199e88b019c2f3e57f75c0ac0ad399255",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/fuse_to_conv.cpp",
+      "sha256": "9c8ee78ac46fa8043c1f135340bb89970c127bf917e8588e6167561db412c9be",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/squeeze_matmul.h",
+      "sha256": "8b09359f76f026bbdd888d442d41c32525cd537789aa622a2737b46aa0b2200f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/fuse_to_sdpa.h",
+      "sha256": "6b8efe26ddadab0a85e3856e0edf199b78cada7083e20082ee1e3d46b55e469c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/pass/mark_dequantization_subgraph.h",
+      "sha256": "1784061c616fb748b3309ff78994f47398b135024e646357bc6807937ec5a8ca",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/rt_info/weightless_caching_attributes.hpp",
+      "sha256": "73b4d4856dcd047122bc80b8efafd0cbec53008cd31f0af4782bb045d1bff5d4",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/sum_rows.cpp",
+      "sha256": "a70f61a94c2418254a12d16e8dbc9c2704e91720fbbfad77300bc28ac0fde333",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/norm.cpp",
+      "sha256": "b194dd324f7219026a4fc5677639d6f6d6327fc0de8b1c52683ef198c816b597",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/view.cpp",
+      "sha256": "9b5e60198d774e3d9bc7af4c3065c439199f91bd0646ca540c41d9d3468b41d6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/cont.cpp",
+      "sha256": "ff8c8fb3f5cb4ce917c5ff2a2b2f4bde424eddfb07a8a9387f5d0b1d3dc1c3e9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/gated_delta_net.hpp",
+      "sha256": "cc6f8f28b27a57126e8203a16858bc5cb46a9926c56c94e9b3bbabde337681ac",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/glu_geglu.cpp",
+      "sha256": "d0f50294ee3f1a500533e515936fc87c990f5c6b21d11fc5d9bbd5ab2230ce64",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/div.cpp",
+      "sha256": "7a6e749dfdecc8645d128ce667baa2a180e1fc7cd70bb2a95f17e99c70771f8a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/scale.cpp",
+      "sha256": "881a6c7c4f1970f69bd9739d721640ebd4dc5da7ec6d0de8ea0b0e03ecd04849",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/pool_2d.cpp",
+      "sha256": "0990e83d5e1c440cef933d178325ef41fa4521dbdee39c95b4118079254280a0",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/transpose.cpp",
+      "sha256": "26dfcff1eb9cc69952bb8ff259d3ed1b17c967f6cbb89c045f392a0f0c7ce8b1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/set.cpp",
+      "sha256": "3998e27b15a4b9b52b6024ebf508d020318a11a7aa19ce0265a3c367b063b921",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/roll.cpp",
+      "sha256": "8fa9326740f2c1dec1877c8f17c47a4b3ec70baafd49c45e72a6b5dae8d64ba7",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/cumsum.cpp",
+      "sha256": "5ea93bcda42d5b0df4180f852af599639e70cdb4fbd8e18e2c82d6ce2b540ff3",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/ssm_conv.cpp",
+      "sha256": "dfdefcb576cd7719ffd7762de810ed5f85295f5d369229162478041991f7e02a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/concat.cpp",
+      "sha256": "259819c3abe89f3a2cafb2ad1617188ddffd2ecfcb581f7f466190d5af7f6eb1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/softmax.cpp",
+      "sha256": "1eea84e86e692532b5801e55d0c6ee503094c6d7e0d008a62bf86465888eb2ca",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/tri.cpp",
+      "sha256": "da1a54533102894d745f76d2c4715a3fe0eb0519574b50bf60dc40d4bb3b6931",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/clamp.cpp",
+      "sha256": "04cb9dcbd20eecc4c3123f17f07c0d31a3ad0403de5874fb6da6e6f687200430",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/mul_mat_id.cpp",
+      "sha256": "3048918fcdb879e57d9e51adcea246bd78be33b3f3ff20cf2cfcef67c51ca7a6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/fill.cpp",
+      "sha256": "45e80448ec100673b2490cc245adf367a31ed62edc88befcc93707d1b55cf7ed",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/permute.cpp",
+      "sha256": "b81336702da6e33cdc56c5b1cec61146427e907857c09a97883ac8e8567554cc",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/rms_norm.cpp",
+      "sha256": "b30a09fc892dd8e6e75045d739a1766d93c73eb11c428b0b9f95e0be02868bf1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/diag.cpp",
+      "sha256": "ea4480d232e71c856f921b310982032a2fc54a3b07fa58f69dc128f93fc93520",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/pad.cpp",
+      "sha256": "ec4f17851dc46fb67d62b8be393b5930e0dca5e55e0f5b31e80f19b188d3e3fd",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/gated_delta_net.cpp",
+      "sha256": "005c3d0cede7acee26f0035e3b360c1e0f24145a244b8fea9ce4146c4ddbc1e7",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/add.cpp",
+      "sha256": "3fa0820bbbfb7f3431f63adbd9f06b63b30ddef3a17318aaec9ed0b2b15bb5b3",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/cpy.cpp",
+      "sha256": "6b6580bbc1c0306bc7822b9b3c51d43daae6b6fd08fa733061e139b58b26f627",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/repeat.cpp",
+      "sha256": "a7e68bacedc17cc41e18ab3d4925078ae8e768928ea4a8e2ce57880e1f03268e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/glu_swiglu.cpp",
+      "sha256": "8b5595881dd56b4421a1479b1240da6ad54e9d77a1250a2843c9758f91dc4e64",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/set_rows.cpp",
+      "sha256": "7a1c1571e638292393a797ee3f1866aed10710c54f32d81fb5f884f33ff5421c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/reshape.cpp",
+      "sha256": "f951c7b114eea4f3f534f0a01a7ca9d84788959e78c3e265e456cb8fe639746b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/flash_attn_ext.cpp",
+      "sha256": "ec43236a5382c3b2844b0c1dfea09f67cc6651dda96a8a267d97d4d7b02dbace",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/get_rows.cpp",
+      "sha256": "4df941682f8d03f89fc444b07c8347e6953d3b80f8dfad4fb3972b922fb10242",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/unary_softplus.cpp",
+      "sha256": "fb44891e00e39701cf0a9cf39f4a41fffcbe173b3fe6c12c8f396005cfc86956",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/add_id.cpp",
+      "sha256": "1eb622d4275e954ba32b36cec9ab3a70d4054c87ef455ea80cd431b86d3f2305",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/l2_norm.cpp",
+      "sha256": "475ef76d4f21edd7b385428ff5d9a5c25a0f095d6ce323ddbba94037674f45d4",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/solve_tri.cpp",
+      "sha256": "49cd42664ee88baefc8ab372294d4d2d6261eabdc334dd5dc1cb357c9b9e91e9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/mulmat.cpp",
+      "sha256": "8646c96c8bd8e3f23acff61f7bb0257e6241252cf5ef056746126088135158bc",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/glu_geglu_quick.cpp",
+      "sha256": "bd46fd79c9d41fde6e39baba792ca966bef61c966d2ec19c90baa3a9d422393a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/gather_matmul.hpp",
+      "sha256": "47e13003f47b130c3a913d8543ef25bdf7fda943136faa55fec8349d65ada252",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/sqr.cpp",
+      "sha256": "cbdbde70065f0c14d43d54820b8c84de85c74034076ed43bfcc3134aaba8f341",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/im2col.cpp",
+      "sha256": "aa6af4ae09e2feb3e927b7bdec334c4801e8dd3ed41ff5f16cecd2a24757ca2e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/rope.cpp",
+      "sha256": "7d465276d7fb96c650e4642e9d3a0f94637db5cc9a53c231c5cefdf604ecf0fa",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/unary_silu.cpp",
+      "sha256": "21a43e061f801acc64e103c9f9a9e4a3c9c296b86ef3ec91d306e00ae746f995",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-openvino/openvino/op/argsort.cpp",
+      "sha256": "8eeddc4b3820b116008d696d504c7782600dd2551643d16e6c8dd2571d373bf9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/dpct/helper.hpp",
+      "sha256": "6c3c863c16718c2ca86bd08fa319be232fb3ce9b4d77faa5d8d5dac557c1c5d9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-q8_0.cpp",
+      "sha256": "9dd27a64b90eceed392ddbf2824403bf7a59201a40e3a68882916be55deb4fb6",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-q4_0.cpp",
+      "sha256": "eb13d0aae2bfea7819c947dbee0a74294dfdbaab2b7813c08b0005671570d714",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-q8_0.cpp",
+      "sha256": "176c7d971083e716868d91668278d49e11731f37105558050c3994649d4cfc4e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-f16.cpp",
+      "sha256": "2bdd2ec8a89cfbdc8f276097f712f1bfd6d96d3386118a5042a7780b1343720d",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-q8_0.cpp",
+      "sha256": "b014bd96ac0a760cc566ee2b3eb9e4034128f9133a15df745bb74996f4dea785",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-q5_1.cpp",
+      "sha256": "8ebc6bd18a0a42665061ff3b7fba60aa2329c3ed9135329f19580aeb03189aeb",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq128-dv128.cpp",
+      "sha256": "9e717ee915824d21de295b05e38b74c5578616ea90a2603090d2a03906c4034a",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-q4_1.cpp",
+      "sha256": "82f48cec3c4df2f16c09e7a5c59fb59182b5ab6e24d7fb2f0a43ceb5f173c693",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-q4_1.cpp",
+      "sha256": "f4b713f4f064fc0537086a3599754dfcf6a23c2ad5c4abef2224d91b190876b1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq512-dv512.cpp",
+      "sha256": "b89d313396ee88e2571b7087567c5885813cd2d6c7b8ce226a6e0cb487c256ff",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-q5_0.cpp",
+      "sha256": "66111f197d558b00ec304982e562d148a10706020f7b5a8ba76aca30a4dfce46",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-f16.cpp",
+      "sha256": "d5e6f124a472b085246afb676587836368da3dce1daaf6bb7de85dc6e1361856",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-q4_0.cpp",
+      "sha256": "466b575f94153df1123987a2c9d09bd17a9b5b395bb436bcd4843dbd067059e8",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-f16.cpp",
+      "sha256": "44fb7ebb706678a58da3a9fc8423ab6e5f6fe2e26114a43463069249d5d91fee",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-q8_0.cpp",
+      "sha256": "737dfed5e374a35bf1c6a4bb5f655de9266cd55693dd00b9b54b11cce03e26be",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-q5_0.cpp",
+      "sha256": "b9befd55071e5657faf40fd6935f43d48fdb8d21dc33720573cae4e6d41112ca",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq72-dv72.cpp",
+      "sha256": "07e0dd929b0c56c585d11d9862f0c77913d7ef278e99e429e1febb021df61653",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-q5_0.cpp",
+      "sha256": "cad9460f1a3346105ed0c3243f0e1fc8bf14e51aa95faf5082450c21dc747337",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-q4_1.cpp",
+      "sha256": "4352eacf6deeaefd03f53faf995bb42d60c04603222a76bd54228723f3e92972",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-q5_1.cpp",
+      "sha256": "41716bc4eb3ccac0db70c9c44f59b11f4f315986158af137165e485da4db30f1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-q4_1.cpp",
+      "sha256": "cb39c4fcc886c85fa1e0cff95d135149cd41295f050085e5bb1107eb1ef1b1b7",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-f16.cpp",
+      "sha256": "c134989b1d25f7025960cdf031503aadb29566a823daf7b356b7205608fc7c58",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-q4_1.cpp",
+      "sha256": "c9581c134347e01d094a1cb490bed62d9278bfe4dc285bb8a5903392f355a276",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-q5_1.cpp",
+      "sha256": "66ad88aab194b327f91f3a3e2f61912f4753b174da4b74822bdc1405dc2b0f65",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq576-dv512.cpp",
+      "sha256": "5dd04562a354de5a6b931cbe5920acb4dc962fb0ab22aee8f251145d5fc25e4f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-f16.cpp",
+      "sha256": "fb353b94508a2a1806e3c7424f37f39416ebee7fcce93bd183f02523d1330c8b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-q4_0.cpp",
+      "sha256": "4f3968acf406170a7e1c669ad880c21a1aa50a4c74ea9668344bfa875e61e85c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-q5_0.cpp",
+      "sha256": "f15de85f511063f3e7ea4a2fb85dd70cdc077c0b931057de59b5fbe4bd16e64b",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-q4_0.cpp",
+      "sha256": "4699a3d9c7546ce8b0151bfeddeec17977672662ae1e5c0d827c8ed3e8ffbd5e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq256-dv256.cpp",
+      "sha256": "f5e13b4de0c9f2dc3c0def52a0bb9cc94f586eb0261d6e23d067d0beb6e30ac5",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-q4_0.cpp",
+      "sha256": "1b563ccec493ea1b989a6eae70f58d28eba62e2ebaa0ab6d50536e18918b0885",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-q5_1.cpp",
+      "sha256": "bd6ec4a69a224eb02063961b3bfcfa1dd4a045ef29c613d22287beaf7f8799f1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_1-q5_1.cpp",
+      "sha256": "fcd8681592a59f86155db3c8b8d19e7d54584c17bf2e2f35542b2dbc242151cc",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-q5_0.cpp",
+      "sha256": "a8bc9aa4351216138835675478332ebe08194bddd99fc5b8c02822fe5882a4a1",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-q5_0.cpp",
+      "sha256": "105f35b7c3eccead5d4af9388d894c03135eae0cd4a8d7db2af4040aea996978",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq96-dv96.cpp",
+      "sha256": "93f46289a8e80e0e4f69199d9e1a3cf0118b86f8d4fb321684a4b81b882532db",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-q4_1.cpp",
+      "sha256": "d05f84ea8d046f03ae3a30cda9bac51647246930f593645e918bb8e1dda71d5e",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q8_0-q4_0.cpp",
+      "sha256": "1bd09131c09d5ad4827cd4c18dfb7d31656f0043b470b2eb90b757133cee82f9",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq40-dv40.cpp",
+      "sha256": "8fe90d90b2ef7f9590d0d489a42d7383f76d65a27049f05265f423accee909bc",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq80-dv80.cpp",
+      "sha256": "0b9035c49febd6aaa2fefe941b3f9226ef15b7bb59d8c19a758046a643eeb894",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq64-dv64.cpp",
+      "sha256": "f1e7a959e9364e3a97e87693493f61b80eea0c21601acff006f396fc3d2bb148",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-tile-instance-dkq112-dv112.cpp",
+      "sha256": "128a838d083acedafadcbf4ea84584dece3ee246d9cb671be6ad7f14fd450d9c",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q5_0-q8_0.cpp",
+      "sha256": "c3818dd2e7c45495a26694865489a4493ab3047c9f8360bc1d46b50c4e3de53f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_1-f16.cpp",
+      "sha256": "77895e15009091710f73c1c066055e2672b93c11119d9d696f4b4240496b086f",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-q4_0-q5_1.cpp",
+      "sha256": "0550563e413765712c0d7e5a1acb71d6bb5df7efced24eee77ffb09e7db916d7",
+      "origin": "restored-fixed-core"
+    },
+    {
+      "path": "backend/ggml/src/ggml-sycl/template-instances/fattn-vec-instance-f16-q8_0.cpp",
+      "sha256": "67de720b7297389aa09e98af48d992964acbeee14e9df398f94538e302695fb2",
+      "origin": "restored-fixed-core"
+    }
+  ]
+}

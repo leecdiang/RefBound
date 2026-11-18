@@ -1,0 +1,40 @@
+\acmJournal{TACO}
+\setcopyright{none}
+\settopmatter{printacmref=false}
+\acmDOI{}
+\acmVolume{}
+\acmNumber{}
+\acmArticle{}
+\acmYear{2026}
+\copyrightyear{2026}
+% Keep the named author and keywords in PDF Info as well as hyperxmp's XMP.
+\hypersetup{keeppdfinfo}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{placeins}
+\usepackage{flafter}
+% Keep individual bibliography entries together when a page boundary permits.
+\AtBeginEnvironment{thebibliography}{\interlinepenalty=10000\relax}
+\usepackage{float}
+\floatstyle{ruled}
+\newfloat{algorithm}{tbp}{loa}
+\floatname{algorithm}{Algorithm}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\Simple}{\textsc{Simple}}
+\newcommand{\Local}{\textsc{Local}}
+\newcommand{\Whole}{\textsc{Whole}}
+\newcommand{\Cone}{\textsc{C1}}
+\newcommand{\Cfour}{\textsc{C4}}
+\newcommand{\Pfour}{\textsc{P4}}
+\newcommand{\TO}{\textsc{TO}}
+\newcommand{\SD}{\textsc{SD}}
+\newcommand{\biteq}{\mathrel{\overset{\mathrm{bits}}{=}}}
+% Floats may share a page with the next paragraph. Barriers are placed only at
+% evidence-layer/appendix boundaries after inspecting the compiled edition.
+\newcommand{\paperfigure}[5][tbp]{\begin{figure}[#1]\centering\includegraphics[width=\linewidth]{figures/#2.pdf}\caption{#3}\Description{#4}\label{#5}\end{figure}}
+\newcommand{\papertable}[4][tbp]{\begin{table}[#1]\caption{#3}\label{#4}\input{tables/#2.tex}\end{table}}

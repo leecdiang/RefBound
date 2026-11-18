@@ -1,0 +1,1771 @@
+{
+  "scientific_data": "figure_marks.json",
+  "mapping_notes": "INTEGRATION_NOTES.md",
+  "coordinates": "PostScript points from top left; schematic spans are query membership",
+  "artists": [
+    {
+      "svg_id": "f02_layered-panel-1",
+      "kind": "text",
+      "text": "(a)",
+      "x_pt": 3,
+      "y_pt": 8,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-panel-title-2",
+      "kind": "text",
+      "text": "Where the cut falls inside a decoder layer",
+      "x_pt": 22,
+      "y_pt": 8,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-study-3",
+      "kind": "text",
+      "text": "A5000 · 32B · C4 on · P4 off",
+      "x_pt": 391.34400000000005,
+      "y_pt": 8,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-4",
+      "kind": "text",
+      "text": "Query position",
+      "x_pt": 4,
+      "y_pt": 39,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-5",
+      "kind": "text",
+      "text": "QKV + KV write",
+      "x_pt": 4,
+      "y_pt": 59,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-label-6",
+      "kind": "text",
+      "text": "Attention extent",
+      "x_pt": 4,
+      "y_pt": 87,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-label-7",
+      "kind": "text",
+      "text": "Output + FFN",
+      "x_pt": 4,
+      "y_pt": 115,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-policy-8",
+      "kind": "text",
+      "text": "SIMPLE · two whole calls",
+      "x_pt": 171.6,
+      "y_pt": 24,
+      "font_pt": 8.3,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-query-position-9",
+      "kind": "text",
+      "text": "253",
+      "x_pt": 123.9,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-10",
+      "kind": "text",
+      "text": "254",
+      "x_pt": 155.7,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-11",
+      "kind": "text",
+      "text": "255",
+      "x_pt": 187.5,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-12",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 219.3,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-13",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          107.0,
+          53
+        ],
+        [
+          110.5,
+          49.5
+        ],
+        [
+          203.3,
+          49.5
+        ],
+        [
+          199.8,
+          53
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-14",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          199.8,
+          53
+        ],
+        [
+          203.3,
+          49.5
+        ],
+        [
+          203.3,
+          61.7
+        ],
+        [
+          199.8,
+          65.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-15",
+      "kind": "rectangle",
+      "bounds_pt": [
+        107.0,
+        53,
+        92.80000000000001,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-16",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.93333333333334,
+          53
+        ],
+        [
+          141.43333333333334,
+          49.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-17",
+      "kind": "line",
+      "points_pt": [
+        [
+          168.86666666666667,
+          53
+        ],
+        [
+          172.36666666666667,
+          49.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-18",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 153.4,
+      "y_pt": 59.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-19",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          205.0,
+          53
+        ],
+        [
+          208.5,
+          49.5
+        ],
+        [
+          237.7,
+          49.5
+        ],
+        [
+          234.2,
+          53
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-20",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          234.2,
+          53
+        ],
+        [
+          237.7,
+          49.5
+        ],
+        [
+          237.7,
+          61.7
+        ],
+        [
+          234.2,
+          65.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-21",
+      "kind": "rectangle",
+      "bounds_pt": [
+        205.0,
+        53,
+        29.19999999999999,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-22",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 219.6,
+      "y_pt": 59.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-23",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          107.0,
+          81
+        ],
+        [
+          110.5,
+          77.5
+        ],
+        [
+          203.3,
+          77.5
+        ],
+        [
+          199.8,
+          81
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-24",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          199.8,
+          81
+        ],
+        [
+          203.3,
+          77.5
+        ],
+        [
+          203.3,
+          89.7
+        ],
+        [
+          199.8,
+          93.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-view-plate-25",
+      "kind": "rectangle",
+      "bounds_pt": [
+        107.0,
+        81,
+        92.80000000000001,
+        12.2
+      ],
+      "role": "view-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-26",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.93333333333334,
+          81
+        ],
+        [
+          141.43333333333334,
+          77.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-27",
+      "kind": "line",
+      "points_pt": [
+        [
+          168.86666666666667,
+          81
+        ],
+        [
+          172.36666666666667,
+          77.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-28",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 153.4,
+      "y_pt": 87.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-29",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          205.0,
+          81
+        ],
+        [
+          208.5,
+          77.5
+        ],
+        [
+          237.7,
+          77.5
+        ],
+        [
+          234.2,
+          81
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-30",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          234.2,
+          81
+        ],
+        [
+          237.7,
+          77.5
+        ],
+        [
+          237.7,
+          89.7
+        ],
+        [
+          234.2,
+          93.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-view-plate-31",
+      "kind": "rectangle",
+      "bounds_pt": [
+        205.0,
+        81,
+        29.19999999999999,
+        12.2
+      ],
+      "role": "view-plate"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-32",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 219.6,
+      "y_pt": 87.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-33",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          107.0,
+          109
+        ],
+        [
+          110.5,
+          105.5
+        ],
+        [
+          203.3,
+          105.5
+        ],
+        [
+          199.8,
+          109
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-34",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          199.8,
+          109
+        ],
+        [
+          203.3,
+          105.5
+        ],
+        [
+          203.3,
+          117.7
+        ],
+        [
+          199.8,
+          121.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-35",
+      "kind": "rectangle",
+      "bounds_pt": [
+        107.0,
+        109,
+        92.80000000000001,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-36",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.93333333333334,
+          109
+        ],
+        [
+          141.43333333333334,
+          105.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-37",
+      "kind": "line",
+      "points_pt": [
+        [
+          168.86666666666667,
+          109
+        ],
+        [
+          172.36666666666667,
+          105.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-38",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 153.4,
+      "y_pt": 115.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-39",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          205.0,
+          109
+        ],
+        [
+          208.5,
+          105.5
+        ],
+        [
+          237.7,
+          105.5
+        ],
+        [
+          234.2,
+          109
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-40",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          234.2,
+          109
+        ],
+        [
+          237.7,
+          105.5
+        ],
+        [
+          237.7,
+          117.7
+        ],
+        [
+          234.2,
+          121.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-41",
+      "kind": "rectangle",
+      "bounds_pt": [
+        205.0,
+        109,
+        29.19999999999999,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-42",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 219.6,
+      "y_pt": 115.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-flow-43",
+      "kind": "line",
+      "points_pt": [
+        [
+          154.7,
+          66.0
+        ],
+        [
+          154.7,
+          74.496
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-44",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          154.7,
+          76.8
+        ],
+        [
+          156.236,
+          73.6
+        ],
+        [
+          153.164,
+          73.6
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-45",
+      "kind": "line",
+      "points_pt": [
+        [
+          154.7,
+          94.0
+        ],
+        [
+          154.7,
+          102.496
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-46",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          154.7,
+          104.8
+        ],
+        [
+          156.236,
+          101.6
+        ],
+        [
+          153.164,
+          101.6
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-47",
+      "kind": "line",
+      "points_pt": [
+        [
+          218.3,
+          66.0
+        ],
+        [
+          218.3,
+          74.496
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-48",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          218.3,
+          76.8
+        ],
+        [
+          219.836,
+          73.6
+        ],
+        [
+          216.764,
+          73.6
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-49",
+      "kind": "line",
+      "points_pt": [
+        [
+          218.3,
+          94.0
+        ],
+        [
+          218.3,
+          102.496
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-flow-50",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          218.3,
+          104.8
+        ],
+        [
+          219.836,
+          101.6
+        ],
+        [
+          216.764,
+          101.6
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_layered-policy-51",
+      "kind": "text",
+      "text": "LOCAL · one whole call",
+      "x_pt": 319.6,
+      "y_pt": 24,
+      "font_pt": 8.3,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-query-position-52",
+      "kind": "text",
+      "text": "253",
+      "x_pt": 271.9,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-53",
+      "kind": "text",
+      "text": "254",
+      "x_pt": 303.7,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-54",
+      "kind": "text",
+      "text": "255",
+      "x_pt": 335.5,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-query-position-55",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 367.3,
+      "y_pt": 39,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-56",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          255.0,
+          53
+        ],
+        [
+          258.5,
+          49.5
+        ],
+        [
+          385.7,
+          49.5
+        ],
+        [
+          382.2,
+          53
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-57",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          382.2,
+          53
+        ],
+        [
+          385.7,
+          49.5
+        ],
+        [
+          385.7,
+          61.7
+        ],
+        [
+          382.2,
+          65.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-58",
+      "kind": "rectangle",
+      "bounds_pt": [
+        255.0,
+        53,
+        127.19999999999999,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-59",
+      "kind": "line",
+      "points_pt": [
+        [
+          286.8,
+          53
+        ],
+        [
+          290.3,
+          49.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-60",
+      "kind": "line",
+      "points_pt": [
+        [
+          318.6,
+          53
+        ],
+        [
+          322.1,
+          49.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-61",
+      "kind": "line",
+      "points_pt": [
+        [
+          350.4,
+          53
+        ],
+        [
+          353.9,
+          49.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-62",
+      "kind": "text",
+      "text": "q4",
+      "x_pt": 318.6,
+      "y_pt": 59.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-63",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          255.0,
+          81
+        ],
+        [
+          258.5,
+          77.5
+        ],
+        [
+          351.29999999999995,
+          77.5
+        ],
+        [
+          347.79999999999995,
+          81
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-64",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          347.79999999999995,
+          81
+        ],
+        [
+          351.29999999999995,
+          77.5
+        ],
+        [
+          351.29999999999995,
+          89.7
+        ],
+        [
+          347.79999999999995,
+          93.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-view-plate-65",
+      "kind": "rectangle",
+      "bounds_pt": [
+        255.0,
+        81,
+        92.79999999999995,
+        12.2
+      ],
+      "role": "view-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-66",
+      "kind": "line",
+      "points_pt": [
+        [
+          285.93333333333334,
+          81
+        ],
+        [
+          289.43333333333334,
+          77.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-67",
+      "kind": "line",
+      "points_pt": [
+        [
+          316.8666666666666,
+          81
+        ],
+        [
+          320.3666666666666,
+          77.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-68",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 301.4,
+      "y_pt": 87.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-69",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          353.0,
+          81
+        ],
+        [
+          356.5,
+          77.5
+        ],
+        [
+          385.7,
+          77.5
+        ],
+        [
+          382.2,
+          81
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-70",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          382.2,
+          81
+        ],
+        [
+          385.7,
+          77.5
+        ],
+        [
+          385.7,
+          89.7
+        ],
+        [
+          382.2,
+          93.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-view-plate-71",
+      "kind": "rectangle",
+      "bounds_pt": [
+        353.0,
+        81,
+        29.19999999999999,
+        12.2
+      ],
+      "role": "view-plate"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-72",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 367.6,
+      "y_pt": 87.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-schematic-top-face-73",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          255.0,
+          109
+        ],
+        [
+          258.5,
+          105.5
+        ],
+        [
+          385.7,
+          105.5
+        ],
+        [
+          382.2,
+          109
+        ]
+      ],
+      "role": "schematic-top-face"
+    },
+    {
+      "svg_id": "f02_layered-schematic-side-face-74",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          382.2,
+          109
+        ],
+        [
+          385.7,
+          105.5
+        ],
+        [
+          385.7,
+          117.7
+        ],
+        [
+          382.2,
+          121.2
+        ]
+      ],
+      "role": "schematic-side-face"
+    },
+    {
+      "svg_id": "f02_layered-projection-plate-75",
+      "kind": "rectangle",
+      "bounds_pt": [
+        255.0,
+        109,
+        127.19999999999999,
+        12.2
+      ],
+      "role": "projection-plate"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-76",
+      "kind": "line",
+      "points_pt": [
+        [
+          286.8,
+          109
+        ],
+        [
+          290.3,
+          105.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-77",
+      "kind": "line",
+      "points_pt": [
+        [
+          318.6,
+          109
+        ],
+        [
+          322.1,
+          105.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-logical-row-seam-78",
+      "kind": "line",
+      "points_pt": [
+        [
+          350.4,
+          109
+        ],
+        [
+          353.9,
+          105.5
+        ]
+      ],
+      "role": "logical-row-seam"
+    },
+    {
+      "svg_id": "f02_layered-plate-group-79",
+      "kind": "text",
+      "text": "q4",
+      "x_pt": 318.6,
+      "y_pt": 115.1,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-make-views-80",
+      "kind": "line",
+      "points_pt": [
+        [
+          318.6,
+          66.0
+        ],
+        [
+          318.6,
+          71.35
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-make-views-81",
+      "kind": "line",
+      "points_pt": [
+        [
+          302.7,
+          71.35
+        ],
+        [
+          366.3,
+          71.35
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-make-views-82",
+      "kind": "line",
+      "points_pt": [
+        [
+          302.7,
+          71.35
+        ],
+        [
+          302.7,
+          74.496
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-make-views-83",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          302.7,
+          76.8
+        ],
+        [
+          304.236,
+          73.6
+        ],
+        [
+          301.164,
+          73.6
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-make-views-84",
+      "kind": "line",
+      "points_pt": [
+        [
+          366.3,
+          71.35
+        ],
+        [
+          366.3,
+          74.496
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-make-views-85",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          366.3,
+          76.8
+        ],
+        [
+          367.836,
+          73.6
+        ],
+        [
+          364.764,
+          73.6
+        ]
+      ],
+      "role": "make-views"
+    },
+    {
+      "svg_id": "f02_layered-logical-join-86",
+      "kind": "line",
+      "points_pt": [
+        [
+          302.7,
+          94.0
+        ],
+        [
+          302.7,
+          99.35
+        ]
+      ],
+      "role": "logical-join"
+    },
+    {
+      "svg_id": "f02_layered-logical-join-87",
+      "kind": "line",
+      "points_pt": [
+        [
+          366.3,
+          94.0
+        ],
+        [
+          366.3,
+          99.35
+        ]
+      ],
+      "role": "logical-join"
+    },
+    {
+      "svg_id": "f02_layered-logical-join-88",
+      "kind": "line",
+      "points_pt": [
+        [
+          302.7,
+          99.35
+        ],
+        [
+          366.3,
+          99.35
+        ]
+      ],
+      "role": "logical-join"
+    },
+    {
+      "svg_id": "f02_layered-logical-join-89",
+      "kind": "line",
+      "points_pt": [
+        [
+          318.6,
+          99.35
+        ],
+        [
+          318.6,
+          102.496
+        ]
+      ],
+      "role": "logical-join"
+    },
+    {
+      "svg_id": "f02_layered-logical-join-90",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          318.6,
+          104.8
+        ],
+        [
+          320.136,
+          101.6
+        ],
+        [
+          317.064,
+          101.6
+        ]
+      ],
+      "role": "logical-join"
+    },
+    {
+      "svg_id": "f02_layered-label-91",
+      "kind": "text",
+      "text": "LOCAL joins the attention rows in logical order before the output projection and FFN.",
+      "x_pt": 4,
+      "y_pt": 135,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-copy-barrier-92",
+      "kind": "text",
+      "text": "Sync and own each call’s requested logits. SIMPLE retains z₁ from its first call.",
+      "x_pt": 4,
+      "y_pt": 149,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-panel-rule-93",
+      "kind": "line",
+      "points_pt": [
+        [
+          3,
+          161
+        ],
+        [
+          391.34400000000005,
+          161
+        ]
+      ],
+      "role": "panel-rule"
+    },
+    {
+      "svg_id": "f02_layered-panel-94",
+      "kind": "text",
+      "text": "(b)",
+      "x_pt": 3,
+      "y_pt": 173,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-panel-title-95",
+      "kind": "text",
+      "text": "A pending token connects two transactions",
+      "x_pt": 22,
+      "y_pt": 173,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-96",
+      "kind": "text",
+      "text": "At the crossing",
+      "x_pt": 172,
+      "y_pt": 192,
+      "font_pt": 8.4,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-label-97",
+      "kind": "text",
+      "text": "From that arm’s commit",
+      "x_pt": 319,
+      "y_pt": 192,
+      "font_pt": 8.4,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-label-98",
+      "kind": "text",
+      "text": "Known positions",
+      "x_pt": 4,
+      "y_pt": 211,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-positions-99",
+      "kind": "text",
+      "text": "253–256",
+      "x_pt": 172,
+      "y_pt": 211,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-positions-100",
+      "kind": "text",
+      "text": "255–258",
+      "x_pt": 319,
+      "y_pt": 211,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-101",
+      "kind": "text",
+      "text": "Full extent vector",
+      "x_pt": 4,
+      "y_pt": 228,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-102",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 127.75,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-103",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 157.25,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-104",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 186.75,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-105",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 216.25,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-run-106",
+      "kind": "line",
+      "points_pt": [
+        [
+          114.4,
+          231.7
+        ],
+        [
+          114.4,
+          234
+        ],
+        [
+          200.1,
+          234
+        ],
+        [
+          200.1,
+          231.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_layered-extent-run-107",
+      "kind": "line",
+      "points_pt": [
+        [
+          202.9,
+          231.7
+        ],
+        [
+          202.9,
+          234
+        ],
+        [
+          229.6,
+          234
+        ],
+        [
+          229.6,
+          231.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-108",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 274.75,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-changed-extent-109",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 304.25,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-changed-extent-110",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 333.75,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-extent-value-111",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 363.25,
+      "y_pt": 227,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-extent-run-112",
+      "kind": "line",
+      "points_pt": [
+        [
+          261.4,
+          231.7
+        ],
+        [
+          261.4,
+          234
+        ],
+        [
+          288.1,
+          234
+        ],
+        [
+          288.1,
+          231.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_layered-extent-run-113",
+      "kind": "line",
+      "points_pt": [
+        [
+          290.9,
+          231.7
+        ],
+        [
+          290.9,
+          234
+        ],
+        [
+          376.6,
+          234
+        ],
+        [
+          376.6,
+          231.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_layered-label-114",
+      "kind": "text",
+      "text": "LOCAL reuse",
+      "x_pt": 4,
+      "y_pt": 249,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-reuse-invariants-115",
+      "kind": "text",
+      "text": "q4, max 512",
+      "x_pt": 172,
+      "y_pt": 249,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-rebuild-116",
+      "kind": "text",
+      "text": "Rebuild 1 + 3 views",
+      "x_pt": 319,
+      "y_pt": 249,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-label-117",
+      "kind": "text",
+      "text": "Width, maximum and policy agree. Reuse checks the full vector, policy, shape and mask.",
+      "x_pt": 4,
+      "y_pt": 265,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-line-118",
+      "kind": "line",
+      "points_pt": [
+        [
+          4,
+          275
+        ],
+        [
+          391.34400000000005,
+          275
+        ]
+      ],
+      "role": "line"
+    },
+    {
+      "svg_id": "f02_layered-label-119",
+      "kind": "text",
+      "text": "Greedy decision",
+      "x_pt": 4,
+      "y_pt": 285,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-120",
+      "kind": "text",
+      "text": "Accept p1; reject p2",
+      "x_pt": 172,
+      "y_pt": 285,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-121",
+      "kind": "text",
+      "text": "Accept all 3",
+      "x_pt": 319,
+      "y_pt": 285,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-122",
+      "kind": "text",
+      "text": "Owned frontier",
+      "x_pt": 4,
+      "y_pt": 299,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-123",
+      "kind": "text",
+      "text": "z₁ → correction",
+      "x_pt": 172,
+      "y_pt": 299,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-124",
+      "kind": "text",
+      "text": "z₃ → bonus",
+      "x_pt": 319,
+      "y_pt": 299,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-125",
+      "kind": "text",
+      "text": "Retained active KV",
+      "x_pt": 4,
+      "y_pt": 313,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-126",
+      "kind": "text",
+      "text": "0–254",
+      "x_pt": 172,
+      "y_pt": 313,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-127",
+      "kind": "text",
+      "text": "0–258",
+      "x_pt": 319,
+      "y_pt": 313,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-label-128",
+      "kind": "text",
+      "text": "Outside KV · pending",
+      "x_pt": 4,
+      "y_pt": 327,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_layered-ledger-129",
+      "kind": "text",
+      "text": "Correction at 255",
+      "x_pt": 172,
+      "y_pt": 327,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_layered-ledger-130",
+      "kind": "text",
+      "text": "Bonus at 259",
+      "x_pt": 319,
+      "y_pt": 327,
+      "font_pt": 8.2,
+      "weight": "bold"
+    }
+  ]
+}

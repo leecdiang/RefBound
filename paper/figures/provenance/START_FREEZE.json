@@ -1,0 +1,187 @@
+{
+  "utc": "2026-11-18T07:11:36.261525+00:00",
+  "repository": "leecdiang/HeteroSpec",
+  "main": "ad16a13d2510363bb6f7c7b99241fe9ef1b54bb0",
+  "baseline": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+  "baseline_dir": "papers/taco/20261118_visual_reconstruction",
+  "latest_PR_at_start": 276,
+  "baseline_comments_at_start": 0,
+  "prs": [
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "experiment/b570-a1-cross-backend-20261115",
+      "headRefOid": "c8c4b303e415f97f1eb9ab897ac784240e801222",
+      "isDraft": true,
+      "number": 247,
+      "state": "OPEN",
+      "title": "experiment: B570 independent scalar-group scheduling on shared Llama-8B panel",
+      "updatedAt": "2026-11-16T07:53:06Z"
+    },
+    {
+      "baseRefName": "experiment/three-platform-closeout-20261116",
+      "commentIDs": [],
+      "headRefName": "codex/rtx-prefill-p4-results-20261116",
+      "headRefOid": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6",
+      "isDraft": true,
+      "number": 255,
+      "state": "OPEN",
+      "title": "results: RTX P4 wide prefill C4/P4 fixed-panel application comparison",
+      "updatedAt": "2026-11-16T11:48:56Z"
+    },
+    {
+      "baseRefName": "review/final-evidence-closure-20261116",
+      "commentIDs": [],
+      "headRefName": "codex/rtx-evidence-closeout-20261116",
+      "headRefOid": "fdc5afa1377d7b51b0cbd963326a6b2e6cc4385f",
+      "isDraft": true,
+      "number": 256,
+      "state": "OPEN",
+      "title": "results: RTX same-binary C1-C4 bridge and evidence-chain closeout",
+      "updatedAt": "2026-11-16T14:36:03Z"
+    },
+    {
+      "baseRefName": "experiment/three-platform-closeout-20261116",
+      "commentIDs": [],
+      "headRefName": "experiment/a5000-prefill-p4-results-20261117",
+      "headRefOid": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "isDraft": true,
+      "number": 257,
+      "state": "OPEN",
+      "title": "results: A5000 P4 prefill fixed panel and evidence closure",
+      "updatedAt": "2026-11-17T01:52:01Z"
+    },
+    {
+      "baseRefName": "experiment/a5000-prefill-p4-results-20261117",
+      "commentIDs": [],
+      "headRefName": "codex/a5000-targeted-evidence-20261117",
+      "headRefOid": "f66736cb32547da91af1ac1f8953d11cdeefae62",
+      "isDraft": true,
+      "number": 259,
+      "state": "OPEN",
+      "title": "results: A5000 q16/q24 qualification and 27.77% C1-C4 SD reduction",
+      "updatedAt": "2026-11-17T04:30:15Z"
+    },
+    {
+      "baseRefName": "codex/a5000-targeted-evidence-20261117",
+      "commentIDs": [],
+      "headRefName": "codex/a5000-local-boundary-20261117",
+      "headRefOid": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "isDraft": true,
+      "number": 260,
+      "state": "OPEN",
+      "title": "results: A5000 LOCAL boundary replay and 22.60% positive-case call reduction",
+      "updatedAt": "2026-11-17T06:23:01Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "docs/taco-submission-materials-20261117",
+      "headRefOid": "7833835e8ee0c7b368020de846248d47af54eafe",
+      "isDraft": true,
+      "number": 264,
+      "state": "OPEN",
+      "title": "docs: TACO submission rules and template source pack (2026-11-17)",
+      "updatedAt": "2026-11-17T07:40:28Z"
+    },
+    {
+      "baseRefName": "codex/a5000-local-boundary-20261117",
+      "commentIDs": [],
+      "headRefName": "codex/a5000-review-archive-20261117",
+      "headRefOid": "c1731bf520b51f0f934781a56cab5e35b076b1ba",
+      "isDraft": true,
+      "number": 265,
+      "state": "OPEN",
+      "title": "archive: A5000 full-tensor review samples and shutdown safety audit",
+      "updatedAt": "2026-11-17T08:17:34Z"
+    },
+    {
+      "baseRefName": "codex/a5000-confirmation-plan-20261117",
+      "commentIDs": [],
+      "headRefName": "codex/a5000-confirmation-execution-20261117",
+      "headRefOid": "0cac675cc757f195b74893da53af2161c2599c97",
+      "isDraft": true,
+      "number": 266,
+      "state": "OPEN",
+      "title": "results: A5000 LOCAL \u4e0e\u539f\u81ea\u7136\u670d\u52a1\u5b9a\u5411\u786e\u8ba4\uff08212/212\uff0c\u5b8c\u6574\u590d\u6838\u4e0e\u5f52\u6863\uff09",
+      "updatedAt": "2026-11-17T16:30:14Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "audit/taco-mainline-freeze-20261117-v1",
+      "headRefOid": "997be15f9388f904055a3b09f409818e13483365",
+      "isDraft": true,
+      "number": 268,
+      "state": "OPEN",
+      "title": "review(taco): freeze scientific mainline and rewrite handoff v1",
+      "updatedAt": "2026-11-17T11:01:14Z"
+    },
+    {
+      "baseRefName": "codex/rtx-confirmation-plan-20261117",
+      "commentIDs": [],
+      "headRefName": "codex/rtx262-confirmation-20261117",
+      "headRefOid": "3ed4671c21291f0ed0012fd61cc992558fdb024d",
+      "isDraft": true,
+      "number": 269,
+      "state": "OPEN",
+      "title": "results: RTX262 \u5b8c\u621024\u8f93\u5165\u00d712\u8f6e\uff0cC1\u51c0\u52a0\u901f\u672a\u786e\u8ba4\u3001C4\u7ea615%\u964d\u65f6",
+      "updatedAt": "2026-11-17T23:12:26Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "codex/taco-art-direction-v2-20261117",
+      "headRefOid": "3decdde371315144005fa5bfbe49336d570da5bc",
+      "isDraft": true,
+      "number": 271,
+      "state": "OPEN",
+      "title": "figures(taco): second-round art direction, native tables and portable fonts",
+      "updatedAt": "2026-11-17T13:50:08Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "codex/taco-narrative-visual-rebuild-20261118",
+      "headRefOid": "cf725e93a74f4b5bec8bf4c01fe5b63a4fc51e0e",
+      "isDraft": true,
+      "number": 273,
+      "state": "OPEN",
+      "title": "paper(taco): rebuild narrative, all figures and named arXiv source",
+      "updatedAt": "2026-11-17T18:11:37Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "paper/taco-evidence-visual-refinement-20261118",
+      "headRefOid": "2e551c2a839dd78a9a9b72417d0afc2f453ce3de",
+      "isDraft": true,
+      "number": 274,
+      "state": "OPEN",
+      "title": "paper(taco): integrate final RTX evidence and refine manuscript, figures, and arXiv source",
+      "updatedAt": "2026-11-18T01:18:38Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "paper/taco-concise-author-20261118",
+      "headRefOid": "94b6fb38b94119449cddc5d7b728b73681ba31b2",
+      "isDraft": true,
+      "number": 275,
+      "state": "OPEN",
+      "title": "paper(taco): condense the manuscript and refine its narrative and key figures",
+      "updatedAt": "2026-11-18T02:29:52Z"
+    },
+    {
+      "baseRefName": "main",
+      "commentIDs": [],
+      "headRefName": "paper/taco-visual-reconstruction-20261118",
+      "headRefOid": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "isDraft": true,
+      "number": 276,
+      "state": "OPEN",
+      "title": "paper(taco): reconstruct scientific figures and integrate the named author review",
+      "updatedAt": "2026-11-18T03:49:44Z"
+    }
+  ]
+}

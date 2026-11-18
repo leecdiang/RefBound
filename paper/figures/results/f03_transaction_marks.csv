@@ -1,0 +1,58 @@
+svg_id,kind,text,x_pt,y_pt,data_key,shape,font_pt,value,fill
+f03_transaction-panel-0001,text,(a),3,9,,,8.7,,
+f03_transaction-panel-title-0002,text,Four first-transaction pairs,22,9,,,8.7,,
+f03_transaction-label-0003,text,Clean verify-through-commit · C4 on · P4 off,4,24,,,8.0,,
+f03_transaction-label-0005,text,70,128.0,133,,,8.0,,
+f03_transaction-label-0007,text,80,173.143,133,,,8.0,,
+f03_transaction-label-0009,text,90,218.286,133,,,8.0,,
+f03_transaction-label-0011,text,100,263.429,133,,,8.0,,
+f03_transaction-label-0012,text,Complete verify-through-commit time (ms),207.0,146,,,8.0,,
+f03_transaction-label-0013,text,Crossing · r1 (253),4,52,,,8.1,,
+f03_transaction-label-0017,text,100.36 → 77.31,294,52,,,8.0,,
+f03_transaction-label-0018,text,0.770,392,52,,,8.0,,
+f03_transaction-label-0019,text,Crossing · r2 (253),4,74,,,8.1,,
+f03_transaction-label-0023,text,99.64 → 77.47,294,74,,,8.0,,
+f03_transaction-label-0024,text,0.778,392,74,,,8.0,,
+f03_transaction-label-0025,text,Noncrossing · r1 (137),4,98,,,8.1,,
+f03_transaction-label-0029,text,74.15 → 75.08,294,98,,,8.0,,
+f03_transaction-label-0030,text,1.013,392,98,,,8.0,,
+f03_transaction-label-0031,text,Noncrossing · r2 (137),4,120,,,8.1,,
+f03_transaction-label-0035,text,79.03 → 75.00,294,120,,,8.0,,
+f03_transaction-label-0036,text,0.949,392,120,,,8.0,,
+f03_transaction-label-0037,text,SIMPLE → LOCAL,294,133,,,7.8,,
+f03_transaction-label-0038,text,L/S,392,133,,,7.8,,
+f03_transaction-label-0039,text,Parentheses: query position,392,32,,,7.8,,
+f03_transaction-panel-0041,text,(b),3,170,,,8.7,,
+f03_transaction-panel-title-0042,text,Separate device-event diagnostic,22,170,,,8.7,,
+f03_transaction-aside-0043,text,Own profiler clock,391.344,170,,,8.0,,
+f03_transaction-label-0044,text,Open square SIMPLE; filled circle LOCAL. Event time is not added to the wall clock.,4,185,,,7.9,,
+f03_transaction-label-0046,text,0,152.0,256,,,7.8,,
+f03_transaction-label-0048,text,20,196.5,256,,,7.8,,
+f03_transaction-label-0050,text,40,241.0,256,,,7.8,,
+f03_transaction-label-0052,text,60,285.5,256,,,7.8,,
+f03_transaction-label-0054,text,80,330.0,256,,,7.8,,
+f03_transaction-label-0055,text,Projection · noncrossing,4,204,,,8.0,,
+f03_transaction-label-0059,text,53.70→53.79,392,204,,,7.6,,
+f03_transaction-label-0060,text,Projection · crossing,4,218,,,8.0,,
+f03_transaction-label-0064,text,74.33→53.42,392,218,,,7.6,,
+f03_transaction-label-0065,text,Attention · noncrossing,4,232,,,8.0,,
+f03_transaction-label-0069,text,9.13→9.09,392,232,,,7.6,,
+f03_transaction-label-0070,text,Attention · crossing,4,246,,,8.0,,
+f03_transaction-label-0074,text,12.06→11.62,392,246,,,7.6,,
+f03_transaction-label-0075,text,Noncrossing: base 137. Four dependent successor pairs are retained in Table S1.,4,268,,,7.6,,
+f03_transaction-SIMPLE-0015,first_pair_arm,,265.054,52,first/Crossing/repeat1/SIMPLE_ms,s,,100.36,white
+f03_transaction-LOCAL-0016,first_pair_arm,,161.008,52,first/Crossing/repeat1/LOCAL_ms,o,,77.312,#087B70
+f03_transaction-SIMPLE-0021,first_pair_arm,,261.794,74,first/Crossing/repeat2/SIMPLE_ms,s,,99.638,white
+f03_transaction-LOCAL-0022,first_pair_arm,,161.744,74,first/Crossing/repeat2/LOCAL_ms,o,,77.475,#087B70
+f03_transaction-SIMPLE-0027,first_pair_arm,,146.721,98,first/Noncrossing/repeat1/SIMPLE_ms,s,,74.147,white
+f03_transaction-LOCAL-0028,first_pair_arm,,150.919,98,first/Noncrossing/repeat1/LOCAL_ms,o,,75.077,#087B70
+f03_transaction-SIMPLE-0033,first_pair_arm,,168.787,120,first/Noncrossing/repeat2/SIMPLE_ms,s,,79.035,white
+f03_transaction-LOCAL-0034,first_pair_arm,,150.567,120,first/Noncrossing/repeat2/LOCAL_ms,o,,74.999,#087B70
+f03_transaction-within-SIMPLE-0057,event_arm,,271.471,202.8,device_event/within/Projection/SIMPLE_ms,s,,53.695,white
+f03_transaction-within-LOCAL-0058,event_arm,,271.692,205.2,device_event/within/Projection/LOCAL_ms,o,,53.794,#254B70
+f03_transaction-crossing-SIMPLE-0062,event_arm,,317.393,216.8,device_event/crossing/Projection/SIMPLE_ms,s,,74.334,white
+f03_transaction-crossing-LOCAL-0063,event_arm,,270.853,219.2,device_event/crossing/Projection/LOCAL_ms,o,,53.417,#087B70
+f03_transaction-within-SIMPLE-0067,event_arm,,172.308,230.8,device_event/within/Attention/SIMPLE_ms,s,,9.127,white
+f03_transaction-within-LOCAL-0068,event_arm,,172.225,233.2,device_event/within/Attention/LOCAL_ms,o,,9.09,#254B70
+f03_transaction-crossing-SIMPLE-0072,event_arm,,178.834,244.8,device_event/crossing/Attention/SIMPLE_ms,s,,12.06,white
+f03_transaction-crossing-LOCAL-0073,event_arm,,177.857,247.2,device_event/crossing/Attention/LOCAL_ms,o,,11.621,#087B70

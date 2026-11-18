@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "text": "\"\"\"Copy actual executed P4 frontend, freeze all build inputs, and build LOCAL replay.\"\"\""
+  },
+  {
+    "line": 29,
+    "text": "    need(c['source_freeze_sha256']==sha(c['freeze_path'])=='fadf98036a8e256c9fd7201d133986222ca61022815941f971fd16c78662df82','Actual executed P4 source')"
+  },
+  {
+    "line": 30,
+    "text": "    for rel,h in read(c['freeze_path'])['source_files'].items():need(sha(old/rel)==h,'Original actual P4 source')"
+  },
+  {
+    "line": 31,
+    "text": "    for item in c['archives'].values():need(sha(item['path'])==item['sha256'],'Original mathematical archive')"
+  },
+  {
+    "line": 43,
+    "text": "    (source/'LOCAL_COUNTER_ADAPTER.patch').write_text(''.join(difflib.unified_diff(counts_original.splitlines(True),counts_new.splitlines(True),fromfile='executed_P4/src/work_counts.cpp',tofile='LOCAL/src/work_counts.cpp')))"
+  },
+  {
+    "line": 50,
+    "text": "        try{const auto profile=local_lowering();need(profile==argv[2],\"Expected immutable lowering\");need(!prefill_p4_enabled(),\"P4 OFF\");"
+  },
+  {
+    "line": 62,
+    "text": "    s=once(s,'need(config.at(\"prefill_pack4_enabled\").get<bool>()==prefill_p4_enabled(),\"Configured P4 process profile\");',"
+  },
+  {
+    "line": 63,
+    "text": "              'need(config.at(\"prefill_pack4_enabled\").get<bool>()==prefill_p4_enabled(),\"Configured P4 process profile\");\\n        need(!prefill_p4_enabled() && config.at(\"local_lowering\")==local_lowering(),\"Explicit LOCAL profile and P4 OFF\");')"
+  },
+  {
+    "line": 74,
+    "text": "    (source/'LOCAL_FRONTEND.patch').write_text(''.join(difflib.unified_diff(original.splitlines(True),s.splitlines(True),fromfile='executed_P4/src/native.cpp',tofile='LOCAL/src/native.cpp')))"
+  },
+  {
+    "line": 79,
+    "text": "    (source/'LOCAL_BUILD_ADAPTER.patch').write_text(''.join(difflib.unified_diff(build_text.splitlines(True),adapted.splitlines(True),fromfile='executed_P4/build.py',tofile='LOCAL/build.py')))"
+  },
+  {
+    "line": 88,
+    "text": "            prefill_pack4_enabled=False,diagnostic=stage=='diagnostic',reserved_target_rows=len(case['history_ids'])+8,reserved_draft_rows=0)"
+  },
+  {
+    "line": 114,
+    "text": "        parent_executed_P4_freeze=c['source_freeze_sha256'],cases_sha256=sha(a.cases),"
+  },
+  {
+    "line": 116,
+    "text": "        external_build_dependencies=dependency_files,archives=c['archives'],models={r:c[r+'_sha256'] for r in ('target','draft')},"
+  },
+  {
+    "line": 121,
+    "text": "    cfg.update(source_root=str(source),campaign_root=str(campaign),targeted_phase='local',prefill_pack4_enabled=False,local_lowering='SIMPLE',local_diagnostic=False,"
+  }
+]

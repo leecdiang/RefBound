@@ -1,0 +1,184 @@
+{
+  "f01_obligations": {
+    "fonts_embedded": {
+      "EVICAO+DejaVuSans-Bold": true,
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      265.0
+    ],
+    "size_histogram": {
+      "8.7": 48,
+      "8.0": 142,
+      "8.2": 346,
+      "7.8": 17
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 64,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular",
+      "Bold"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "pdf_sha256": "564d97eb2c1a13f80ed8f71c0178987a1c13d491af4f3d9cde3969dcf29fb40a",
+    "svg_sha256": "29d676c90074b03d230c0d86ab6373d46486ccc529f189fbd1541806c1d226be"
+  },
+  "f02_local_lowering": {
+    "fonts_embedded": {
+      "EVICAO+DejaVuSans-Bold": true,
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      322.0
+    ],
+    "size_histogram": {
+      "8.7": 70,
+      "8.0": 107,
+      "8.4": 48,
+      "8.2": 513
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 70,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular",
+      "Bold"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "pdf_sha256": "1df2de85f90da0aa33c22412040e2d5048b694e304d83b7b610fd86c0d8f07b5",
+    "svg_sha256": "474f1db68344b4394e853b367ee8f4230f79e1bc40ef77fa935f4c5bdd2738ac"
+  },
+  "f06_b570": {
+    "fonts_embedded": {
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      208.0
+    ],
+    "size_histogram": {
+      "8.7": 19,
+      "8.0": 224,
+      "8.2": 47,
+      "7.9": 17
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 22,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+    },
+    "pdf_sha256": "ab670ab6602c35375042c3104902d6916cb14440deeb75f28f042cc52b8adc12",
+    "svg_sha256": "49b0dbb4b42ea1c749ca1d4e738e23e4cd1dc7a4b6a78c5c302c3a7b815961d1"
+  },
+  "f03_transaction": {
+    "fonts_embedded": {
+      "EVICAO+DejaVuSans-Bold": true,
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      276.0
+    ],
+    "size_histogram": {
+      "8.7": 62,
+      "8.0": 244,
+      "8.1": 70,
+      "7.8": 49,
+      "7.9": 69,
+      "7.6": 110
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 41,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular",
+      "Bold"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "pdf_sha256": "7c16a3d330eae9a883a1444d35786f715e9029bf6c62ca4fa1a2e5e16956d94c",
+    "svg_sha256": "06d9028c2b515149fb4efd9bc934df41902ed26cfe08df12ac01b3af89e2c47b"
+  },
+  "f08_c4_initial": {
+    "fonts_embedded": {
+      "EVICAO+DejaVuSans-Bold": true,
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      292.0
+    ],
+    "size_histogram": {
+      "8.7": 37,
+      "8.0": 100,
+      "7.9": 70,
+      "7.6": 100,
+      "7.7": 72,
+      "7.8": 14
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 25,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular",
+      "Bold"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "pdf_sha256": "b472ee28d23c2a1545e9c9e86980a202e3ecdba8b686574b53060de8ab05a6b7",
+    "svg_sha256": "275cd77480d7c2086711f815b626d828a3e770a998944c48d78a663eaf76300f"
+  },
+  "f02_layered": {
+    "fonts_embedded": {
+      "EVICAO+DejaVuSans-Bold": true,
+      "BMQQDV+DejaVuSans": true
+    },
+    "embedded_images": 0,
+    "media_box_bp": [
+      394.344,
+      333.0
+    ],
+    "size_histogram": {
+      "8.7": 77,
+      "8.0": 57,
+      "8.3": 38,
+      "8.2": 518,
+      "8.4": 32
+    },
+    "possible_edge_glyphs": [],
+    "svg_text_elements": 61,
+    "svg_images": 0,
+    "embedded_svg_subsets": [
+      "Regular",
+      "Bold"
+    ],
+    "base_font_sha256": {
+      "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+    },
+    "pdf_sha256": "df63e29d85470385d20962989df9c0783b363d26bc1f0742e04c34344ccdb7a4",
+    "svg_sha256": "b84508cfec0ffbb2b69ef89c0ea402b75d1d8fb85ba1a5b34b2182abd9691a40"
+  }
+}

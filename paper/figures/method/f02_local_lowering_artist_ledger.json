@@ -1,0 +1,2030 @@
+{
+  "scientific_data": "figure_marks.json",
+  "mapping_notes": "INTEGRATION_NOTES.md",
+  "coordinates": "PostScript points from top left; schematic spans are query membership",
+  "artists": [
+    {
+      "svg_id": "f02_local_lowering-panel-1",
+      "kind": "text",
+      "text": "(a)",
+      "x_pt": 3,
+      "y_pt": 9,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-title-2",
+      "kind": "text",
+      "text": "Local attention refinement",
+      "x_pt": 22,
+      "y_pt": 9,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-study-3",
+      "kind": "text",
+      "text": "A5000 · 32B · C4 on · P4 off",
+      "x_pt": 391.34400000000005,
+      "y_pt": 9,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-policy-4",
+      "kind": "text",
+      "text": "SIMPLE · two native calls",
+      "x_pt": 168.0,
+      "y_pt": 28,
+      "font_pt": 8.4,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-policy-5",
+      "kind": "text",
+      "text": "LOCAL · one native call",
+      "x_pt": 319.5,
+      "y_pt": 28,
+      "font_pt": 8.4,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-6",
+      "kind": "text",
+      "text": "Position",
+      "x_pt": 4,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-7",
+      "kind": "text",
+      "text": "Extent",
+      "x_pt": 56,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-8",
+      "kind": "text",
+      "text": "QKV",
+      "x_pt": 121.0,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-9",
+      "kind": "text",
+      "text": "Attn.",
+      "x_pt": 166.0,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-10",
+      "kind": "text",
+      "text": "O/FFN",
+      "x_pt": 213.5,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-11",
+      "kind": "text",
+      "text": "QKV",
+      "x_pt": 267.0,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-12",
+      "kind": "text",
+      "text": "Attn.",
+      "x_pt": 317.0,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-13",
+      "kind": "text",
+      "text": "O/FFN",
+      "x_pt": 369.5,
+      "y_pt": 45,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-position-14",
+      "kind": "text",
+      "text": "253",
+      "x_pt": 4,
+      "y_pt": 60.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-known-input-15",
+      "kind": "text",
+      "text": "seed",
+      "x_pt": 25,
+      "y_pt": 60.1,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-required-extent-16",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 68,
+      "y_pt": 60.1,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-position-17",
+      "kind": "text",
+      "text": "254",
+      "x_pt": 4,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-known-input-18",
+      "kind": "text",
+      "text": "p1",
+      "x_pt": 25,
+      "y_pt": 74.3,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-required-extent-19",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 68,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-position-20",
+      "kind": "text",
+      "text": "255",
+      "x_pt": 4,
+      "y_pt": 88.5,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-known-input-21",
+      "kind": "text",
+      "text": "p2",
+      "x_pt": 25,
+      "y_pt": 88.5,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-required-extent-22",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 68,
+      "y_pt": 88.5,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-position-23",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 4,
+      "y_pt": 102.69999999999999,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-known-input-24",
+      "kind": "text",
+      "text": "p3",
+      "x_pt": 25,
+      "y_pt": 102.69999999999999,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-required-extent-25",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 68,
+      "y_pt": 102.69999999999999,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-26",
+      "kind": "rectangle",
+      "bounds_pt": [
+        105,
+        54.4,
+        32,
+        39.8
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-27",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 121.0,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-28",
+      "kind": "line",
+      "points_pt": [
+        [
+          105,
+          60.1
+        ],
+        [
+          107,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-29",
+      "kind": "line",
+      "points_pt": [
+        [
+          135,
+          60.1
+        ],
+        [
+          137,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-30",
+      "kind": "line",
+      "points_pt": [
+        [
+          105,
+          74.3
+        ],
+        [
+          107,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-31",
+      "kind": "line",
+      "points_pt": [
+        [
+          135,
+          74.3
+        ],
+        [
+          137,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-32",
+      "kind": "line",
+      "points_pt": [
+        [
+          105,
+          88.5
+        ],
+        [
+          107,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-33",
+      "kind": "line",
+      "points_pt": [
+        [
+          135,
+          88.5
+        ],
+        [
+          137,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-34",
+      "kind": "rectangle",
+      "bounds_pt": [
+        105,
+        97.0,
+        32,
+        11.399999999999999
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-35",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 121.0,
+      "y_pt": 102.7,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-36",
+      "kind": "line",
+      "points_pt": [
+        [
+          105,
+          102.69999999999999
+        ],
+        [
+          107,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-37",
+      "kind": "line",
+      "points_pt": [
+        [
+          135,
+          102.69999999999999
+        ],
+        [
+          137,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-attention-run-38",
+      "kind": "rectangle",
+      "bounds_pt": [
+        150,
+        54.4,
+        32,
+        39.8
+      ],
+      "role": "attention-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-39",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 166.0,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-40",
+      "kind": "line",
+      "points_pt": [
+        [
+          150,
+          60.1
+        ],
+        [
+          152,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-41",
+      "kind": "line",
+      "points_pt": [
+        [
+          180,
+          60.1
+        ],
+        [
+          182,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-42",
+      "kind": "line",
+      "points_pt": [
+        [
+          150,
+          74.3
+        ],
+        [
+          152,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-43",
+      "kind": "line",
+      "points_pt": [
+        [
+          180,
+          74.3
+        ],
+        [
+          182,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-44",
+      "kind": "line",
+      "points_pt": [
+        [
+          150,
+          88.5
+        ],
+        [
+          152,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-45",
+      "kind": "line",
+      "points_pt": [
+        [
+          180,
+          88.5
+        ],
+        [
+          182,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-attention-run-46",
+      "kind": "rectangle",
+      "bounds_pt": [
+        150,
+        97.0,
+        32,
+        11.399999999999999
+      ],
+      "role": "attention-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-47",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 166.0,
+      "y_pt": 102.7,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-48",
+      "kind": "line",
+      "points_pt": [
+        [
+          150,
+          102.69999999999999
+        ],
+        [
+          152,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-49",
+      "kind": "line",
+      "points_pt": [
+        [
+          180,
+          102.69999999999999
+        ],
+        [
+          182,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-50",
+      "kind": "rectangle",
+      "bounds_pt": [
+        196,
+        54.4,
+        35,
+        39.8
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-51",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 213.5,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-52",
+      "kind": "line",
+      "points_pt": [
+        [
+          196,
+          60.1
+        ],
+        [
+          198,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-53",
+      "kind": "line",
+      "points_pt": [
+        [
+          229,
+          60.1
+        ],
+        [
+          231,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-54",
+      "kind": "line",
+      "points_pt": [
+        [
+          196,
+          74.3
+        ],
+        [
+          198,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-55",
+      "kind": "line",
+      "points_pt": [
+        [
+          229,
+          74.3
+        ],
+        [
+          231,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-56",
+      "kind": "line",
+      "points_pt": [
+        [
+          196,
+          88.5
+        ],
+        [
+          198,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-57",
+      "kind": "line",
+      "points_pt": [
+        [
+          229,
+          88.5
+        ],
+        [
+          231,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-58",
+      "kind": "rectangle",
+      "bounds_pt": [
+        196,
+        97.0,
+        35,
+        11.399999999999999
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-59",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 213.5,
+      "y_pt": 102.7,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-60",
+      "kind": "line",
+      "points_pt": [
+        [
+          196,
+          102.69999999999999
+        ],
+        [
+          198,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-61",
+      "kind": "line",
+      "points_pt": [
+        [
+          229,
+          102.69999999999999
+        ],
+        [
+          231,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-62",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.3,
+          74.3
+        ],
+        [
+          147.45600000000002,
+          74.3
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-63",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          149.4,
+          74.3
+        ],
+        [
+          146.70000000000002,
+          73.00399999999999
+        ],
+        [
+          146.70000000000002,
+          75.596
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-64",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.3,
+          102.69999999999999
+        ],
+        [
+          147.45600000000002,
+          102.69999999999999
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-65",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          149.4,
+          102.69999999999999
+        ],
+        [
+          146.70000000000002,
+          101.40399999999998
+        ],
+        [
+          146.70000000000002,
+          103.996
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-66",
+      "kind": "line",
+      "points_pt": [
+        [
+          182.3,
+          74.3
+        ],
+        [
+          193.45600000000002,
+          74.3
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-67",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          195.4,
+          74.3
+        ],
+        [
+          192.70000000000002,
+          73.00399999999999
+        ],
+        [
+          192.70000000000002,
+          75.596
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-68",
+      "kind": "line",
+      "points_pt": [
+        [
+          182.3,
+          102.69999999999999
+        ],
+        [
+          193.45600000000002,
+          102.69999999999999
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-flow-69",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          195.4,
+          102.69999999999999
+        ],
+        [
+          192.70000000000002,
+          101.40399999999998
+        ],
+        [
+          192.70000000000002,
+          103.996
+        ]
+      ],
+      "role": "flow"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-70",
+      "kind": "rectangle",
+      "bounds_pt": [
+        251,
+        54.4,
+        32,
+        54.0
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-71",
+      "kind": "text",
+      "text": "q4",
+      "x_pt": 267.0,
+      "y_pt": 81.4,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-72",
+      "kind": "line",
+      "points_pt": [
+        [
+          251,
+          60.1
+        ],
+        [
+          253,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-73",
+      "kind": "line",
+      "points_pt": [
+        [
+          281,
+          60.1
+        ],
+        [
+          283,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-74",
+      "kind": "line",
+      "points_pt": [
+        [
+          251,
+          74.3
+        ],
+        [
+          253,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-75",
+      "kind": "line",
+      "points_pt": [
+        [
+          281,
+          74.3
+        ],
+        [
+          283,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-76",
+      "kind": "line",
+      "points_pt": [
+        [
+          251,
+          88.5
+        ],
+        [
+          253,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-77",
+      "kind": "line",
+      "points_pt": [
+        [
+          281,
+          88.5
+        ],
+        [
+          283,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-78",
+      "kind": "line",
+      "points_pt": [
+        [
+          251,
+          102.69999999999999
+        ],
+        [
+          253,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-79",
+      "kind": "line",
+      "points_pt": [
+        [
+          281,
+          102.69999999999999
+        ],
+        [
+          283,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-attention-run-80",
+      "kind": "rectangle",
+      "bounds_pt": [
+        301,
+        54.4,
+        32,
+        39.8
+      ],
+      "role": "attention-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-81",
+      "kind": "text",
+      "text": "q3",
+      "x_pt": 317.0,
+      "y_pt": 74.3,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-82",
+      "kind": "line",
+      "points_pt": [
+        [
+          301,
+          60.1
+        ],
+        [
+          303,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-83",
+      "kind": "line",
+      "points_pt": [
+        [
+          331,
+          60.1
+        ],
+        [
+          333,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-84",
+      "kind": "line",
+      "points_pt": [
+        [
+          301,
+          74.3
+        ],
+        [
+          303,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-85",
+      "kind": "line",
+      "points_pt": [
+        [
+          331,
+          74.3
+        ],
+        [
+          333,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-86",
+      "kind": "line",
+      "points_pt": [
+        [
+          301,
+          88.5
+        ],
+        [
+          303,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-87",
+      "kind": "line",
+      "points_pt": [
+        [
+          331,
+          88.5
+        ],
+        [
+          333,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-attention-run-88",
+      "kind": "rectangle",
+      "bounds_pt": [
+        301,
+        97.0,
+        32,
+        11.399999999999999
+      ],
+      "role": "attention-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-89",
+      "kind": "text",
+      "text": "q1",
+      "x_pt": 317.0,
+      "y_pt": 102.7,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-90",
+      "kind": "line",
+      "points_pt": [
+        [
+          301,
+          102.69999999999999
+        ],
+        [
+          303,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-91",
+      "kind": "line",
+      "points_pt": [
+        [
+          331,
+          102.69999999999999
+        ],
+        [
+          333,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-projection-group-92",
+      "kind": "rectangle",
+      "bounds_pt": [
+        351,
+        54.4,
+        37,
+        54.0
+      ],
+      "role": "projection-group"
+    },
+    {
+      "svg_id": "f02_local_lowering-query-width-93",
+      "kind": "text",
+      "text": "q4",
+      "x_pt": 369.5,
+      "y_pt": 81.4,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-94",
+      "kind": "line",
+      "points_pt": [
+        [
+          351,
+          60.1
+        ],
+        [
+          353,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-95",
+      "kind": "line",
+      "points_pt": [
+        [
+          386,
+          60.1
+        ],
+        [
+          388,
+          60.1
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-96",
+      "kind": "line",
+      "points_pt": [
+        [
+          351,
+          74.3
+        ],
+        [
+          353,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-97",
+      "kind": "line",
+      "points_pt": [
+        [
+          386,
+          74.3
+        ],
+        [
+          388,
+          74.3
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-98",
+      "kind": "line",
+      "points_pt": [
+        [
+          351,
+          88.5
+        ],
+        [
+          353,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-99",
+      "kind": "line",
+      "points_pt": [
+        [
+          386,
+          88.5
+        ],
+        [
+          388,
+          88.5
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-100",
+      "kind": "line",
+      "points_pt": [
+        [
+          351,
+          102.69999999999999
+        ],
+        [
+          353,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-row-port-101",
+      "kind": "line",
+      "points_pt": [
+        [
+          386,
+          102.69999999999999
+        ],
+        [
+          388,
+          102.69999999999999
+        ]
+      ],
+      "role": "row-port"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-102",
+      "kind": "line",
+      "points_pt": [
+        [
+          283.3,
+          81.4
+        ],
+        [
+          291.85,
+          81.4
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-103",
+      "kind": "line",
+      "points_pt": [
+        [
+          291.85,
+          74.3
+        ],
+        [
+          291.85,
+          102.69999999999999
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-104",
+      "kind": "line",
+      "points_pt": [
+        [
+          291.85,
+          74.3
+        ],
+        [
+          298.45599999999996,
+          74.3
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-105",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          300.4,
+          74.3
+        ],
+        [
+          297.7,
+          73.00399999999999
+        ],
+        [
+          297.7,
+          75.596
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-106",
+      "kind": "line",
+      "points_pt": [
+        [
+          291.85,
+          102.69999999999999
+        ],
+        [
+          298.45599999999996,
+          102.69999999999999
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-fan-to-views-107",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          300.4,
+          102.69999999999999
+        ],
+        [
+          297.7,
+          101.40399999999998
+        ],
+        [
+          297.7,
+          103.996
+        ]
+      ],
+      "role": "fan-to-views"
+    },
+    {
+      "svg_id": "f02_local_lowering-ordered-join-108",
+      "kind": "line",
+      "points_pt": [
+        [
+          333.3,
+          74.3
+        ],
+        [
+          341.85,
+          74.3
+        ]
+      ],
+      "role": "ordered-join"
+    },
+    {
+      "svg_id": "f02_local_lowering-ordered-join-109",
+      "kind": "line",
+      "points_pt": [
+        [
+          333.3,
+          102.69999999999999
+        ],
+        [
+          341.85,
+          102.69999999999999
+        ]
+      ],
+      "role": "ordered-join"
+    },
+    {
+      "svg_id": "f02_local_lowering-ordered-join-110",
+      "kind": "line",
+      "points_pt": [
+        [
+          341.85,
+          74.3
+        ],
+        [
+          341.85,
+          102.69999999999999
+        ]
+      ],
+      "role": "ordered-join"
+    },
+    {
+      "svg_id": "f02_local_lowering-ordered-join-111",
+      "kind": "line",
+      "points_pt": [
+        [
+          341.85,
+          81.4
+        ],
+        [
+          348.23999999999995,
+          81.4
+        ]
+      ],
+      "role": "ordered-join"
+    },
+    {
+      "svg_id": "f02_local_lowering-ordered-join-112",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          350.4,
+          81.4
+        ],
+        [
+          347.4,
+          79.96000000000001
+        ],
+        [
+          347.4,
+          82.84
+        ]
+      ],
+      "role": "ordered-join"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-113",
+      "kind": "text",
+      "text": "KV is written before attention. LOCAL rejoins the output rows in order before O/FFN.",
+      "x_pt": 4,
+      "y_pt": 120,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-rule-114",
+      "kind": "line",
+      "points_pt": [
+        [
+          3,
+          132
+        ],
+        [
+          391.34400000000005,
+          132
+        ]
+      ],
+      "role": "panel-rule"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-115",
+      "kind": "text",
+      "text": "(b)",
+      "x_pt": 3,
+      "y_pt": 144,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-title-116",
+      "kind": "text",
+      "text": "Owned row at rejection",
+      "x_pt": 22,
+      "y_pt": 144,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-117",
+      "kind": "text",
+      "text": "SIMPLE source",
+      "x_pt": 4,
+      "y_pt": 160,
+      "font_pt": 8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-copy-origin-118",
+      "kind": "text",
+      "text": "call 1",
+      "x_pt": 128.7,
+      "y_pt": 160,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-copy-origin-119",
+      "kind": "line",
+      "points_pt": [
+        [
+          89.5,
+          171
+        ],
+        [
+          89.5,
+          168
+        ],
+        [
+          167.9,
+          168
+        ],
+        [
+          167.9,
+          171
+        ]
+      ],
+      "role": "copy-origin"
+    },
+    {
+      "svg_id": "f02_local_lowering-copy-origin-120",
+      "kind": "text",
+      "text": "call 2",
+      "x_pt": 182.3,
+      "y_pt": 160,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-copy-origin-121",
+      "kind": "line",
+      "points_pt": [
+        [
+          169.9,
+          171
+        ],
+        [
+          169.9,
+          168
+        ],
+        [
+          194.7,
+          168
+        ],
+        [
+          194.7,
+          171
+        ]
+      ],
+      "role": "copy-origin"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-122",
+      "kind": "text",
+      "text": "Owned logits",
+      "x_pt": 4,
+      "y_pt": 182,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-slot-123",
+      "kind": "rectangle",
+      "bounds_pt": [
+        89.2,
+        175,
+        25.400000000000002,
+        14
+      ],
+      "role": "owned-slot"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-row-124",
+      "kind": "text",
+      "text": "z₀",
+      "x_pt": 101.9,
+      "y_pt": 182,
+      "font_pt": 8.4,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-slot-125",
+      "kind": "rectangle",
+      "bounds_pt": [
+        116.0,
+        175,
+        25.400000000000002,
+        14
+      ],
+      "role": "owned-slot"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-row-126",
+      "kind": "text",
+      "text": "z₁",
+      "x_pt": 128.7,
+      "y_pt": 182,
+      "font_pt": 8.4,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-slot-127",
+      "kind": "rectangle",
+      "bounds_pt": [
+        142.79999999999998,
+        175,
+        25.400000000000002,
+        14
+      ],
+      "role": "owned-slot"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-row-128",
+      "kind": "text",
+      "text": "z₂",
+      "x_pt": 155.5,
+      "y_pt": 182,
+      "font_pt": 8.4,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-slot-129",
+      "kind": "rectangle",
+      "bounds_pt": [
+        169.6,
+        175,
+        25.400000000000002,
+        14
+      ],
+      "role": "owned-slot"
+    },
+    {
+      "svg_id": "f02_local_lowering-owned-row-130",
+      "kind": "text",
+      "text": "z₃",
+      "x_pt": 182.3,
+      "y_pt": 182,
+      "font_pt": 8.4,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-label-131",
+      "kind": "text",
+      "text": "Sync and copy after each native call.",
+      "x_pt": 4,
+      "y_pt": 200,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-greedy-action-132",
+      "kind": "text",
+      "text": "z₀ accepts p1; z₁ rejects p2.",
+      "x_pt": 217,
+      "y_pt": 165,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-chosen-frontier-133",
+      "kind": "text",
+      "text": "Correction = argmax(z₁).",
+      "x_pt": 217,
+      "y_pt": 181,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-trim-134",
+      "kind": "text",
+      "text": "Trim tentative KV at 255–256.",
+      "x_pt": 217,
+      "y_pt": 200,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-materialized-135",
+      "kind": "line",
+      "points_pt": [
+        [
+          4,
+          215
+        ],
+        [
+          11,
+          215
+        ]
+      ],
+      "role": "materialized"
+    },
+    {
+      "svg_id": "f02_local_lowering-kept-prefix-136",
+      "kind": "text",
+      "text": "Commit: keep KV 0–254",
+      "x_pt": 16,
+      "y_pt": 215,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-pending-137",
+      "kind": "polygon",
+      "points_pt": [
+        [
+          166,
+          211.6
+        ],
+        [
+          169.4,
+          215
+        ],
+        [
+          166,
+          218.4
+        ],
+        [
+          162.6,
+          215
+        ]
+      ],
+      "role": "pending"
+    },
+    {
+      "svg_id": "f02_local_lowering-pending-position-138",
+      "kind": "text",
+      "text": "Correction pending at 255",
+      "x_pt": 175,
+      "y_pt": 215,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-rule-139",
+      "kind": "line",
+      "points_pt": [
+        [
+          3,
+          227
+        ],
+        [
+          391.34400000000005,
+          227
+        ]
+      ],
+      "role": "panel-rule"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-140",
+      "kind": "text",
+      "text": "(c)",
+      "x_pt": 3,
+      "y_pt": 239,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-panel-title-141",
+      "kind": "text",
+      "text": "Successor view guard",
+      "x_pt": 22,
+      "y_pt": 239,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-study-142",
+      "kind": "text",
+      "text": "LOCAL · own commit",
+      "x_pt": 391.34400000000005,
+      "y_pt": 239,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-old-positions-143",
+      "kind": "text",
+      "text": "253–256",
+      "x_pt": 4,
+      "y_pt": 258,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-new-positions-144",
+      "kind": "text",
+      "text": "255–258",
+      "x_pt": 4,
+      "y_pt": 279,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-145",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 70.0,
+      "y_pt": 257,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-146",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 104.0,
+      "y_pt": 257,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-147",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 138.0,
+      "y_pt": 257,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-148",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 172.0,
+      "y_pt": 257,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-run-149",
+      "kind": "line",
+      "points_pt": [
+        [
+          54.4,
+          261.7
+        ],
+        [
+          54.4,
+          264
+        ],
+        [
+          153.6,
+          264
+        ],
+        [
+          153.6,
+          261.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-run-150",
+      "kind": "line",
+      "points_pt": [
+        [
+          156.4,
+          261.7
+        ],
+        [
+          156.4,
+          264
+        ],
+        [
+          187.6,
+          264
+        ],
+        [
+          187.6,
+          261.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-151",
+      "kind": "text",
+      "text": "256",
+      "x_pt": 70.0,
+      "y_pt": 278,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-changed-extent-152",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 104.0,
+      "y_pt": 278,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-changed-extent-153",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 138.0,
+      "y_pt": 278,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-value-154",
+      "kind": "text",
+      "text": "512",
+      "x_pt": 172.0,
+      "y_pt": 278,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-run-155",
+      "kind": "line",
+      "points_pt": [
+        [
+          54.4,
+          282.7
+        ],
+        [
+          54.4,
+          285
+        ],
+        [
+          85.6,
+          285
+        ],
+        [
+          85.6,
+          282.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-extent-run-156",
+      "kind": "line",
+      "points_pt": [
+        [
+          88.4,
+          282.7
+        ],
+        [
+          88.4,
+          285
+        ],
+        [
+          187.6,
+          285
+        ],
+        [
+          187.6,
+          282.7
+        ]
+      ],
+      "role": "extent-run"
+    },
+    {
+      "svg_id": "f02_local_lowering-guard-invariants-157",
+      "kind": "text",
+      "text": "Same q4, max 512 and reference policy.",
+      "x_pt": 205,
+      "y_pt": 258,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-guard-fails-158",
+      "kind": "text",
+      "text": "Full vector differs: rebuild 1 + 3 views.",
+      "x_pt": 205,
+      "y_pt": 273,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f02_local_lowering-guard-scope-159",
+      "kind": "text",
+      "text": "Reuse also checks shape and mask.",
+      "x_pt": 205,
+      "y_pt": 288,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-successor-frontier-160",
+      "kind": "text",
+      "text": "The correction is the new seed at 255. All 3 new proposals are accepted.",
+      "x_pt": 4,
+      "y_pt": 304,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f02_local_lowering-successor-state-161",
+      "kind": "text",
+      "text": "Owned z₃ supplies the bonus: keep KV 0–258, bonus pending at 259.",
+      "x_pt": 4,
+      "y_pt": 316,
+      "font_pt": 8.2,
+      "weight": "normal"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "f03_transaction": {
+    "caption": "Original LOCAL measurements for two fixed histories and two paired repeats (four first-transaction pairs), with C4 on, P4 off and frozen proposals. Open squares are SIMPLE; filled circles are LOCAL; segments join matched arms. (a) First-transaction verification-through-commit time. (b) Separately clocked projection and attention event time for each history; both panels use milliseconds. Device-event times are not added to the transaction clock. Four dependent successor pairs are retained in Table~\\ref{tab:local-pairs}.",
+    "description": "The upper panel shows four first-transaction pairs: two crossing repeats at base 253 and two noncrossing repeats at base 137. Open SIMPLE squares and filled LOCAL circles are connected within each pair, with milliseconds and LOCAL/SIMPLE ratios printed at right. The lower panel separately compares projection and attention event times for both histories. These device-event costs use their own clock; they are not components to add to the transaction wall clock.",
+    "size_pt": [
+      394.34400000000005,
+      276
+    ],
+    "editable_labels": 41,
+    "ordinary_type_pt": 8.2
+  },
+  "f06_b570": {
+    "caption": "Grouping and complete speculative service in the formal B570 CPU-draft study (24 roots, two rounds). Each comparison reuses the same roots (72 effect marks); open diamonds give equal-root estimates with individual 95\\% stratified-root intervals printed at right. Ratios share a logarithmic axis: one means equal time, and lower values mean less candidate time. Service includes CPU drafting and normal teardown.",
+    "description": "Three rows each retain 24 measured root ratios and an open-diamond equal-root summary on one continuous log axis. Grouped/scalar target-only execution is 0.783 with 95% interval 0.770 to 0.797; grouped/scalar speculation is 0.872 with interval 0.870 to 0.874. Grouped speculation versus grouped target-only is 2.512 with interval 2.486 to 2.539, to the right of the equal-time line at one and therefore slower. The 72 root marks reuse the same 24 roots across three contrasts. Numeric limits retain the narrow grouping intervals without changing their graphical extent.",
+    "size_pt": [
+      394.34400000000005,
+      208
+    ],
+    "editable_labels": 22,
+    "ordinary_type_pt": 8.2
+  },
+  "f08_c4_initial": {
+    "caption": "Initial C4 studies with SIMPLE fixed and P4 off, separate from the 12-round RTX confirmation. (a) Twelve A5000 roots: paired C1/C4 geometric complete-request seconds over two rounds. (b) Twenty-four initial RTX roots: geometric time ratios for C1/B, C4/B and C4/C1 over two rounds, with equal time at one. Summaries give equal-root estimates and individual 95\\% stratified-root intervals. The two studies are unpaired.",
+    "description": "The upper panel uses seconds and links the C1 open square to the C4 filled circle for each of 12 A5000 roots. The lower panel uses time ratios for 24 initial RTX roots in each of three direct comparisons. C1/B has an estimate of 1.008 and interval 0.994 to 1.022, crossing equal time; both C4 comparisons lie below one. Each initial study has two rounds and a separate control and interval; neither is pooled with the later RTX confirmation.",
+    "size_pt": [
+      394.34400000000005,
+      292
+    ],
+    "editable_labels": 25,
+    "ordinary_type_pt": 8.2
+  }
+}

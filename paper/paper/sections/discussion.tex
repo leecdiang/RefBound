@@ -1,0 +1,16 @@
+\section{Implications for Reference-Preserving Execution}
+\label{sec:discussion}
+
+\subsection{Place each constraint at the operator that requires it}
+A numerical interface can bind different operators at different granularities. The implemented lowering keeps projection admission separate from attention-view refinement, then uses ordered output ownership and commit to connect them. This separation gives an execution transformation a precise responsibility: preserve the values and state required by its consumers while retaining compatible work around the local restriction. It also makes extension requirements explicit. A new backend needs its arithmetic, physical views, KV writes and output lifetimes bound before the same construction can be applied.
+
+\subsection{Distinguish retained work from removed calls}
+A whole-call policy can already preserve useful groups by rechunking after a boundary. Local views add copies and joins, and their value depends on what the whole-call partition fragments. Historical q32 Vulkan $16+16$ crossings include slower LOCAL outcomes, whereas a separate fixed-append study with $1+(q-1)$ crossings records lower verification times (Table~\ref{tab:historical-geometry}). The RTX comparison adds a second distinction: grouping scalar work into one dispatch and executing an admitted few-column path have different complete-request effects. Call count alone captures neither the retained arithmetic nor costs displaced to other phases.
+
+\subsection{Evaluate opportunity and consumer cost in the same deployment}
+In M1, sparse crossings accompany small service effects within one factorial. The natural 8B study shows that common sampling variation can be comparable to the net difference; B570 shows that drafting can outweigh profitable target execution. The worker example extends that accounting to setup. A useful policy therefore depends on the frequency of work-fragmenting geometry, the time saved by preserving groups, and the view, sampling, drafting, and setup costs within the intended lifetime. Those quantities must be measured together under the deployment's own reference and workload.
+
+Reference selection remains a deployment choice. Another deterministic backend may be useful while exposing different complete scores or state. The present construction serves consumers that retain the existing interface within a single contiguous sequence, dense nonwrapping F16 KV, causal non-FlashAttention, and greedy transitions. Paged or sliding caches, concurrent requests and stochastic consumers require corresponding view, ownership and transition contracts.
+
+\paragraph{Reproduction.}\label{sec:repro}
+The companion artifact provides immutable source/build mappings, CPU reconstruction, editable figures and tables, and a single-entry paper build. The scientific supplement retains full estimators, extended comparisons, eligibility rules and the distinction between original-machine numerical qualification and independently readable saved objects (Table~\ref{tab:access}).

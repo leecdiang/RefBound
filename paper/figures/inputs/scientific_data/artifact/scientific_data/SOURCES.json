@@ -1,0 +1,181 @@
+{
+  "scope": "Original immutable source identities and separately identified shipped public derivatives. Old original_source byte-identical descriptions refer only to historical source copies, not to derived_file members.",
+  "files": [
+    {
+      "path": "M1_NATIVE_REQUESTS.csv",
+      "original_source": {
+        "path": "M1_NATIVE_REQUESTS.csv",
+        "bytes": 81349,
+        "sha256": "1253378c6e1262111cf1b9cbd06a272d1c17dc71147a108a00785647dff67909",
+        "git_blob_sha1": "4b048a1f12b1cd2d2e7d974135e6812d77cd031f",
+        "source_path_in_fixed_input_manifest": "history/M_REQUESTS.csv",
+        "source_url": "https://raw.githubusercontent.com/leecdiang/HeteroSpec/eb62e92f2da7f61401a492e71d53f6504281443c/papers/taco/20261117_stage3/audit/statistics/inputs/history/M_REQUESTS.csv",
+        "disposition": "Byte-identical cached input, not a changed experiment"
+      },
+      "derived_file": {
+        "bytes": 16184,
+        "sha256": "76263c5fb6e34b058dc662bf23e40c38a083fb2e7a09522285583149c3997585",
+        "identity_relation": "Not byte-identical to original source; field-allowlisted public derivative",
+        "transformation": {
+          "kept_columns": [
+            "kind",
+            "root",
+            "session",
+            "arm",
+            "service_s",
+            "cycles"
+          ],
+          "removed_columns": [
+            "accepted_proposals",
+            "generated_tokens",
+            "native_receipt_sha256",
+            "output_copy_s",
+            "planning_s",
+            "prompt_tokens",
+            "reference_id",
+            "request_s",
+            "reset_s",
+            "target_rows",
+            "teardown_s",
+            "terminal_kind"
+          ],
+          "rows": 288,
+          "derived_sha256": "76263c5fb6e34b058dc662bf23e40c38a083fb2e7a09522285583149c3997585",
+          "request_ids": "not included"
+        }
+      },
+      "disposition": "Original source identity retained separately for provenance; derived_file identifies the shipped member. Numerical columns and original row order are retained; RTX request identifiers are replaced by synthetic public labels."
+    },
+    {
+      "path": "S3_TIMING_ROWS.csv",
+      "original_source": {
+        "path": "S3_TIMING_ROWS.csv",
+        "bytes": 84469,
+        "sha256": "d44d4c3d7855d18369b1839fd698486ceffd029a7bfb43ee0a3dc127e5ef4f9a",
+        "git_blob_sha1": "8e792cba824c8a3466e4f8fbaff9826692333c66",
+        "source_path_in_fixed_input_manifest": "history/s3/TIMING_ROWS.csv",
+        "source_url": "https://raw.githubusercontent.com/leecdiang/HeteroSpec/eb62e92f2da7f61401a492e71d53f6504281443c/papers/taco/20261117_stage3/audit/statistics/inputs/history/s3/TIMING_ROWS.csv",
+        "disposition": "Byte-identical cached input, not a changed experiment"
+      },
+      "derived_file": {
+        "bytes": 53621,
+        "sha256": "a01a2621b780f75e31a2625a6b58b9f3cf21d17b849786ded6c0ca0af6833083",
+        "identity_relation": "Not byte-identical to original source; field-allowlisted public derivative",
+        "transformation": {
+          "kept_columns": [
+            "panel",
+            "root_id",
+            "slot",
+            "domain",
+            "day",
+            "round",
+            "pair_id",
+            "arm",
+            "role",
+            "ordinal",
+            "elapsed_s",
+            "reset_s",
+            "prefill_s",
+            "decode_s",
+            "planning_s",
+            "owned_output_copy_s",
+            "prompt_tokens",
+            "generated_tokens",
+            "stop_reason",
+            "actual_forward_rows"
+          ],
+          "removed_columns": [
+            "end_ns",
+            "source_receipt",
+            "start_ns"
+          ],
+          "rows": 288,
+          "derived_sha256": "a01a2621b780f75e31a2625a6b58b9f3cf21d17b849786ded6c0ca0af6833083",
+          "request_ids": "not included"
+        }
+      },
+      "disposition": "Original source identity retained separately for provenance; derived_file identifies the shipped member. Numerical columns and original row order are retained; RTX request identifiers are replaced by synthetic public labels."
+    },
+    {
+      "path": "NATURAL_8B_EPISODES.json",
+      "original_source": {
+        "path": "NATURAL_8B_EPISODES.json",
+        "bytes": 32433,
+        "sha256": "9beae3ed99776dfa995201f0c7b522a4c5b9c49f52e149c0ee2a5572bbce5fcc",
+        "git_blob_sha1": "6f1b5584f46348421d3837ea3210564bd187275b",
+        "source_path_in_fixed_input_manifest": "modern/data/raw/history/natural_episodes.json",
+        "source_url": "https://raw.githubusercontent.com/leecdiang/HeteroSpec/eb62e92f2da7f61401a492e71d53f6504281443c/papers/taco/20261117_stage3/audit/statistics/inputs/modern/data/raw/history/natural_episodes.json",
+        "disposition": "Byte-identical cached input, not a changed experiment"
+      },
+      "shipped_file": {
+        "bytes": 32433,
+        "sha256": "9beae3ed99776dfa995201f0c7b522a4c5b9c49f52e149c0ee2a5572bbce5fcc"
+      },
+      "disposition": "Unchanged source copy; shipped identity verified against original source."
+    },
+    {
+      "path": "RTX269_ALL_REQUESTS.csv",
+      "original_source": {
+        "path": "RTX269_ALL_REQUESTS.csv",
+        "bytes": 986419,
+        "sha256": "5f86aff586f41dfb9586cebdbacf8a10415656823d3b661c2665b1b31d8e6fea",
+        "source_packet_sha256": "927ce0fc542c5fd40a1e449eac8be5d201d84ac8e35121827d4c6a7e901cd137",
+        "source_member": "ALL_REQUESTS.csv",
+        "source_head": "3ed4671c21291f0ed0012fd61cc992558fdb024d",
+        "disposition": "Byte-identical public packet member; all 1764 roles preserved"
+      },
+      "derived_file": {
+        "bytes": 407245,
+        "sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba",
+        "identity_relation": "Not byte-identical to original source; field-allowlisted public derivative",
+        "transformation": {
+          "kept_columns": [
+            "request_id",
+            "stage",
+            "root_slot",
+            "root",
+            "domain",
+            "round",
+            "time_block",
+            "role",
+            "study_variant",
+            "included",
+            "service_s",
+            "context_s",
+            "target_prefill_s",
+            "target_decode_s",
+            "target_verify_s",
+            "draft_prefill_s",
+            "draft_sync_s",
+            "draft_propose_s",
+            "decision_commit_s",
+            "terminal_sync_s",
+            "other_host_s"
+          ],
+          "removed_columns": [
+            "accepted",
+            "capture",
+            "core_identity",
+            "cycles",
+            "draft_rows",
+            "exclusion_reason",
+            "host_complete_wall",
+            "host_dispatch_wall",
+            "order_position",
+            "prompt_ids_sha256",
+            "prompt_tokens",
+            "proposed",
+            "scheduled_request_id",
+            "source_freeze_sha256",
+            "target_rows",
+            "ttft_s"
+          ],
+          "rows": 1764,
+          "derived_sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba",
+          "request_ids": "derived row IDs, not original identities"
+        }
+      },
+      "disposition": "Original source identity retained separately for provenance; derived_file identifies the shipped member. Numerical columns and original row order are retained; RTX request identifiers are replaced by synthetic public labels."
+    }
+  ]
+}

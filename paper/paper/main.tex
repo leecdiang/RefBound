@@ -1,0 +1,50 @@
+% Named author/arXiv reading edition. A future submission must recheck TACO's
+% current instructions before changing class options (e.g. manuscript,screen,review).
+% Content, figures, and bibliography are shared; no review edition is built here.
+\documentclass[acmsmall,screen,nonacm]{acmart}
+\input{preamble}
+% Show the city in this named arXiv edition's author line; keep acmart.cls unchanged.
+% acmsmall normally suppresses city here, while retaining it in the address footnote.
+\makeatletter
+\newcommand{\HeteroSpecAuthorCity}[1]{\global\@ACM@citypresenttrue\unskip, #1\ignorespaces}
+\pretocmd{\@mkauthors@i}{\let\city\HeteroSpecAuthorCity}{}{\PackageError{HeteroSpec}{Cannot enable author-line city}{Check the acmart author layout.}}
+\makeatother
+\begin{document}
+% Keep page-bottom slack at the bottom, rather than stretching float-to-text gaps.
+\raggedbottom
+\title[Recovering Parallelism under Fixed Numerical References]{Recovering Parallelism under Fixed Numerical References in Quantized LLM Decoders}
+\author{Chengzhan Li}
+\email{chengzhan.li@std.uestc.edu.cn}
+\affiliation{\institution{University of Electronic Science and Technology of China}\city{Chengdu}\country{China}}
+\renewcommand{\shortauthors}{C. Li}
+\begin{abstract}
+Preserving a quantized decoder's complete output scores and committed state can constrain projection arithmetic and attention views at different query granularities. Applying attention's finest partition to the entire decoder then fragments projection work that is already compatible with the numerical reference. We implement local lowering that retains admitted projection groups, refines physical views inside attention, and rejoins outputs in logical query order. Owned output rows, state commit, and guarded graph reuse carry the result into successive transactions. Complete-vector and active-state comparisons match the bound references in the exercised cases. At a selected 32B A5000 crossing with frozen proposals, local lowering reduces verification-through-commit time by 21.56\% across 12 paired time blocks (95\% CI [20.21\%, 22.83\%]). Independent complete-request studies evaluate few-column execution and prefill packing under their own controls. Few-column execution reduces RTX request time by 15.80\% relative to grouped scalar execution in a descriptive comparison; packing admitted groups accelerates both target-only and speculative requests. Scalar regrouping alone has verification savings offset by prefill costs. Natural-workload studies further show that sparse opportunities, sampling, drafting, and setup can limit or reverse the service benefit. These results support enforcing each numerical obligation at its required operator and state boundary, then evaluating the retained work over the complete request and deployment lifetime.
+\end{abstract}
+\keywords{quantized inference, numerical reference, parallel execution, attention, KV cache, speculative decoding}
+\maketitle
+\hypersetup{pdfauthor={Chengzhan Li},pdftitle={Recovering Parallelism under Fixed Numerical References in Quantized LLM Decoders},pdfsubject={Named author-review manuscript with scientific supplement},pdfkeywords={quantized inference, numerical reference, parallel execution, attention, KV cache, speculative decoding}}
+\input{sections/introduction}
+\input{sections/reference}
+\input{sections/method}
+\input{sections/implementation}
+\input{sections/design}
+\input{sections/results}
+\input{sections/related}
+\FloatBarrier
+\input{sections/discussion}
+\input{sections/conclusion}
+\label{page:body-end}
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+\label{page:references-end}
+\clearpage
+\appendix
+\setcounter{table}{0}
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\theHfigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\theHtable}{S\arabic{table}}
+\input{sections/supplement}
+\label{page:supplement-end}
+\end{document}

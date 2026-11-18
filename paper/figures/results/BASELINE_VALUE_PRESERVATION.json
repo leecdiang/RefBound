@@ -1,0 +1,89 @@
+{
+  "source_head": "8f6b37608ead243d7bc98599636fd96230aa1540",
+  "source_files_already_checked_against_remote_blobs_by_root": true,
+  "data_files": [
+    {
+      "path": "results/f03_block_effects.csv",
+      "sha256": "4768300efc9d0d8b514c1dafc8525592981667daa2bd0031c096ac6e8ef97f42",
+      "byte_identical": false,
+      "changed_numeric_cells": 2,
+      "max_abs_numeric_difference": 1.734723475976807e-18
+    },
+    {
+      "path": "results/f03_native_pairs.csv",
+      "sha256": "4626cc2620354381b0e4492fe1a83e8eb983c805a39a0711ce11d07d71c0be61",
+      "byte_identical": true,
+      "changed_numeric_cells": 0,
+      "max_abs_numeric_difference": 0
+    },
+    {
+      "path": "results/f04_arithmetic_phases.csv",
+      "sha256": "4b3106060cb6eb50bad944cfa3482a026efef8b1670d486ebb21a7546e8fbe42",
+      "byte_identical": false,
+      "changed_numeric_cells": 4,
+      "max_abs_numeric_difference": 1.7763568394002505e-15
+    },
+    {
+      "path": "results/f04_block_effects.csv",
+      "sha256": "b6a7ea8a06e34cfc5da059c885a22dfb158569577dca42498565b4d5eee6054d",
+      "byte_identical": false,
+      "changed_numeric_cells": 2,
+      "max_abs_numeric_difference": 1.0658141036401503e-14
+    },
+    {
+      "path": "results/f04_root_block_cells.csv",
+      "sha256": "e6d91ed080e6e4036ef369e5d0cddd5d26559870d8c0ab97b551aed0d8d6bc70",
+      "byte_identical": true,
+      "changed_numeric_cells": 0,
+      "max_abs_numeric_difference": 0
+    },
+    {
+      "path": "results/f04_root_effects.csv",
+      "sha256": "0a5e82800efa044e375ba9cb47792439d6ebf4e19b5ed0bb60ff1dd54e1cdfc6",
+      "byte_identical": false,
+      "changed_numeric_cells": 6,
+      "max_abs_numeric_difference": 2.220446049250313e-14
+    },
+    {
+      "path": "results/f05_native_contrast_pairs.csv",
+      "sha256": "14be696db8c696fc58999051b3cb3543823f38dd28fa53461e846c4bb9f06b1b",
+      "byte_identical": true,
+      "changed_numeric_cells": 0,
+      "max_abs_numeric_difference": 0
+    },
+    {
+      "path": "results/f05_root_effects.csv",
+      "sha256": "30ae83ae647c6fa5f08b82103c62eaf27dc53582f1cd0aeb3aab755ba4c61ac8",
+      "byte_identical": false,
+      "changed_numeric_cells": 19,
+      "max_abs_numeric_difference": 2.220446049250313e-14
+    }
+  ],
+  "point_coordinates": [
+    {
+      "stem": "f07_confirmation",
+      "number": 60,
+      "data_keys_shape_size_fill_identical": true,
+      "max_absolute_coordinate_difference_pt": 0.0
+    },
+    {
+      "stem": "f04_few_column",
+      "number": 75,
+      "data_keys_shape_size_fill_identical": true,
+      "max_absolute_coordinate_difference_pt": 5.684341886080802e-14
+    },
+    {
+      "stem": "f05_prefill",
+      "number": 114,
+      "data_keys_shape_size_fill_identical": true,
+      "max_absolute_coordinate_difference_pt": 2.842170943040401e-14
+    },
+    {
+      "stem": "f03_alternate",
+      "number": 96,
+      "data_keys_shape_size_fill_identical": true,
+      "max_absolute_coordinate_difference_pt": 0.0
+    }
+  ],
+  "note": "CPU stack floating-point last-digit differences are retained and measured; no forced byte-equality claim."
+}

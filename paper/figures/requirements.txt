@@ -1,0 +1,7 @@
+numpy==2.3.5
+matplotlib==3.10.8
+Pillow==13.0.0
+pypdfium2==5.13.0
+fonttools==4.61.1
+pdfminer.six==20251230
+PyMuPDF==1.26.6

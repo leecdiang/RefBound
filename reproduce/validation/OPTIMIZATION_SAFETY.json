@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "change": "Fail closed before imports/data reads under optimized Python; scientific calculations and data unchanged",
+  "old_script_sha256": "e264d1210379d4473aa8e82766e86712fd317fe14605ac64198a55beb8903873",
+  "new_script_sha256": "7c1afcdf316ba208119069bf1cc3f2988da05dc8b773ad16b5b490188de7b702",
+  "normal_result_byte_values": "identical scientific JSON to pre-fix script run on same environment; frozen-reference tolerances pass",
+  "tests": [
+    {
+      "test": "normal",
+      "exit_code": 0,
+      "result_created": true,
+      "stdout": "PASS: A5000 96 values/48 pairs; RTX 864 formal and 1764 role records; 1134 prior contrast rows; M1 256 measured + 32 primers.\nMaximum frozen-reference error: 1.2434497875801753e-14\n",
+      "stderr": ""
+    },
+    {
+      "test": "optimized",
+      "exit_code": 1,
+      "result_created": false,
+      "stdout": "",
+      "stderr": "ERROR: optimized Python (-O/-OO or PYTHONOPTIMIZE) disables required validation; run without optimization.\n"
+    },
+    {
+      "test": "double_optimized",
+      "exit_code": 1,
+      "result_created": false,
+      "stdout": "",
+      "stderr": "ERROR: optimized Python (-O/-OO or PYTHONOPTIMIZE) disables required validation; run without optimization.\n"
+    },
+    {
+      "test": "tampered",
+      "exit_code": 1,
+      "result_created": false,
+      "stdout": "",
+      "stderr": "Traceback (most recent call last):\n  File \"<isolated-test>/scripts/reproduce.py\", line 67, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"<isolated-test>/scripts/reproduce.py\", line 16, in main\n    assert hashlib.sha256((ROOT/f['file']).read_bytes()).hexdigest()==f['sha256'],f['file']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: data/a5000_confirmation.csv\n"
+    }
+  ]
+}

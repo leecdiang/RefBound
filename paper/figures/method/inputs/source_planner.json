@@ -1,0 +1,32 @@
+[
+  {
+    "first": 29,
+    "last": 52,
+    "lines": [
+      "        const int64_t remainder=n%padding;",
+      "        const int64_t extra=remainder?padding-remainder:0;",
+      "        result.push_back(extra>capacity-n?capacity:n+extra);",
+      "    }",
+      "    return result;",
+      "}",
+      "// Full requirements, not token IDs or output contents, determine cuts.",
+      "inline std::vector<Group> plan(const std::vector<Row>& rows, size_t max_call) {",
+      "    require(!rows.empty() && max_call>0,\"empty plan or zero width\");",
+      "    for(size_t i=0;i<rows.size();++i) {",
+      "        const auto&r=rows[i];",
+      "        require(r.position>=0 && r.physical_extent>r.position,\"invalid visible extent\");",
+      "        if(i) require(rows[i-1].position<std::numeric_limits<int64_t>::max() &&",
+      "                      r.position==rows[i-1].position+1,\"noncontiguous positions unsupported\");",
+      "    }",
+      "    std::vector<Group> out;",
+      "    for(size_t i=0;i<rows.size();) {",
+      "        size_t end=i+1;",
+      "        while(end<rows.size() && end-i<max_call &&",
+      "              rows[end].physical_extent==rows[i].physical_extent &&",
+      "              rows[end].arithmetic_class==rows[i].arithmetic_class) ++end;",
+      "        out.push_back({i,end-i,rows[i].physical_extent,rows[i].arithmetic_class});i=end;",
+      "    }",
+      "    return out;"
+    ]
+  }
+]

@@ -1,0 +1,329 @@
+{
+  "native_width_in": 5.477,
+  "guidance_not_certification": true,
+  "color_reference": "Machado et al. 2009, DOI 10.1109/TVCG.2009.113",
+  "simulation_pipeline": "sRGB -> linear light -> severity-100 matrix -> gamut clip -> sRGB; grayscale uses linear Rec.709 luminance",
+  "simulations_executed": false,
+  "review_comparisons": null,
+  "human_accessibility_test": false,
+  "planned_primary_inks_white_contrast": {
+    "#254B70": 9.055,
+    "#087B70": 5.15,
+    "#A95524": 5.234
+  },
+  "exports": {
+    "figures/f01_obligations.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        265.0
+      ],
+      "size_histogram": {
+        "8.7": 48,
+        "8.0": 142,
+        "8.2": 346,
+        "7.8": 17
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 64,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f02_local_lowering.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        322.0
+      ],
+      "size_histogram": {
+        "8.7": 70,
+        "8.0": 107,
+        "8.4": 48,
+        "8.2": 513
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 70,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f03_transaction.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        276.0
+      ],
+      "size_histogram": {
+        "8.7": 62,
+        "8.0": 244,
+        "8.1": 70,
+        "7.8": 49,
+        "7.9": 69,
+        "7.6": 110
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 41,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f04_few_column.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        286.0
+      ],
+      "size_histogram": {
+        "8.7": 72,
+        "8.0": 173,
+        "8.2": 247
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 48,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f05_prefill.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        299.0
+      ],
+      "size_histogram": {
+        "8.7": 32,
+        "8.2": 242,
+        "8.0": 214
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 30,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f06_b570.pdf": {
+      "fonts_embedded": {
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        208.0
+      ],
+      "size_histogram": {
+        "8.7": 19,
+        "8.0": 224,
+        "8.2": 47,
+        "7.9": 17
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 22,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      }
+    },
+    "figures/f07_confirmation.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        274.0
+      ],
+      "size_histogram": {
+        "8.7": 44,
+        "8.2": 253,
+        "8.0": 189,
+        "7.6": 15
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 60,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "figures/f08_c4_initial.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        292.0
+      ],
+      "size_histogram": {
+        "8.7": 37,
+        "8.0": 100,
+        "7.9": 70,
+        "7.6": 100,
+        "7.7": 72,
+        "7.8": 14
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 25,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "alternatives/f02_layered.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        333.0
+      ],
+      "size_histogram": {
+        "8.7": 77,
+        "8.0": 57,
+        "8.3": 38,
+        "8.2": 518,
+        "8.4": 32
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 61,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "alternatives/f03_alternate.pdf": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        294.0
+      ],
+      "size_histogram": {
+        "8.7": 115,
+        "8.2": 359,
+        "8.0": 44
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 48,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "alternatives/f05_prompt_length.pdf": {
+      "fonts_embedded": {
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        345.6
+      ],
+      "size_histogram": {
+        "8.5": 23,
+        "8.0": 251,
+        "3.1": 6,
+        "7.6": 1,
+        "5.1": 6,
+        "4.9": 8,
+        "2.2": 3,
+        "4.4": 1,
+        "3.3": 2,
+        "7.8": 2,
+        "4.2": 1,
+        "2.9": 1,
+        "5.6": 1
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 27,
+      "svg_images": 0,
+      "embedded_svg_subsets": [
+        "Regular"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      }
+    }
+  }
+}

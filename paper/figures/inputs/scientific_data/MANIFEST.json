@@ -1,0 +1,128 @@
+{
+  "files": [
+    {
+      "bytes": 11561,
+      "crc32": "e5ef49cb",
+      "member": "README.md",
+      "sha256": "364f048a0bf22ff20b4f9ce7fd5092a130d6d686de21953e9d185cbd298ddf08",
+      "source_path": "artifact/SCIENTIFIC_DATA_BUNDLE_README.md.in"
+    },
+    {
+      "bytes": 16184,
+      "crc32": "1caacbbb",
+      "member": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+      "sha256": "76263c5fb6e34b058dc662bf23e40c38a083fb2e7a09522285583149c3997585",
+      "source_path": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv"
+    },
+    {
+      "bytes": 32433,
+      "crc32": "8b51b74f",
+      "member": "artifact/scientific_data/NATURAL_8B_EPISODES.json",
+      "sha256": "9beae3ed99776dfa995201f0c7b522a4c5b9c49f52e149c0ee2a5572bbce5fcc",
+      "source_path": "artifact/scientific_data/NATURAL_8B_EPISODES.json"
+    },
+    {
+      "bytes": 407245,
+      "crc32": "1ec93133",
+      "member": "artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+      "sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba",
+      "source_path": "artifact/scientific_data/RTX269_ALL_REQUESTS.csv"
+    },
+    {
+      "bytes": 53621,
+      "crc32": "ea7296cc",
+      "member": "artifact/scientific_data/S3_TIMING_ROWS.csv",
+      "sha256": "a01a2621b780f75e31a2625a6b58b9f3cf21d17b849786ded6c0ca0af6833083",
+      "source_path": "artifact/scientific_data/S3_TIMING_ROWS.csv"
+    },
+    {
+      "bytes": 7475,
+      "crc32": "dada4e6e",
+      "member": "artifact/scientific_data/SOURCES.json",
+      "sha256": "ba353da25ee1ae4f36d39960f83f0b19c1f58ebd18542f3fed9bcc4083a6bbc6",
+      "source_path": "artifact/scientific_data/SOURCES.json"
+    },
+    {
+      "bytes": 2176,
+      "crc32": "896f8a5e",
+      "member": "data/history/SOURCE_MANIFEST.json",
+      "sha256": "9fe6d34776dd00b4e12d55fbd1a40c791ce88ead33e389b01fc68a5a8a4e1699",
+      "source_path": "data/history/SOURCE_MANIFEST.json"
+    },
+    {
+      "bytes": 10903,
+      "crc32": "98e41e26",
+      "member": "data/history/historical_evidence.json",
+      "sha256": "400f7c0165bbfd83ceece1a7516060ffcc171b9b9ea2eab51254ad8ba37b5bd5",
+      "source_path": "data/history/historical_evidence.json"
+    },
+    {
+      "bytes": 149863,
+      "crc32": "a5202fa5",
+      "member": "data/plot_data.json",
+      "sha256": "2b215272d7038d0ff3d2d41ca8c27f649fe3074c72c6aef31d524773f8c1fbe3",
+      "source_path": "data/plot_data.json"
+    },
+    {
+      "bytes": 3090,
+      "crc32": "22d56d37",
+      "member": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+      "sha256": "bcf44fe8025b5ad4431e71ca311f849b809de58532e60340ce881bcfdaa51b86",
+      "source_path": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv"
+    },
+    {
+      "bytes": 103466,
+      "crc32": "8602cde3",
+      "member": "statistics/confirmation266_recomputed/confirmation266_data.json",
+      "sha256": "8ddaed0b7b2c31535b758942a1df18fed97b5e115f0d48d9ad7b3fb141e95ea7",
+      "source_path": "statistics/confirmation266_recomputed/confirmation266_data.json"
+    },
+    {
+      "bytes": 96224,
+      "crc32": "f8121b62",
+      "member": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+      "sha256": "cbf2f109ca8d33d239f34648a65998f0910c694878da1f973aa9fa91d0b05085",
+      "source_path": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json"
+    },
+    {
+      "bytes": 101451,
+      "crc32": "e437386d",
+      "member": "statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+      "sha256": "b8ff071b5dc4e99b301044dfc8a46c420dbe2e2ca3f818ee49f8611c7b7a0ce1",
+      "source_path": "statistics/prior_studies_recomputed/estimates/paired_request_times.csv"
+    },
+    {
+      "bytes": 10158,
+      "crc32": "4c279fb5",
+      "member": "statistics/prior_studies_recomputed/estimates/workload_roots.csv",
+      "sha256": "a469e7ff8a333df55485aaa9904b08602c61c3a05f8b448fecd7e52ed238c7d5",
+      "source_path": "statistics/prior_studies_recomputed/estimates/workload_roots.csv"
+    },
+    {
+      "bytes": 165089,
+      "crc32": "2f927eb4",
+      "member": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+      "sha256": "afb30f69ca3f60fb345ebf53b42d9ef2c230413ba36336933ac5fda9d632b00f",
+      "source_path": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv"
+    },
+    {
+      "bytes": 10235,
+      "crc32": "a3eb6421",
+      "member": "statistics/rtx269_recomputed/figure_data.json",
+      "sha256": "014ecb0f0ab33cff04858825857b8d3f1473a16c9df428891ffa379c54cd12f0",
+      "source_path": "statistics/rtx269_recomputed/figure_data.json"
+    }
+  ],
+  "fixed_zip_time": [
+    2026,
+    11,
+    18,
+    0,
+    0,
+    0
+  ],
+  "manifest_excludes_self": true,
+  "payload_count": 16,
+  "schema": "heterospec.scientific_data_manifest.v1",
+  "scope": "Saved scientific observations and summaries; no experiment or statistical recomputation during packaging"
+}

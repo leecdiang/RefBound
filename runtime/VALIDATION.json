@@ -1,0 +1,24 @@
+{
+  "core_CPU_build": "PASS",
+  "real_P4_frontend_object": "PASS",
+  "CPU_tests": "PASS",
+  "GPU_requests": 0,
+  "model_loads": 0,
+  "CUDA_build": "NOT_RUN",
+  "full_worker_link": "NOT_RUN",
+  "numerical_qualification": "NOT_RUN",
+  "toolchain": {
+    "CMake": "4.4.5",
+    "Ninja": "1.13.2",
+    "GCC": "14.2.0"
+  },
+  "core_build_steps": 216,
+  "frontend_source": "unchanged archived P4 native.cpp",
+  "source_identity_checks": 1460,
+  "transaction_test_output": "PASS reject0/1/2, bonus, accepted/correction EOG/cap, initial EOG, q1 tail, boundary/rollback",
+  "draft_test_output": "CPU_DRAFT_STATE_PASS cases=257082 skipped=251088 catchup=5988 accepted=5232 bonus=5988 correction=245856 tail=6; both explicit output policies, all generated budgets, rejection positions, EOG/accepted terminals, q1 tails, full retained mock KV and next consumer row; GPU math not tested",
+  "privacy_review": "independent finite static review; no unresolved findings; no claim of universal absence",
+  "public_release": false,
+  "post_exclusion_rebuild": "PASS: fresh configuration, all 216 CPU core build steps, unchanged P4 frontend object, transaction and draft_work tests",
+  "license_review": "SYCL/OpenVINO excluded; embedded Abseil identified with Apache-2.0 full text and notice; finite component inventory, not blanket legal clearance"
+}

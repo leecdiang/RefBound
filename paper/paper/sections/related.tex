@@ -1,0 +1,21 @@
+\section{Related Work}
+\label{sec:related}
+
+Reference-preserving execution spans kernels, serving policies, and stateful engines. Table~\ref{tab:neighbors} compares the closest systems by reference selection, retained execution freedom, and state handoff.
+
+\papertable{t06_neighbors}{Reference selection, retained execution freedom, and state handoff in the closest systems.}{tab:neighbors}
+
+\paragraph{Legal execution freedom.}
+Taming Bitwise Behavior reconstructs accumulation structure and confines optimization to a checked structural equivalence class; class-based tuning can use a caller-supplied reference kernel~\cite{taming}. Prefix-invariant low-precision matrix multiplication retains a prescribed INT8 operator through exact integer cancellation and fixed rescaling order~\cite{beyondaccuracy}. Batch-invariant kernels fix numerical choices that would otherwise depend on other requests~\cite{thinkingmachines}. Detent extends this control to kernel selection: its executable selection representation and dependency cuts pin required values while retaining legal tuning freedom at a fixed deployment commitment~\cite{detent}. Numerical obligations therefore constrain particular choices without requiring a single execution schedule.
+
+\paragraph{Geometry and canonical state.}
+Vosti relates kernel contracts to canonical KV values, logical-to-physical mappings, write isolation, and continuation invariants~\cite{vosti}. Its attention construction preserves the accumulator through fully masked tiles, illustrating that a physical-view requirement must be stated for the actual numerical path. BlockLock combines canonical execution geometry with repeat-stable arithmetic and faithful cache handoff; Rows continues batched decoding, while Pack extracts the target KV for target-only decoding~\cite{blocklock}. These systems already make geometry and state central to reproducibility.
+
+\paragraph{Verification as a state transition.}
+Speculative decoding exposes known proposals for parallel target evaluation~\cite{leviathan2023,chen2023}. LLM-42 uses a fixed verification path to obtain deterministic service while the fast path batches dynamically. Fixed verification groups can share a larger batch, and verifier KV replaces fast-path KV even when tokens agree~\cite{llm42}. QSpec overwrites accepted low-precision draft KV with higher-precision verification state~\cite{qspec}; QuantSpec uses a hierarchical quantized cache and recent full-precision buffers to support rejection~\cite{quantspec}. Thus grouping and KV repair are established components of a correct consumer, beyond token agreement alone.
+
+\paragraph{Backend-specific numerical interfaces.}
+Attention engines expose layout and scheduling freedom, including tiled online softmax in FlashAttention and serving kernels in FlashInfer~\cite{flashattention,flashinfer}. FlashInfer's scheduler gives deterministic aggregation for the same sequence-length information and avoids atomic aggregation; the numerical contract still depends on the actual reduction and rescaling schedule. In the inspected vLLM batch-invariant paths, a fixed reduction tile can coexist with query-count-dependent output tiles and launch parameters; its registered AWQ branch dequantizes before matrix multiplication~\cite{vllm_batchinv}. CoRun supplies another system design through isolated prefill and fixed-shape decode~\cite{corun}. These alternatives motivate explicit reference bindings: the required physical extent or tile choice depends on the numerical path being preserved.
+
+The specific construction here concerns an inherited quantized decoder whose admitted projection groups and required per-query attention views have different boundaries. Local lowering preserves the former while enforcing the latter, then connects the ordered outputs to ownership, commit and boundary-sensitive successor reuse. The direct transaction study evaluates this construction; independent application studies quantify few-column execution and prefill packing under their own controls.
+

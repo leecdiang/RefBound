@@ -1,0 +1,29 @@
+\section{Numerical Constraints on Arithmetic and Views}
+\label{sec:reference}
+
+\subsection{The interface to preserve}
+A reference profile $R$ binds model and tokenizer bytes, weight quantization and scales, activation preparation, reduction and rounding behavior, backend build and device, cache representation, and consumer rules. Selecting $R$ precedes the execution transformation. An implementation may reorganize independent work, physical views, and graph structure as long as it retains the specified numerical and state interface. Machine instructions, fusion decisions, and launch sequences may differ while these conditions hold.
+
+Let $Q=(x_0,\ldots,x_{q-1})$ be known tokens at contiguous positions, and $O$ the logical output rows requested by the consumer. In the evaluated interface, $O$ selects either all rows or the last row. For complete binary32 vocabulary vectors $z_i$, canonical active KV $\mathcal K$, and consumer state $s$, the required relation at the corresponding output and commit boundaries is
+\begin{equation}
+ z_i^F\biteq z_i^R\;(i\in O),\qquad
+ \mathcal K^F\biteq\mathcal K^R,\qquad s^F=s^R.
+ \label{eq:contract}
+\end{equation}
+State $s$ includes the retained materialized prefix and position, pending token, and termination status. Unused allocation is outside the active-state relation, while every operand actually exposed to attention, including physical padding, is governed by the profile. Equal argmax tokens alone would leave score differences invisible to another consumer.
+
+Verification needs two reference uses. A conditional scalar reference follows the same supplied proposals, including prefixes later rejected, to establish the correct scores for each row. An autonomous target reference generates the expected emitted continuation and stopping behavior. Comparing a counterfactual proposal row with an autonomous row from a different history would not test Eq.~\eqref{eq:contract}. The current CUDA construction binds a single contiguous sequence, dense nonwrapping F16 KV, causal non-FlashAttention, and greedy consumers.
+
+\subsection{A legal projection group need not be a legal attention view}
+The first obstruction is arithmetic. A projection's admission includes quantization, scale application, partial reductions, and epilogue behavior; width alone is insufficient. In the captured historical CUDA panel of Figure~\ref{fig:constraints}(a), native widths two and four match concatenated scalar results in all 16 model/operator pairs per width. Native widths eight, sixteen, and thirty-two differ in every pair. Tiling or packing admitted four-column groups restores the recorded complete-operator outputs at the exercised wider widths. This identifies useful independent work that can be organized without widening the arithmetic group.
+
+The second obstruction survives projection repair. In a separate historical B570/Vulkan profile, projection-compatible execution still produces 198 unequal committed vocabulary vectors out of 1,920 comparisons. Two arms contribute 99 each. Coordinated physical-view repair removes the recorded differences (Figure~\ref{fig:constraints}(b)). That intervention changes extent/crop, layout, and dispatch together. It shows why a causal mask by itself is an incomplete numerical contract: logical visibility does not determine the physical operands or reduction schedule.
+
+\paperfigure{f01_obligations}{Independent tests of arithmetic and physical-view bitwise agreement. (a) Unequal complete operator outputs among 16 RTX model/operator pairs, relative to concatenated scalar columns; packed q2/q4 were not run. (b) B570 committed-vector mismatches fall from 198/1,920 to 0/1,920 after coordinated extent/crop, layout and dispatch repair (three inputs, 128 rows each, five arms). Tracks show committed output indices; PQ/QB denote recorded attention layouts.}{The upper matrix compares native, tiled and packed projection arithmetic on RTX. Native q8, q16 and q32 each have 16 unequal complete outputs among 16 pairs; tiled and packed fours match, and packed q2/q4 are marked not run. The lower B570 tracks locate 99 mismatches at indices 29 through 127 on one of three inputs in each of two speculative arms. Counts total 198 of 1,920 vectors before physical-view repair and zero afterward.}{fig:constraints}
+
+For the bound dense cache, a padding unit $P$, capacity $C$, and zero-based query position $p_i$ give the scalar append extent
+\begin{equation}
+ e_i=\min\!\left(C,\ P\left\lceil(p_i+1)/P\right\rceil\right).
+ \label{eq:extent}
+\end{equation}
+The adapter obtains native requirements and validates this mapping. A physical-view descriptor also includes types, strides, head geometry, dispatch, and the KV values read. Adjacent queries with compatible descriptors form \emph{attention runs}; projection groups follow arithmetic admission. A whole-call policy refines the entire decoder to the attention partition. The two counterexamples instead motivate a more selective construction: preserve each obligation at the operator that requires it, and explicitly connect the resulting outputs and state.

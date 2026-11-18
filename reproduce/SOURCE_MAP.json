@@ -1,0 +1,176 @@
+{
+  "source_commit": "ed8b38b12f7d61b99fb11df0ad60cece33a5f638",
+  "source_delivery": "papers/taco/20261118_arxiv_final_polish",
+  "source_repository_access": "private; identifiers are provenance, not public retrieval URLs",
+  "source_archive_sha256": "c374d48d4cd6a9cf525aa33d67468638c813c8f9bc92c4edca9e2db03da76e64",
+  "files": [
+    {
+      "file": "data/a5000_confirmation.csv",
+      "source_member": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+      "source_sha256": "bcf44fe8025b5ad4431e71ca311f849b809de58532e60340ce881bcfdaa51b86",
+      "sha256": "bcf44fe8025b5ad4431e71ca311f849b809de58532e60340ce881bcfdaa51b86",
+      "rows": 96,
+      "retained_columns": [
+        "panel",
+        "block",
+        "case",
+        "arm",
+        "value_s"
+      ],
+      "removed_columns": [],
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/rtx_confirmation.csv",
+      "source_member": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+      "source_sha256": "afb30f69ca3f60fb345ebf53b42d9ef2c230413ba36336933ac5fda9d632b00f",
+      "sha256": "5f5aa6ae657fe4bf8aee18d70216ce3da704b3ea1ba5571ceeb454f452d556e4",
+      "rows": 864,
+      "retained_columns": [
+        "root_slot",
+        "root",
+        "domain",
+        "round",
+        "time_block",
+        "arm",
+        "service_s",
+        "context_s",
+        "target_prefill_s",
+        "target_decode_s",
+        "target_verify_s",
+        "draft_prefill_s",
+        "draft_sync_s",
+        "draft_propose_s",
+        "decision_commit_s",
+        "terminal_sync_s",
+        "other_host_s"
+      ],
+      "removed_columns": [],
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/prior_pairs.csv",
+      "source_member": "statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+      "source_sha256": "b8ff071b5dc4e99b301044dfc8a46c420dbe2e2ca3f818ee49f8611c7b7a0ce1",
+      "sha256": "26185a64ec8cd523e2c5cbe95d6ebf1baa1def78a7d572f9e99e381b579d796d",
+      "rows": 1134,
+      "retained_columns": [
+        "study_pr",
+        "contrast",
+        "root",
+        "domain",
+        "round",
+        "control_s",
+        "candidate_s",
+        "ratio"
+      ],
+      "removed_columns": [],
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/m1_requests.csv",
+      "source_member": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+      "source_sha256": "1253378c6e1262111cf1b9cbd06a272d1c17dc71147a108a00785647dff67909",
+      "sha256": "0c71d0867731f5321f53e282cac588538ee31cf4ab6a8d6febe684fc758662c8",
+      "rows": 288,
+      "retained_columns": [
+        "kind",
+        "root",
+        "session",
+        "arm",
+        "service_s",
+        "request_s",
+        "reset_s",
+        "teardown_s",
+        "planning_s",
+        "output_copy_s",
+        "prompt_tokens",
+        "generated_tokens",
+        "terminal_kind",
+        "cycles",
+        "accepted_proposals",
+        "target_rows"
+      ],
+      "removed_columns": [
+        "native_receipt_sha256",
+        "reference_id"
+      ],
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/rtx_request_roles.csv",
+      "source_member": "artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+      "source_sha256": "5f86aff586f41dfb9586cebdbacf8a10415656823d3b661c2665b1b31d8e6fea",
+      "sha256": "edc6a600eb03b7c583cf16cbf440ec1ffab8f9bc8f571cf92e807d1ee4120372",
+      "rows": 1764,
+      "retained_columns": [
+        "stage",
+        "root_slot",
+        "root",
+        "domain",
+        "round",
+        "time_block",
+        "role",
+        "study_variant",
+        "order_position",
+        "capture",
+        "included",
+        "exclusion_reason",
+        "prompt_tokens",
+        "service_s",
+        "target_rows",
+        "draft_rows",
+        "cycles",
+        "proposed",
+        "accepted"
+      ],
+      "removed_columns": [
+        "context_s",
+        "core_identity",
+        "decision_commit_s",
+        "draft_prefill_s",
+        "draft_propose_s",
+        "draft_sync_s",
+        "host_complete_wall",
+        "host_dispatch_wall",
+        "other_host_s",
+        "prompt_ids_sha256",
+        "request_id",
+        "scheduled_request_id",
+        "source_freeze_sha256",
+        "target_decode_s",
+        "target_prefill_s",
+        "target_verify_s",
+        "terminal_sync_s",
+        "ttft_s"
+      ],
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/rtx_bootstrap_indices.jsonl",
+      "source_member": "figure_source/inputs/rtx269-frozen-draws.jsonl",
+      "sha256": "fba8f39df16e8efeb045e78585a3715189ba75872c14952a89775c8e211972b2",
+      "source_sha256": "fba8f39df16e8efeb045e78585a3715189ba75872c14952a89775c8e211972b2",
+      "license": "CC-BY-4.0"
+    },
+    {
+      "file": "data/expected.json",
+      "sha256": "48ea384fabc2611aed242f45202c07e30d811d856e1c2462a1b0e6b2bfb7f430",
+      "license": "CC-BY-4.0",
+      "derivation": "Select fig3.estimators and fig4.estimators as a5000/rtx from source 1; select M1 as m1 from source 2; preserve all values. Select all 27 modern_effects point estimates and all 474 root_points from source 2 as prior; confidence intervals are not included for prior.",
+      "sources": [
+        {
+          "source_member": "figure_source/results/frozen_evidence.json",
+          "source_sha256": "8862b67ee1634538743200efcfa2f2756e6b1a7fe210bf25764299ad54f1f5cc"
+        },
+        {
+          "source_member": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "source_sha256": "cbf2f109ca8d33d239f34648a65998f0910c694878da1f973aa9fa91d0b05085"
+        }
+      ]
+    }
+  ],
+  "expected_derivation": "a5000/rtx estimators from figure_source/results/frozen_evidence.json; m1 from scientific_data/statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json. Expected intervals for M1 retained for context, not recomputed. Prior point estimates and root_points are selected from modern_effects in the second source.",
+  "source_figure_archive_sha256": "37ca04cf0df0a2b7df43487ced896e8ce3939ad1d01a1e976f8812c484d31d4a",
+  "source_figure_archive_member": "papers/taco/20261118_arxiv_final_polish/heterospec_figure_source.zip"
+}

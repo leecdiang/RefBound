@@ -1,0 +1,41 @@
+[
+  {
+    "first": 9,
+    "last": 41,
+    "lines": [
+      "struct Commit {",
+      "    std::vector<int> emitted;",
+      "    int accepted=0, row=-1, keep=0, pending=-1;",
+      "    bool rejected=false, done=false;",
+      "    std::string kind;",
+      "};",
+      "",
+      "// All rows already belong to the caller. No native buffer survives by alias.",
+      "inline Commit select(const std::vector<int>& proposals,const std::vector<int>& decisions,",
+      "                     int base,int generated,int cap,const std::function<bool(int)>& eog) {",
+      "    if(generated<1 || generated>=cap || proposals.size()>3 || decisions.size()!=proposals.size()+1)",
+      "        throw std::invalid_argument(\"SD decision contract\");",
+      "    Commit c;",
+      "    auto append=[&](int token) {",
+      "        c.emitted.push_back(token);c.pending=token;",
+      "        c.done=eog(token) || generated+int(c.emitted.size())==cap;",
+      "    };",
+      "    if(proposals.empty()) {",
+      "        if(cap-generated!=1)throw std::invalid_argument(\"q1 tail requires one remaining decision\");",
+      "        append(decisions[0]);c.kind=\"tail\";c.row=0;c.keep=base+1;return c;",
+      "    }",
+      "    for(size_t j=0;j<proposals.size();++j) {",
+      "        if(proposals[j]!=decisions[j]) {",
+      "            c.rejected=true;append(decisions[j]);c.kind=\"correction\";",
+      "            c.row=int(j);c.keep=base+1+c.accepted;return c;",
+      "        }",
+      "        ++c.accepted;append(proposals[j]);",
+      "        if(c.done) {",
+      "            c.kind=\"accepted\";c.row=int(j);c.keep=base+c.accepted;return c;",
+      "        }",
+      "    }",
+      "    append(decisions.back());c.kind=\"bonus\";c.row=int(proposals.size());",
+      "    c.keep=base+1+int(proposals.size());return c;"
+    ]
+  }
+]

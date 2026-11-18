@@ -1,0 +1,302 @@
+{
+  "fig3": {
+    "source": "#266: 96 native values, 48 pairs",
+    "whole_block_rng": "CPython random.Random(20261117), randrange(12), 10000 x 12; shared across six endpoints",
+    "clock_A": "32B first transaction: verification through trim/commit and sync; owned-row copies and decisions included, no history preparation/live drafting",
+    "clock_B": "8B target-only: complete two-turn controller response plus reset, including common CPU sampling/control",
+    "conditioning": "same two selected histories of one root / two fixed conversations over 12 measured time blocks; blocks are not independent inputs",
+    "mark_mapping": "Lines connect only case effects within the same block, not successive blocks. The left panel pairs noncrossing/crossing; the right panel pairs C0/C1 and adds their equal-log-weight diamond. Confidence intervals are printed numbers, not bars.",
+    "estimators": {
+      "negative": {
+        "ratio": 0.9957247180136578,
+        "ratio_lo": 0.9799306680453485,
+        "ratio_hi": 1.0113124225456267,
+        "pct": 0.4275281986342194,
+        "lo": -1.13124225456267,
+        "hi": 2.006933195465155,
+        "draws": 10000,
+        "role": "primary",
+        "clock": "selected 32B verify-through-commit",
+        "estimand": "geometric LOCAL/SIMPLE time ratio",
+        "blocks": 12,
+        "blocks_ratio_below_one": 7
+      },
+      "positive": {
+        "ratio": 0.784358399411182,
+        "ratio_lo": 0.7717024209948362,
+        "ratio_hi": 0.7978696034594248,
+        "pct": 21.564160058881797,
+        "lo": 20.213039654057518,
+        "hi": 22.829757900516377,
+        "draws": 10000,
+        "role": "supporting",
+        "clock": "selected 32B verify-through-commit",
+        "estimand": "geometric LOCAL/SIMPLE time ratio",
+        "blocks": 12,
+        "blocks_ratio_below_one": 12
+      },
+      "C0": {
+        "ratio": 0.9889328205424613,
+        "ratio_lo": 0.9648481463544081,
+        "ratio_hi": 1.0117546579913541,
+        "pct": 1.1067179457538656,
+        "lo": -1.1754657991354112,
+        "hi": 3.5151853645591924,
+        "draws": 10000,
+        "role": "supporting",
+        "clock": "8B two-turn response plus reset",
+        "estimand": "geometric LOCAL/SIMPLE time ratio",
+        "blocks": 12,
+        "blocks_ratio_below_one": 5
+      },
+      "C1": {
+        "ratio": 0.9821798616318452,
+        "ratio_lo": 0.9448821536170796,
+        "ratio_hi": 1.014799722773906,
+        "pct": 1.782013836815477,
+        "lo": -1.4799722773906065,
+        "hi": 5.511784638292038,
+        "draws": 10000,
+        "role": "supporting",
+        "clock": "8B two-turn response plus reset",
+        "estimand": "geometric LOCAL/SIMPLE time ratio",
+        "blocks": 12,
+        "blocks_ratio_below_one": 6
+      },
+      "interaction": {
+        "ratio": 0.7877261508340133,
+        "ratio_lo": 0.7677900589426491,
+        "ratio_hi": 0.8056356320733568,
+        "pct": 21.22738491659867,
+        "lo": 19.436436792664324,
+        "hi": 23.220994105735095,
+        "draws": 10000,
+        "role": "supporting",
+        "clock": "selected 32B verify-through-commit",
+        "estimand": "ratio of LOCAL/SIMPLE ratios",
+        "blocks": 12,
+        "blocks_ratio_below_one": 12
+      },
+      "equal_conversation_overall": {
+        "ratio": 0.9855505572235171,
+        "ratio_lo": 0.9614749352353147,
+        "ratio_hi": 1.0082435569138195,
+        "pct": 1.4449442776482857,
+        "lo": -0.8243556913819505,
+        "hi": 3.8525064764685313,
+        "draws": 10000,
+        "role": "primary",
+        "clock": "8B two-turn response plus reset",
+        "estimand": "geometric LOCAL/SIMPLE time ratio",
+        "blocks": 12,
+        "blocks_ratio_below_one": 7
+      }
+    }
+  },
+  "fig4": {
+    "source": "#269: complete ledger, intersect included=True,stage=formal,role=measured",
+    "clock": "resident request: reset, prefill, target work, live drafting, outputs, decision/commit, terminal sync; no loading/context-pool setup/post-clock exports",
+    "crossed_draws": "10000 frozen stratified root and independent whole-block index vectors; two log ratios averaged per root/block",
+    "waterfall": "Arithmetic B minus C1 mean milliseconds; its net uses unrounded phase values, so no strict sum of the rounded labels is asserted. It is a separate estimand from the geometric percentage effects.",
+    "roles": {
+      "True/qualification/warmup": 12,
+      "True/qualification/measured": 12,
+      "False/qualification/warmup": 3,
+      "False/qualification/measured": 3,
+      "True/formal/warmup": 864,
+      "True/formal/measured": 864,
+      "False/formal/warmup": 3,
+      "False/formal/measured": 3
+    },
+    "dispatch": {
+      "B": {
+        "verify_admitted": 0,
+        "prefill_admitted": 0,
+        "prefill_exposed_requests": 0,
+        "prefill_tail_root_slots": []
+      },
+      "C1": {
+        "verify_admitted": 0,
+        "prefill_admitted": 0,
+        "prefill_exposed_requests": 0,
+        "prefill_tail_root_slots": []
+      },
+      "C4": {
+        "verify_admitted": 2273400,
+        "prefill_admitted": 2652,
+        "prefill_exposed_requests": 12,
+        "prefill_tail_root_slots": [
+          18
+        ]
+      }
+    },
+    "estimators": {
+      "C1/B": {
+        "ratio": 1.0090144397152099,
+        "ratio_lo": 0.9952046138720383,
+        "ratio_hi": 1.0218864122080602,
+        "pct": -0.9014439715209877,
+        "lo": -2.18864122080602,
+        "hi": 0.47953861279617094,
+        "draws": 10000,
+        "role": "prespecified primary",
+        "crossed_root_block": true,
+        "roots_below_one": 5,
+        "blocks_below_one": 1,
+        "candidate_minus_control_ms": {
+          "verify": -100.42603888888887,
+          "prefill": 173.57393958333333,
+          "draft": 7.431792708333341,
+          "remaining": -0.06426354166668644,
+          "service": 80.51542986111113
+        }
+      },
+      "C4/C1": {
+        "ratio": 0.8420313636601225,
+        "ratio_lo": 0.8169687004164108,
+        "ratio_hi": 0.8692730603452625,
+        "pct": 15.796863633987746,
+        "lo": 13.072693965473746,
+        "hi": 18.303129958358923,
+        "draws": 10000,
+        "role": "prespecified descriptive secondary",
+        "crossed_root_block": true,
+        "roots_below_one": 24,
+        "blocks_below_one": 6,
+        "candidate_minus_control_ms": {
+          "verify": -1465.285515972222,
+          "prefill": 63.21443645833333,
+          "draft": -9.762096527777777,
+          "remaining": 0.23400694444450262,
+          "service": -1411.599169097222
+        }
+      },
+      "C4/B": {
+        "ratio": 0.8496218046261527,
+        "ratio_lo": 0.8251482273466858,
+        "ratio_hi": 0.8760471157816406,
+        "pct": 15.037819537384733,
+        "lo": 12.395288421835938,
+        "hi": 17.48517726533142,
+        "draws": 10000,
+        "role": "prespecified descriptive secondary",
+        "crossed_root_block": true,
+        "roots_below_one": 24,
+        "blocks_below_one": 6,
+        "candidate_minus_control_ms": {
+          "verify": -1565.7115548611112,
+          "prefill": 236.78837604166665,
+          "draft": -2.3303038194444365,
+          "remaining": 0.16974340277781616,
+          "service": -1331.0837392361111
+        }
+      }
+    }
+  },
+  "fig5": {
+    "source": "#257 and #255; 192 distinct eligible arm requests per deployment",
+    "clock": "complete resident request with reset, prefill, target, live draft if applicable, decisions/commit and final sync; no loading/context-pool setup/post-clock exports",
+    "geometry": "A5000: q32 physically contiguous exposures; RTX: q32 plus admitted tail widths",
+    "sharing": "Within each deployment the same four arms and roots are reused across three direct paired contrasts. The two studies have 12 and 24 roots: 36 study-specific root entries and 108 effect marks. No platform pairing, pooled draws or hardware comparison.",
+    "horizontal_axis": "Root rank (prompt-length order): equally spaced ranks within each deployment, not proportional token distances or a causal length trend.",
+    "root_draws": "Separate CPython random.Random(20261116) per deployment, 10000 draws of whole roots within fixed code and math strata, sorted by full root ID. Observed rounds stay together.",
+    "studies": {
+      "257": {
+        "n": 12,
+        "rounds": 4,
+        "prompt_min": 39,
+        "prompt_max": 187,
+        "display_min": 128,
+        "display_max": 128
+      },
+      "255": {
+        "n": 24,
+        "rounds": 2,
+        "prompt_min": 140,
+        "prompt_max": 757,
+        "display_min": 42,
+        "display_max": 128
+      }
+    },
+    "estimators": {
+      "257": {
+        "TO_P4/TO_C4": {
+          "ratio": 0.8681924096235066,
+          "ratio_lo": 0.8427438474555948,
+          "ratio_hi": 0.8961761276549101,
+          "pct": 13.180759037649336,
+          "lo": 10.382387234508993,
+          "hi": 15.725615254440516,
+          "draws": 10000,
+          "nroots": 12,
+          "rounds": 4,
+          "roots_below_one": 12
+        },
+        "SD_P4/SD_C4": {
+          "ratio": 0.8505239921551292,
+          "ratio_lo": 0.8223985505776311,
+          "ratio_hi": 0.8820388435358857,
+          "pct": 14.947600784487081,
+          "lo": 11.796115646411431,
+          "hi": 17.760144942236888,
+          "draws": 10000,
+          "nroots": 12,
+          "rounds": 4,
+          "roots_below_one": 12,
+          "exploratory_length_spearman": 0.9230769230769231
+        },
+        "SD_P4/TO_P4": {
+          "ratio": 0.8640445187871596,
+          "ratio_lo": 0.8411283368579063,
+          "ratio_hi": 0.8873963522186432,
+          "pct": 13.59554812128404,
+          "lo": 11.260364778135678,
+          "hi": 15.887166314209367,
+          "draws": 10000,
+          "nroots": 12,
+          "rounds": 4,
+          "roots_below_one": 11
+        }
+      },
+      "255": {
+        "TO_P4/TO_C4": {
+          "ratio": 0.5381068140605575,
+          "ratio_lo": 0.5068462089243362,
+          "ratio_hi": 0.5728330246420084,
+          "pct": 46.18931859394425,
+          "lo": 42.71669753579916,
+          "hi": 49.31537910756638,
+          "draws": 10000,
+          "nroots": 24,
+          "rounds": 2,
+          "roots_below_one": 24
+        },
+        "SD_P4/SD_C4": {
+          "ratio": 0.5047228634215919,
+          "ratio_lo": 0.481320675541324,
+          "ratio_hi": 0.5299738149609785,
+          "pct": 49.52771365784081,
+          "lo": 47.00261850390215,
+          "hi": 51.8679324458676,
+          "draws": 10000,
+          "nroots": 24,
+          "rounds": 2,
+          "roots_below_one": 24,
+          "exploratory_length_spearman": 0.8423570540509805
+        },
+        "SD_P4/TO_P4": {
+          "ratio": 0.8508907793170855,
+          "ratio_lo": 0.8256307706139034,
+          "ratio_hi": 0.8750286338401138,
+          "pct": 14.910922068291455,
+          "lo": 12.497136615988625,
+          "hi": 17.436922938609655,
+          "draws": 10000,
+          "nroots": 24,
+          "rounds": 2,
+          "roots_below_one": 24
+        }
+      }
+    }
+  }
+}

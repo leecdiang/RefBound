@@ -1,0 +1,24 @@
+{
+  "arxiv_source.zip": {
+    "sha256": "26a99d9a3638ead1a27cdd38d9363813e94bdbb178bf7696582b9bd3844c969f",
+    "bytes": 271691,
+    "source": "8224998c5aa3032476d669990e6ae20e10cd1fb0:papers/taco/20261118_visual_reconstruction/arxiv_source.zip",
+    "declared_members_sha256_checked": 53
+  },
+  "rtx269-frozen-draws.jsonl": {
+    "sha256": "fba8f39df16e8efeb045e78585a3715189ba75872c14952a89775c8e211972b2",
+    "bytes": 970201,
+    "source": "3ed4671c21291f0ed0012fd61cc992558fdb024d:benchmarks/confirmation_plans_20261117/rtx/execution/revision_v3/BOOTSTRAP_INDICES.jsonl"
+  },
+  "scientific_data.zip": {
+    "sha256": "d437b1f2c758f0593651af5441ef8d09183a5bcf31f0a55df4ec74efd0300568",
+    "bytes": 276392,
+    "source": "Derived public allowlist data; see DATA_MINIMIZATION.json",
+    "declared_members_sha256_checked": 16
+  },
+  "heterospec_author_review.pdf": {
+    "sha256": "5922130db5a52cfbc640dda7796b255fd825a0d05fefcb66ea77d01e583c8904",
+    "bytes": 728232,
+    "source": "8224998c5aa3032476d669990e6ae20e10cd1fb0:papers/taco/20261118_visual_reconstruction/heterospec_author_review.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "release_kind": "minimal CPU statistics companion",
+  "public_publication_status": "not published by this worker",
+  "files_inspected": 18,
+  "pattern_scan_hits": [],
+  "data_review": "Five CSVs contain only experiment grouping identifiers, benchmark IDs, scalar times/work counts, roles and exclusion reason. Frozen bootstrap indices are integer arrays. Reference JSON contains author summary statistics, not question/model payloads. Column minimization and all-row preservation are recorded in SOURCE_MAP.json.",
+  "offline_test": {
+    "method": "fresh copy; Python socket creation/connect and child process creation disabled",
+    "exit_code": 0,
+    "stdout": "PASS: A5000 96 values/48 pairs; RTX 864 formal and 1764 role records; 1134 prior contrast rows; M1 256 measured + 32 primers.\nMaximum frozen-reference error: 1.2434497875801753e-14\n",
+    "reference_error": 1.2434497875801753e-14,
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5"
+    }
+  },
+  "limits": "Pattern scans are not a legal certification; none of the private source/runtime/model/raw-token archives is included. Original implementation and complete figure reproduction remain outside this release."
+}

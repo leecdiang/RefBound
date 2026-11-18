@@ -1,0 +1,40 @@
+[
+  {
+    "first": 115,
+    "last": 139,
+    "lines": [
+      "    std::vector<std::vector<float>> decode(const std::vector<int>& ids,int position,bool all,const char* phase,bool want_logits=true,bool own_logits=true){",
+      "        need(!target || (want_logits && own_logits),\"Target output contract is unchanged\");",
+      "        need(!ids.empty() && position>=0 && position+int(ids.size())<=1024,\"Native append capacity\");",
+      "        attempted_rows+=ids.size();const int logical=logical_calls++;",
+      "        std::vector<std::vector<float>> outputs;",
+      "#ifndef REAL_SD_ORACLE",
+      "        hs_strong_select_arm_at_boundary(arm);hs_scope::requested_layout=0;hs_scope::active=target;",
+      "        hs_strong_decode_begin();",
+      "        try{",
+      "            if(target){plan.decode(*this,ids,position,all,phase);outputs=std::move(plan.outputs);}",
+      "            else outputs=direct(ids,position,all,phase,want_logits,own_logits);",
+      "        }catch(...){hs_strong_decode_end();throw;}",
+      "        hs_strong_decode_end();",
+      "#else",
+      "        outputs=direct(ids,position,all,phase,want_logits,own_logits);",
+      "#endif",
+      "        rows+=ids.size();",
+      "        if(capture)for(size_t j=0;j<outputs.size();++j)if(!outputs[j].empty()){",
+      "            const auto name=\"vectors/\"+std::string(target?\"target\":\"draft\")+\"-call\"+std::to_string(logical)+\"-row\"+std::to_string(j)+\".f32\";",
+      "            write_bytes(out/name,outputs[j].data(),outputs[j].size()*4);",
+      "            vectors.push_back({{\"call\",logical},{\"row\",j},{\"position\",position+int(j)},{\"phase\",phase},{\"path\",name},{\"bytes\",outputs[j].size()*4},{\"sha256\",digest_bytes(outputs[j].data(),outputs[j].size()*4)}});",
+      "        }",
+      "        native_calls.push_back({{\"logical_call\",logical},{\"phase\",phase},{\"position\",position},{\"rows\",ids.size()},{\"outputs_all\",all},{\"outputs_requested\",want_logits},{\"outputs_owned\",want_logits&&own_logits}});",
+      "        return outputs;",
+      "    }"
+    ]
+  },
+  {
+    "first": 155,
+    "last": 155,
+    "lines": [
+      "    void trim(int keep){need(llama_memory_seq_rm(llama_get_memory(c),0,keep,-1),\"Canonical suffix trim\");need(llama_memory_seq_pos_min(llama_get_memory(c),0)==0 && llama_memory_seq_pos_max(llama_get_memory(c),0)==keep-1,\"Dense retained prefix after trim\");}"
+    ]
+  }
+]

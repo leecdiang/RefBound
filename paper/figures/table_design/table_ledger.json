@@ -1,0 +1,2924 @@
+{
+  "freeze": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+  "arxiv_source_sha256": "26a99d9a3638ead1a27cdd38d9363813e94bdbb178bf7696582b9bd3844c969f",
+  "scientific_manifest_sha256": "0bdabcafd77f0839c7cc6f2cd442251a0826d733db1491e2986554e9ecfd6624",
+  "conventions": "Numbered by recursive main/section inputs, not lexical filenames. Baseline rows are cell-level source locators, not additional output observations. Numeric alignments preserve signed zero and precision. Exact saved scalar intervals are validated, not re-bootstrapped here.",
+  "sources": {
+    "artifact/DEPLOYMENTS_AND_WORKLOADS.md": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/artifact/DEPLOYMENTS_AND_WORKLOADS.md",
+      "local": "table_design/sources/DEPLOYMENTS_AND_WORKLOADS.md",
+      "sha256": "0580dc5b400a49c872135eb3340095b47924a359ae2db1c526044fefd440dbe4"
+    },
+    "statistics/prior_studies_recomputed/estimates/workload_roots.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/prior_studies_recomputed/estimates/workload_roots.csv",
+      "local": "inputs/scientific_data/statistics/prior_studies_recomputed/estimates/workload_roots.csv",
+      "sha256": "a469e7ff8a333df55485aaa9904b08602c61c3a05f8b448fecd7e52ed238c7d5"
+    },
+    "data/plot_data.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/data/plot_data.json",
+      "local": "inputs/scientific_data/data/plot_data.json",
+      "sha256": "2b215272d7038d0ff3d2d41ca8c27f649fe3074c72c6aef31d524773f8c1fbe3"
+    },
+    "statistics/rtx269_recomputed/figure_data.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/rtx269_recomputed/figure_data.json",
+      "local": "inputs/scientific_data/statistics/rtx269_recomputed/figure_data.json",
+      "sha256": "014ecb0f0ab33cff04858825857b8d3f1473a16c9df428891ffa379c54cd12f0"
+    },
+    "statistics/confirmation266_recomputed/confirmation266_data.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/confirmation266_recomputed/confirmation266_data.json",
+      "local": "inputs/scientific_data/statistics/confirmation266_recomputed/confirmation266_data.json",
+      "sha256": "8ddaed0b7b2c31535b758942a1df18fed97b5e115f0d48d9ad7b3fb141e95ea7"
+    },
+    "artifact/scientific_data/M1_NATIVE_REQUESTS.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+      "local": "inputs/scientific_data/artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+      "sha256": "76263c5fb6e34b058dc662bf23e40c38a083fb2e7a09522285583149c3997585"
+    },
+    "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+      "local": "inputs/scientific_data/statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+      "sha256": "cbf2f109ca8d33d239f34648a65998f0910c694878da1f973aa9fa91d0b05085"
+    },
+    "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+      "local": "inputs/scientific_data/statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+      "sha256": "bcf44fe8025b5ad4431e71ca311f849b809de58532e60340ce881bcfdaa51b86"
+    },
+    "statistics/confirmation266_recomputed/DISPATCH_AND_SUCCESSOR_AUDIT.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/confirmation266_recomputed/DISPATCH_AND_SUCCESSOR_AUDIT.json",
+      "local": "table_design/sources/DISPATCH_AND_SUCCESSOR_AUDIT.json",
+      "sha256": "11e55d8a692617467f6b921ddfd67b3b6a0e78cf65d6954cf5f5f101f2722b79"
+    },
+    "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+      "local": "inputs/scientific_data/statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+      "sha256": "afb30f69ca3f60fb345ebf53b42d9ef2c230413ba36336933ac5fda9d632b00f"
+    },
+    "statistics/prior_studies_recomputed/estimates/paired_request_times.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+      "local": "inputs/scientific_data/statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+      "sha256": "b8ff071b5dc4e99b301044dfc8a46c420dbe2e2ca3f818ee49f8611c7b7a0ce1"
+    },
+    "artifact/scientific_data/NATURAL_8B_EPISODES.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/artifact/scientific_data/NATURAL_8B_EPISODES.json",
+      "local": "inputs/scientific_data/artifact/scientific_data/NATURAL_8B_EPISODES.json",
+      "sha256": "9beae3ed99776dfa995201f0c7b522a4c5b9c49f52e149c0ee2a5572bbce5fcc"
+    },
+    "artifact/scientific_data/RTX269_ALL_REQUESTS.csv": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+      "local": "inputs/scientific_data/artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+      "sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba"
+    },
+    "data/history/historical_evidence.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/data/history/historical_evidence.json",
+      "local": "inputs/scientific_data/data/history/historical_evidence.json",
+      "sha256": "400f7c0165bbfd83ceece1a7516060ffcc171b9b9ea2eab51254ad8ba37b5bd5"
+    },
+    "data/history/applications.json": {
+      "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+      "repository_path": "papers/taco/20261118_visual_reconstruction/data/history/applications.json",
+      "local": "table_design/sources/applications.json",
+      "sha256": "ab7e824107681bb7a1244dccca4d0c16e98d861d48b1752758b667a653b145af"
+    }
+  },
+  "tables": [
+    {
+      "table": "1",
+      "label": "tab:dispatch",
+      "output": "tables/t01_dispatch.tex",
+      "sha256": "a3b152c623e21e9945cbef11d537387c99f3589e9bba91937cc4c0ad0280cc7d",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/implementation.tex",
+        "line": 9
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t01_dispatch.tex",
+        "archive_member": "tables/t01_dispatch.tex",
+        "sha256": "cbe5a9fd8a89a844f71f89c3a3ebc7b37f5e73179faeeff6f38b64b83e33e5cd",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8
+        ],
+        "rows": [
+          [
+            "B",
+            "$q$",
+            "1",
+            "Sequential calls to the existing scalar specialization."
+          ],
+          [
+            "C1",
+            "1",
+            "1",
+            "$q$ independent query/channel groups; \\texttt{grid.y} indexes groups."
+          ],
+          [
+            "C4",
+            "1",
+            "$q$",
+            "One admitted few-column invocation, $q=2,3,4$."
+          ]
+        ],
+        "note": "The registered Q8\\_0/shape/GENERIC/\\texttt{!fusion} conditions apply to the compared branch. B is a shared-preparation backend scalar loop; it is not an unmodified stock-runtime baseline. C1 and C4 retain the same consumer.",
+        "original_caption": "Target-projection dispatch in the independent RTX B/C1/C4 studies. All three paths begin after the same Q8\\_1 activation preparation; counts refer to one examined MMVQ operation."
+      },
+      "projected_fields": {
+        "column keys": "source Path; transpose each source row to a named column in B/C1/C4 order",
+        "rows": "Invocations; Columns/group; Work organization after preparation; note verbatim"
+      },
+      "data_bindings": [],
+      "original_pdf_page": 6
+    },
+    {
+      "table": "2",
+      "label": "tab:qualification",
+      "output": "tables/t02_qualification.tex",
+      "sha256": "23dd5b307a2b8021b4c2fc963d20727279599f55b0be62238e8dab0c6b12267a",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/implementation.tex",
+        "line": 21
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t02_qualification.tex",
+        "archive_member": "tables/t02_qualification.tex",
+        "sha256": "8f59ca65f0e473e7a51da21cc9c3f55a38af9c78b4ad3c5e139ea4e61f4ef3f9",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "rows": [
+          [
+            "A5000 32B; C1/C4",
+            "Six sentinel captures; q2--4 selector",
+            "Complete conditional vocabulary rows; active state and continuation."
+          ],
+          [
+            "A5000 32B; R/C4/P4",
+            "Independent q16/q24 panel; base32/base248",
+            "264 vocabulary and 36 state objects; crossings $8+8$ and $8+16$."
+          ],
+          [
+            "A5000 32B; P4",
+            "48 captured warm requests, 12 roots $\\times$ four arms",
+            "Full requested vectors and committed checkpoints; application P4 calls q32."
+          ],
+          [
+            "A5000 32B; LOCAL",
+            "Two histories, first transaction and own successor",
+            "Owned complete rows, tentative/committed KV, pending token and continuation."
+          ],
+          [
+            "RTX 8B/1B; C4/P4",
+            "q4/q32 and registered application qualification",
+            "Complete vocabulary, active KV and continuation."
+          ],
+          [
+            "RTX B/C1/C4 confirmation",
+            "Two sentinel roots, 24 included qualification requests",
+            "New candidate captures against pristine vectors/KV; timed-request complete-state/frontier and actual-work bindings."
+          ],
+          [
+            "A5000 confirmation",
+            "Same 32B histories; original 8B two-turn consumer; 12 pre-timing qualification requests",
+            "Full owned/frontier vectors, canonical active state, commit and own continuation; capture counts in Section~\\ref{supp:confirmation}."
+          ]
+        ],
+        "note": "All use dense nonwrapping F16 KV, greedy decisions and non-FlashAttention. Separate q12/q20/q28 and complete C4 logical-tail q1/EOG captures are absent; RTX has no complete q16/q24 qualification. Implemented width support is not a count of tested cases.",
+        "original_caption": "Numerical qualification of the bound CUDA paths. These are original-machine complete-object checks; Table~\\ref{tab:access} distinguishes the independently readable public subset."
+      },
+      "projected_fields": {
+        "left": "Bound profile + Exercised cases on consecutive lines, in original order",
+        "right": "Observation boundary, unchanged; split before the two confirmation rows",
+        "scope": "original note retains absent width/tail cases and all qualification limits"
+      },
+      "data_bindings": [],
+      "original_pdf_page": 7
+    },
+    {
+      "table": "3",
+      "label": "tab:deployments",
+      "output": "tables/t03_deployments.tex",
+      "sha256": "da579c09b98993c8a3ff09be030d389ada9baa4b740057788b6b5484c61143a8",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/design.tex",
+        "line": 9
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t03_deployments.tex",
+        "archive_member": "tables/t03_deployments.tex",
+        "sha256": "60193d07abdbf380b92a63e8ad0b5c5f3b5c5e4ff43616a100cfc3c9f01eba00",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rows": [
+          [
+            "A5000 modern",
+            "Qwen3-32B Q4\\_K\\_M / 0.6B Q8\\_0",
+            "CUDA, same GPU residence. Target microbatch/output reserve 32; draft microbatch 4. LOCAL reuses the prefill numerical core with P4 off."
+          ],
+          [
+            "RTX modern",
+            "Llama-3.1-8B / 3.2-1B Q8\\_0",
+            "CUDA; target 33/33 and draft 17/17 layers on GPU; both microbatch 32. Initial bridge and confirmation share binaries and numerical core."
+          ],
+          [
+            "A5000 M1",
+            "Qwen3-8B / 0.6B Q8\\_0",
+            "Historical CUDA reference. Target microbatch 32/output reserve 4; draft microbatch 4. Layer placement NR."
+          ],
+          [
+            "A5000 confirmation A / B",
+            "A: 32B / resident 0.6B. B: 8B target-only",
+            "A: original LOCAL core, C1024; target 65/65 and draft 29/29 layers on GPU. B: original natural-service core, C4096; target 37/37 GPU layers."
+          ],
+          [
+            "B570 formal",
+            "Llama 8B / 1B Q8\\_0",
+            "Vulkan F32-by-Q8 reference; target 33/33 GPU layers, draft 0/17. Target microbatch/reserve 32; CPU draft microbatch 1."
+          ],
+          [
+            "B570 pilot",
+            "Same models as formal",
+            "Separate placement test: 112 draft matrices and LM head on Vulkan0, embedding CPU-mapped; draft microbatch 32."
+          ]
+        ],
+        "note": "Dense F16 KV and greedy decisions are common. CUDA profiles disable FlashAttention and CUDA graphs; RTX B/C1/C4 also disables fusion/PDL. Live SD uses three proposals and cap128. LOCAL uses frozen proposals and zero live draft forward work. Full build, compiler, driver, device-clock, CPU-affinity, and model-byte identities remain in the deployment register and source map. NR denotes a field not recorded in the inspected historical bundle.",
+        "original_caption": "Deployment profiles for the principal studies. Context is C1024 except A5000 confirmation B (C4096). The artifact deployment register binds compiler, driver, placement and model identities."
+      },
+      "projected_fields": {
+        "panel": "hardware name from frozen deployment register; backend from baseline/register",
+        "study / target–draft / settings": "map original rows 1,3,4A,4B,2,5,6 into three device panels; split the A/B model AND settings at the same A:/B: source markers; no duplicated study",
+        "RTX model": "full model names and both Q8_0 precisions from the same deployment register row",
+        "limits": "original common settings and NR definition retained; M1 layer placement stays NR"
+      },
+      "data_bindings": [
+        {
+          "source": "artifact/DEPLOYMENTS_AND_WORKLOADS.md",
+          "fields": "Deployment profiles: Hardware / backend / build binding and Models and placement",
+          "transformation": "select the named #259, #256 and #247 rows; read hardware strings and both RTX Q8_0 model names before layout"
+        }
+      ],
+      "original_pdf_page": 8
+    },
+    {
+      "table": "4",
+      "label": "tab:studies",
+      "output": "tables/t04_studies.tex",
+      "sha256": "0c6e302b24ed73736f2c857fa5f591570a1e0c3a67318c787268d66d6d8b4eb7",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/design.tex",
+        "line": 19
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t04_studies.tex",
+        "archive_member": "tables/t04_studies.tex",
+        "sha256": "ac8a2d249caf5943c6f8e6b63fe41af0b8d9d516c171c003d179991e654f6c64",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "rows": [
+          [
+            "A5000 C4",
+            "$12\\times2$",
+            "C1, C4",
+            "39--187",
+            "128",
+            "48"
+          ],
+          [
+            "RTX C4 initial",
+            "$24\\times2$",
+            "B, C1, C4",
+            "140--757",
+            "NR",
+            "144"
+          ],
+          [
+            "RTX confirm",
+            "$24\\times12^{c}$",
+            "B, C1, C4",
+            "140--757",
+            "$42$--$128^{d}$",
+            "864"
+          ],
+          [
+            "A5000 P4",
+            "$12\\times4$",
+            "TO/SD $\\times$ C4/P4",
+            "39--187",
+            "128",
+            "192"
+          ],
+          [
+            "RTX P4",
+            "$24\\times2$",
+            "TO/SD $\\times$ C4/P4",
+            "140--757",
+            "42--128",
+            "192"
+          ],
+          [
+            "A5000 LOCAL",
+            "$1\\times2\\times2^{a}$",
+            "SIMPLE, LOCAL",
+            "137/253",
+            "4 rows",
+            "8"
+          ],
+          [
+            "A5000 M1",
+            "$16\\times4$",
+            "W/L $\\times$ loop4/packed",
+            "55--790",
+            "59--128",
+            "256"
+          ],
+          [
+            "A5000 confirm A",
+            "$1\\times2\\times12^{b}$",
+            "SIMPLE, LOCAL",
+            "137/253",
+            "4 rows",
+            "48"
+          ],
+          [
+            "A5000 confirm B",
+            "$2\\times12^{b}$",
+            "SIMPLE, LOCAL",
+            "27--551",
+            "$2\\times128$",
+            "48"
+          ],
+          [
+            "B570 formal",
+            "$24\\times2$",
+            "TO/SD $\\times$ A/C",
+            "140--757",
+            "44--128",
+            "192"
+          ],
+          [
+            "B570 pilot",
+            "$2\\times1$",
+            "TO/SD $\\times$ A/C",
+            "163/757",
+            "128",
+            "8"
+          ]
+        ],
+        "note": "$^{a}$One root, two histories, two paired repeats; each first transaction has a dependent successor (history 139/255). $^{b}$A5000 confirmation repeats are time blocks; B's units are two-turn episodes and inputs are full per-turn prompts before prefix reuse. $^{c}$Six time blocks, two rounds per root/block. $^{d}$Visible output excludes EOG; decision sequences have 43--128 tokens. Modern application roots are balanced code/math; M1 has eight APPS and eight MATH roots. CUDA C4/P4 and the RTX confirmation use resident-request clocks, LOCAL verify-through-commit, M1 native service, B570 service including normal teardown; A5000 confirmation B uses response plus reset. Counts exclude warmup and qualification.",
+        "original_caption": "Sampling and workloads by independent study. Inputs are prompt tokens or selected LOCAL history lengths; outputs are generated tokens or requested rows. Repeated rounds remain within their root and time block. NR denotes an unreported field in the earlier RTX normalized table."
+      },
+      "projected_fields": {
+        "panels": "clock and unit class moved from source caption/footnote and sections/design.tex §Measurement boundaries to matching rows",
+        "fields": "Study / Roots × repetitions / Arms / Input / Output / Measured from source columns 1…6, unchanged values",
+        "order": "source rows 6,8 | 1,2,3,4,5 | 7 | 9 | 10,11; each appears exactly once",
+        "eligibility": "all a–d footnote marks and conditional scope (history lengths, dependent successors, blocks, EOG, prompts, balanced domains) retained"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/estimates/workload_roots.csv",
+          "fields": "study_pr,root,domain,prompt_tokens,display_tokens,display_tokens_status",
+          "transformation": "check earlier modern input ranges, known output ranges and missing output status per study"
+        },
+        {
+          "source": "data/plot_data.json",
+          "fields": "row_counts.{study,roots,rounds,arms,selected_requests}",
+          "transformation": "check each original complete-request design: roots × rounds × arms = measured observations"
+        },
+        {
+          "source": "statistics/rtx269_recomputed/figure_data.json",
+          "fields": "estimates, roots, blocks, counts, workload",
+          "transformation": "match #269 contrast and role; compare source summaries to each displayed scalar"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        },
+        {
+          "source": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+          "fields": "kind,root,session,arm,service_s,cycles",
+          "transformation": "keep kind=measurement; sum native service over sessions without pooling roots or arms"
+        },
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "LOCAL.{case,step,pairs} and M1 design",
+          "transformation": "check original first-transaction count; successors separate"
+        }
+      ],
+      "original_pdf_page": 9
+    },
+    {
+      "table": "5",
+      "label": "tab:m1",
+      "output": "tables/t05_m1.tex",
+      "sha256": "359db924e7ca2c07873a01d0915917a98a6e42d2b306e71a91a63f351e6e1347",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/results.tex",
+        "line": 42
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t05_m1.tex",
+        "archive_member": "tables/t05_m1.tex",
+        "sha256": "a7304b40e4424234dfe4aa3da8335544f6872d268edb574516e237e7cdafe9b8",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          8,
+          9,
+          11,
+          12,
+          13
+        ],
+        "rows": [
+          [
+            "loop4",
+            "142.271",
+            "141.974"
+          ],
+          [
+            "packed",
+            "139.945",
+            "139.765"
+          ],
+          [
+            "Direct LOCAL/WHOLE",
+            "Reduction (\\%)",
+            "99\\% interval (\\%)"
+          ],
+          [
+            "loop4 held fixed",
+            "0.2087",
+            "[0.0424, 0.4630]"
+          ],
+          [
+            "packed held fixed",
+            "0.1283",
+            "[-0.0570, 0.4047]"
+          ]
+        ],
+        "note": "Physical verification calls per arm: WHOLE 2,244; LOCAL 2,224; logical cycles 2,224. Reductions use $100(1-\\mathrm{LOCAL/WHOLE})$ with sums over the same roots and sessions. Historical loop4/packed name the M1 projection organizations. The interaction uses a separate root-geometric estimator.",
+        "original_caption": "M1's actual factorial: 16 roots and four sessions per root, 64 measured requests per cell. Upper cells give total native-service seconds. Lower rows give direct LOCAL/WHOLE effects with 99\\% marginal intervals from the five-comparison Bonferroni family; Table~\\ref{tab:m1-family} retains the complete family."
+      },
+      "projected_fields": {
+        "time and effect per projection": "join baseline upper 2×2 and lower direct reductions by loop4/packed; split interval at comma; 3/4 decimal places retained",
+        "opportunity strip": "sum verify_physical_width_hist values by arm and subtract LOCAL from WHOLE; denominator = logical cycles per arm, not measured requests or all target calls",
+        "note": "baseline estimator/policy language retained; call counts moved from note into ruled body"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "M1.{census,arm_total_s,contrasts,interaction,bootstrap}",
+          "transformation": "match arm IDs, time totals, ratio/interval endpoints, conditional paired-root design"
+        },
+        {
+          "source": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+          "fields": "kind,root,session,arm,service_s,cycles",
+          "transformation": "keep kind=measurement; sum native service over sessions without pooling roots or arms"
+        }
+      ],
+      "original_pdf_page": 14
+    },
+    {
+      "table": "6",
+      "label": "tab:confirmation-natural",
+      "output": "tables/t07_confirmation_natural.tex",
+      "sha256": "d1183b9763d589f6875414d41f3bb3be568425ff58b827880fd5a71e043f752c",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/results.tex",
+        "line": 48
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t07_confirmation_natural.tex",
+        "archive_member": "tables/t07_confirmation_natural.tex",
+        "sha256": "eebf3025e59b265030e6ade7d7451c04d6c90a1bf0ff1182eefd08d9f2dde39f",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8
+        ],
+        "rows": [
+          [
+            "Equal-conversation overall",
+            "Primary",
+            "1.44",
+            "[-0.82, 3.85]",
+            "12"
+          ],
+          [
+            "Conversation 0",
+            "Supporting",
+            "1.11",
+            "[-1.18, 3.52]",
+            "12"
+          ],
+          [
+            "Conversation 1",
+            "Supporting",
+            "1.78",
+            "[-1.48, 5.51]",
+            "12"
+          ]
+        ],
+        "note": "Reductions and intervals are percentages, $100(1-\\mathrm{LOCAL/SIMPLE})$. Positive values mean lower time. Source IDs C0/C1 identify the two fixed conversations; repeated time blocks are the temporal sampling units. All paired values and directions are retained in the supplement.",
+        "original_caption": "Natural 8B target-only confirmation: effects and individual 95\\% whole-time-block intervals over two fixed conversations and 12 paired blocks. The primary estimate weights conversations equally within each block. All block values and direction counts remain in Section~\\ref{supp:confirmation}."
+      },
+      "projected_fields": {
+        "endpoints / effects": "baseline columns 1–4; split percent interval into endpoints; move common Blocks value into first note sentence",
+        "calls": "observed_partitions.B/{C0,C1}/{W,L}.physical_projection_calls is the saved alias of native dispatch.physical_calls; W→SIMPLE and L→LOCAL. These are outer target invocations per episode; sum the width histogram for calls and sum(width × frequency) for rows.",
+        "rows": "physical_rows checked against sum(width × frequency) per episode; equal across arms. No pooled call count for overall."
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+          "fields": "panel,block,case,arm,value_s",
+          "transformation": "pair exactly one SIMPLE and LOCAL within each same block/case, then take unrounded ratios"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/DISPATCH_AND_SUCCESSOR_AUDIT.json",
+          "fields": "observed_partitions.B/{C0,C1}/{W,L}.{physical_projection_calls,physical_rows,width_counts}",
+          "transformation": "sum width-count frequencies and weighted rows independently. Cross-bind W/L to SIMPLE/LOCAL and both cases against sections/supplement.tex; no estimate for aggregate calls."
+        }
+      ],
+      "original_pdf_page": 14
+    },
+    {
+      "table": "7",
+      "label": "tab:neighbors",
+      "output": "tables/t06_neighbors.tex",
+      "sha256": "b9731af9984e11c36ccd62c10b6fc5f81e86635e119fd47986a22e4711c4279f",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/related.tex",
+        "line": 6
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/t06_neighbors.tex",
+        "archive_member": "tables/t06_neighbors.tex",
+        "sha256": "116bb1bdc57b2cfd2094ca49519a730b8bef9797921972a4854f5478b2d4a55f",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "rows": [
+          [
+            "Taming~\\cite{taming}",
+            "Accumulation structure; caller-supplied kernel allowed",
+            "Layout and launch within a verified structural class",
+            "Studied contract is kernel-level."
+          ],
+          [
+            "Detent~\\cite{detent}",
+            "Fixed model, deployment and commitment tuple",
+            "Dependency cuts pin required selector values; other values are tuned",
+            "Serving, rollout and training use the committed tuple."
+          ],
+          [
+            "Vosti~\\cite{vosti}",
+            "Canonical prefix values under a fixed deployment",
+            "Scheduling, query lengths and physical KV mappings",
+            "Relational contracts retain KV, write isolation and continuation."
+          ],
+          [
+            "BlockLock\\newline\\cite{blocklock}",
+            "Canonical Rows/Pack geometry for a length class",
+            "Companion requests vary around protected placement",
+            "Batched Rows decode or extracted Pack KV; faithful handoff assumed."
+          ],
+          [
+            "LLM-42~\\cite{llm42}",
+            "Fixed-shape verification path",
+            "Dynamic fast path; verification groups can share a batch",
+            "Verified prefix commits; verifier KV replaces fast-path KV."
+          ],
+          [
+            "This work",
+            "Inherited quantized profile and per-query views",
+            "Projection groups and attention runs lowered separately; admitted groups packed",
+            "Owned rows, commit/trim, pending token, full-vector reuse guard."
+          ]
+        ],
+        "note": "",
+        "original_caption": "Reference selection, retained execution freedom, and state handoff in the closest systems."
+      },
+      "projected_fields": {
+        "left": "combine Work (with original citation) and Reference/invariant; only replace forced citation wrap in BlockLock",
+        "middle/right": "Retained execution freedom and State/consumer connection, verbatim; source order maintained, final construction divided by rule"
+      },
+      "data_bindings": [],
+      "original_pdf_page": 16
+    },
+    {
+      "table": "S1",
+      "label": "tab:local-pairs",
+      "output": "tables/s01_local_pairs.tex",
+      "sha256": "cd24ed2572f2415b5f54ce11843000ec9d34898c0e18daed78ee03cdc41f972c",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 13
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s01_local_pairs.tex",
+        "archive_member": "tables/s01_local_pairs.tex",
+        "sha256": "a4c041e1cc2b7eb271fbea594f43f86ee25d6247a144c9bf4126b775932a7ec7",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "rows": [
+          [
+            "Crossing",
+            "First",
+            "253",
+            "1",
+            "100.360",
+            "77.312",
+            "0.770351"
+          ],
+          [
+            "Crossing",
+            "First",
+            "253",
+            "2",
+            "99.638",
+            "77.475",
+            "0.777572"
+          ],
+          [
+            "Crossing",
+            "Successor",
+            "255",
+            "1",
+            "102.813",
+            "83.540",
+            "0.812547"
+          ],
+          [
+            "Crossing",
+            "Successor",
+            "255",
+            "2",
+            "104.247",
+            "81.747",
+            "0.784163"
+          ],
+          [
+            "Within block",
+            "First",
+            "137",
+            "1",
+            "74.147",
+            "75.077",
+            "1.012542"
+          ],
+          [
+            "Within block",
+            "First",
+            "137",
+            "2",
+            "79.035",
+            "74.999",
+            "0.948940"
+          ],
+          [
+            "Within block",
+            "Successor",
+            "139",
+            "1",
+            "74.512",
+            "75.885",
+            "1.018418"
+          ],
+          [
+            "Within block",
+            "Successor",
+            "139",
+            "2",
+            "77.112",
+            "75.688",
+            "0.981536"
+          ]
+        ],
+        "note": "Times are clean verify-through-commit milliseconds; ratio is LOCAL/SIMPLE. Each successor depends on its own first commit. One root, two histories and two paired repeats supply four first-transaction pairs; successors are not additional independent repeats. Unrounded observations remain in the figure data.",
+        "original_caption": "Every original LOCAL pair, including successors from each arm's own committed state."
+      },
+      "projected_fields": {
+        "pivot": "source Transaction→panel, Geometry→column triplet, Base→panel label, Rep.→row; SIMPLE/LOCAL milliseconds + ratio each appear once per pair"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "LOCAL[].{case,step,pairs[].{base,round,SIMPLE_ms,LOCAL_ms,ratio}}",
+          "transformation": "index by geometry, step and repeat; verify all eight clean pairs at 3/6 decimal places"
+        }
+      ],
+      "original_pdf_page": 21
+    },
+    {
+      "table": "S2",
+      "label": "tab:diagnostics",
+      "output": "tables/s02_diagnostics.tex",
+      "sha256": "51b20b445c19041f4ad564a066fa7b8b6dfd1e71c4ce5299b41dac5d1a01ee43",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 17
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s02_diagnostics.tex",
+        "archive_member": "tables/s02_diagnostics.tex",
+        "sha256": "3f09bc6f8e46312161d229d022c294210d9059cbe2b1412cf61a8724581f5ff1",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "rows": [
+          [
+            "Projection prepare calls",
+            "449",
+            "449",
+            "834",
+            "449"
+          ],
+          [
+            "Projection dot calls",
+            "449",
+            "449",
+            "834",
+            "449"
+          ],
+          [
+            "Attention events",
+            "192",
+            "192",
+            "384",
+            "384"
+          ],
+          [
+            "Join calls",
+            "0",
+            "0",
+            "0",
+            "64"
+          ],
+          [
+            "Projection (ms)",
+            "53.695",
+            "53.794",
+            "74.334",
+            "53.417"
+          ],
+          [
+            "Attention (ms)",
+            "9.127",
+            "9.090",
+            "12.060",
+            "11.621"
+          ],
+          [
+            "Joins (ms)",
+            "0",
+            "0",
+            "0",
+            "0.134"
+          ],
+          [
+            "Memcpy aggregate (ms)",
+            "0.268",
+            "0.266",
+            "0.361",
+            "0.494"
+          ]
+        ],
+        "note": "Each column is a separate profiler run. The crossing SIMPLE preparation and dot categories each contain 449 q3 plus 385 q1 events; LOCAL has 449 q4. The q1 path partly uses gate/up fusion. Event counts do not count fused operators. Projection time sums prepare and dot; memcpy is the exported aggregate. None of these device-event sums is added to the clean wall clock.",
+        "original_caption": "Independent device-event diagnostics for the two first-transaction histories. Times and counts use the profiler's own clock."
+      },
+      "projected_fields": {
+        "fields": "same four profiler runs in source order; split counts from event milliseconds at Projection (ms); original zeros and precision retained",
+        "labels": "history bases from baseline group headers; memcpy = exported aggregate; note preserved"
+      },
+      "data_bindings": [
+        {
+          "source": "data/plot_data.json",
+          "fields": "local_diagnostics[].{request_id,category_calls,category_kernel_ms,memcpy_ms}",
+          "transformation": "order actual c0/c1 and SIMPLE/LOCAL runs; sum projection_prepare + projection_dot milliseconds; absent stitch events have zero calls/time"
+        }
+      ],
+      "original_pdf_page": 21
+    },
+    {
+      "table": "S3",
+      "label": "tab:confirmation-effects",
+      "output": "tables/s14_confirmation_effects.tex",
+      "sha256": "7a4a986bc3f0515226e64dbc0cf08dfee7216f6d6fa7b02354ed597d892e218c",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 26
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s14_confirmation_effects.tex",
+        "archive_member": "tables/s14_confirmation_effects.tex",
+        "sha256": "8564ca0a59069913ac9e8833c84f71f4404513accb561a49ee0d13ee4d64c62c",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "rows": [
+          [
+            "32B noncrossing",
+            "Primary",
+            "0.99572472",
+            "0.97993067",
+            "1.01131242"
+          ],
+          [
+            "32B crossing",
+            "Supporting",
+            "0.78435840",
+            "0.77170242",
+            "0.79786960"
+          ],
+          [
+            "Crossing / noncrossing",
+            "Supporting",
+            "0.78772615",
+            "0.76779006",
+            "0.80563563"
+          ],
+          [
+            "8B equal-conversation overall",
+            "Primary",
+            "0.98555056",
+            "0.96147494",
+            "1.00824356"
+          ],
+          [
+            "8B conversation 0",
+            "Supporting",
+            "0.98893282",
+            "0.96484815",
+            "1.01175466"
+          ],
+          [
+            "8B conversation 1",
+            "Supporting",
+            "0.98217986",
+            "0.94488215",
+            "1.01479972"
+          ]
+        ],
+        "note": "All ratios use the confirmation study alone. Direct effects are LOCAL/SIMPLE; A interaction is their ratio across the two fixed histories. Each estimate uses 12 joint time blocks. Individual 95\\% intervals retain the frozen block-bootstrap draws and endpoint roles, conditional on the observed time window.",
+        "original_caption": "All six A5000 confirmation endpoints and their prespecified roles. The interaction is a ratio of ratios."
+      },
+      "projected_fields": {
+        "panel": "numerical profile from source endpoint; separate clocks from sections/supplement.tex. Keep six roles and estimates; interaction retains ratio-of-ratios interpretation",
+        "columns": "endpoint label / role / ratio / 95% lower / 95% upper; remove only repeated profile prefix"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+          "fields": "panel,block,case,arm,value_s",
+          "transformation": "pair exactly one SIMPLE and LOCAL within each same block/case, then take unrounded ratios"
+        }
+      ],
+      "original_pdf_page": 22
+    },
+    {
+      "table": "S4",
+      "label": "tab:confirmation-a-pairs",
+      "output": "tables/s15_confirmation_A.tex",
+      "sha256": "08da9bc7c36f0da90df0cae808fcdc6689bf260362fa92b89533c4e94769371d",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 32
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s15_confirmation_A.tex",
+        "archive_member": "tables/s15_confirmation_A.tex",
+        "sha256": "0a80e1b31cc6b5c82a6f2d1ef60c72574ff1fa06304fc5c0b059fa1d88c6c20c",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "rows": [
+          [
+            "1",
+            "73.557",
+            "76.023",
+            "1.033529",
+            "97.867",
+            "75.163",
+            "0.768008"
+          ],
+          [
+            "2",
+            "78.949",
+            "74.339",
+            "0.941608",
+            "101.913",
+            "78.803",
+            "0.773246"
+          ],
+          [
+            "3",
+            "75.613",
+            "75.509",
+            "0.998624",
+            "99.822",
+            "78.979",
+            "0.791193"
+          ],
+          [
+            "4",
+            "76.501",
+            "74.641",
+            "0.975690",
+            "100.599",
+            "80.273",
+            "0.797947"
+          ],
+          [
+            "5",
+            "74.716",
+            "74.078",
+            "0.991459",
+            "99.493",
+            "80.558",
+            "0.809693"
+          ],
+          [
+            "6",
+            "77.100",
+            "74.594",
+            "0.967492",
+            "97.108",
+            "75.984",
+            "0.782470"
+          ],
+          [
+            "7",
+            "73.671",
+            "73.864",
+            "1.002621",
+            "103.343",
+            "79.088",
+            "0.765296"
+          ],
+          [
+            "8",
+            "75.867",
+            "76.788",
+            "1.012145",
+            "99.615",
+            "80.113",
+            "0.804226"
+          ],
+          [
+            "9",
+            "72.489",
+            "73.260",
+            "1.010628",
+            "99.116",
+            "82.686",
+            "0.834233"
+          ],
+          [
+            "10",
+            "75.461",
+            "75.044",
+            "0.994471",
+            "100.433",
+            "78.269",
+            "0.779322"
+          ],
+          [
+            "11",
+            "74.762",
+            "73.169",
+            "0.978686",
+            "101.235",
+            "77.308",
+            "0.763648"
+          ],
+          [
+            "12",
+            "75.329",
+            "78.813",
+            "1.046254",
+            "100.171",
+            "74.831",
+            "0.747035"
+          ]
+        ],
+        "note": "Times are milliseconds; ratios use unrounded observations; values above one indicate longer LOCAL time. Every paired block is retained. A uses the first-transaction verify-through-commit clock; B uses the complete two-turn controller response plus reset. Both panels have 48 formal arm observations, but their consumer units and numerical profiles differ.",
+        "original_caption": "Every 32B confirmation pair: first-transaction verification-through-commit milliseconds. Noncrossing is primary and crossing supporting."
+      },
+      "projected_fields": {
+        "per time block": "baseline fields [block, S0, L0, L0/S0, S1, L1, L1/S1] → [block, S0, L0, S1, L1, L0/S0, L1/S1]; raw times stay paired; adjacent ratio columns",
+        "units": "A = s×1000 to ms; B = s. Ratios computed before rounding, original block order preserved. Notes retain only the current study's clock and 48-observation scope; the neighboring study is defined in its own table."
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+          "fields": "panel,block,case,arm,value_s",
+          "transformation": "pair exactly one SIMPLE and LOCAL within each same block/case, then take unrounded ratios"
+        }
+      ],
+      "original_pdf_page": 22
+    },
+    {
+      "table": "S5",
+      "label": "tab:confirmation-b-pairs",
+      "output": "tables/s16_confirmation_B.tex",
+      "sha256": "a1a08ab085b705dfa819053cbbb08ffd4a511b15e0fd71c4c841d9af6c3174ec",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 33
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s16_confirmation_B.tex",
+        "archive_member": "tables/s16_confirmation_B.tex",
+        "sha256": "a64d3a7a14f97a9ef1a5e31a03d902fdabcc5065a6d863e7e26f30b187ff00e6",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "rows": [
+          [
+            "1",
+            "9.051",
+            "8.940",
+            "0.987759",
+            "10.239",
+            "10.536",
+            "1.028995"
+          ],
+          [
+            "2",
+            "8.960",
+            "9.257",
+            "1.033146",
+            "10.180",
+            "10.531",
+            "1.034429"
+          ],
+          [
+            "3",
+            "9.323",
+            "8.976",
+            "0.962799",
+            "10.322",
+            "10.686",
+            "1.035301"
+          ],
+          [
+            "4",
+            "9.404",
+            "8.560",
+            "0.910202",
+            "10.709",
+            "10.675",
+            "0.996834"
+          ],
+          [
+            "5",
+            "9.354",
+            "8.636",
+            "0.923299",
+            "11.119",
+            "9.777",
+            "0.879362"
+          ],
+          [
+            "6",
+            "9.770",
+            "9.816",
+            "1.004714",
+            "10.820",
+            "9.863",
+            "0.911589"
+          ],
+          [
+            "7",
+            "9.818",
+            "9.819",
+            "1.000046",
+            "11.095",
+            "10.991",
+            "0.990622"
+          ],
+          [
+            "8",
+            "9.826",
+            "10.282",
+            "1.046416",
+            "10.992",
+            "11.139",
+            "1.013410"
+          ],
+          [
+            "9",
+            "9.895",
+            "10.158",
+            "1.026540",
+            "11.119",
+            "11.530",
+            "1.036979"
+          ],
+          [
+            "10",
+            "10.651",
+            "10.206",
+            "0.958194",
+            "11.525",
+            "11.503",
+            "0.998081"
+          ],
+          [
+            "11",
+            "10.142",
+            "10.268",
+            "1.012493",
+            "11.582",
+            "11.861",
+            "1.024109"
+          ],
+          [
+            "12",
+            "10.545",
+            "10.672",
+            "1.012012",
+            "11.951",
+            "10.279",
+            "0.860096"
+          ]
+        ],
+        "note": "Times are seconds; ratios use unrounded observations; values above one indicate longer LOCAL time. Every paired block is retained. A uses the first-transaction verify-through-commit clock; B uses the complete two-turn controller response plus reset. Both panels have 48 formal arm observations, but their consumer units and numerical profiles differ.",
+        "original_caption": "Every 8B confirmation pair: complete two-turn response-plus-reset seconds. C0/C1 identify conversations in this panel."
+      },
+      "projected_fields": {
+        "per time block": "baseline fields [block, S0, L0, L0/S0, S1, L1, L1/S1] → [block, S0, L0, S1, L1, L0/S0, L1/S1]; raw times stay paired; adjacent ratio columns",
+        "units": "A = s×1000 to ms; B = s. Ratios computed before rounding, original block order preserved. Notes retain only the current study's clock and 48-observation scope; the neighboring study is defined in its own table."
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+          "fields": "panel,block,case,arm,value_s",
+          "transformation": "pair exactly one SIMPLE and LOCAL within each same block/case, then take unrounded ratios"
+        }
+      ],
+      "original_pdf_page": 23
+    },
+    {
+      "table": "S6",
+      "label": "tab:confirmation-costs",
+      "output": "tables/s17_confirmation_costs.tex",
+      "sha256": "37d9d020c7ded639d61eab4873672ab370de23c05ea994b3f1b5e96f0497f2d9",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 41
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s17_confirmation_costs.tex",
+        "archive_member": "tables/s17_confirmation_costs.tex",
+        "sha256": "572a6395e43443b9a2f6eca8431b82a5f228fe3ecd4dcca18da1473011805062",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          19
+        ],
+        "rows": [
+          [
+            "Consumer transition",
+            "-0.261",
+            "-0.545"
+          ],
+          [
+            "Canonical history producer",
+            "-0.676",
+            "-0.540"
+          ],
+          [
+            "Controller reset overhead",
+            "-30.006",
+            "+51.671"
+          ],
+          [
+            "Controller response overhead",
+            "+68.878",
+            "+41.394"
+          ],
+          [
+            "Decode, sync and persistent ledger",
+            "-21.794",
+            "-79.665"
+          ],
+          [
+            "Greedy sampling",
+            "-112.573",
+            "-192.930"
+          ],
+          [
+            "Native reset",
+            "+0.926",
+            "-0.877"
+          ],
+          [
+            "Native response residual",
+            "-0.437",
+            "-0.546"
+          ],
+          [
+            "Owned output copy",
+            "+0.572",
+            "-6.951"
+          ],
+          [
+            "Reconcile and checkpoint",
+            "-0.069",
+            "-0.112"
+          ],
+          [
+            "Request finish",
+            "-0.243",
+            "-0.520"
+          ],
+          [
+            "Request reserve",
+            "-0.086",
+            "-0.416"
+          ],
+          [
+            "Complete response plus reset",
+            "-95.769",
+            "-190.038"
+          ]
+        ],
+        "note": "Within the independent B confirmation. Mean component differences sum to mean service difference up to rounding; negative values save time. Decode includes synchronization and a persistent per-call ledger, so it is not pure device time. Scientific payload export and independent checking occur outside the original service clock. These costs are not added to the geometric primary effect.",
+        "original_caption": "The full B confirmation phase account within the registered response-plus-reset clock."
+      },
+      "projected_fields": {
+        "phase": "groups of original source row numbers: [('Sampling and controller overhead', [6, 3, 4]), ('Execution, state and request accounting', [1, 2, 5, 7, 8, 9, 10, 11, 12])]; complete-account total remains separate",
+        "values": "unmodified signed arithmetic mean milliseconds in same candidate-minus-control order; keep +/- signs, including printed signed zeros"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "measured[panel=B].{case,block,arm,phases.*,value_s}",
+          "transformation": "within each fixed conversation, average all matched block differences ×1000 (s→ms); all 12 components close to the full original clock"
+        }
+      ],
+      "original_pdf_page": 23
+    },
+    {
+      "table": "S7",
+      "label": "tab:rtx269-effects",
+      "output": "tables/s18_rtx269_effects.tex",
+      "sha256": "1810438e5263140fe7e887dd30fbca6035f020f166fe2abc3eeb63dafcd08fbe",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/rtx_confirmation.tex",
+        "line": 13
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s18_rtx269_effects.tex",
+        "archive_member": "tables/s18_rtx269_effects.tex",
+        "sha256": "6e8623a15d2ae97605f6af7446cc62337f2de7e9de120023f3c5cde78ead43f1",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          7,
+          8,
+          9
+        ],
+        "rows": [
+          [
+            "C1/B / primary",
+            "1.009014",
+            "[0.995205, 1.021886]",
+            "-0.90"
+          ],
+          [
+            "C4/C1 / descriptive",
+            "0.842031",
+            "[0.816969, 0.869273]",
+            "+15.80"
+          ],
+          [
+            "C4/B / descriptive",
+            "0.849622",
+            "[0.825148, 0.876047]",
+            "+15.04"
+          ]
+        ],
+        "note": "Equal roots and equal six time blocks; two paired log ratios are averaged within each root/block. Intervals use the 10,000 prespecified crossed root/time-block draws. Negative reduction denotes longer time.",
+        "original_caption": "RTX confirmation primary and descriptive complete-request estimates, with crossed root/time-block intervals."
+      },
+      "projected_fields": {
+        "fields": "split comparison and role at spaced slash (not contrast slash); split ratio CI into lower/upper; reduction unchanged including negative primary",
+        "scope": "new column headers distinguish ratio units from percentage; crossed interval remains the principal one"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/rtx269_recomputed/figure_data.json",
+          "fields": "estimates, roots, blocks, counts, workload",
+          "transformation": "match #269 contrast and role; compare source summaries to each displayed scalar"
+        },
+        {
+          "source": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+          "fields": "root,root_slot,domain,round,time_block,arm,service_s, *phase_s",
+          "transformation": "pair eligible B/C1/C4 by actual root, block and round before averaging; retain all formal rows"
+        }
+      ],
+      "original_pdf_page": 24
+    },
+    {
+      "table": "S8",
+      "label": "tab:rtx269-blocks",
+      "output": "tables/s19_rtx269_blocks.tex",
+      "sha256": "5bcad5404ea51c966d915f2926d5821fd7788dfc4e28d664158881ee26069665",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/rtx_confirmation.tex",
+        "line": 17
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s19_rtx269_blocks.tex",
+        "archive_member": "tables/s19_rtx269_blocks.tex",
+        "sha256": "754d1308ae3e337e9c763e3c7b115487ebd1b8dd14ee4a8f6342517bac8de576",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "rows": [
+          [
+            "1",
+            "1.008157",
+            "0.853166",
+            "0.860125"
+          ],
+          [
+            "2",
+            "0.982917",
+            "0.848897",
+            "0.834395"
+          ],
+          [
+            "3",
+            "1.022680",
+            "0.845856",
+            "0.865041"
+          ],
+          [
+            "4",
+            "1.009428",
+            "0.836798",
+            "0.844687"
+          ],
+          [
+            "5",
+            "1.016651",
+            "0.836733",
+            "0.850666"
+          ],
+          [
+            "6",
+            "1.014735",
+            "0.830954",
+            "0.843198"
+          ]
+        ],
+        "note": "Each cell gives equal log weight to 24 roots and their two paired rounds within that block. These six temporal summaries retain all 864 formal measured requests; they are not six new input panels.",
+        "original_caption": "All six RTX time blocks in execution order: within-block geometric time ratios."
+      },
+      "projected_fields": {
+        "pivot": "Time block→column in original order, C1/B, C4/C1, C4/B→rows; all 18 ratios, including the contrary C1/B block"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/rtx269_recomputed/figure_data.json",
+          "fields": "estimates, roots, blocks, counts, workload",
+          "transformation": "match #269 contrast and role; compare source summaries to each displayed scalar"
+        },
+        {
+          "source": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+          "fields": "root,root_slot,domain,round,time_block,arm,service_s, *phase_s",
+          "transformation": "pair eligible B/C1/C4 by actual root, block and round before averaging; retain all formal rows"
+        }
+      ],
+      "original_pdf_page": 25
+    },
+    {
+      "table": "S9",
+      "label": "tab:rtx269-roots",
+      "output": "tables/s20_rtx269_roots.tex",
+      "sha256": "23ecac430af6b423a7e483c8df383d839d648036aa5fd23ee5e89e908b0d2d9e",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/rtx_confirmation.tex",
+        "line": 18
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s20_rtx269_roots.tex",
+        "archive_member": "tables/s20_rtx269_roots.tex",
+        "sha256": "9e57b535feed9eff8edae3883889d436fa024a03374db6d04655a9a0362e3694",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ],
+        "rows": [
+          [
+            "Code/test/116",
+            "0.977393",
+            "0.893160",
+            "0.872969"
+          ],
+          [
+            "Code/test/81",
+            "1.002746",
+            "0.888316",
+            "0.890755"
+          ],
+          [
+            "Code/test/124",
+            "0.943621",
+            "0.989180",
+            "0.933411"
+          ],
+          [
+            "Code/test/60",
+            "1.013571",
+            "0.883379",
+            "0.895367"
+          ],
+          [
+            "Code/test/108",
+            "0.993565",
+            "0.885871",
+            "0.880170"
+          ],
+          [
+            "Code/test/129",
+            "0.993481",
+            "0.885671",
+            "0.879897"
+          ],
+          [
+            "Code/test/52",
+            "1.013151",
+            "0.857185",
+            "0.868457"
+          ],
+          [
+            "Code/test/159",
+            "1.015929",
+            "0.825966",
+            "0.839123"
+          ],
+          [
+            "Code/test/0",
+            "1.015562",
+            "0.832252",
+            "0.845204"
+          ],
+          [
+            "Code/test/71",
+            "1.022598",
+            "0.822217",
+            "0.840798"
+          ],
+          [
+            "Code/test/90",
+            "1.028435",
+            "0.911259",
+            "0.937171"
+          ],
+          [
+            "Code/test/6",
+            "1.023586",
+            "0.836972",
+            "0.856714"
+          ],
+          [
+            "MATH/counting/prob./train/35",
+            "1.019006",
+            "0.851442",
+            "0.867625"
+          ],
+          [
+            "MATH/geometry/train/701",
+            "1.005114",
+            "0.886351",
+            "0.890884"
+          ],
+          [
+            "MATH/prealgebra/train/316",
+            "1.013964",
+            "0.909168",
+            "0.921863"
+          ],
+          [
+            "MATH/geometry/train/545",
+            "1.029702",
+            "0.854413",
+            "0.879791"
+          ],
+          [
+            "MATH/algebra/train/355",
+            "1.020987",
+            "0.862575",
+            "0.880678"
+          ],
+          [
+            "MATH/algebra/train/1050",
+            "1.021277",
+            "0.903237",
+            "0.922455"
+          ],
+          [
+            "MATH/counting/prob./train/398",
+            "1.017737",
+            "0.731980",
+            "0.744963"
+          ],
+          [
+            "MATH/algebra/train/320",
+            "1.013018",
+            "0.731972",
+            "0.741500"
+          ],
+          [
+            "MATH/geometry/train/387",
+            "1.015056",
+            "0.837771",
+            "0.850385"
+          ],
+          [
+            "MATH/algebra/train/337",
+            "1.015701",
+            "0.721457",
+            "0.732785"
+          ],
+          [
+            "MATH/algebra/train/917",
+            "0.997406",
+            "0.720716",
+            "0.718847"
+          ],
+          [
+            "MATH/geometry/train/567",
+            "1.007740",
+            "0.753217",
+            "0.759047"
+          ]
+        ],
+        "note": "Root ratios retain all 12 rounds with equal block weighting. Code denotes CodeContests; counting/prob. denotes the MATH counting\\_and\\_probability category. The repeated roots are the same exposed panel used by the separately analyzed earlier bridge.",
+        "original_caption": "All 24 RTX roots: per-root geometric time ratios over 12 rounds."
+      },
+      "projected_fields": {
+        "panels": "factor Code/test and MATH/train out of root paths; retain original within-domain order and category/ID; horizontal juxtaposition is not matching",
+        "values": "each source root's three ratios contiguous; 24 distinct source rows in two lists of 12"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/rtx269_recomputed/figure_data.json",
+          "fields": "estimates, roots, blocks, counts, workload",
+          "transformation": "match #269 contrast and role; compare source summaries to each displayed scalar"
+        },
+        {
+          "source": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+          "fields": "root,root_slot,domain,round,time_block,arm,service_s, *phase_s",
+          "transformation": "pair eligible B/C1/C4 by actual root, block and round before averaging; retain all formal rows"
+        }
+      ],
+      "original_pdf_page": 25
+    },
+    {
+      "table": "S10",
+      "label": "tab:rtx269-phases",
+      "output": "tables/s21_rtx269_phases.tex",
+      "sha256": "c8c3272ca7830019bfe8b73eb73a462bd8a6b467824b01e352f392d289edbf60",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/rtx_confirmation.tex",
+        "line": 22
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s21_rtx269_phases.tex",
+        "archive_member": "tables/s21_rtx269_phases.tex",
+        "sha256": "444e16bcb323cb2955d99d266c741c85c23df245c4df0e456e05e3be964e960d",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          18
+        ],
+        "rows": [
+          [
+            "Reset/context",
+            "+0.016",
+            "-0.024",
+            "-0.008"
+          ],
+          [
+            "Target prefill",
+            "+173.574",
+            "+63.214",
+            "+236.788"
+          ],
+          [
+            "Target decode",
+            "+0.000",
+            "+0.000",
+            "+0.000"
+          ],
+          [
+            "Target verification",
+            "-100.426",
+            "-1465.286",
+            "-1565.712"
+          ],
+          [
+            "Draft prefill",
+            "+3.300",
+            "+0.409",
+            "+3.709"
+          ],
+          [
+            "Draft synchronization",
+            "+1.211",
+            "-2.540",
+            "-1.330"
+          ],
+          [
+            "Draft proposals",
+            "+2.921",
+            "-7.631",
+            "-4.710"
+          ],
+          [
+            "Decision/commit",
+            "-0.082",
+            "+0.388",
+            "+0.306"
+          ],
+          [
+            "Terminal synchronization",
+            "+0.000",
+            "-0.000",
+            "+0.000"
+          ],
+          [
+            "Other host",
+            "+0.002",
+            "-0.129",
+            "-0.128"
+          ],
+          [
+            "Complete service",
+            "+80.515",
+            "-1411.599",
+            "-1331.084"
+          ]
+        ],
+        "note": "Positive values add time to the candidate. The nonoverlapping phase account closes to native service time before rounding. Geometric ratios in Table~\\ref{tab:rtx269-effects} have a different estimand; these arithmetic millisecond differences do not decompose their percentages.",
+        "original_caption": "RTX confirmation arithmetic phase differences, candidate minus control, within the complete-service boundary."
+      },
+      "projected_fields": {
+        "phase": "groups of original source row numbers: [('Target work', [2, 3, 4]), ('Draft work', [5, 6, 7]), ('Request and host work', [1, 8, 9, 10])]; complete-account total remains separate",
+        "values": "unmodified signed arithmetic mean milliseconds in same candidate-minus-control order; keep +/- signs, including printed signed zeros"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/rtx269_recomputed/figure_data.json",
+          "fields": "estimates, roots, blocks, counts, workload",
+          "transformation": "match #269 contrast and role; compare source summaries to each displayed scalar"
+        },
+        {
+          "source": "statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+          "fields": "root,root_slot,domain,round,time_block,arm,service_s, *phase_s",
+          "transformation": "pair eligible B/C1/C4 by actual root, block and round before averaging; retain all formal rows"
+        }
+      ],
+      "original_pdf_page": 26
+    },
+    {
+      "table": "S11",
+      "label": "tab:direct-effects",
+      "output": "tables/s11_direct_effects.tex",
+      "sha256": "a8327e89740444a917334ac222a42afbad6d285e2adb0d30f083f3b04440f140",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 53
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s11_direct_effects.tex",
+        "archive_member": "tables/s11_direct_effects.tex",
+        "sha256": "fa5f782fc3ba67439ffd1e5b246cbac8c2010b35852eeae25ea90fdf2478e610",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "rows": [
+          [
+            "A5000 C4",
+            "C4/C1",
+            "0.722314",
+            "0.699108",
+            "0.745748"
+          ],
+          [
+            "RTX C4",
+            "C4/C1",
+            "0.844588",
+            "0.815651",
+            "0.873844"
+          ],
+          [
+            "RTX C4",
+            "C4/B",
+            "0.851523",
+            "0.822198",
+            "0.881192"
+          ],
+          [
+            "RTX C4",
+            "C1/B",
+            "1.008211",
+            "0.993614",
+            "1.022398"
+          ],
+          [
+            "A5000 P4",
+            "TO\\_P4/TO\\_C4",
+            "0.868192",
+            "0.842744",
+            "0.896176"
+          ],
+          [
+            "A5000 P4",
+            "SD\\_P4/SD\\_C4",
+            "0.850524",
+            "0.822399",
+            "0.882039"
+          ],
+          [
+            "A5000 P4",
+            "SD\\_P4/TO\\_P4",
+            "0.864045",
+            "0.841128",
+            "0.887396"
+          ],
+          [
+            "A5000 P4",
+            "SD\\_P4/TO\\_C4",
+            "0.750157",
+            "0.718747",
+            "0.784926"
+          ],
+          [
+            "RTX P4",
+            "TO\\_P4/TO\\_C4",
+            "0.538107",
+            "0.506846",
+            "0.572833"
+          ],
+          [
+            "RTX P4",
+            "SD\\_P4/SD\\_C4",
+            "0.504723",
+            "0.481321",
+            "0.529974"
+          ],
+          [
+            "RTX P4",
+            "SD\\_P4/TO\\_P4",
+            "0.850891",
+            "0.825631",
+            "0.875029"
+          ],
+          [
+            "RTX P4",
+            "SD\\_P4/TO\\_C4",
+            "0.457870",
+            "0.441808",
+            "0.474843"
+          ],
+          [
+            "B570 formal",
+            "TO\\_C/TO\\_A",
+            "0.782728",
+            "0.769868",
+            "0.796538"
+          ],
+          [
+            "B570 formal",
+            "SD\\_C/SD\\_A",
+            "0.872182",
+            "0.870051",
+            "0.874405"
+          ],
+          [
+            "B570 formal",
+            "SD\\_C/TO\\_C",
+            "2.512087",
+            "2.485677",
+            "2.538986"
+          ],
+          [
+            "B570 formal",
+            "SD\\_C/TO\\_A",
+            "1.966281",
+            "1.942815",
+            "1.990796"
+          ]
+        ],
+        "note": "Equal-root geometric paired effects from Eq.~\\ref{eq:estimator}; individual 95\\% stratified-root bootstrap intervals. Every contrast retains its own contemporaneous denominator. The full editable data also preserve every root, arm and round, including roots with ratios above one.",
+        "original_caption": "All direct modern request effects, retaining each independent study and its contemporaneous control."
+      },
+      "projected_fields": {
+        "group": "consecutive original study labels (initial RTX clarified); source row count unchanged",
+        "contrast": "split Direct contrast at / so every contemporaneous denominator has its own column; ratio and interval retained to six places"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "modern_effects[study_pr,contrast].{candidate,control,ratio,ci95_ratio}",
+          "transformation": "retain all 16 named contrasts from the five baseline studies; validate point and interval to six decimals"
+        },
+        {
+          "source": "statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+          "fields": "study_pr,contrast,root,round,candidate_s,control_s",
+          "transformation": "form each root's paired geometric ratio from all its rounds then equal-root geometric mean; contrasts are not independent requests"
+        }
+      ],
+      "original_pdf_page": 27
+    },
+    {
+      "table": "S12",
+      "label": "tab:phase-costs",
+      "output": "tables/s03_phase_costs.tex",
+      "sha256": "2e894c0998508a7a78bdd384c2dbcfb700e61a657676b914825a5397d7847e9e",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 59
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s03_phase_costs.tex",
+        "archive_member": "tables/s03_phase_costs.tex",
+        "sha256": "0253ed9c99c4cb454a4f3f2d04ba097280a0db177b460e5f8780bd2aa9cb8caf",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          12
+        ],
+        "rows": [
+          [
+            "Target prefill",
+            "+3.787",
+            "+71.206",
+            "-1064.536",
+            "-4456.997"
+          ],
+          [
+            "Target verification",
+            "-2462.096",
+            "-1457.116",
+            "-5.679",
+            "-11.742"
+          ],
+          [
+            "Draft: prefill / sync / proposal",
+            "-28.682",
+            "-10.401",
+            "-9.986",
+            "-3.555"
+          ],
+          [
+            "Decision and commit",
+            "+9.794",
+            "+0.342",
+            "+3.143",
+            "+0.116"
+          ],
+          [
+            "Context / final sync / host residual",
+            "-0.029",
+            "-0.155",
+            "-0.026",
+            "-0.012"
+          ],
+          [
+            "Complete resident request",
+            "-2477.226",
+            "-1396.124",
+            "-1077.084",
+            "-4472.190"
+          ]
+        ],
+        "note": "Arithmetic phase means within each named study; negative values save time. Target decode is zero in these SD/SD comparisons. The nonoverlapping phases close to their own resident clock, up to rounding. TTFT is not an additive phase. These costs are separate from the geometric paired effects and are not cumulative stages across studies.",
+        "original_caption": "Signed arithmetic mean phase differences in milliseconds. Each column is one same-study SD/SD comparison."
+      },
+      "projected_fields": {
+        "column order": "re-index source [A5000 C4/C1, RTX C4/C1, A5000 SD_P4/SD_C4, RTX SD_P4/SD_C4] as [1,3,2,4]; header spells subtraction for arithmetic differences",
+        "phase and total": "all original component groups, residual and whole-clock total preserved including sign; same-study only"
+      },
+      "data_bindings": [
+        {
+          "source": "data/plot_data.json",
+          "fields": "stage_costs[study,contrast].{signed_mean_ms,candidate_mean_ms.service_s,control_mean_ms.service_s}",
+          "transformation": "sum original signed ms over each printed phase group; total = difference of service means (already expressed in ms)"
+        }
+      ],
+      "original_pdf_page": 28
+    },
+    {
+      "table": "S13",
+      "label": "tab:m1-family",
+      "output": "tables/s06_m1_family.tex",
+      "sha256": "f7ea8df66c8df93868371ba5e89ebd9174cdc8bcd4a6be28fab5ee773bd38a60",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 68
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s06_m1_family.tex",
+        "archive_member": "tables/s06_m1_family.tex",
+        "sha256": "e5ed8bd3ca80cc882379af4f5df01a7e6459c621ed85587aff117d441e2c77bf",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          11
+        ],
+        "rows": [
+          [
+            "LOCAL/WHOLE, loop4",
+            "0.99791268",
+            "0.99536975",
+            "0.99957575"
+          ],
+          [
+            "LOCAL/WHOLE, packed",
+            "0.99871654",
+            "0.99595261",
+            "1.00056974"
+          ],
+          [
+            "Packed/loop4, WHOLE",
+            "0.98364752",
+            "0.98023586",
+            "0.98865441"
+          ],
+          [
+            "Packed/loop4, LOCAL",
+            "0.98443989",
+            "0.98122828",
+            "0.98939096"
+          ],
+          [
+            "Root-geometric interaction",
+            "1.00069601",
+            "1.00006926",
+            "1.00139281"
+          ]
+        ],
+        "note": "The first four estimates are ratios of native-service totals, retaining four sessions per root. Interaction is the root-geometric mean of $(L_P/W_P)/(L_{L4}/W_{L4})$ and exceeds one when packing attenuates the LOCAL effect. Each interval is a 99\\% marginal member of the prespecified five-comparison Bonferroni family, conditional on the four observed sessions.",
+        "original_caption": "M1's five-comparison family. Direct contrasts use ratios of totals; interaction uses root-geometric ratios."
+      },
+      "projected_fields": {
+        "direct": "split original Contrast at comma into varying factor comparison and its conditioning factor",
+        "interaction": "separate row; no single factor held fixed; keep ratio and endpoints to eight decimals"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "M1.{census,arm_total_s,contrasts,interaction,bootstrap}",
+          "transformation": "match arm IDs, time totals, ratio/interval endpoints, conditional paired-root design"
+        }
+      ],
+      "original_pdf_page": 28
+    },
+    {
+      "table": "S14",
+      "label": "tab:m1-roots",
+      "output": "tables/s07_m1_roots.tex",
+      "sha256": "13e7b03576790ce7695a83f95878f5c8f1aa55bc2b6e443071d5c0f34fae371d",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 77
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s07_m1_roots.tex",
+        "archive_member": "tables/s07_m1_roots.tex",
+        "sha256": "871a502f37efd8bcd766755f397af532928cc126fe6c1208a408746bfaa56cd7",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "rows": [
+          [
+            "APPS / 413",
+            "6.826",
+            "6.724",
+            "6.739",
+            "6.642",
+            "0.985078",
+            "0.985482"
+          ],
+          [
+            "APPS / 475",
+            "12.443",
+            "12.400",
+            "12.186",
+            "12.141",
+            "0.996566",
+            "0.996290"
+          ],
+          [
+            "APPS / 726",
+            "15.234",
+            "15.225",
+            "14.903",
+            "14.918",
+            "0.999432",
+            "1.000975"
+          ],
+          [
+            "APPS / 733",
+            "10.547",
+            "10.544",
+            "10.339",
+            "10.356",
+            "0.999784",
+            "1.001615"
+          ],
+          [
+            "APPS / 845",
+            "7.388",
+            "7.391",
+            "7.217",
+            "7.218",
+            "1.000398",
+            "1.000102"
+          ],
+          [
+            "APPS / 859",
+            "13.166",
+            "13.108",
+            "12.903",
+            "12.859",
+            "0.995643",
+            "0.996577"
+          ],
+          [
+            "APPS / 879",
+            "9.575",
+            "9.577",
+            "9.401",
+            "9.404",
+            "1.000254",
+            "1.000247"
+          ],
+          [
+            "APPS / 914",
+            "18.716",
+            "18.701",
+            "18.286",
+            "18.306",
+            "0.999214",
+            "1.001068"
+          ],
+          [
+            "MATH / algebra / 313",
+            "5.470",
+            "5.469",
+            "5.413",
+            "5.417",
+            "0.999885",
+            "1.000699"
+          ],
+          [
+            "MATH / geometry / 333",
+            "5.788",
+            "5.785",
+            "5.741",
+            "5.737",
+            "0.999360",
+            "0.999295"
+          ],
+          [
+            "MATH / geometry / 654",
+            "5.897",
+            "5.899",
+            "5.841",
+            "5.845",
+            "1.000252",
+            "1.000604"
+          ],
+          [
+            "MATH / interm. algebra / 315",
+            "6.902",
+            "6.848",
+            "6.820",
+            "6.766",
+            "0.992225",
+            "0.992042"
+          ],
+          [
+            "MATH / number theory / 523",
+            "7.152",
+            "7.152",
+            "7.088",
+            "7.082",
+            "1.000003",
+            "0.999156"
+          ],
+          [
+            "MATH / prealgebra / 1186",
+            "5.612",
+            "5.612",
+            "5.555",
+            "5.556",
+            "1.000048",
+            "1.000199"
+          ],
+          [
+            "MATH / prealgebra / 142",
+            "5.599",
+            "5.586",
+            "5.578",
+            "5.581",
+            "0.997664",
+            "1.000570"
+          ],
+          [
+            "MATH / prealgebra / 745",
+            "5.956",
+            "5.951",
+            "5.933",
+            "5.940",
+            "0.999084",
+            "1.001095"
+          ]
+        ],
+        "note": "Each time sums four sessions; ratios use unrounded totals. Ratios exceed one for five roots under loop4 and ten under packed; all rows use the same visual weight. Packed/loop4 is below one for every root under either cut policy. The registered aggregate direct effects remain ratios of totals, not the mean of these ratios. Full root names, all session times and unrounded values are in the editable data.",
+        "original_caption": "Every M1 paired root. Times sum four sessions in seconds; each row gives its direct cut-policy ratios."
+      },
+      "projected_fields": {
+        "root": "factor APPS or MATH and common train split into panel heading; keep category + ID and all 16 cases",
+        "arm values": "source columns 2,3,6 | 4,5,7: put each policy's WHOLE, LOCAL and LOCAL/WHOLE together; no recomputation from rounded time"
+      },
+      "data_bindings": [
+        {
+          "source": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+          "fields": "kind,root,session,arm,service_s,cycles",
+          "transformation": "keep kind=measurement; sum native service over sessions without pooling roots or arms"
+        }
+      ],
+      "original_pdf_page": 29
+    },
+    {
+      "table": "S15",
+      "label": "tab:natural",
+      "output": "tables/s05_natural.tex",
+      "sha256": "f9d0d350d9c7548f4d4cef12bb3b13d6fef4a0883c08b18462ed6d7588b46777",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 78
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s05_natural.tex",
+        "archive_member": "tables/s05_natural.tex",
+        "sha256": "ee99de08daafa3fddfa6ebe9e2345901b6d2dd8bb556a1eb5b530cd3555fe4d4",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7
+        ],
+        "rows": [
+          [
+            "RTX historical Q8",
+            "Four roots, three sessions; native service",
+            "1.007294",
+            "Geometric mean of 12 paired ratios."
+          ],
+          [
+            "A5000 8B Q8, target-only",
+            "Two conversations, two rounds; controller service plus reset",
+            "1.042196",
+            "WHOLE 36.385\\,s; LOCAL 37.921\\,s."
+          ]
+        ],
+        "note": "The A5000 estimator is a ratio of sums over eight episodes, with four per arm. Native calls fall from 1,072 to 1,070; total time rises by 1.535\\,s, including 1.420\\,s in the shared sampling span. No population interval is inferred for either descriptive panel. These profiles differ from M1 and the selected 32B LOCAL transactions.",
+        "original_caption": "Other historical natural LOCAL/WHOLE panels with their original units, clocks and estimators."
+      },
+      "projected_fields": {
+        "pivot": "Profile→column; Unit and clock, L/W, Cost observation→rows; retain distinct clocks and original estimators",
+        "note": "original episode/call/cost breakdown and explicit no-population-interval retained"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "natural_service.historical_RTX.pairs and historical_A5000_target_only",
+          "transformation": "RTX: all four roots × three sessions geometric paired ratios; A5000: ratio of total complete episodes, never pooled"
+        },
+        {
+          "source": "artifact/scientific_data/NATURAL_8B_EPISODES.json",
+          "fields": "stage,arm,physical_calls,timing.controller_service_plus_reset_s,phases.greedy_sampling_s",
+          "transformation": "filter MEASURE episodes: sum totals/calls by L/W and difference in common sampling (not confirmatory data)"
+        }
+      ],
+      "original_pdf_page": 29
+    },
+    {
+      "table": "S16",
+      "label": "tab:ledger",
+      "output": "tables/s04_ledger.tex",
+      "sha256": "5b2668544da03b1563053f0229963c52f1d1c7898d1cc4b3ed78a08458fa73b6",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 87
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s04_ledger.tex",
+        "archive_member": "tables/s04_ledger.tex",
+        "sha256": "6028ee61ae0ab9221894bfca720ad789066e372febeea29ff7cdfaf64f572a47",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "rows": [
+          [
+            "RTX P4",
+            "392",
+            "192",
+            "192",
+            "8"
+          ],
+          [
+            "RTX C4 bridge",
+            "312",
+            "144",
+            "144",
+            "24"
+          ],
+          [
+            "RTX confirmation",
+            "1,764",
+            "864",
+            "864",
+            "36"
+          ],
+          [
+            "A5000 confirmation",
+            "212",
+            "96",
+            "96",
+            "20"
+          ],
+          [
+            "A5000 P4",
+            "384",
+            "192",
+            "144",
+            "48"
+          ],
+          [
+            "A5000 C4",
+            "102",
+            "48",
+            "48",
+            "6"
+          ],
+          [
+            "B570 formal timing table",
+            "384",
+            "192",
+            "192",
+            "0"
+          ],
+          [
+            "B570 pilot timing table",
+            "16",
+            "8",
+            "8",
+            "0"
+          ],
+          [
+            "LOCAL reservations",
+            "27",
+            "8",
+            "8",
+            "11"
+          ],
+          [
+            "M1 native receipts",
+            "288",
+            "256",
+            "32",
+            "0"
+          ]
+        ],
+        "note": "Other roles: RTX P4 has eight resource-marked rows; initial RTX C4 has 24 qualification rows. RTX confirmation has 24 eligible qualification and 12 resource-excluded rows; its 864 formal measured rows retain the registered complete-six-request replacements. A5000 confirmation has 12 qualification and eight diagnostic units; 48 of its measured units are two-turn episodes. A5000 P4/C4 have 48/6 full-trace captures. LOCAL has six qualification and five diagnostic reservations; completion is separate (25 complete, two failed checkers). No LOCAL formal request was replaced.",
+        "original_caption": "Request-role accounting. Timing-table scope and full-campaign completion are distinct."
+      },
+      "projected_fields": {
+        "columns": "Study / Measured / Warm or primer / Other roles / Ledger rows; total moved last; each original ledger appears once",
+        "groups and status": "separate timing-table scopes and reservations/receipts; keep original resource exclusions, technical replacements and failed-checker note"
+      },
+      "data_bindings": [
+        {
+          "source": "artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+          "fields": "included,stage,role,request_id",
+          "transformation": "formal eligibility = included=True AND stage=formal AND role=measured; preserve both excluded six-request units, even when internally labelled measured"
+        },
+        {
+          "source": "data/plot_data.json",
+          "fields": "row_counts[].{study,raw_rows,selected_requests}",
+          "transformation": "six earlier independent timing registries: check total and eligible counts"
+        },
+        {
+          "source": "artifact/scientific_data/M1_NATIVE_REQUESTS.csv",
+          "fields": "kind,root,session,arm,service_s,cycles",
+          "transformation": "keep kind=measurement; sum native service over sessions without pooling roots or arms"
+        },
+        {
+          "source": "statistics/confirmation266_recomputed/confirmation266_data.json",
+          "fields": "results.{A,B}.{ratio,ratio_CI95,block_log_ratios}; primary_endpoints, supporting_endpoints; pairs",
+          "transformation": "check study/panel, registered role, number of blocks and displayed precision; intervals from frozen summary"
+        }
+      ],
+      "original_pdf_page": 30
+    },
+    {
+      "table": "S17",
+      "label": "tab:access",
+      "output": "tables/s08_access.tex",
+      "sha256": "d027c3cc8c121d162e8daa507118fe857841b2120cb649c2aa9325e3d92d4859",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 98
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s08_access.tex",
+        "archive_member": "tables/s08_access.tex",
+        "sha256": "b07ca4d22aa0992a1540cbe7293d0404ffafb68731b12503f521dfff2dae03d0",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8
+        ],
+        "rows": [
+          [
+            "Original-machine checks",
+            "Full vocabulary, canonical active KV, consumer state and own continuation",
+            "Completed cases in Table~\\ref{tab:qualification}; original records retain broader objects than the public subset."
+          ],
+          [
+            "Frozen public archive",
+            "96 F32 vocabulary vectors; six full 64-layer native KV states",
+            "KV: base32 q16, active lengths 48/49, R/C4/P4. LOCAL: 16 full-row comparisons at the crossing; no crossing full KV."
+          ],
+          [
+            "Later public qualification release",
+            "32 A owned-row, four A frontier and four B complete-vector comparisons; five canonical state bindings",
+            "A: within-block final KV, 141 tokens, 64 layers, R/SIMPLE/LOCAL. B: retained prefix, 23 tokens, 36 layers, R/LOCAL; frontier invalid."
+          ]
+        ],
+        "note": "The later release has 24 unique payloads and 67 aliases; the five state bindings share deduplicated payloads. Preserved CPU checks compare these saved objects without model execution. Independent saved-byte access, original-machine checks, and a new GPU replay are distinct evidence levels. Crossing LOCAL full KV remains outside the public subset.",
+        "original_caption": "Numerical evidence scope: original-machine comparisons and the independently readable saved-object subset."
+      },
+      "projected_fields": {
+        "panel": "original Evidence layer→row-group title; Complete numerical objects and Exact coverage become two wide cells",
+        "missing/aliases": "keep original crossing-KV absence, invalid B frontier, alias/deduplication counts; no replay implied"
+      },
+      "data_bindings": [],
+      "original_pdf_page": 31
+    },
+    {
+      "table": "S18",
+      "label": "tab:pilot",
+      "output": "tables/s09_pilot.tex",
+      "sha256": "ebd1386d02b8d9ab5bd7f9a669c8b1e42c269c69ddca35404c1ae9640f1f80ed",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 107
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s09_pilot.tex",
+        "archive_member": "tables/s09_pilot.tex",
+        "sha256": "582229444a165732d0f22661a191d895985539f68458d25923186d0c5aab185c",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          11,
+          12
+        ],
+        "rows": [
+          [
+            "SD\\_C/SD\\_A",
+            "0.797052",
+            "0.837066",
+            "0.816814"
+          ],
+          [
+            "SD\\_C/TO\\_A",
+            "1.417249",
+            "2.367886",
+            "1.831907"
+          ],
+          [
+            "SD\\_C/TO\\_C",
+            "1.907605",
+            "2.836514",
+            "2.326145"
+          ],
+          [
+            "Draft prefill / sync / proposal",
+            "\\multicolumn{3}{r@{}}{14.807324}"
+          ],
+          [
+            "Target decode-to-verify saving",
+            "\\multicolumn{3}{r@{}}{1.642558}"
+          ]
+        ],
+        "note": "Roots: CodeContests/test/124 and MATH/counting\\_and\\_probability/train/398. One measured round; service includes normal teardown; no population interval is assigned. The lower rows are arithmetic stage means, not geometric effects or a complete additive service decomposition. The formal 24-root CPU-draft study is separate.",
+        "original_caption": "The separate B570 repair pilot: two roots, one round and a predeclared complete-service stop."
+      },
+      "projected_fields": {
+        "upper": "source first three pilot contrasts, their two root ratios and geometric mean",
+        "lower": "unwrap baseline multicolumn for each of the final two original stage means (s), separate native grid; not a ratio or additive decomposition"
+      },
+      "data_bindings": [
+        {
+          "source": "statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+          "fields": "modern_effects[study_pr=254].{contrast,root_points,ratio,population_interval}",
+          "transformation": "verify two predeclared roots, three ratios and absence of a population interval"
+        },
+        {
+          "source": "data/plot_data.json",
+          "fields": "stage_costs[B570_repair_254,SD_C/TO_C].{candidate_mean_ms,control_mean_ms}",
+          "transformation": "draft prefill+sync+propose versus target decode-to-verify saving; divide source means by 1000 to show seconds"
+        }
+      ],
+      "original_pdf_page": 31
+    },
+    {
+      "table": "S19",
+      "label": "tab:historical-geometry",
+      "output": "tables/s12_historical_geometry.tex",
+      "sha256": "becca8e6ec2d9c10a9c429ab921b96def647bb2d13e96c6b9001f0ff40142cba",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 116
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s12_historical_geometry.tex",
+        "archive_member": "tables/s12_historical_geometry.tex",
+        "sha256": "91649aa4392fb47c64c77571641f380a023979dcd6fb7f3956ea9ebf36463764",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "rows": [
+          [
+            "Qwen C1024 dual",
+            "2",
+            "9",
+            "0.821784",
+            "0.991242"
+          ],
+          [
+            "Qwen C1024 dual",
+            "4",
+            "9",
+            "0.761142",
+            "0.998782"
+          ],
+          [
+            "Qwen C1024 dual",
+            "8",
+            "9",
+            "0.838017",
+            "0.996086"
+          ],
+          [
+            "Qwen C1024 dual",
+            "16",
+            "9",
+            "1.047401",
+            "0.999807"
+          ],
+          [
+            "Qwen C1024 dual",
+            "32",
+            "9",
+            "1.055036",
+            "1.014255"
+          ],
+          [
+            "Qwen C4096 target only",
+            "2",
+            "12",
+            "0.885123",
+            "0.999833"
+          ],
+          [
+            "Qwen C4096 target only",
+            "4",
+            "12",
+            "0.882388",
+            "1.011929"
+          ],
+          [
+            "Qwen C4096 target only",
+            "8",
+            "12",
+            "0.928937",
+            "0.990164"
+          ],
+          [
+            "Qwen C4096 target only",
+            "16",
+            "12",
+            "1.010061",
+            "0.997051"
+          ],
+          [
+            "Qwen C4096 target only",
+            "32",
+            "12",
+            "1.014741",
+            "0.999329"
+          ],
+          [
+            "Smol C4096 dual",
+            "2",
+            "6",
+            "0.809705",
+            "1.011280"
+          ],
+          [
+            "Smol C4096 dual",
+            "8",
+            "6",
+            "0.791084",
+            "1.016390"
+          ],
+          [
+            "Smol C4096 dual",
+            "16",
+            "6",
+            "0.923358",
+            "0.982127"
+          ],
+          [
+            "Smol C4096 dual",
+            "32",
+            "6",
+            "1.088956",
+            "1.001169"
+          ]
+        ],
+        "note": "Source-bound historical Vulkan frontier summaries (immutable identities in the artifact). Ratios are inverted from the original W/L direction; below one favors LOCAL and above one favors WHOLE. Smol q4 was not measured. q32 crossings include $16+16$ partitions; these cells differ from the later $1+(q-1)$ append experiment. Their original fixed-cell timing windows and block counts are retained, without population intervals or pooling across capacity, model or geometry.",
+        "original_caption": "Earlier Vulkan geometry observations, including slower LOCAL cells and their original fixed-cell summaries."
+      },
+      "projected_fields": {
+        "pivot": "q→row; deployment→two-column group with its recorded block count; original Crossing L/W and Inside L/W from each of 14 measured cells",
+        "missing": "outer join of actually exercised q values. Smol q4 is explicitly unmeasured (NM), never zero or interpolated"
+      },
+      "data_bindings": [
+        {
+          "source": "data/history/historical_evidence.json",
+          "fields": "vulkan_width[].{deployment,q,blocks,cross,inside}",
+          "transformation": "match fixed-cell keys, invert each original W/L separately (1/cross,1/inside) to display L/W; no CI or pooling"
+        }
+      ],
+      "original_pdf_page": 32
+    },
+    {
+      "table": "S20",
+      "label": "tab:historical-applications",
+      "output": "tables/s13_historical_applications.tex",
+      "sha256": "d2ae640b09c79bc2b1ad13d512d9132b18238ffb5c8ff57374de03b8dfdb77d1",
+      "display_order_source": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/sections/supplement.tex",
+        "line": 120
+      },
+      "baseline": {
+        "commit": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "path": "papers/taco/20261118_visual_reconstruction/tables/s13_historical_applications.tex",
+        "archive_member": "tables/s13_historical_applications.tex",
+        "sha256": "2e9cf141f6da525a84c6d734337b9d8498f3e9e87e030d505f96af88135c0cf1",
+        "first_rule_through_last_data": "row lines below; full-precision and sign retained at source display precision",
+        "row_lines": [
+          6,
+          7,
+          8
+        ],
+        "rows": [
+          [
+            "Qwen8B",
+            "16",
+            "0.827922",
+            "[0.753870, 0.888346]",
+            "200.739",
+            "168.973"
+          ],
+          [
+            "Qwen14B",
+            "16",
+            "0.744608",
+            "[0.651094, 0.817914]",
+            "662.546",
+            "594.559"
+          ],
+          [
+            "Llama8B",
+            "12",
+            "0.884779",
+            "[0.790486, 0.956653]",
+            "355.730",
+            "368.822"
+          ]
+        ],
+        "note": "Resident ratio compares composite L-P-D4 with the fastest measured target-only M in each study; each five-contrast family also retains all other fixed M controls and W-L4-D4 in the editable source. All studies have four sessions per root. Worker totals include loading, checks and primers and use their own fastest measured M. Qwen8B has fixed relative D4 order; its compound effect can include order effects. Llama has two slower resident roots (ratios 1.017741 and 1.031393), and its worker total is slower.",
+        "original_caption": "Historical resident effects and the separate worker lifetime. Fastest resident and worker controls are selected within their own measured configurations."
+      },
+      "projected_fields": {
+        "resident": "source roots, ratio and family CI endpoints; matched to fastest resident control (no cross-lifetime denominator)",
+        "worker": "two source process totals in seconds; new signed Δ from recorded process_s values at their available precision, not from resident ratios",
+        "limits": "original order confounding, slower roots, four sessions/root and worker/resident scope retained"
+      },
+      "data_bindings": [
+        {
+          "source": "data/history/applications.json",
+          "fields": "[pr].{totals,reported_ratios,reported_intervals,process_s,process_values_rounded,root_ratios_best_M,commit,source_path}",
+          "transformation": "independently choose fastest available measured M for each lifetime; direct resident family endpoints; worker difference = process_s[L_P_D4] minus its own fastest M"
+        }
+      ],
+      "original_pdf_page": 32
+    }
+  ]
+}

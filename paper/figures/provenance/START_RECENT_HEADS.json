@@ -1,0 +1,166 @@
+{
+  "checked_utc": "2026-11-18T07:25:59.792237+00:00",
+  "heads_count": 285,
+  "latest_20_by_commit_time": [
+    {
+      "name": "paper/taco-visual-reconstruction-20261118",
+      "target": {
+        "oid": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+        "committedDate": "2026-11-18T03:46:58Z",
+        "messageHeadline": "paper(taco): reconstruct scientific figures and integrate named autho\u2026"
+      }
+    },
+    {
+      "name": "paper/taco-concise-author-20261118",
+      "target": {
+        "oid": "94b6fb38b94119449cddc5d7b728b73681ba31b2",
+        "committedDate": "2026-11-18T02:26:46Z",
+        "messageHeadline": "paper(taco): refine narrative, reduce length, and target figure impro\u2026"
+      }
+    },
+    {
+      "name": "paper/taco-evidence-visual-refinement-20261118",
+      "target": {
+        "oid": "2e551c2a839dd78a9a9b72417d0afc2f453ce3de",
+        "committedDate": "2026-11-18T01:16:30Z",
+        "messageHeadline": "paper(taco): integrate completed RTX evidence and refine named manusc\u2026"
+      }
+    },
+    {
+      "name": "codex/rtx262-confirmation-20261117",
+      "target": {
+        "oid": "3ed4671c21291f0ed0012fd61cc992558fdb024d",
+        "committedDate": "2026-11-17T23:11:44Z",
+        "messageHeadline": "audit: verify published RTX262 bytes and independent downloaded replay"
+      }
+    },
+    {
+      "name": "codex/taco-narrative-visual-rebuild-20261118",
+      "target": {
+        "oid": "cf725e93a74f4b5bec8bf4c01fe5b63a4fc51e0e",
+        "committedDate": "2026-11-17T18:07:44Z",
+        "messageHeadline": "paper: reconstruct HeteroSpec narrative and all scientific figures"
+      }
+    },
+    {
+      "name": "codex/a5000-confirmation-execution-20261117",
+      "target": {
+        "oid": "0cac675cc757f195b74893da53af2161c2599c97",
+        "committedDate": "2026-11-17T16:29:53Z",
+        "messageHeadline": "audit: verify anonymous result readback, CPU recovery and final resou\u2026"
+      }
+    },
+    {
+      "name": "codex/taco-stage3-recovered-20261117",
+      "target": {
+        "oid": "eb62e92f2da7f61401a492e71d53f6504281443c",
+        "committedDate": "2026-11-17T15:34:58Z",
+        "messageHeadline": "paper(taco): recover unchanged stage-3 author-review candidate"
+      }
+    },
+    {
+      "name": "codex/taco-art-direction-v2-20261117",
+      "target": {
+        "oid": "3decdde371315144005fa5bfbe49336d570da5bc",
+        "committedDate": "2026-11-17T13:47:15Z",
+        "messageHeadline": "figures(taco): redesign visual hierarchy and native tables for author\u2026"
+      }
+    },
+    {
+      "name": "codex/taco-figure-redesign-20261117",
+      "target": {
+        "oid": "0f1b9fb9e105349701a53d95a35635eadd4c43ca",
+        "committedDate": "2026-11-17T12:47:55Z",
+        "messageHeadline": "figures(taco): redesign complete scientific atlas from frozen mainline"
+      }
+    },
+    {
+      "name": "audit/taco-mainline-freeze-20261117-v1",
+      "target": {
+        "oid": "997be15f9388f904055a3b09f409818e13483365",
+        "committedDate": "2026-11-17T11:00:24Z",
+        "messageHeadline": "review(taco): preserve frozen CSV byte identity"
+      }
+    },
+    {
+      "name": "paper/taco-reference-parallelism-20261117",
+      "target": {
+        "oid": "7338fe68a7c15f3d44167700d3dcbfa7c9b98c11",
+        "committedDate": "2026-11-17T09:39:17Z",
+        "messageHeadline": "paper(taco): restore frozen author-review candidate (164 files)"
+      }
+    },
+    {
+      "name": "codex/a5000-review-archive-20261117",
+      "target": {
+        "oid": "c1731bf520b51f0f934781a56cab5e35b076b1ba",
+        "committedDate": "2026-11-17T08:11:33Z",
+        "messageHeadline": "audit: verify downloaded A5000 tensor restoration and retain full-bac\u2026"
+      }
+    },
+    {
+      "name": "docs/taco-submission-materials-20261117",
+      "target": {
+        "oid": "7833835e8ee0c7b368020de846248d47af54eafe",
+        "committedDate": "2026-11-17T07:40:11Z",
+        "messageHeadline": "docs: organize TACO submission requirements and template sources"
+      }
+    },
+    {
+      "name": "review/taco-mainline-closure-20261117",
+      "target": {
+        "oid": "448d256fa485573740edf34ad9f88b13ecc8b963",
+        "committedDate": "2026-11-17T07:07:17Z",
+        "messageHeadline": "review: freeze TACO narrative and evidence closure after A5000 W/B an\u2026"
+      }
+    },
+    {
+      "name": "codex/rtx-confirmation-plan-20261117",
+      "target": {
+        "oid": "d293c12666b9df406de586becef5a1099b31e256",
+        "committedDate": "2026-11-17T06:58:58Z",
+        "messageHeadline": "docs: record three review rounds and reproducible CPU design checks"
+      }
+    },
+    {
+      "name": "codex/a5000-confirmation-plan-20261117",
+      "target": {
+        "oid": "c22569dc7ea9077415516936d1fef22155ff5d2e",
+        "committedDate": "2026-11-17T06:54:43Z",
+        "messageHeadline": "docs: record three A5000 design review rounds and execution gates"
+      }
+    },
+    {
+      "name": "codex/a5000-local-boundary-20261117",
+      "target": {
+        "oid": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+        "committedDate": "2026-11-17T06:22:14Z",
+        "messageHeadline": "audit: verify anonymous LOCAL result downloads and final A0 resource \u2026"
+      }
+    },
+    {
+      "name": "codex/a5000-targeted-evidence-20261117",
+      "target": {
+        "oid": "f66736cb32547da91af1ac1f8953d11cdeefae62",
+        "committedDate": "2026-11-17T04:30:12Z",
+        "messageHeadline": "audit: verify public targeted evidence and final A0 release"
+      }
+    },
+    {
+      "name": "review/tpds-mainline-audit-20261117",
+      "target": {
+        "oid": "ada2bada91dfef58710439ffd2229c42ccfd8935",
+        "committedDate": "2026-11-17T02:43:30Z",
+        "messageHeadline": "review: audit HeteroSpec evidence and decide TPDS mainline (2026-11-17)"
+      }
+    },
+    {
+      "name": "experiment/a5000-prefill-p4-results-20261117",
+      "target": {
+        "oid": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+        "committedDate": "2026-11-17T01:51:51Z",
+        "messageHeadline": "audit: verify anonymous A5000 P4 archive readback"
+      }
+    }
+  ]
+}

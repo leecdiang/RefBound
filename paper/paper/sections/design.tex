@@ -1,0 +1,37 @@
+\section{Evaluation Design}
+\label{sec:design}
+
+The evaluation tests LOCAL at selected physical crossings, measures few-column arithmetic and grouped prefill in independent complete requests, and examines natural opportunities together with sampling, drafting, and setup costs. Each study has its own numerical reference, control and clock (Tables~\ref{tab:deployments} and~\ref{tab:studies}).
+
+\subsection{Deployments and experimental controls}
+Modern A5000 studies use Qwen3-32B Q4\_K\_M with Q8\_1 activation preparation and a Qwen3-0.6B Q8\_0 draft. RTX uses Llama-3.1-8B-Instruct and Llama-3.2-1B-Instruct, both Q8\_0~\cite{qwen3,llama3,llama32}. Their C4/P4 panels use fixed, previously exposed code/math roots from CodeContests and MATH~\cite{codecontests,math}.
+
+\papertable{t03_deployments}{Deployment profiles for the principal studies. Context is C1024 except A5000 confirmation B (C4096). The artifact deployment register binds compiler, driver, placement and model identities.}{tab:deployments}
+
+The direct \emph{LOCAL/SIMPLE} comparison fixes C4 on, P4 off and proposals drawn from a real speculative trace. It uses two selected histories of one root, each followed from its own commit. Independent \emph{C4} studies hold SIMPLE and P4-off fixed during live speculative requests: A5000 compares C1/C4, and RTX adds B. Independent \emph{P4} studies cross target-only/speculative execution with C4/P4 while retaining SIMPLE. Their controls measure packing within a decoding policy and speculation with packing fixed. Each C4/P4 contrast therefore estimates its own request-level treatment with SIMPLE fixed.
+
+The A5000 confirmation has two panels, each with 12 paired time blocks. Panel A repeats the selected 32B transactions: noncrossing is the prespecified primary endpoint, crossing and interaction supporting. Panel B retains the original 8B Q8\_0 target-only consumer on two fixed OpenAssistant conversations~\cite{oasst}, two turns each, C4096 and cap128 per turn. Its primary endpoint weights the conversations equally. A units are first transactions; B units are two-turn episodes.
+
+The separate RTX confirmation contains 24 roots, 12 rounds and three arms in six time blocks, two rounds per root/block: 864 measured requests. C1/B is the sole prespecified primary comparison; C4/C1 and C4/B are descriptive secondary comparisons. It uses the earlier two-round bridge's paths but has its own observations and crossed root/time-block analysis.
+
+M1 is a historical Qwen3-8B/0.6B Q8\_0 factorial. It crosses WHOLE/LOCAL with loop4/packed on 16 APPS/MATH roots and four sessions~\cite{apps,math}. B570 has a Vulkan F32-by-Q8 reference and a formal TO/SD $\times$ A/C design: A is its scalar target control, C its compatible grouped target, and the draft runs on the CPU. The later draft-placement pilot is a separate two-root study.
+
+\papertable{t04_studies}{Sampling and workloads by independent study. Inputs are prompt tokens or selected LOCAL history lengths; outputs are generated tokens or requested rows. Repeated rounds remain within their root and time block. NR denotes an unreported field in the earlier RTX normalized table.}{tab:studies}
+
+\subsection{Measurement boundaries}
+CUDA resident-request time includes reset, prefill, target evaluation, live drafting/proposals where present, requested-output handling, decisions, commit and final synchronization. Loading, context-pool setup and post-clock export/hash/write are excluded. LOCAL instead measures target verification through trim and synchronization, including owned-row copies and decisions; history reconstruction and live drafting are outside this transaction clock. Its profiler diagnostics use a separate device-event clock.
+
+B570 service includes CPU drafting, target compute and normal teardown, with endpoint export/hash between them excluded. M1 uses native service; the 8B natural panel uses response plus reset, including CPU sampling and control. Worker totals include loading, checks and primers. These lifetimes determine which costs a deployment must recover.
+
+\subsection{Estimates and retained dependence}
+For paired candidate/control times at root $i$ and round $j$, the modern request estimate gives roots equal log weight:
+\begin{equation}
+ \ell_{ij}=\log\frac{T^{\mathrm{candidate}}_{ij}}{T^{\mathrm{control}}_{ij}},\qquad
+ \widehat r=\exp\!\left(\frac1n\sum_i\frac1{m_i}\sum_j\ell_{ij}\right).
+ \label{eq:estimator}
+\end{equation}
+Time reduction is $100(1-\widehat r)\%$. Initial request studies use 10,000 whole-root bootstrap draws within code/math strata, retaining rounds, with individual 95\% percentile intervals. RTX confirmation first averages its two rounds within each root/block, then weights the 24 roots and six blocks equally; its 10,000 frozen draws independently resample stratified roots and whole blocks. Root-only intervals condition on the observed blocks. Arithmetic phase differences describe a separate estimand from geometric time ratios.
+
+A5000 confirmation resamples its 12 whole time blocks jointly. Panel A averages paired log ratios for each selected history; Panel B first weights the two conversations equally within a block. Its individual 95\% intervals concern the fixed cases over the observed campaign. Original two-repeat LOCAL observations remain descriptive pairs. M1 retains four sessions within each root, uses ratios of total native-service time for direct effects and a root-geometric interaction, and reports 99\% marginal intervals for its five-comparison Bonferroni family. Complete formulas, seeds and sensitivity summaries are in the scientific supplement.
+
+Eligibility follows the frozen role and technical-disposition rules. All eligible measured roots and blocks enter their estimator; qualification, warmup, diagnostics and technical exclusions have separate roles (Section~\ref{supp:ledger}).

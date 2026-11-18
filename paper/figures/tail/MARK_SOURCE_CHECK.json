@@ -1,0 +1,49 @@
+{
+  "scope": "Saved scalar/paired values and SVG mark binding; no GPU/model replay and no new CI.",
+  "status": "PASS",
+  "checks": {
+    "f06_b570": {
+      "kind_counts": {
+        "root_ratio": 72,
+        "interval": 3,
+        "summary": 3,
+        "legend": 2
+      },
+      "root_ratio_marks": 72,
+      "distinct_roots": 24,
+      "max_difference_from_two_round_geometric_ratio": 0.0,
+      "svg_marker_positions_equal_ledger": true
+    },
+    "f08_c4_initial": {
+      "kind_counts": {
+        "paired_root_seconds": 24,
+        "legend": 2,
+        "root_ratio": 72,
+        "interval": 3,
+        "summary": 3
+      },
+      "root_ratio_marks": 72,
+      "distinct_roots": 24,
+      "max_difference_from_two_round_geometric_ratio": 1.1102230246251565e-16,
+      "svg_marker_positions_equal_ledger": true
+    },
+    "f03_transaction": {
+      "kind_counts": {
+        "first_pair_arm": 8,
+        "event_arm": 8
+      },
+      "root_ratio_marks": 0,
+      "distinct_roots": 0,
+      "max_difference_from_two_round_geometric_ratio": null,
+      "svg_marker_positions_equal_ledger": true
+    },
+    "method_invariants": {
+      "RTX_object_denominator": 16,
+      "B570_vectors_per_arm": 384,
+      "B570_total_vectors": 1920,
+      "before_unequal": 198,
+      "after_unequal": 0,
+      "owned_and_successor_relationships": true
+    }
+  }
+}

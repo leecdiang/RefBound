@@ -1,0 +1,103 @@
+svg_id,kind,text,x_pt,y_pt,data_key,shape,font_pt,value,fill
+f06_b570-panel-title-0001,text,B570 complete service,4,9,,,8.7,,
+f06_b570-study-0002,text,24 roots · two rounds each,392,9,,,8.0,,
+f06_b570-label-0003,text,Direct comparison,4,29,,,8.0,,
+f06_b570-label-0004,text,Time ratio (log scale),210,29,,,8.0,,
+f06_b570-label-0005,text,Estimate [95% CI],392,29,,,8.0,,
+f06_b570-label-0007,text,0.75×,146.112,177,,,7.9,,
+f06_b570-label-0009,text,1×,175.093,177,,,7.9,,
+f06_b570-label-0011,text,1.5×,215.939,177,,,7.9,,
+f06_b570-label-0013,text,2×,244.919,177,,,7.9,,
+f06_b570-label-0015,text,2.5×,267.399,177,,,7.9,,
+f06_b570-label-0016,text,Grouped/scalar,4,52,,,8.2,,
+f06_b570-label-0017,text,under target-only,4,64,,,8.0,,
+f06_b570-exact-ratio-ci-0046,text,"0.783 [0.770, 0.797]",392,59,,,8.0,,
+f06_b570-label-0047,text,Grouped/scalar,4,96,,,8.2,,
+f06_b570-label-0048,text,under speculation,4,108,,,8.0,,
+f06_b570-exact-ratio-ci-0077,text,"0.872 [0.870, 0.874]",392,103,,,8.0,,
+f06_b570-label-0078,text,Grouped speculation/,4,140,,,8.2,,
+f06_b570-label-0079,text,grouped target-only,4,152,,,8.0,,
+f06_b570-exact-ratio-ci-0108,text,"2.512 [2.486, 2.539]",392,147,,,8.0,,
+f06_b570-label-0110,text,Root ratios,14,195,,,8.0,,
+f06_b570-label-0112,text,Equal-root summary,99,195,,,8.0,,
+f06_b570-label-0113,text,Above 1: candidate slower,392,195,,,8.0,,
+f06_b570-root:TO_C/TO_A:CodeContests/test/90-0018,root_ratio,,144.134,50.8,247/TO_C/TO_A/CodeContests/test/90/ratio,o,,0.7354152122471939,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/124-0019,root_ratio,,145.937,52.9,247/TO_C/TO_A/CodeContests/test/124/ratio,o,,0.7486972304765259,#254B70
+f06_b570-root:TO_C/TO_A:MATH/algebra/train/1050-0020,root_ratio,,145.968,55.0,247/TO_C/TO_A/MATH/algebra/train/1050/ratio,o,,0.7489242713772848,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/60-0021,root_ratio,,146.073,57.1,247/TO_C/TO_A/CodeContests/test/60/ratio,o,,0.7497056807841037,#254B70
+f06_b570-root:TO_C/TO_A:MATH/algebra/train/355-0022,root_ratio,,146.17,59.2,247/TO_C/TO_A/MATH/algebra/train/355/ratio,o,,0.7504293782679725,#254B70
+f06_b570-root:TO_C/TO_A:MATH/prealgebra/train/316-0023,root_ratio,,146.196,50.8,247/TO_C/TO_A/MATH/prealgebra/train/316/ratio,o,,0.7506217671230149,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/116-0024,root_ratio,,147.085,52.9,247/TO_C/TO_A/CodeContests/test/116/ratio,o,,0.7572792934832495,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/81-0025,root_ratio,,147.386,55.0,247/TO_C/TO_A/CodeContests/test/81/ratio,o,,0.7595449739600082,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/129-0026,root_ratio,,147.589,57.1,247/TO_C/TO_A/CodeContests/test/129/ratio,o,,0.7610718451698673,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/108-0027,root_ratio,,147.669,59.2,247/TO_C/TO_A/CodeContests/test/108/ratio,o,,0.7616777191443372,#254B70
+f06_b570-root:TO_C/TO_A:MATH/counting_and_probability/train/35-0028,root_ratio,,147.677,50.8,247/TO_C/TO_A/MATH/counting_and_probability/train/35/ratio,o,,0.7617403036686798,#254B70
+f06_b570-root:TO_C/TO_A:MATH/geometry/train/545-0029,root_ratio,,147.91,52.9,247/TO_C/TO_A/MATH/geometry/train/545/ratio,o,,0.7635011585536234,#254B70
+f06_b570-root:TO_C/TO_A:MATH/geometry/train/701-0030,root_ratio,,147.996,55.0,247/TO_C/TO_A/MATH/geometry/train/701/ratio,o,,0.7641577828494875,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/52-0031,root_ratio,,150.649,57.1,247/TO_C/TO_A/CodeContests/test/52/ratio,o,,0.784547065061405,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/0-0032,root_ratio,,150.662,59.2,247/TO_C/TO_A/CodeContests/test/0/ratio,o,,0.784647382506887,#254B70
+f06_b570-root:TO_C/TO_A:MATH/geometry/train/387-0033,root_ratio,,151.798,50.8,247/TO_C/TO_A/MATH/geometry/train/387/ratio,o,,0.7935488467602249,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/71-0034,root_ratio,,152.038,52.9,247/TO_C/TO_A/CodeContests/test/71/ratio,o,,0.7954407459054285,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/6-0035,root_ratio,,152.699,55.0,247/TO_C/TO_A/CodeContests/test/6/ratio,o,,0.8006756877853313,#254B70
+f06_b570-root:TO_C/TO_A:CodeContests/test/159-0036,root_ratio,,153.28,57.1,247/TO_C/TO_A/CodeContests/test/159/ratio,o,,0.8053040968657548,#254B70
+f06_b570-root:TO_C/TO_A:MATH/geometry/train/567-0037,root_ratio,,156.452,59.2,247/TO_C/TO_A/MATH/geometry/train/567/ratio,o,,0.8310718626186655,#254B70
+f06_b570-root:TO_C/TO_A:MATH/counting_and_probability/train/398-0038,root_ratio,,157.941,50.8,247/TO_C/TO_A/MATH/counting_and_probability/train/398/ratio,o,,0.843440206500752,#254B70
+f06_b570-root:TO_C/TO_A:MATH/algebra/train/320-0039,root_ratio,,158.26,52.9,247/TO_C/TO_A/MATH/algebra/train/320/ratio,o,,0.8461224355483801,#254B70
+f06_b570-root:TO_C/TO_A:MATH/algebra/train/337-0040,root_ratio,,158.631,55.0,247/TO_C/TO_A/MATH/algebra/train/337/ratio,o,,0.8492419403599096,#254B70
+f06_b570-root:TO_C/TO_A:MATH/algebra/train/917-0041,root_ratio,,159.763,57.1,247/TO_C/TO_A/MATH/algebra/train/917/ratio,o,,0.8588343113101632,#254B70
+f06_b570-interval-0042,interval,,148.746,66,247/TO_C/TO_A/ci95_ratio,capped-line,,"[0.7698675395853886, 0.7965375119826233]",
+f06_b570-estimate:TO_C/TO_A-0045,summary,,150.415,66,247/TO_C/TO_A/ratio,D,,0.782728172718679,white
+f06_b570-root:SD_C/SD_A:MATH/prealgebra/train/316-0049,root_ratio,,160.266,94.8,247/SD_C/SD_A/MATH/prealgebra/train/316/ratio,o,,0.8631391623959127,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/90-0050,root_ratio,,160.51,96.9,247/SD_C/SD_A/CodeContests/test/90/ratio,o,,0.8652273670853862,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/60-0051,root_ratio,,160.662,99.0,247/SD_C/SD_A/CodeContests/test/60/ratio,o,,0.8665345985357055,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/124-0052,root_ratio,,160.688,101.1,247/SD_C/SD_A/CodeContests/test/124/ratio,o,,0.8667622363564791,#254B70
+f06_b570-root:SD_C/SD_A:MATH/algebra/train/1050-0053,root_ratio,,160.703,103.2,247/SD_C/SD_A/MATH/algebra/train/1050/ratio,o,,0.8668911200867632,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/116-0054,root_ratio,,160.704,94.8,247/SD_C/SD_A/CodeContests/test/116/ratio,o,,0.8668967791421871,#254B70
+f06_b570-root:SD_C/SD_A:MATH/algebra/train/355-0055,root_ratio,,160.785,96.9,247/SD_C/SD_A/MATH/algebra/train/355/ratio,o,,0.8675961057859318,#254B70
+f06_b570-root:SD_C/SD_A:MATH/geometry/train/701-0056,root_ratio,,160.924,99.0,247/SD_C/SD_A/MATH/geometry/train/701/ratio,o,,0.8687934515302385,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/129-0057,root_ratio,,160.963,101.1,247/SD_C/SD_A/CodeContests/test/129/ratio,o,,0.8691321123379019,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/108-0058,root_ratio,,160.968,103.2,247/SD_C/SD_A/CodeContests/test/108/ratio,o,,0.8691750360794379,#254B70
+f06_b570-root:SD_C/SD_A:MATH/geometry/train/387-0059,root_ratio,,161.079,94.8,247/SD_C/SD_A/MATH/geometry/train/387/ratio,o,,0.8701337225749803,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/81-0060,root_ratio,,161.16,96.9,247/SD_C/SD_A/CodeContests/test/81/ratio,o,,0.8708276571265551,#254B70
+f06_b570-root:SD_C/SD_A:MATH/counting_and_probability/train/35-0061,root_ratio,,161.228,99.0,247/SD_C/SD_A/MATH/counting_and_probability/train/35/ratio,o,,0.8714170190728165,#254B70
+f06_b570-root:SD_C/SD_A:MATH/geometry/train/545-0062,root_ratio,,161.308,101.1,247/SD_C/SD_A/MATH/geometry/train/545/ratio,o,,0.8721107120117575,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/52-0063,root_ratio,,161.449,103.2,247/SD_C/SD_A/CodeContests/test/52/ratio,o,,0.8733358059266115,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/71-0064,root_ratio,,161.529,94.8,247/SD_C/SD_A/CodeContests/test/71/ratio,o,,0.874024561805866,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/0-0065,root_ratio,,161.566,96.9,247/SD_C/SD_A/CodeContests/test/0/ratio,o,,0.8743482978845142,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/159-0066,root_ratio,,161.757,99.0,247/SD_C/SD_A/CodeContests/test/159/ratio,o,,0.8760028466624561,#254B70
+f06_b570-root:SD_C/SD_A:MATH/counting_and_probability/train/398-0067,root_ratio,,161.767,101.1,247/SD_C/SD_A/MATH/counting_and_probability/train/398/ratio,o,,0.876089750051128,#254B70
+f06_b570-root:SD_C/SD_A:CodeContests/test/6-0068,root_ratio,,161.933,103.2,247/SD_C/SD_A/CodeContests/test/6/ratio,o,,0.8775366721229672,#254B70
+f06_b570-root:SD_C/SD_A:MATH/algebra/train/320-0069,root_ratio,,162.048,94.8,247/SD_C/SD_A/MATH/algebra/train/320/ratio,o,,0.8785371839110034,#254B70
+f06_b570-root:SD_C/SD_A:MATH/geometry/train/567-0070,root_ratio,,162.233,96.9,247/SD_C/SD_A/MATH/geometry/train/567/ratio,o,,0.8801586322292888,#254B70
+f06_b570-root:SD_C/SD_A:MATH/algebra/train/917-0071,root_ratio,,162.514,99.0,247/SD_C/SD_A/MATH/algebra/train/917/ratio,o,,0.8826169853240737,#254B70
+f06_b570-root:SD_C/SD_A:MATH/algebra/train/337-0072,root_ratio,,162.845,101.1,247/SD_C/SD_A/MATH/algebra/train/337/ratio,o,,0.8855195950659005,#254B70
+f06_b570-interval-0073,interval,,161.07,110,247/SD_C/SD_A/ci95_ratio,capped-line,,"[0.8700513207829158, 0.8744051471257424]",
+f06_b570-estimate:SD_C/SD_A-0076,summary,,161.316,110,247/SD_C/SD_A/ratio,D,,0.8721821172319397,white
+f06_b570-root:SD_C/TO_C:MATH/algebra/train/337-0080,root_ratio,,263.158,138.8,247/SD_C/TO_C/MATH/algebra/train/337/ratio,o,,2.396943403060885,#A95524
+f06_b570-root:SD_C/TO_C:MATH/counting_and_probability/train/398-0081,root_ratio,,263.687,140.9,247/SD_C/TO_C/MATH/counting_and_probability/train/398/ratio,o,,2.4095583189751797,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/159-0082,root_ratio,,263.794,143.0,247/SD_C/TO_C/CodeContests/test/159/ratio,o,,2.4121256593847553,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/6-0083,root_ratio,,265.096,145.1,247/SD_C/TO_C/CodeContests/test/6/ratio,o,,2.4434955510989336,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/0-0084,root_ratio,,265.352,147.2,247/SD_C/TO_C/CodeContests/test/0/ratio,o,,2.449730187036307,#A95524
+f06_b570-root:SD_C/TO_C:MATH/geometry/train/567-0085,root_ratio,,265.492,138.8,247/SD_C/TO_C/MATH/geometry/train/567/ratio,o,,2.4531278019094644,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/52-0086,root_ratio,,266.43,140.9,247/SD_C/TO_C/CodeContests/test/52/ratio,o,,2.476088535161742,#A95524
+f06_b570-root:SD_C/TO_C:MATH/algebra/train/320-0087,root_ratio,,266.657,143.0,247/SD_C/TO_C/MATH/algebra/train/320/ratio,o,,2.481653565272018,#A95524
+f06_b570-root:SD_C/TO_C:MATH/prealgebra/train/316-0088,root_ratio,,266.919,145.1,247/SD_C/TO_C/MATH/prealgebra/train/316/ratio,o,,2.488135976133723,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/71-0089,root_ratio,,267.277,147.2,247/SD_C/TO_C/CodeContests/test/71/ratio,o,,2.4969775721334395,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/116-0090,root_ratio,,267.502,138.8,247/SD_C/TO_C/CodeContests/test/116/ratio,o,,2.5025734761688185,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/60-0091,root_ratio,,268.131,140.9,247/SD_C/TO_C/CodeContests/test/60/ratio,o,,2.5182429290763615,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/129-0092,root_ratio,,268.301,143.0,247/SD_C/TO_C/CodeContests/test/129/ratio,o,,2.5224995990531154,#A95524
+f06_b570-root:SD_C/TO_C:MATH/algebra/train/917-0093,root_ratio,,268.412,145.1,247/SD_C/TO_C/MATH/algebra/train/917/ratio,o,,2.525263550834497,#A95524
+f06_b570-root:SD_C/TO_C:MATH/geometry/train/387-0094,root_ratio,,268.681,147.2,247/SD_C/TO_C/MATH/geometry/train/387/ratio,o,,2.5320204541609304,#A95524
+f06_b570-root:SD_C/TO_C:MATH/algebra/train/1050-0095,root_ratio,,269.06,138.8,247/SD_C/TO_C/MATH/algebra/train/1050/ratio,o,,2.541561981715834,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/124-0096,root_ratio,,269.188,140.9,247/SD_C/TO_C/CodeContests/test/124/ratio,o,,2.5448118114218543,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/81-0097,root_ratio,,269.526,143.0,247/SD_C/TO_C/CodeContests/test/81/ratio,o,,2.5533597242193125,#A95524
+f06_b570-root:SD_C/TO_C:MATH/geometry/train/701-0098,root_ratio,,269.535,145.1,247/SD_C/TO_C/MATH/geometry/train/701/ratio,o,,2.5535871315721903,#A95524
+f06_b570-root:SD_C/TO_C:MATH/algebra/train/355-0099,root_ratio,,269.574,147.2,247/SD_C/TO_C/MATH/algebra/train/355/ratio,o,,2.5545709301933073,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/108-0100,root_ratio,,269.945,138.8,247/SD_C/TO_C/CodeContests/test/108/ratio,o,,2.5639957618622886,#A95524
+f06_b570-root:SD_C/TO_C:MATH/geometry/train/545-0101,root_ratio,,270.747,140.9,247/SD_C/TO_C/MATH/geometry/train/545/ratio,o,,2.5844854711297405,#A95524
+f06_b570-root:SD_C/TO_C:CodeContests/test/90-0102,root_ratio,,271.978,143.0,247/SD_C/TO_C/CodeContests/test/90/ratio,o,,2.616259228871667,#A95524
+f06_b570-root:SD_C/TO_C:MATH/counting_and_probability/train/35-0103,root_ratio,,274.787,145.1,247/SD_C/TO_C/MATH/counting_and_probability/train/35/ratio,o,,2.690240789808621,#A95524
+f06_b570-interval-0104,interval,,266.82,154,247/SD_C/TO_C/ci95_ratio,capped-line,,"[2.485677338153511, 2.5389864059459275]",
+f06_b570-estimate:SD_C/TO_C-0107,summary,,267.884,154,247/SD_C/TO_C/ratio,D,,2.512086715810322,white
+f06_b570-root-legend-0109,legend,,7,195,root-legend,o,,,#465965
+f06_b570-summary-legend-0111,legend,,91,195,summary-legend,D,,,white

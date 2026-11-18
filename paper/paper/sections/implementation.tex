@@ -1,0 +1,23 @@
+\section{Implementation and Numerical Qualification}
+\label{sec:implementation}
+
+\subsection{Arithmetic paths after shared preparation}
+The implementation extends a llama.cpp-derived decoder and reuses existing quantized kernels~\cite{llama_cpp_fewrow,loop4code}. \Cfour{} selects admitted few-column paths for two to four queries; \Pfour{} organizes independent four-column groups in wider prefill; \Local{} places physical-view refinement inside attention. These choices expose different execution freedoms.
+
+Table~\ref{tab:dispatch} distinguishes the RTX paths after the same Q8\_1 activation preparation. B is the controlled scalar-loop baseline, C1 groups independent scalar channel/query work into one dispatch, and C4 admits the inherited few-column specialization. The initial and confirmation studies share their numerical core, worker binaries and models.
+
+\papertable{t01_dispatch}{Target-projection dispatch in the independent RTX B/C1/C4 studies. All three paths begin after the same Q8\_1 activation preparation; counts refer to one examined MMVQ operation.}{tab:dispatch}
+
+RTX C4 admits Q8\_0 weights on the GENERIC device table, registered $K\geq1024$ block alignment, even output dimension $M$, and $2\leq q\leq4$. Fusion, FlashAttention, CUDA graphs and programmatic dependent launch are disabled in that study. The A5000 C1/C4 bridge uses its own q2--4 selector for Q4\_K/Q6\_K paths; C1 retains the scalar-channel representation and both arms have P4 off. The artifact source map binds these distinct builds to their executed routines.
+
+\subsection{Preserve arithmetic within groups; organize between them}
+For $q=4g$ known columns, P4 interprets supported contiguous activation columns as $g$ independent four-column groups after shared preparation. Each retains its admitted arithmetic; no reduction crosses groups. The A5000 graph keeps input/output shapes $[K,1,q]$ and $[M,1,q]$, and the MMVQ dispatcher supplies the group interpretation at launch. The wide predicate is $8\leq q\leq32$, \mbox{$q\bmod4=0$}; other shapes retain their registered paths. The request study exercises q32 packed prefill, while separate q16/q24 panels qualify additional numerical cases.
+
+The LOCAL panel uses C4 with P4 disabled and reuses the frozen A5000 prefill numerical core. At its crossing, SIMPLE's q1 fragment partly uses gate/up fusion, while LOCAL's q4 path is unfused. This behavior differs from the fusion-disabled RTX bridge and remains part of the measured LOCAL treatment.
+
+\subsection{Qualify the complete numerical interface}
+Qualification checks complete requested vocabulary vectors, active KV in canonical logical order, and successor state. The completed comparisons in Table~\ref{tab:qualification} match their bound references: vectors and active KV agree bitwise, and consumer decisions and successor state agree. Heavy captures are separate from clean timing. Conditional proposal rows use a scalar reference with the same supplied prefix; autonomous continuation checks the emitted sequence and stopping behavior.
+
+\papertable{t02_qualification}{Numerical qualification of the bound CUDA paths. These are original-machine complete-object checks; Table~\ref{tab:access} distinguishes the independently readable public subset.}{tab:qualification}
+
+Sentinel captures test full objects, while timed requests retain endpoint and actual-work checks. LOCAL compares owned rows, tentative and committed state, and continuation from each arm's own commit. RTX confirmation repeats pristine-reference captures on two sentinel roots and checks timed-request state/frontier identities, pending and transaction state, work, dispatch, and graph/view identity. Sections~\ref{supp:access} and~\ref{supp:rtx-confirmation} retain object counts and access scope. Structural admission guards enforce the dense-cache, greedy domain in Section~\ref{sec:reference}; complete-vector and state comparisons test the exercised numerical instances.

@@ -1,0 +1,392 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{24}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Chen et~al\mbox{.}(2023)]%
+        {chen2023}
+\bibfield{author}{\bibinfo{person}{Charlie Chen}, \bibinfo{person}{Sebastian
+  Borgeaud}, \bibinfo{person}{Geoffrey Irving}, \bibinfo{person}{Jean-Baptiste
+  Lespiau}, \bibinfo{person}{Laurent Sifre}, {and} \bibinfo{person}{John
+  Jumper}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{Accelerating Large Language Model Decoding with
+  Speculative Sampling}.
+\newblock \bibinfo{howpublished}{arXiv:2302.01318v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2302.01318}{doi:\nolinkurl{10.48550/arXiv.2302.01318}}
+
+
+\bibitem[Dao et~al\mbox{.}(2022)]%
+        {flashattention}
+\bibfield{author}{\bibinfo{person}{Tri Dao}, \bibinfo{person}{Dan Fu},
+  \bibinfo{person}{Stefano Ermon}, \bibinfo{person}{Atri Rudra}, {and}
+  \bibinfo{person}{Christopher R{\'e}}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{{FlashAttention}: Fast and Memory-Efficient Exact
+  Attention with {IO}-Awareness}. In \bibinfo{booktitle}{\emph{Advances in
+  Neural Information Processing Systems}}, Vol.~\bibinfo{volume}{35}.
+  \bibinfo{publisher}{Curran Associates, Inc.}, \bibinfo{pages}{16344--16359}.
+\newblock
+\href{https://doi.org/10.52202/068431-1189}{doi:\nolinkurl{10.52202/068431-1189}}
+
+
+\bibitem[Gond et~al\mbox{.}(2026)]%
+        {llm42}
+\bibfield{author}{\bibinfo{person}{Raja Gond}, \bibinfo{person}{Aditya~K
+  Kamath}, \bibinfo{person}{Ramachandran Ramjee}, {and} \bibinfo{person}{Ashish
+  Panwar}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{{LLM-42}: Enabling Determinism in {LLM} Inference
+  with Verified Speculation}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  ACM SIGOPS 32nd Symposium on Operating Systems Principles}}.
+  \bibinfo{publisher}{Association for Computing Machinery},
+  \bibinfo{pages}{916--931}.
+\newblock
+\href{https://doi.org/10.1145/3830418.3843901}{doi:\nolinkurl{10.1145/3830418.3843901}}
+
+
+\bibitem[Grattafiori et~al\mbox{.}(2024)]%
+        {llama3}
+\bibfield{author}{\bibinfo{person}{Aaron Grattafiori} {et~al\mbox{.}}}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{The {Llama 3} Herd of Models}.
+\newblock \bibinfo{howpublished}{arXiv:2407.21783v3}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2407.21783}{doi:\nolinkurl{10.48550/arXiv.2407.21783}}
+
+
+\bibitem[He and {Thinking Machines Lab}(2025)]%
+        {thinkingmachines}
+\bibfield{author}{\bibinfo{person}{Horace He} {and} \bibinfo{person}{{Thinking
+  Machines Lab}}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Defeating Nondeterminism in {LLM}
+  Inference}}.
+\newblock Thinking Machines Lab: Connectionism.
+\newblock
+\href{https://doi.org/10.64434/tml.20250910}{doi:\nolinkurl{10.64434/tml.20250910}}
+
+
+\bibitem[Hendrycks et~al\mbox{.}(2021a)]%
+        {apps}
+\bibfield{author}{\bibinfo{person}{Dan Hendrycks}, \bibinfo{person}{Steven
+  Basart}, \bibinfo{person}{Saurav Kadavath}, \bibinfo{person}{Mantas Mazeika},
+  \bibinfo{person}{Akul Arora}, \bibinfo{person}{Ethan Guo},
+  \bibinfo{person}{Collin Burns}, \bibinfo{person}{Samir Puranik},
+  \bibinfo{person}{Horace He}, \bibinfo{person}{Dawn Song}, {and}
+  \bibinfo{person}{Jacob Steinhardt}.} \bibinfo{year}{2021}\natexlab{a}.
+\newblock \showarticletitle{Measuring Coding Challenge Competence With {APPS}}.
+  In \bibinfo{booktitle}{\emph{Proceedings of the Neural Information Processing
+  Systems Track on Datasets and Benchmarks}}, Vol.~\bibinfo{volume}{1}.
+  \bibinfo{numpages}{11}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/c24cd76e1ce41366a4bbe8a49b02a028-Abstract-round2.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Hendrycks et~al\mbox{.}(2021b)]%
+        {math}
+\bibfield{author}{\bibinfo{person}{Dan Hendrycks}, \bibinfo{person}{Collin
+  Burns}, \bibinfo{person}{Saurav Kadavath}, \bibinfo{person}{Akul Arora},
+  \bibinfo{person}{Steven Basart}, \bibinfo{person}{Eric Tang},
+  \bibinfo{person}{Dawn Song}, {and} \bibinfo{person}{Jacob Steinhardt}.}
+  \bibinfo{year}{2021}\natexlab{b}.
+\newblock \showarticletitle{Measuring Mathematical Problem Solving With the
+  {MATH} Dataset}. In \bibinfo{booktitle}{\emph{Proceedings of the Neural
+  Information Processing Systems Track on Datasets and Benchmarks}},
+  Vol.~\bibinfo{volume}{1}. \bibinfo{numpages}{11}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[K{\"o}pf et~al\mbox{.}(2023)]%
+        {oasst}
+\bibfield{author}{\bibinfo{person}{Andreas K{\"o}pf}, \bibinfo{person}{Yannic
+  Kilcher}, \bibinfo{person}{Dimitri von R{\"u}tte}, \bibinfo{person}{Sotiris
+  Anagnostidis}, \bibinfo{person}{Zhi~Rui Tam}, \bibinfo{person}{Keith
+  Stevens}, \bibinfo{person}{Abdullah Barhoum}, \bibinfo{person}{Duc Nguyen},
+  \bibinfo{person}{Oliver Stanley}, \bibinfo{person}{Rich{\'a}rd Nagyfi},
+  \bibinfo{person}{Shahul ES}, \bibinfo{person}{Sameer Suri},
+  \bibinfo{person}{David Glushkov}, \bibinfo{person}{Arnav Dantuluri},
+  \bibinfo{person}{Andrew Maguire}, \bibinfo{person}{Christoph Schuhmann},
+  \bibinfo{person}{Huu Nguyen}, {and} \bibinfo{person}{Alexander Mattick}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{{OpenAssistant} Conversations---Democratizing Large
+  Language Model Alignment}. In \bibinfo{booktitle}{\emph{Advances in Neural
+  Information Processing Systems}}, Vol.~\bibinfo{volume}{36}.
+  \bibinfo{publisher}{Curran Associates, Inc.}, \bibinfo{pages}{47669--47681}.
+\newblock
+\href{https://doi.org/10.52202/075280-2064}{doi:\nolinkurl{10.52202/075280-2064}}
+
+
+\bibitem[Leviathan et~al\mbox{.}(2023)]%
+        {leviathan2023}
+\bibfield{author}{\bibinfo{person}{Yaniv Leviathan}, \bibinfo{person}{Matan
+  Kalman}, {and} \bibinfo{person}{Yossi Matias}.}
+  \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Fast Inference from Transformers via Speculative
+  Decoding}. In \bibinfo{booktitle}{\emph{Proceedings of the 40th International
+  Conference on Machine Learning}} \emph{(\bibinfo{series}{Proceedings of
+  Machine Learning Research}, Vol.~\bibinfo{volume}{202})}.
+  \bibinfo{publisher}{PMLR}, \bibinfo{pages}{19274--19286}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v202/leviathan23a.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Li et~al\mbox{.}(2022)]%
+        {codecontests}
+\bibfield{author}{\bibinfo{person}{Yujia Li}, \bibinfo{person}{David Choi},
+  \bibinfo{person}{Junyoung Chung}, \bibinfo{person}{Nate Kushman},
+  \bibinfo{person}{Julian Schrittwieser}, \bibinfo{person}{R{\'e}mi Leblond},
+  \bibinfo{person}{Tom Eccles}, \bibinfo{person}{James Keeling},
+  \bibinfo{person}{Felix Gimeno}, \bibinfo{person}{Agustin Dal~Lago},
+  \bibinfo{person}{Thomas Hubert}, \bibinfo{person}{Peter Choy},
+  \bibinfo{person}{Cyprien de Masson~d'Autume}, \bibinfo{person}{Igor
+  Babuschkin}, \bibinfo{person}{Xinyun Chen}, \bibinfo{person}{Po-Sen Huang},
+  \bibinfo{person}{Johannes Welbl}, \bibinfo{person}{Sven Gowal},
+  \bibinfo{person}{Alexey Cherepanov}, \bibinfo{person}{James Molloy},
+  \bibinfo{person}{Daniel~J. Mankowitz}, \bibinfo{person}{Esme~Sutherland
+  Robson}, \bibinfo{person}{Pushmeet Kohli}, \bibinfo{person}{Nando de
+  Freitas}, \bibinfo{person}{Koray Kavukcuoglu}, {and} \bibinfo{person}{Oriol
+  Vinyals}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Competition-Level Code Generation with
+  {AlphaCode}}.
+\newblock \bibinfo{journal}{\emph{Science}} \bibinfo{volume}{378},
+  \bibinfo{number}{6624} (\bibinfo{year}{2022}), \bibinfo{pages}{1092--1097}.
+\newblock
+\href{https://doi.org/10.1126/science.abq1158}{doi:\nolinkurl{10.1126/science.abq1158}}
+
+
+\bibitem[{llama.cpp contributors}(2026)]%
+        {llama_cpp_fewrow}
+\bibfield{author}{\bibinfo{person}{{llama.cpp contributors}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Few-Row Quantized Matrix Multiplication in
+  {llama.cpp}}.
+\newblock \bibinfo{howpublished}{Source code, ggml/src/ggml-cuda/mmq-few.cu}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/ggml-org/llama.cpp/blob/0fb8f157702702f33f4e018de8701b2569a1bc28/ggml/src/ggml-cuda/mmq-few.cu}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{Meta}(2024)]%
+        {llama32}
+\bibfield{author}{\bibinfo{person}{{Meta}}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{{Llama 3.2 Model Card}}}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md}
+\showURL{%
+Retrieved November 18, 2026 from \tempurl}
+
+
+\bibitem[Miller(2026)]%
+        {loop4code}
+\bibfield{author}{\bibinfo{person}{Andrew Miller}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{llama\_reproducible}: Deterministic Quantized
+  Inference Implementation}.
+\newblock \bibinfo{howpublished}{GitHub repository}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/amiller/llama_reproducible/tree/f0dafdbd9dba40bd0e596f74f3da5f592900fca4}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Qi et~al\mbox{.}(2026)]%
+        {blocklock}
+\bibfield{author}{\bibinfo{person}{Xiuyuan Qi}, \bibinfo{person}{Pedro
+  Reviriego}, \bibinfo{person}{Javier Conde}, {and} \bibinfo{person}{Shanshan
+  Liu}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{BlockLock: Reproducible LLM Inference with Fixed
+  Batch Geometry}}.
+\newblock \bibinfo{howpublished}{arXiv:2611.06977v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2611.06977}{doi:\nolinkurl{10.48550/arXiv.2611.06977}}
+
+
+\bibitem[Qin et~al\mbox{.}(2026)]%
+        {vosti}
+\bibfield{author}{\bibinfo{person}{Jianxing Qin}, \bibinfo{person}{Alexander
+  Du}, \bibinfo{person}{Danfeng Zhang}, \bibinfo{person}{Matthew Lentz}, {and}
+  \bibinfo{person}{Danyang Zhuo}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Vosti}: Specifying, Implementing, and Verifying
+  Deterministic {LLM} Inference}.
+\newblock \bibinfo{howpublished}{arXiv:2609.38981v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2609.38981}{doi:\nolinkurl{10.48550/arXiv.2609.38981}}
+
+
+\bibitem[Tiwari et~al\mbox{.}(2025)]%
+        {quantspec}
+\bibfield{author}{\bibinfo{person}{Rishabh Tiwari}, \bibinfo{person}{Haocheng
+  Xi}, \bibinfo{person}{Aditya Tomar}, \bibinfo{person}{Coleman Richard~Charles
+  Hooper}, \bibinfo{person}{Sehoon Kim}, \bibinfo{person}{Maxwell Horton},
+  \bibinfo{person}{Mahyar Najibi}, \bibinfo{person}{Michael~W. Mahoney},
+  \bibinfo{person}{Kurt Keutzer}, {and} \bibinfo{person}{Amir Gholami}.}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{QuantSpec}: Self-Speculative Decoding with
+  Hierarchical Quantized {KV} Cache}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the 42nd International Conference on Machine Learning}}
+  \emph{(\bibinfo{series}{Proceedings of Machine Learning Research},
+  Vol.~\bibinfo{volume}{267})}. \bibinfo{publisher}{PMLR},
+  \bibinfo{pages}{59668--59686}.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlr.press/v267/tiwari25b.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[{vLLM contributors}(2026)]%
+        {vllm_batchinv}
+\bibfield{author}{\bibinfo{person}{{vLLM contributors}}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Batch Invariance: Documentation and Implementation}.
+\newblock \bibinfo{howpublished}{Source code and documentation}.
+\newblock
+\urldef\tempurl%
+\url{https://github.com/vllm-project/vllm/tree/01fb22eed6b5ae67f7b97bc19dc637bd413851c7/vllm/model_executor/determinism}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Xie et~al\mbox{.}(2026)]%
+        {beyondaccuracy}
+\bibfield{author}{\bibinfo{person}{Shuxiao Xie}, \bibinfo{person}{Shuyang Xie},
+  \bibinfo{person}{Yuan Cao}, \bibinfo{person}{Dezhi Ran}, \bibinfo{person}{Wei
+  Yang}, {and} \bibinfo{person}{Tao Xie}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Beyond Accuracy: Prefix-Invariant Realizations of
+  Low-Precision Fast Matrix Multiplication}}.
+\newblock \bibinfo{howpublished}{arXiv:2609.39816v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2609.39816}{doi:\nolinkurl{10.48550/arXiv.2609.39816}}
+
+
+\bibitem[Xin et~al\mbox{.}(2026)]%
+        {detent}
+\bibfield{author}{\bibinfo{person}{Peixu Xin}, \bibinfo{person}{Runchuan Feng},
+  \bibinfo{person}{Jiazhen Guo}, \bibinfo{person}{Kan Wu}, {and}
+  \bibinfo{person}{Ming Yin}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{Detent: Batch-Invariant LLM Serving and RL Rollouts
+  at Near-Stock Speed}}.
+\newblock \bibinfo{howpublished}{arXiv:2611.10611v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2611.10611}{doi:\nolinkurl{10.48550/arXiv.2611.10611}}
+
+
+\bibitem[Yang et~al\mbox{.}(2025)]%
+        {qwen3}
+\bibfield{author}{\bibinfo{person}{An Yang} {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{{Qwen3} Technical Report}.
+\newblock \bibinfo{howpublished}{arXiv:2505.09388v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2505.09388}{doi:\nolinkurl{10.48550/arXiv.2505.09388}}
+
+
+\bibitem[Yang et~al\mbox{.}(2026)]%
+        {taming}
+\bibfield{author}{\bibinfo{person}{Ziteng Yang}, \bibinfo{person}{Nicholas~J.
+  Riasanovsky}, \bibinfo{person}{Warren Deng}, {and} \bibinfo{person}{Vivek
+  Sarkar}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Taming Bitwise Behavior in {GPU} Kernels with Tensor
+  Core: Black-Box Reconstruction, Compiler Enforcement, and Static
+  Verification}.
+\newblock \bibinfo{howpublished}{arXiv:2609.11356v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2609.11356}{doi:\nolinkurl{10.48550/arXiv.2609.11356}}
+
+
+\bibitem[Ye et~al\mbox{.}(2025)]%
+        {flashinfer}
+\bibfield{author}{\bibinfo{person}{Zihao Ye}, \bibinfo{person}{Lequn Chen},
+  \bibinfo{person}{Ruihang Lai}, \bibinfo{person}{Wuwei Lin},
+  \bibinfo{person}{Yineng Zhang}, \bibinfo{person}{Stephanie Wang},
+  \bibinfo{person}{Tianqi Chen}, \bibinfo{person}{Baris Kasikci},
+  \bibinfo{person}{Vinod Grover}, \bibinfo{person}{Arvind Krishnamurthy}, {and}
+  \bibinfo{person}{Luis Ceze}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{FlashInfer}: Efficient and Customizable Attention
+  Engine for {LLM} Inference Serving}. In \bibinfo{booktitle}{\emph{Proceedings
+  of Machine Learning and Systems}}, Vol.~\bibinfo{volume}{7}.
+  \bibinfo{publisher}{MLSys}, \bibinfo{numpages}{17}~pages.
+\newblock
+\urldef\tempurl%
+\url{https://proceedings.mlsys.org/paper_files/paper/2025/hash/dbf02b21d77409a2db30e56866a8ab3a-Abstract-Conference.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zhao et~al\mbox{.}(2025)]%
+        {qspec}
+\bibfield{author}{\bibinfo{person}{Juntao Zhao}, \bibinfo{person}{Wenhao Lu},
+  \bibinfo{person}{Sheng Wang}, \bibinfo{person}{Lingpeng Kong}, {and}
+  \bibinfo{person}{Chuan Wu}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{QSpec}: Speculative Decoding with Complementary
+  Quantization Schemes}. In \bibinfo{booktitle}{\emph{Proceedings of the 2025
+  Conference on Empirical Methods in Natural Language Processing}}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{pages}{4779--4795}.
+\newblock
+\href{https://doi.org/10.18653/v1/2025.emnlp-main.240}{doi:\nolinkurl{10.18653/v1/2025.emnlp-main.240}}
+
+
+\bibitem[Zhao et~al\mbox{.}(2026)]%
+        {corun}
+\bibfield{author}{\bibinfo{person}{Shiju Zhao}, \bibinfo{person}{Jiacheng
+  Yang}, \bibinfo{person}{Qihang Chen}, \bibinfo{person}{Junhao Hu},
+  \bibinfo{person}{Jiaqi Zheng}, \bibinfo{person}{Guihai Chen}, {and}
+  \bibinfo{person}{Xusheng Chen}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{{CoRun}: Padding is Simple and Efficient for
+  Deterministic {LLM} Inference}.
+\newblock \bibinfo{howpublished}{arXiv:2608.14376v1}.
+\newblock
+\href{https://doi.org/10.48550/arXiv.2608.14376}{doi:\nolinkurl{10.48550/arXiv.2608.14376}}
+
+
+\end{thebibliography}

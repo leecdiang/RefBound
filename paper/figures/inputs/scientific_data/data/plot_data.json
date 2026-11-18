@@ -1,0 +1,4915 @@
+{
+  "schema": "heterospec.figure_data.v1",
+  "modern": [
+    {
+      "study": "RTX_P4_255",
+      "pr": 255,
+      "candidate": "TO_P4",
+      "control": "TO_C4",
+      "contrast": "TO_P4/TO_C4",
+      "source_commit": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.5381068140605575,
+      "ci95_ratio": [
+        0.5068462089243362,
+        0.5728330246420082
+      ],
+      "reduction_pct": 46.18931859394425,
+      "ci95_reduction_pct": [
+        42.71669753579918,
+        49.31537910756638
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.5502865293681499,
+          "reduction_pct": 44.97134706318501,
+          "round_ratios": [
+            0.5428567301176006,
+            0.5578180164376778
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.4955327276789105,
+          "reduction_pct": 50.44672723210895,
+          "round_ratios": [
+            0.5008009025549385,
+            0.4903199713661935
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.4658780715281523,
+          "reduction_pct": 53.41219284718477,
+          "round_ratios": [
+            0.4750679589730149,
+            0.4568659566096285
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.46492231095713676,
+          "reduction_pct": 53.50776890428632,
+          "round_ratios": [
+            0.44540118098915854,
+            0.485299016822737
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.4834999979369619,
+          "reduction_pct": 51.650000206303815,
+          "round_ratios": [
+            0.48035350089099277,
+            0.4866671057282299
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.6508327220858777,
+          "reduction_pct": 34.91672779141223,
+          "round_ratios": [
+            0.6551227957711336,
+            0.6465707419616209
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.6016958114727347,
+          "reduction_pct": 39.83041885272654,
+          "round_ratios": [
+            0.6017572035777973,
+            0.6016344256309799
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.5860506825853365,
+          "reduction_pct": 41.394931741466344,
+          "round_ratios": [
+            0.5652389677743663,
+            0.6076286705976726
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.44146489955810736,
+          "reduction_pct": 55.85351004418926,
+          "round_ratios": [
+            0.4384316526984884,
+            0.44451913164188783
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.5811203142246587,
+          "reduction_pct": 41.88796857753413,
+          "round_ratios": [
+            0.5629262742670498,
+            0.5999023940466532
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.46767501086396623,
+          "reduction_pct": 53.23249891360338,
+          "round_ratios": [
+            0.4671588377409047,
+            0.46819175431701276
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.4363397671098548,
+          "reduction_pct": 56.36602328901452,
+          "round_ratios": [
+            0.4468856795855949,
+            0.4260427242556454
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.4437102667137482,
+          "reduction_pct": 55.62897332862518,
+          "round_ratios": [
+            0.433272038073056,
+            0.45439996927285875
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.6674576502421943,
+          "reduction_pct": 33.25423497578057,
+          "round_ratios": [
+            0.6696225854918689,
+            0.6652997143750626
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.6886588262060275,
+          "reduction_pct": 31.134117379397253,
+          "round_ratios": [
+            0.6754564665899306,
+            0.7021192369446677
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.4726048003236381,
+          "reduction_pct": 52.7395199676362,
+          "round_ratios": [
+            0.49431481988786224,
+            0.4518482721995167
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7159293030389575,
+          "reduction_pct": 28.407069696104248,
+          "round_ratios": [
+            0.7060870357125341,
+            0.725908763404235
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.4826183604708245,
+          "reduction_pct": 51.738163952917546,
+          "round_ratios": [
+            0.4841717647568268,
+            0.4810699400873366
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.669743660667062,
+          "reduction_pct": 33.0256339332938,
+          "round_ratios": [
+            0.6686537518366631,
+            0.6708353460540948
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.6191598953802594,
+          "reduction_pct": 38.08401046197406,
+          "round_ratios": [
+            0.6159142259773664,
+            0.6224226684145161
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.48531842355165583,
+          "reduction_pct": 51.46815764483441,
+          "round_ratios": [
+            0.4880341401921133,
+            0.48261781879838805
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.6602419263653553,
+          "reduction_pct": 33.97580736346447,
+          "round_ratios": [
+            0.6631509063591774,
+            0.6573457069129475
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.5042292746079139,
+          "reduction_pct": 49.57707253920861,
+          "round_ratios": [
+            0.49386464572681293,
+            0.5148114236795619
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.45378686066220403,
+          "reduction_pct": 54.621313933779604,
+          "round_ratios": [
+            0.442762935004377,
+            0.46508526037217385
+          ]
+        }
+      ]
+    },
+    {
+      "study": "RTX_P4_255",
+      "pr": 255,
+      "candidate": "SD_P4",
+      "control": "SD_C4",
+      "contrast": "SD_P4/SD_C4",
+      "source_commit": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.5047228634215919,
+      "ci95_ratio": [
+        0.481320675541324,
+        0.5299738149609785
+      ],
+      "reduction_pct": 49.52771365784081,
+      "ci95_reduction_pct": [
+        47.00261850390215,
+        51.8679324458676
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.5086442816541517,
+          "reduction_pct": 49.13557183458484,
+          "round_ratios": [
+            0.5049641615865933,
+            0.5123512220086569
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.4566663406376432,
+          "reduction_pct": 54.33336593623568,
+          "round_ratios": [
+            0.4526985061648182,
+            0.46066895258419377
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.46123055863759255,
+          "reduction_pct": 53.876944136240745,
+          "round_ratios": [
+            0.49088346944009276,
+            0.4333688980478241
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.43818564558962286,
+          "reduction_pct": 56.181435441037706,
+          "round_ratios": [
+            0.4327930933121251,
+            0.4436453884496759
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.46696775436008886,
+          "reduction_pct": 53.303224563991115,
+          "round_ratios": [
+            0.46066229580678364,
+            0.4733595208398932
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.5696034362447983,
+          "reduction_pct": 43.039656375520174,
+          "round_ratios": [
+            0.547605242380126,
+            0.5924853333611128
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.5005972942991795,
+          "reduction_pct": 49.94027057008205,
+          "round_ratios": [
+            0.48538461476640854,
+            0.5162867619532184
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.5398167337271155,
+          "reduction_pct": 46.01832662728845,
+          "round_ratios": [
+            0.5507951959868368,
+            0.5290570944245773
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.44894887675929557,
+          "reduction_pct": 55.10511232407045,
+          "round_ratios": [
+            0.4706866098821678,
+            0.42821505798495235
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.5206014152484859,
+          "reduction_pct": 47.93985847515141,
+          "round_ratios": [
+            0.5088861298883199,
+            0.5325864032061667
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.4407426416407396,
+          "reduction_pct": 55.92573583592604,
+          "round_ratios": [
+            0.4463235773670161,
+            0.4352314912566683
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.4338204300250748,
+          "reduction_pct": 56.61795699749253,
+          "round_ratios": [
+            0.4142022719742382,
+            0.4543677769079117
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.4275844907206977,
+          "reduction_pct": 57.24155092793023,
+          "round_ratios": [
+            0.4385484763735891,
+            0.41689461155288826
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.6364608791863673,
+          "reduction_pct": 36.35391208136327,
+          "round_ratios": [
+            0.6342897123152872,
+            0.6386394779383222
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.63235212575181,
+          "reduction_pct": 36.764787424819,
+          "round_ratios": [
+            0.6340971823311505,
+            0.630611871626336
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.48127478703740484,
+          "reduction_pct": 51.87252129625952,
+          "round_ratios": [
+            0.46895695002346743,
+            0.4939161699731893
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.6486214280514525,
+          "reduction_pct": 35.137857194854746,
+          "round_ratios": [
+            0.6572563836175318,
+            0.6400999174963106
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.46852646585010227,
+          "reduction_pct": 53.14735341498977,
+          "round_ratios": [
+            0.45614899885533666,
+            0.48123979171903164
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.6277182256418278,
+          "reduction_pct": 37.22817743581722,
+          "round_ratios": [
+            0.6089844281383847,
+            0.6470283189464178
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.5337080410496657,
+          "reduction_pct": 46.629195895033426,
+          "round_ratios": [
+            0.5114558734091411,
+            0.5569283449272454
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.45319580581065083,
+          "reduction_pct": 54.68041941893491,
+          "round_ratios": [
+            0.44540846093504527,
+            0.4611193015354888
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.5678673752652939,
+          "reduction_pct": 43.213262473470614,
+          "round_ratios": [
+            0.5708150469408824,
+            0.5649349252772793
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.5074784580949193,
+          "reduction_pct": 49.252154190508065,
+          "round_ratios": [
+            0.47640693845765386,
+            0.5405764791422913
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.4497802509562702,
+          "reduction_pct": 55.021974904372975,
+          "round_ratios": [
+            0.4429339004224741,
+            0.45673242431281014
+          ]
+        }
+      ]
+    },
+    {
+      "study": "RTX_P4_255",
+      "pr": 255,
+      "candidate": "SD_P4",
+      "control": "TO_P4",
+      "contrast": "SD_P4/TO_P4",
+      "source_commit": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8508907793170855,
+      "ci95_ratio": [
+        0.8256307706139033,
+        0.8750286338401138
+      ],
+      "reduction_pct": 14.910922068291455,
+      "ci95_reduction_pct": [
+        12.497136615988625,
+        17.436922938609666
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8665320636504311,
+          "reduction_pct": 13.346793634956889,
+          "round_ratios": [
+            0.862804208177326,
+            0.8702760257979087
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8792996988052375,
+          "reduction_pct": 12.07003011947625,
+          "round_ratios": [
+            0.8696470527960912,
+            0.8890594843426307
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8790341312460758,
+          "reduction_pct": 12.096586875392424,
+          "round_ratios": [
+            0.8762360797335946,
+            0.8818411176705602
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.9225597547844103,
+          "reduction_pct": 7.744024521558968,
+          "round_ratios": [
+            0.9248506987741769,
+            0.9202744856828946
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9147390193700574,
+          "reduction_pct": 8.526098062994258,
+          "round_ratios": [
+            0.9086900603669843,
+            0.9208282450235725
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.7728454767418161,
+          "reduction_pct": 22.715452325818386,
+          "round_ratios": [
+            0.7681646253856386,
+            0.7775548511107627
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8398372330835991,
+          "reduction_pct": 16.016276691640087,
+          "round_ratios": [
+            0.8344839079989077,
+            0.8452249004596011
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.7916355785528846,
+          "reduction_pct": 20.83644214471154,
+          "round_ratios": [
+            0.7862034423771433,
+            0.7971052471303443
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9204880574239273,
+          "reduction_pct": 7.951194257607275,
+          "round_ratios": [
+            0.9277361394076749,
+            0.9132966022009704
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8321948146539327,
+          "reduction_pct": 16.780518534606724,
+          "round_ratios": [
+            0.8215373095253073,
+            0.8429905757257147
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8980175888784496,
+          "reduction_pct": 10.198241112155038,
+          "round_ratios": [
+            0.9032733143762586,
+            0.8927924439923653
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9349331670378419,
+          "reduction_pct": 6.50668329621581,
+          "round_ratios": [
+            0.8959827604259966,
+            0.9755768363353519
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.9125283571337128,
+          "reduction_pct": 8.747164286628717,
+          "round_ratios": [
+            0.9198306843917031,
+            0.9052840013962292
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7654054854625172,
+          "reduction_pct": 23.45945145374828,
+          "round_ratios": [
+            0.7649423841526247,
+            0.765868867137085
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7277207328129355,
+          "reduction_pct": 27.227926718706453,
+          "round_ratios": [
+            0.7286591389429966,
+            0.7267835352123745
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.9122511238515566,
+          "reduction_pct": 8.77488761484434,
+          "round_ratios": [
+            0.9096168440704597,
+            0.9148930325920447
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7763394918984929,
+          "reduction_pct": 22.366050810150707,
+          "round_ratios": [
+            0.7901342192819308,
+            0.7627856027156285
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.9203040928974793,
+          "reduction_pct": 7.969590710252072,
+          "round_ratios": [
+            0.9259984096541409,
+            0.9146447926624306
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7502415869442921,
+          "reduction_pct": 24.97584130557079,
+          "round_ratios": [
+            0.7581780436383039,
+            0.7423882074976162
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8259404718597704,
+          "reduction_pct": 17.405952814022964,
+          "round_ratios": [
+            0.8314674354721076,
+            0.8204502473011458
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.8644185472691208,
+          "reduction_pct": 13.558145273087918,
+          "round_ratios": [
+            0.8591850410858551,
+            0.8696839320183071
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7791998233076626,
+          "reduction_pct": 22.080017669233744,
+          "round_ratios": [
+            0.7596632948646932,
+            0.799238779531707
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8933789910742718,
+          "reduction_pct": 10.662100892572823,
+          "round_ratios": [
+            0.900757301668247,
+            0.886061117922347
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.8992330710654795,
+          "reduction_pct": 10.076692893452055,
+          "round_ratios": [
+            0.930387204110321,
+            0.869122138100656
+          ]
+        }
+      ]
+    },
+    {
+      "study": "RTX_bridge_256",
+      "pr": 256,
+      "candidate": "C4",
+      "control": "C1",
+      "contrast": "C4/C1",
+      "source_commit": "fdc5afa1377d7b51b0cbd963326a6b2e6cc4385f",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8445884199024448,
+      "ci95_ratio": [
+        0.8156510194626566,
+        0.873844102950264
+      ],
+      "reduction_pct": 15.541158009755518,
+      "ci95_reduction_pct": [
+        12.615589704973596,
+        18.43489805373434
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.9376950841692642,
+          "reduction_pct": 6.230491583073583,
+          "round_ratios": [
+            0.9259628023224091,
+            0.9495760182481405
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8725296883110346,
+          "reduction_pct": 12.74703116889654,
+          "round_ratios": [
+            0.8541449177438207,
+            0.8913101760238846
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8754442611147798,
+          "reduction_pct": 12.45557388852202,
+          "round_ratios": [
+            0.8709213080515634,
+            0.8799907032168139
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8106622249744388,
+          "reduction_pct": 18.933777502556115,
+          "round_ratios": [
+            0.8434103014799563,
+            0.7791856962706607
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9109152163185539,
+          "reduction_pct": 8.908478368144612,
+          "round_ratios": [
+            0.941956224485508,
+            0.8808971263753709
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8683187390472219,
+          "reduction_pct": 13.16812609527781,
+          "round_ratios": [
+            0.8505541795581092,
+            0.8864543267217538
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8396018685357515,
+          "reduction_pct": 16.03981314642485,
+          "round_ratios": [
+            0.8550993618010886,
+            0.8243852459016394
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.7917240891195506,
+          "reduction_pct": 20.82759108804494,
+          "round_ratios": [
+            0.7539092618040817,
+            0.8314356449106414
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.8519672802772301,
+          "reduction_pct": 14.803271972276988,
+          "round_ratios": [
+            0.9412878703005704,
+            0.771122490329344
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8455294789514277,
+          "reduction_pct": 15.447052104857228,
+          "round_ratios": [
+            0.8334450809849937,
+            0.8577890926309817
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8921674589075795,
+          "reduction_pct": 10.783254109242046,
+          "round_ratios": [
+            0.8973368609879865,
+            0.8870278368563129
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9106035396625672,
+          "reduction_pct": 8.939646033743276,
+          "round_ratios": [
+            0.8960077932845752,
+            0.9254370471559507
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.8771159641492154,
+          "reduction_pct": 12.288403585078456,
+          "round_ratios": [
+            0.9551940217899502,
+            0.8054200476713056
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7450566201705504,
+          "reduction_pct": 25.49433798294496,
+          "round_ratios": [
+            0.7761104746281117,
+            0.7152452974248997
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7251606137749909,
+          "reduction_pct": 27.483938622500915,
+          "round_ratios": [
+            0.7436084110304612,
+            0.7071704783997935
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.977504920544395,
+          "reduction_pct": 2.2495079455605027,
+          "round_ratios": [
+            1.0509122189128004,
+            0.9092251973975649
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7111146073097759,
+          "reduction_pct": 28.888539269022406,
+          "round_ratios": [
+            0.6868940278118669,
+            0.7361892289851708
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.9158148257264774,
+          "reduction_pct": 8.418517427352256,
+          "round_ratios": [
+            0.8552748415416154,
+            0.980640087002499
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7204365682833468,
+          "reduction_pct": 27.95634317166532,
+          "round_ratios": [
+            0.7596719979888114,
+            0.6832275643882951
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8362720227665613,
+          "reduction_pct": 16.37279772334387,
+          "round_ratios": [
+            0.8319562493375349,
+            0.840610184272251
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.9427327083281734,
+          "reduction_pct": 5.726729167182665,
+          "round_ratios": [
+            0.8789694869035487,
+            1.0111215151309305
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7270573208033861,
+          "reduction_pct": 27.294267919661387,
+          "round_ratios": [
+            0.7044930790590835,
+            0.750344273700757
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8663969026183752,
+          "reduction_pct": 13.36030973816248,
+          "round_ratios": [
+            0.8719592189069867,
+            0.8608700689094804
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.900070910941964,
+          "reduction_pct": 9.9929089058036,
+          "round_ratios": [
+            0.8865117220016483,
+            0.9138374875570915
+          ]
+        }
+      ]
+    },
+    {
+      "study": "RTX_bridge_256",
+      "pr": 256,
+      "candidate": "C4",
+      "control": "B",
+      "contrast": "C4/B",
+      "source_commit": "fdc5afa1377d7b51b0cbd963326a6b2e6cc4385f",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.851523393174273,
+      "ci95_ratio": [
+        0.8221984244558403,
+        0.8811922506809683
+      ],
+      "reduction_pct": 14.847660682572705,
+      "ci95_reduction_pct": [
+        11.88077493190317,
+        17.780157554415965
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8694350479051814,
+          "reduction_pct": 13.056495209481856,
+          "round_ratios": [
+            0.8780117523407678,
+            0.8609421235087339
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8774800824753483,
+          "reduction_pct": 12.251991752465175,
+          "round_ratios": [
+            0.812773773501407,
+            0.9473377712766603
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.876554804224011,
+          "reduction_pct": 12.3445195775989,
+          "round_ratios": [
+            0.8092765939612092,
+            0.9494261054151076
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8458325268400294,
+          "reduction_pct": 15.416747315997059,
+          "round_ratios": [
+            0.8361627358887344,
+            0.8556141439383511
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.902529334778449,
+          "reduction_pct": 9.747066522155102,
+          "round_ratios": [
+            0.8845180495699363,
+            0.9209073806144245
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8317631714297883,
+          "reduction_pct": 16.823682857021172,
+          "round_ratios": [
+            0.8239540596117648,
+            0.8396462949316853
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8931992273216934,
+          "reduction_pct": 10.680077267830656,
+          "round_ratios": [
+            0.911235693979298,
+            0.8755197639417701
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8294023006224296,
+          "reduction_pct": 17.05976993775704,
+          "round_ratios": [
+            0.7807542087677244,
+            0.8810816112839333
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9072546232913485,
+          "reduction_pct": 9.274537670865147,
+          "round_ratios": [
+            0.984159272746503,
+            0.836359494115686
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8666000710540185,
+          "reduction_pct": 13.33999289459815,
+          "round_ratios": [
+            0.8660501858123417,
+            0.8671503054368697
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8332108879580837,
+          "reduction_pct": 16.67891120419163,
+          "round_ratios": [
+            0.8745836259924686,
+            0.7937953137689736
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9728310225870359,
+          "reduction_pct": 2.716897741296409,
+          "round_ratios": [
+            0.9516308548338801,
+            0.9945034817864798
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.899183323650541,
+          "reduction_pct": 10.081667634945902,
+          "round_ratios": [
+            0.9155227871972752,
+            0.883135472800649
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7391879439945301,
+          "reduction_pct": 26.081205600546987,
+          "round_ratios": [
+            0.7575271359781411,
+            0.7212927307763498
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7322536906540681,
+          "reduction_pct": 26.77463093459319,
+          "round_ratios": [
+            0.7617670666739047,
+            0.7038837604488314
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.9784326773379506,
+          "reduction_pct": 2.1567322662049415,
+          "round_ratios": [
+            0.9786131471804735,
+            0.9782522407765706
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7045770873632743,
+          "reduction_pct": 29.54229126367257,
+          "round_ratios": [
+            0.7047778366925346,
+            0.7043763952155699
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.890267768853113,
+          "reduction_pct": 10.973223114688702,
+          "round_ratios": [
+            0.8574587577487442,
+            0.924332153699856
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7234264216942772,
+          "reduction_pct": 27.65735783057228,
+          "round_ratios": [
+            0.7423311725680422,
+            0.7050031130915713
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8548194321629533,
+          "reduction_pct": 14.518056783704669,
+          "round_ratios": [
+            0.866133475999588,
+            0.8436531803139099
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.9447410089558962,
+          "reduction_pct": 5.525899104410382,
+          "round_ratios": [
+            0.9447504090714574,
+            0.9447316089338648
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7500024016566722,
+          "reduction_pct": 24.999759834332778,
+          "round_ratios": [
+            0.7203992732159017,
+            0.7808220016376883
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8551597770097467,
+          "reduction_pct": 14.484022299025334,
+          "round_ratios": [
+            0.8437796463234805,
+            0.8666933925246654
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.9413021428374753,
+          "reduction_pct": 5.869785716252474,
+          "round_ratios": [
+            0.9625509748982888,
+            0.9205223902080097
+          ]
+        }
+      ]
+    },
+    {
+      "study": "RTX_bridge_256",
+      "pr": 256,
+      "candidate": "C1",
+      "control": "B",
+      "contrast": "C1/B",
+      "source_commit": "fdc5afa1377d7b51b0cbd963326a6b2e6cc4385f",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 1.0082110683836147,
+      "ci95_ratio": [
+        0.9936144514802386,
+        1.0223983292572805
+      ],
+      "reduction_pct": -0.8211068383614739,
+      "ci95_reduction_pct": [
+        -2.239832925728047,
+        0.6385548519761364
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.9272044426631962,
+          "reduction_pct": 7.279555733680376,
+          "round_ratios": [
+            0.9482149284384046,
+            0.9066595058888218
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 1.0056736111454228,
+          "reduction_pct": -0.5673611145422752,
+          "round_ratios": [
+            0.9515642563890757,
+            1.062859817782754
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.0012685480487553,
+          "reduction_pct": -0.12685480487553136,
+          "round_ratios": [
+            0.9292189621261345,
+            1.0789046997252039
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.0433846561269084,
+          "reduction_pct": -4.338465612690845,
+          "round_ratios": [
+            0.991406832975001,
+            1.0980875907161698
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9907940043267734,
+          "reduction_pct": 0.9205995673226552,
+          "round_ratios": [
+            0.939022458345191,
+            1.0454198941523216
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.957900750066105,
+          "reduction_pct": 4.209924993389502,
+          "round_ratios": [
+            0.9687261310500361,
+            0.9471963412224836
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 1.063836635903889,
+          "reduction_pct": -6.3836635903889105,
+          "round_ratios": [
+            1.0656488996319327,
+            1.0620274541476107
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 1.0475900784385372,
+          "reduction_pct": -4.759007843853724,
+          "round_ratios": [
+            1.0356076630487383,
+            1.0597111354043856
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 1.0648937398113785,
+          "reduction_pct": -6.489373981137847,
+          "round_ratios": [
+            1.0455454742365298,
+            1.0846000533047344
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 1.0249199970280412,
+          "reduction_pct": -2.491999702804115,
+          "round_ratios": [
+            1.0391208797930802,
+            1.0109131870366592
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.9339175954459429,
+          "reduction_pct": 6.608240455405712,
+          "round_ratios": [
+            0.9746435970874237,
+            0.8948933514671178
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.0683365265058462,
+          "reduction_pct": -6.833652650584621,
+          "round_ratios": [
+            1.0620787698122607,
+            1.074631153834595
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.0251589988134926,
+          "reduction_pct": -2.5158998813492595,
+          "round_ratios": [
+            0.9584678780565078,
+            1.096490552170933
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.9921231809541177,
+          "reduction_pct": 0.7876819045882333,
+          "round_ratios": [
+            0.9760558074430383,
+            1.0084550480418715
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 1.0097813873841721,
+          "reduction_pct": -0.9781387384172113,
+          "round_ratios": [
+            1.024419647994944,
+            0.995352297569888
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 1.0009491070316443,
+          "reduction_pct": -0.09491070316443029,
+          "round_ratios": [
+            0.9312035102159889,
+            1.075918533248505
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.9908066577745693,
+          "reduction_pct": 0.9193342225430667,
+          "round_ratios": [
+            1.0260357612041517,
+            0.9567871512960675
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.972104560708439,
+          "reduction_pct": 2.789543929156102,
+          "round_ratios": [
+            1.00255346714419,
+            0.9425804287944639
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 1.0041500578157139,
+          "reduction_pct": -0.415005781571387,
+          "round_ratios": [
+            0.977173272851075,
+            1.0318715898454305
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 1.022178679773399,
+          "reduction_pct": -2.2178679773398935,
+          "round_ratios": [
+            1.0410805576486355,
+            1.0036199847427418
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.0021302969653874,
+          "reduction_pct": -0.2130296965387357,
+          "round_ratios": [
+            1.0748386868350153,
+            0.9343403288293506
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 1.0315588333914747,
+          "reduction_pct": -3.1558833391474694,
+          "round_ratios": [
+            1.0225782120926756,
+            1.0406183254875963
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.9870300487286273,
+          "reduction_pct": 1.2969951271372682,
+          "round_ratios": [
+            0.9676824649909319,
+            1.0067644628678538
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 1.0458088706059403,
+          "reduction_pct": -4.58088706059403,
+          "round_ratios": [
+            1.0857735447930141,
+            1.0073151985357798
+          ]
+        }
+      ]
+    },
+    {
+      "study": "A5000_P4_257",
+      "pr": 257,
+      "candidate": "TO_P4",
+      "control": "TO_C4",
+      "contrast": "TO_P4/TO_C4",
+      "source_commit": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "roots": 12,
+      "rounds": 4,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8681924096235066,
+      "ci95_ratio": [
+        0.8427438474555948,
+        0.8961761276549101
+      ],
+      "reduction_pct": 13.180759037649336,
+      "ci95_reduction_pct": [
+        10.382387234508993,
+        15.725615254440516
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.800390417977575,
+          "reduction_pct": 19.960958202242495,
+          "round_ratios": [
+            0.8002504636267743,
+            0.8017851142788146,
+            0.8014701995357829,
+            0.7980612437281799
+          ]
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7868410201783809,
+          "reduction_pct": 21.315897982161914,
+          "round_ratios": [
+            0.7859030609425672,
+            0.7841443601149973,
+            0.7881618948448716,
+            0.7891644870767133
+          ]
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8273507331277337,
+          "reduction_pct": 17.264926687226634,
+          "round_ratios": [
+            0.8282009928836246,
+            0.8272118936514162,
+            0.8286366228384598,
+            0.8253572750686066
+          ]
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7893167583185223,
+          "reduction_pct": 21.068324168147768,
+          "round_ratios": [
+            0.7881368849074124,
+            0.7926296508760574,
+            0.7869828023584993,
+            0.789528996858011
+          ]
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9237268157406087,
+          "reduction_pct": 7.627318425939134,
+          "round_ratios": [
+            0.9231061585684901,
+            0.9248409533633661,
+            0.9235991085982779,
+            0.9233620032830407
+          ]
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9235054863257887,
+          "reduction_pct": 7.649451367421134,
+          "round_ratios": [
+            0.9231418073477028,
+            0.9254754503772644,
+            0.9204049644972252,
+            0.9250083307429415
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8439848827078247,
+          "reduction_pct": 15.601511729217531,
+          "round_ratios": [
+            0.8422741229257668,
+            0.8435273791737514,
+            0.8466274960774883,
+            0.84351665138308
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.9316634354772584,
+          "reduction_pct": 6.833656452274162,
+          "round_ratios": [
+            0.9324797214343753,
+            0.932254003380536,
+            0.9312773826940743,
+            0.9306438172388746
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.9294079113094963,
+          "reduction_pct": 7.059208869050371,
+          "round_ratios": [
+            0.9296212328561544,
+            0.9282914898690359,
+            0.9283725185989031,
+            0.9313497022710315
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.9255277122229678,
+          "reduction_pct": 7.447228777703218,
+          "round_ratios": [
+            0.9250500779432856,
+            0.9243079351667318,
+            0.9253816907733989,
+            0.9273739232457915
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.883662751385009,
+          "reduction_pct": 11.633724861499095,
+          "round_ratios": [
+            0.8826047427838518,
+            0.8856597326112039,
+            0.8832591906973419,
+            0.8831304789661085
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.8745867048910789,
+          "reduction_pct": 12.541329510892108,
+          "round_ratios": [
+            0.8742285303516164,
+            0.8747966076351822,
+            0.874007884706074,
+            0.8753143896018991
+          ]
+        }
+      ]
+    },
+    {
+      "study": "A5000_P4_257",
+      "pr": 257,
+      "candidate": "SD_P4",
+      "control": "SD_C4",
+      "contrast": "SD_P4/SD_C4",
+      "source_commit": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "roots": 12,
+      "rounds": 4,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8505239921551292,
+      "ci95_ratio": [
+        0.8223985505776311,
+        0.8820388435358857
+      ],
+      "reduction_pct": 14.947600784487081,
+      "ci95_reduction_pct": [
+        11.796115646411431,
+        17.760144942236888
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.7666527386449258,
+          "reduction_pct": 23.334726135507424,
+          "round_ratios": [
+            0.7717938176711511,
+            0.7630507553937695,
+            0.7520975363238516,
+            0.7799484108797171
+          ]
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7766259542809629,
+          "reduction_pct": 22.337404571903708,
+          "round_ratios": [
+            0.7678176620521103,
+            0.7772170754655283,
+            0.7887903347231717,
+            0.7728328772087332
+          ]
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8008702626229877,
+          "reduction_pct": 19.912973737701233,
+          "round_ratios": [
+            0.802082821994561,
+            0.8076842229408083,
+            0.8092966494337313,
+            0.7846574723096048
+          ]
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7929636050365071,
+          "reduction_pct": 20.70363949634929,
+          "round_ratios": [
+            0.7846794679075126,
+            0.7903967207614765,
+            0.8062894173166752,
+            0.7906506655251877
+          ]
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9198486686952726,
+          "reduction_pct": 8.01513313047274,
+          "round_ratios": [
+            0.9180942611627836,
+            0.9219081653079955,
+            0.9193563499820733,
+            0.9200400273488443
+          ]
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9204070342969884,
+          "reduction_pct": 7.959296570301156,
+          "round_ratios": [
+            0.915977372392687,
+            0.9203906264899946,
+            0.9231132829739059,
+            0.9221631932077338
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8129472521417055,
+          "reduction_pct": 18.705274785829452,
+          "round_ratios": [
+            0.8185819410413229,
+            0.8059777041754733,
+            0.8030293030840636,
+            0.8243903303113356
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.9170471291454595,
+          "reduction_pct": 8.295287085454051,
+          "round_ratios": [
+            0.9130332197569234,
+            0.8933104986591845,
+            0.9405184360482839,
+            0.92195620643387
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.9132374985565248,
+          "reduction_pct": 8.67625014434752,
+          "round_ratios": [
+            0.9093574310102404,
+            0.9168866184484956,
+            0.9122153803373947,
+            0.9145075564345659
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.9080626595761542,
+          "reduction_pct": 9.193734042384582,
+          "round_ratios": [
+            0.9076038412923128,
+            0.9074353430102781,
+            0.9107951585765107,
+            0.9064222147323902
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8541185531519322,
+          "reduction_pct": 14.588144684806782,
+          "round_ratios": [
+            0.8584505579637633,
+            0.8625331059883734,
+            0.8620166902161472,
+            0.8338076736331093
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.8477050456763443,
+          "reduction_pct": 15.22949543236557,
+          "round_ratios": [
+            0.8385249789329956,
+            0.8658896697971042,
+            0.8415070025791909,
+            0.8451674748638224
+          ]
+        }
+      ]
+    },
+    {
+      "study": "A5000_P4_257",
+      "pr": 257,
+      "candidate": "SD_P4",
+      "control": "TO_P4",
+      "contrast": "SD_P4/TO_P4",
+      "source_commit": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "roots": 12,
+      "rounds": 4,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8640445187871596,
+      "ci95_ratio": [
+        0.8411283368579062,
+        0.8873963522186432
+      ],
+      "reduction_pct": 13.59554812128404,
+      "ci95_reduction_pct": [
+        11.260364778135678,
+        15.887166314209377
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.8715304771232433,
+          "reduction_pct": 12.846952287675673,
+          "round_ratios": [
+            0.8625712962420797,
+            0.8707376661471318,
+            0.8593685504221489,
+            0.8938579882684027
+          ]
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.9115087729864485,
+          "reduction_pct": 8.84912270135515,
+          "round_ratios": [
+            0.903159020000556,
+            0.9150988251525015,
+            0.9236129938381281,
+            0.9043179602303424
+          ]
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8601355676347879,
+          "reduction_pct": 13.986443236521207,
+          "round_ratios": [
+            0.8410217030887193,
+            0.8752852494188157,
+            0.8732079098099875,
+            0.8515166663892934
+          ]
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 1.0033480777022763,
+          "reduction_pct": -0.33480777022762975,
+          "round_ratios": [
+            0.9914573382578956,
+            1.0030717229474049,
+            1.0205635672737203,
+            0.998528378303233
+          ]
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9605256503279817,
+          "reduction_pct": 3.947434967201835,
+          "round_ratios": [
+            0.9346035417158881,
+            0.9702809799803632,
+            0.9678515074147459,
+            0.9698446990573619
+          ]
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.965771437505418,
+          "reduction_pct": 3.422856249458195,
+          "round_ratios": [
+            0.9390426492411236,
+            0.9723990045878401,
+            0.9799472915694488,
+            0.9722207555207849
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8585120907198148,
+          "reduction_pct": 14.148790928018517,
+          "round_ratios": [
+            0.8511037124468956,
+            0.8555833300857857,
+            0.8527774244012785,
+            0.8747927387086419
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.8064301822475651,
+          "reduction_pct": 19.356981775243487,
+          "round_ratios": [
+            0.7915118531717367,
+            0.7967813596743817,
+            0.8191999427578903,
+            0.8186166871063351
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.7971610489141137,
+          "reduction_pct": 20.283895108588634,
+          "round_ratios": [
+            0.7766424667082177,
+            0.8061364446590464,
+            0.8038323281083125,
+            0.8023966773850557
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.7928621838395715,
+          "reduction_pct": 20.713781616042848,
+          "round_ratios": [
+            0.7726353396136205,
+            0.8014811606016093,
+            0.8007635704092223,
+            0.7969271507141407
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8178066441066627,
+          "reduction_pct": 18.21933558933373,
+          "round_ratios": [
+            0.8055342646489592,
+            0.8320086545623117,
+            0.8281330800259786,
+            0.8059174194164642
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7608175996679533,
+          "reduction_pct": 23.918240033204675,
+          "round_ratios": [
+            0.7439668575877962,
+            0.7675610269314173,
+            0.766143389022621,
+            0.7658533898199761
+          ]
+        }
+      ]
+    },
+    {
+      "study": "A5000_bridge_259",
+      "pr": 259,
+      "candidate": "C4",
+      "control": "C1",
+      "contrast": "C4/C1",
+      "source_commit": "f66736cb32547da91af1ac1f8953d11cdeefae62",
+      "roots": 12,
+      "rounds": 2,
+      "pairs": 24,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.7223137053538058,
+      "ci95_ratio": [
+        0.6991084518249238,
+        0.7457484155664731
+      ],
+      "reduction_pct": 27.768629464619423,
+      "ci95_reduction_pct": [
+        25.425158443352693,
+        30.089154817507623
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.7556177416600995,
+          "reduction_pct": 24.438225833990046,
+          "round_ratios": [
+            0.7529894770301819,
+            0.7582551800901507
+          ]
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.8045812515136247,
+          "reduction_pct": 19.54187484863753,
+          "round_ratios": [
+            0.7937213879354738,
+            0.8155897020376848
+          ]
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.7366039510977961,
+          "reduction_pct": 26.339604890220393,
+          "round_ratios": [
+            0.7468428377724402,
+            0.726505435054072
+          ]
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7765640622670921,
+          "reduction_pct": 22.34359377329079,
+          "round_ratios": [
+            0.7813417222883262,
+            0.7718156161411709
+          ]
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.6668870127602335,
+          "reduction_pct": 33.31129872397665,
+          "round_ratios": [
+            0.6627691796438024,
+            0.6710304302733077
+          ]
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.6665904500506992,
+          "reduction_pct": 33.34095499493009,
+          "round_ratios": [
+            0.6709695664408208,
+            0.6622399141824333
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.753101717966922,
+          "reduction_pct": 24.689828203307794,
+          "round_ratios": [
+            0.7455896162794765,
+            0.7606895069634855
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.6972487895451682,
+          "reduction_pct": 30.27512104548318,
+          "round_ratios": [
+            0.6888327064626093,
+            0.7057676994154044
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.690829382261824,
+          "reduction_pct": 30.9170617738176,
+          "round_ratios": [
+            0.6930933871190142,
+            0.6885727728265043
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.6754588432713013,
+          "reduction_pct": 32.45411567286987,
+          "round_ratios": [
+            0.6836451075637201,
+            0.667370604873201
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.7260459999469524,
+          "reduction_pct": 27.395400005304758,
+          "round_ratios": [
+            0.733612708631833,
+            0.718557336638942
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7333989647586846,
+          "reduction_pct": 26.66010352413154,
+          "round_ratios": [
+            0.7311177646341351,
+            0.7356872825792605
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_SD_247",
+      "pr": 247,
+      "candidate": "SD_C",
+      "control": "SD_A",
+      "contrast": "SD_C/SD_A",
+      "source_commit": "c8c4b303e415f97f1eb9ab897ac784240e801222",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8721821172319397,
+      "ci95_ratio": [
+        0.8700513207829158,
+        0.8744051471257424
+      ],
+      "reduction_pct": 12.781788276806028,
+      "ci95_reduction_pct": [
+        12.559485287425765,
+        12.994867921708419
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8743482978845142,
+          "reduction_pct": 12.565170211548581,
+          "round_ratios": [
+            0.8721687530151317,
+            0.876533289424419
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8691750360794379,
+          "reduction_pct": 13.082496392056209,
+          "round_ratios": [
+            0.864700950524019,
+            0.8736722711890988
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8668967791421871,
+          "reduction_pct": 13.31032208578129,
+          "round_ratios": [
+            0.869888684683364,
+            0.8639151639966951
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8667622363564791,
+          "reduction_pct": 13.323776364352092,
+          "round_ratios": [
+            0.8675228669286267,
+            0.8660022726934002
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.8691321123379019,
+          "reduction_pct": 13.08678876620981,
+          "round_ratios": [
+            0.8697257484987901,
+            0.8685388813666866
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8760028466624561,
+          "reduction_pct": 12.39971533375439,
+          "round_ratios": [
+            0.8735838280759434,
+            0.8784285636913322
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8733358059266115,
+          "reduction_pct": 12.666419407338847,
+          "round_ratios": [
+            0.8739661590937368,
+            0.8727059074053684
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8775366721229672,
+          "reduction_pct": 12.246332787703285,
+          "round_ratios": [
+            0.8715448290704597,
+            0.8835697089063859
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.8665345985357055,
+          "reduction_pct": 13.346540146429453,
+          "round_ratios": [
+            0.8626840143615271,
+            0.8704023697659039
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.874024561805866,
+          "reduction_pct": 12.597543819413403,
+          "round_ratios": [
+            0.8749597100249563,
+            0.8730904130638735
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8708276571265551,
+          "reduction_pct": 12.917234287344492,
+          "round_ratios": [
+            0.8725934877185869,
+            0.8690653999713225
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.8652273670853862,
+          "reduction_pct": 13.477263291461384,
+          "round_ratios": [
+            0.8637206471620524,
+            0.8667367154105473
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.8668911200867632,
+          "reduction_pct": 13.310887991323684,
+          "round_ratios": [
+            0.8648018044094758,
+            0.8689854834408444
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8785371839110034,
+          "reduction_pct": 12.146281608899656,
+          "round_ratios": [
+            0.883447587261968,
+            0.8736540737027411
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8855195950659005,
+          "reduction_pct": 11.44804049340995,
+          "round_ratios": [
+            0.888895079936884,
+            0.8821569282410188
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.8675961057859318,
+          "reduction_pct": 13.240389421406817,
+          "round_ratios": [
+            0.8677026107328522,
+            0.8674896139118128
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8826169853240737,
+          "reduction_pct": 11.738301467592628,
+          "round_ratios": [
+            0.879176682799291,
+            0.8860707500819817
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.8714170190728165,
+          "reduction_pct": 12.858298092718346,
+          "round_ratios": [
+            0.8690015269686833,
+            0.8738392253217747
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.876089750051128,
+          "reduction_pct": 12.3910249948872,
+          "round_ratios": [
+            0.8839386865663813,
+            0.8683105081938377
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8701337225749803,
+          "reduction_pct": 12.986627742501966,
+          "round_ratios": [
+            0.8708107366211404,
+            0.8694572348751312
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.8721107120117575,
+          "reduction_pct": 12.788928798824251,
+          "round_ratios": [
+            0.8719124792449217,
+            0.8723089898476006
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.8801586322292888,
+          "reduction_pct": 11.98413677707112,
+          "round_ratios": [
+            0.8762618894622056,
+            0.8840727038387826
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8687934515302385,
+          "reduction_pct": 13.120654846976155,
+          "round_ratios": [
+            0.8685898566611752,
+            0.8689970941213311
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.8631391623959127,
+          "reduction_pct": 13.68608376040873,
+          "round_ratios": [
+            0.8638111152777171,
+            0.8624677322217551
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_SD_247",
+      "pr": 247,
+      "candidate": "SD_C",
+      "control": "TO_A",
+      "contrast": "SD_C/TO_A",
+      "source_commit": "c8c4b303e415f97f1eb9ab897ac784240e801222",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 1.9662810447770809,
+      "ci95_ratio": [
+        1.9428154081126146,
+        1.9907958936427774
+      ],
+      "reduction_pct": -96.62810447770809,
+      "ci95_reduction_pct": [
+        -99.07958936427774,
+        -94.28154081126145
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 1.9221743791061452,
+          "reduction_pct": -92.21743791061452,
+          "round_ratios": [
+            1.9209332131137211,
+            1.9234163470488974
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 1.952938443791015,
+          "reduction_pct": -95.29384437910151,
+          "round_ratios": [
+            1.9453846728150452,
+            1.9605215454473148
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.8951470739230425,
+          "reduction_pct": -89.51470739230425,
+          "round_ratios": [
+            1.8969964350906825,
+            1.893299515677467
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.905293555295494,
+          "reduction_pct": -90.52935552954939,
+          "round_ratios": [
+            1.9036140209471308,
+            1.906974571475571
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 1.9198034242916049,
+          "reduction_pct": -91.98034242916049,
+          "round_ratios": [
+            1.9198893464332358,
+            1.9197175059953075
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 1.9424946756575536,
+          "reduction_pct": -94.24946756575537,
+          "round_ratios": [
+            1.9386019219361286,
+            1.9463952461109049
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 1.942607993093338,
+          "reduction_pct": -94.2607993093338,
+          "round_ratios": [
+            1.9355527519260067,
+            1.9496889511665398
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 1.9564474809765355,
+          "reduction_pct": -95.64474809765355,
+          "round_ratios": [
+            1.946824581977766,
+            1.9661179447050698
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 1.8879410295229488,
+          "reduction_pct": -88.79410295229488,
+          "round_ratios": [
+            1.87995275916497,
+            1.8959632435335014
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 1.986197702486949,
+          "reduction_pct": -98.6197702486949,
+          "round_ratios": [
+            1.987286745005151,
+            1.9851092567691884
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 1.9393915452426915,
+          "reduction_pct": -93.93915452426916,
+          "round_ratios": [
+            1.9427155192001473,
+            1.9360732585836389
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.9240368360943365,
+          "reduction_pct": -92.40368360943366,
+          "round_ratios": [
+            1.9234261932575039,
+            1.9246476727959902
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.903437455316739,
+          "reduction_pct": -90.3437455316739,
+          "round_ratios": [
+            1.9006182660826376,
+            1.9062608262574354
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 2.0997827588352806,
+          "reduction_pct": -109.97827588352807,
+          "round_ratios": [
+            2.09460422981362,
+            2.1049740908306234
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 2.035584866548311,
+          "reduction_pct": -103.5584866548311,
+          "round_ratios": [
+            2.044964982925908,
+            2.0262477761315454
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 1.9170250748863997,
+          "reduction_pct": -91.70250748863997,
+          "round_ratios": [
+            1.9147919093923886,
+            1.919260844855654
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 2.168782982557602,
+          "reduction_pct": -116.87829825576021,
+          "round_ratios": [
+            2.1622523530890194,
+            2.175333336421996
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 2.0492648361706878,
+          "reduction_pct": -104.92648361706878,
+          "round_ratios": [
+            2.0466678316341094,
+            2.0518651360307474
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.0323183661320305,
+          "reduction_pct": -103.23183661320306,
+          "round_ratios": [
+            2.0412950605734244,
+            2.023381147141614
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 2.009281911372707,
+          "reduction_pct": -100.92819113727072,
+          "round_ratios": [
+            2.0104485572675643,
+            2.0081159424723642
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.9732576514725642,
+          "reduction_pct": -97.32576514725642,
+          "round_ratios": [
+            1.9685208044791176,
+            1.978005896729818
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 2.0387254915745316,
+          "reduction_pct": -103.87254915745316,
+          "round_ratios": [
+            2.0382158758887123,
+            2.0392352346797034
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 1.9513434807751875,
+          "reduction_pct": -95.13434807751875,
+          "round_ratios": [
+            1.9471905638801474,
+            1.9555052549023124
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 1.8676490232478427,
+          "reduction_pct": -86.76490232478426,
+          "round_ratios": [
+            1.8661350905245373,
+            1.8691641841739197
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_SD_247",
+      "pr": 247,
+      "candidate": "SD_C",
+      "control": "TO_C",
+      "contrast": "SD_C/TO_C",
+      "source_commit": "c8c4b303e415f97f1eb9ab897ac784240e801222",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 2.512086715810322,
+      "ci95_ratio": [
+        2.485677338153511,
+        2.5389864059459275
+      ],
+      "reduction_pct": -151.2086715810322,
+      "ci95_reduction_pct": [
+        -153.89864059459276,
+        -148.5677338153511
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 2.449730187036307,
+          "reduction_pct": -144.97301870363071,
+          "round_ratios": [
+            2.443220817098431,
+            2.4562568996133307
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 2.5639957618622886,
+          "reduction_pct": -156.39957618622887,
+          "round_ratios": [
+            2.5555729861113625,
+            2.5724462977874434
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 2.5025734761688185,
+          "reduction_pct": -150.25734761688184,
+          "round_ratios": [
+            2.508224922329159,
+            2.496934763652666
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 2.5448118114218543,
+          "reduction_pct": -154.48118114218542,
+          "round_ratios": [
+            2.5417371783320024,
+            2.547890163766678
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 2.5224995990531154,
+          "reduction_pct": -152.24995990531153,
+          "round_ratios": [
+            2.5196836426584186,
+            2.525318702513691
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 2.4121256593847553,
+          "reduction_pct": -141.21256593847554,
+          "round_ratios": [
+            2.404844843352023,
+            2.4194285185369218
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 2.476088535161742,
+          "reduction_pct": -147.60885351617418,
+          "round_ratios": [
+            2.4685659192088965,
+            2.4836340752546042
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 2.4434955510989336,
+          "reduction_pct": -144.34955510989334,
+          "round_ratios": [
+            2.4316654329732827,
+            2.4553832230693566
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 2.5182429290763615,
+          "reduction_pct": -151.82429290763616,
+          "round_ratios": [
+            2.5123901696054425,
+            2.5241093228919134
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 2.4969775721334395,
+          "reduction_pct": -149.69775721334395,
+          "round_ratios": [
+            2.499617554578914,
+            2.4943403779174287
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 2.5533597242193125,
+          "reduction_pct": -155.33597242193125,
+          "round_ratios": [
+            2.556593610967256,
+            2.550129928079847
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 2.616259228871667,
+          "reduction_pct": -161.6259228871667,
+          "round_ratios": [
+            2.6067195446846374,
+            2.62583382497493
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 2.541561981715834,
+          "reduction_pct": -154.1561981715834,
+          "round_ratios": [
+            2.5390686133492824,
+            2.5440577985730566
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 2.481653565272018,
+          "reduction_pct": -148.16535652720182,
+          "round_ratios": [
+            2.4757221332498407,
+            2.487599208051276
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 2.396943403060885,
+          "reduction_pct": -139.6943403060885,
+          "round_ratios": [
+            2.4092852944237966,
+            2.384664734713847
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 2.5545709301933073,
+          "reduction_pct": -155.45709301933073,
+          "round_ratios": [
+            2.5562312672871688,
+            2.5529116715305333
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 2.525263550834497,
+          "reduction_pct": -152.5263550834497,
+          "round_ratios": [
+            2.5246371174044953,
+            2.52589013970024
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 2.690240789808621,
+          "reduction_pct": -169.0240789808621,
+          "round_ratios": [
+            2.690135830742596,
+            2.6903457529697565
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.4095583189751797,
+          "reduction_pct": -140.95583189751798,
+          "round_ratios": [
+            2.419025778357209,
+            2.4001279128515125
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 2.5320204541609304,
+          "reduction_pct": -153.20204541609303,
+          "round_ratios": [
+            2.532175264285796,
+            2.5318656535007236
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 2.5844854711297405,
+          "reduction_pct": -158.44854711297404,
+          "round_ratios": [
+            2.583113938592662,
+            2.585857731896988
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 2.4531278019094644,
+          "reduction_pct": -145.31278019094646,
+          "round_ratios": [
+            2.459813433665415,
+            2.4464603413169703
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 2.5535871315721903,
+          "reduction_pct": -155.35871315721903,
+          "round_ratios": [
+            2.5479633640032087,
+            2.559223311706484
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 2.488135976133723,
+          "reduction_pct": -148.81359761337228,
+          "round_ratios": [
+            2.4852862685438795,
+            2.490988951288132
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_SD_247",
+      "pr": 247,
+      "candidate": "TO_C",
+      "control": "TO_A",
+      "contrast": "TO_C/TO_A",
+      "source_commit": "c8c4b303e415f97f1eb9ab897ac784240e801222",
+      "roots": 24,
+      "rounds": 2,
+      "pairs": 48,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.782728172718679,
+      "ci95_ratio": [
+        0.7698675395853886,
+        0.7965375119826233
+      ],
+      "reduction_pct": 21.7271827281321,
+      "ci95_reduction_pct": [
+        20.346248801737666,
+        23.013246041461144
+      ],
+      "root_effects": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.784647382506887,
+          "reduction_pct": 21.535261749311296,
+          "round_ratios": [
+            0.7862298813395924,
+            0.7830680688781722
+          ]
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.7616777191443372,
+          "reduction_pct": 23.832228085566275,
+          "round_ratios": [
+            0.761232288566018,
+            0.762123410363729
+          ]
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.7572792934832495,
+          "reduction_pct": 24.272070651675048,
+          "round_ratios": [
+            0.7563103365264051,
+            0.7582494918320714
+          ]
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.7486972304765259,
+          "reduction_pct": 25.13027695234741,
+          "round_ratios": [
+            0.7489421161146033,
+            0.748452424910025
+          ]
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.7610718451698673,
+          "reduction_pct": 23.892815483013273,
+          "round_ratios": [
+            0.7619565067333757,
+            0.7601882107333341
+          ]
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8053040968657548,
+          "reduction_pct": 19.469590313424522,
+          "round_ratios": [
+            0.8061234916236775,
+            0.8044855349923421
+          ]
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.784547065061405,
+          "reduction_pct": 21.545293493859496,
+          "round_ratios": [
+            0.7840798322883333,
+            0.7850145762582486
+          ]
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8006756877853313,
+          "reduction_pct": 19.932431221466874,
+          "round_ratios": [
+            0.8006136681382666,
+            0.8007377122367564
+          ]
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.7497056807841037,
+          "reduction_pct": 25.02943192158963,
+          "round_ratios": [
+            0.7482726138274163,
+            0.7511414923032198
+          ]
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.7954407459054285,
+          "reduction_pct": 20.455925409457155,
+          "round_ratios": [
+            0.7950363212023167,
+            0.7958453763341606
+          ]
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.7595449739600082,
+          "reduction_pct": 24.045502603999182,
+          "round_ratios": [
+            0.759884367568745,
+            0.7592057319375214
+          ]
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.7354152122471939,
+          "reduction_pct": 26.458478775280614,
+          "round_ratios": [
+            0.7378723181707687,
+            0.7329662884567212
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.7489242713772848,
+          "reduction_pct": 25.10757286227152,
+          "round_ratios": [
+            0.7485493917297235,
+            0.7492993387676347
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8461224355483801,
+          "reduction_pct": 15.387756445161994,
+          "round_ratios": [
+            0.846057884155225,
+            0.846186991866591
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8492419403599096,
+          "reduction_pct": 15.075805964009037,
+          "round_ratios": [
+            0.8487849021694962,
+            0.8496992246478996
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.7504293782679725,
+          "reduction_pct": 24.95706217320275,
+          "round_ratios": [
+            0.7490683389631192,
+            0.7517928905487787
+          ]
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8588343113101632,
+          "reduction_pct": 14.11656886898368,
+          "round_ratios": [
+            0.8564606525756727,
+            0.8612145485789632
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.7617403036686798,
+          "reduction_pct": 23.825969633132015,
+          "round_ratios": [
+            0.7608046434849123,
+            0.7626771145551764
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.843440206500752,
+          "reduction_pct": 15.655979349924799,
+          "round_ratios": [
+            0.8438500651116225,
+            0.8430305469585169
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.7935488467602249,
+          "reduction_pct": 20.645115323977514,
+          "round_ratios": [
+            0.793961060130099,
+            0.793136847405711
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.7635011585536234,
+          "reduction_pct": 23.649884144637657,
+          "round_ratios": [
+            0.7620727738984722,
+            0.7649322204894662
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.8310718626186655,
+          "reduction_pct": 16.892813738133448,
+          "round_ratios": [
+            0.8286058804270889,
+            0.8335451837252955
+          ]
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.7641577828494875,
+          "reduction_pct": 23.584221715051246,
+          "round_ratios": [
+            0.7642145061382818,
+            0.7641010637709399
+          ]
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.7506217671230149,
+          "reduction_pct": 24.937823287698514,
+          "round_ratios": [
+            0.7508732954203698,
+            0.7503703230828638
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_repair_254",
+      "pr": 254,
+      "candidate": "SD_C",
+      "control": "SD_A",
+      "contrast": "SD_C/SD_A",
+      "source_commit": "2cbd79780830aaea066639d24409863bf5dfee40",
+      "roots": 2,
+      "rounds": 1,
+      "pairs": 2,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 0.8168142985596337,
+      "ci95_ratio": null,
+      "reduction_pct": 18.318570144036627,
+      "ci95_reduction_pct": null,
+      "root_effects": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.7970524637203633,
+          "reduction_pct": 20.29475362796367,
+          "round_ratios": [
+            0.7970524637203633
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.8370661012918477,
+          "reduction_pct": 16.293389870815233,
+          "round_ratios": [
+            0.8370661012918477
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_repair_254",
+      "pr": 254,
+      "candidate": "SD_C",
+      "control": "TO_A",
+      "contrast": "SD_C/TO_A",
+      "source_commit": "2cbd79780830aaea066639d24409863bf5dfee40",
+      "roots": 2,
+      "rounds": 1,
+      "pairs": 2,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 1.8319067618312599,
+      "ci95_ratio": null,
+      "reduction_pct": -83.19067618312599,
+      "ci95_reduction_pct": null,
+      "root_effects": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.417248507768573,
+          "reduction_pct": -41.7248507768573,
+          "round_ratios": [
+            1.417248507768573
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.367885635898009,
+          "reduction_pct": -136.7885635898009,
+          "round_ratios": [
+            2.367885635898009
+          ]
+        }
+      ]
+    },
+    {
+      "study": "B570_repair_254",
+      "pr": 254,
+      "candidate": "SD_C",
+      "control": "TO_C",
+      "contrast": "SD_C/TO_C",
+      "source_commit": "2cbd79780830aaea066639d24409863bf5dfee40",
+      "roots": 2,
+      "rounds": 1,
+      "pairs": 2,
+      "clock": "resident service_s; B570 includes normal teardown",
+      "estimand": "equal-root geometric paired service ratio; within-root rounds averaged in log space",
+      "ratio": 2.3261445073213896,
+      "ci95_ratio": null,
+      "reduction_pct": -132.61445073213895,
+      "ci95_reduction_pct": null,
+      "root_effects": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.9076048541377422,
+          "reduction_pct": -90.76048541377422,
+          "round_ratios": [
+            1.9076048541377422
+          ]
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.83651420639065,
+          "reduction_pct": -183.651420639065,
+          "round_ratios": [
+            2.8365142063906505
+          ]
+        }
+      ]
+    }
+  ],
+  "stage_costs": [
+    {
+      "study": "RTX_P4_255",
+      "contrast": "TO_P4/TO_C4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.012933333333333352,
+        "target_prefill_s": -4576.71036875,
+        "target_decode_s": 5.419006249999711,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 0.10679583333333653,
+        "terminal_sync_s": -0.00033125000000000016,
+        "other_host_s": 0.014635416666788026
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.40225,
+        "target_prefill_s": 2416.1338,
+        "target_decode_s": 2463.0831749999998,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 43.960541666666664,
+        "terminal_sync_s": 0.0008041666666666666,
+        "other_host_s": 0.5305604166668717,
+        "service_s": 4924.11113125
+      },
+      "control_mean_ms": {
+        "context_s": 0.41518333333333335,
+        "target_prefill_s": 6992.844168750001,
+        "target_decode_s": 2457.66416875,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 43.85374583333333,
+        "terminal_sync_s": 0.0011354166666666667,
+        "other_host_s": 0.5159250000000837,
+        "service_s": 9495.294327083335
+      }
+    },
+    {
+      "study": "RTX_P4_255",
+      "contrast": "SD_P4/SD_C4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.02258124999999994,
+        "target_prefill_s": -4456.997264583333,
+        "target_decode_s": 0.0,
+        "target_verify_s": -11.741937500000063,
+        "draft_prefill_s": -2.1097208333333555,
+        "draft_sync_s": -0.5048937500000363,
+        "draft_propose_s": -0.940366666666705,
+        "decision_commit_s": 0.11570416666667427,
+        "terminal_sync_s": -0.0004145833333333334,
+        "other_host_s": 0.011077083333107085
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.49895000000000006,
+        "target_prefill_s": 2395.33890625,
+        "target_decode_s": 0.0,
+        "target_verify_s": 917.5553291666666,
+        "draft_prefill_s": 112.87126874999998,
+        "draft_sync_s": 199.14752083333332,
+        "draft_propose_s": 535.10425,
+        "decision_commit_s": 87.85247708333337,
+        "terminal_sync_s": 0.0017979166666666666,
+        "other_host_s": 1.2559250000000466,
+        "service_s": 4249.6264249999995
+      },
+      "control_mean_ms": {
+        "context_s": 0.52153125,
+        "target_prefill_s": 6852.336170833333,
+        "target_decode_s": 0.0,
+        "target_verify_s": 929.2972666666667,
+        "draft_prefill_s": 114.98098958333334,
+        "draft_sync_s": 199.65241458333335,
+        "draft_propose_s": 536.0446166666667,
+        "decision_commit_s": 87.7367729166667,
+        "terminal_sync_s": 0.0022125,
+        "other_host_s": 1.2448479166669395,
+        "service_s": 8721.816822916668
+      }
+    },
+    {
+      "study": "RTX_P4_255",
+      "contrast": "SD_P4/TO_P4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 0.09670000000000006,
+        "target_prefill_s": -20.79489375000003,
+        "target_decode_s": -2463.0831749999998,
+        "target_verify_s": 917.5553291666666,
+        "draft_prefill_s": 112.87126874999998,
+        "draft_sync_s": 199.14752083333332,
+        "draft_propose_s": 535.10425,
+        "decision_commit_s": 43.891935416666705,
+        "terminal_sync_s": 0.00099375,
+        "other_host_s": 0.7253645833331749
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.49895000000000006,
+        "target_prefill_s": 2395.33890625,
+        "target_decode_s": 0.0,
+        "target_verify_s": 917.5553291666666,
+        "draft_prefill_s": 112.87126874999998,
+        "draft_sync_s": 199.14752083333332,
+        "draft_propose_s": 535.10425,
+        "decision_commit_s": 87.85247708333337,
+        "terminal_sync_s": 0.0017979166666666666,
+        "other_host_s": 1.2559250000000466,
+        "service_s": 4249.6264249999995
+      },
+      "control_mean_ms": {
+        "context_s": 0.40225,
+        "target_prefill_s": 2416.1338,
+        "target_decode_s": 2463.0831749999998,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 43.960541666666664,
+        "terminal_sync_s": 0.0008041666666666666,
+        "other_host_s": 0.5305604166668717,
+        "service_s": 4924.11113125
+      }
+    },
+    {
+      "study": "RTX_bridge_256",
+      "contrast": "C4/C1",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.005227083333333327,
+        "target_prefill_s": 71.20621666666648,
+        "target_decode_s": 0.0,
+        "target_verify_s": -1457.1161166666661,
+        "draft_prefill_s": 0.8355416666666713,
+        "draft_sync_s": -3.1935249999999655,
+        "draft_propose_s": -8.042772916666763,
+        "decision_commit_s": 0.3415562500000391,
+        "terminal_sync_s": 0.0003729166666666666,
+        "other_host_s": -0.1504083333330557
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.5409645833333333,
+        "target_prefill_s": 6896.172047916667,
+        "target_decode_s": 0.0,
+        "target_verify_s": 934.2909812500001,
+        "draft_prefill_s": 116.95147708333333,
+        "draft_sync_s": 199.08970000000002,
+        "draft_propose_s": 535.7170083333333,
+        "decision_commit_s": 88.1998729166667,
+        "terminal_sync_s": 0.0019041666666666666,
+        "other_host_s": 1.188831250000318,
+        "service_s": 8772.1527875
+      },
+      "control_mean_ms": {
+        "context_s": 0.5461916666666666,
+        "target_prefill_s": 6824.9658312500005,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2391.4070979166663,
+        "draft_prefill_s": 116.11593541666666,
+        "draft_sync_s": 202.283225,
+        "draft_propose_s": 543.7597812500001,
+        "decision_commit_s": 87.85831666666667,
+        "terminal_sync_s": 0.00153125,
+        "other_host_s": 1.3392395833333737,
+        "service_s": 10168.27715
+      }
+    },
+    {
+      "study": "RTX_bridge_256",
+      "contrast": "C4/B",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 0.002227083333333324,
+        "target_prefill_s": 258.2323083333331,
+        "target_decode_s": 0.0,
+        "target_verify_s": -1568.065458333333,
+        "draft_prefill_s": 3.7144645833333385,
+        "draft_sync_s": -2.498462499999988,
+        "draft_propose_s": -6.245635416666573,
+        "decision_commit_s": 0.38050208333336855,
+        "terminal_sync_s": -0.00042916666666666646,
+        "other_host_s": -0.15863333333308405
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.5409645833333333,
+        "target_prefill_s": 6896.172047916667,
+        "target_decode_s": 0.0,
+        "target_verify_s": 934.2909812500001,
+        "draft_prefill_s": 116.95147708333333,
+        "draft_sync_s": 199.08970000000002,
+        "draft_propose_s": 535.7170083333333,
+        "decision_commit_s": 88.1998729166667,
+        "terminal_sync_s": 0.0019041666666666666,
+        "other_host_s": 1.188831250000318,
+        "service_s": 8772.1527875
+      },
+      "control_mean_ms": {
+        "context_s": 0.5387375,
+        "target_prefill_s": 6637.939739583334,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2502.356439583333,
+        "draft_prefill_s": 113.23701249999999,
+        "draft_sync_s": 201.5881625,
+        "draft_propose_s": 541.9626437499999,
+        "decision_commit_s": 87.81937083333334,
+        "terminal_sync_s": 0.002333333333333333,
+        "other_host_s": 1.347464583333402,
+        "service_s": 10086.791904166666
+      }
+    },
+    {
+      "study": "RTX_bridge_256",
+      "contrast": "C1/B",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 0.007454166666666651,
+        "target_prefill_s": 187.02609166666662,
+        "target_decode_s": 0.0,
+        "target_verify_s": -110.9493416666669,
+        "draft_prefill_s": 2.878922916666667,
+        "draft_sync_s": 0.6950624999999775,
+        "draft_propose_s": 1.79713750000019,
+        "decision_commit_s": 0.03894583333332946,
+        "terminal_sync_s": -0.000802083333333333,
+        "other_host_s": -0.008225000000028349
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.5461916666666666,
+        "target_prefill_s": 6824.9658312500005,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2391.4070979166663,
+        "draft_prefill_s": 116.11593541666666,
+        "draft_sync_s": 202.283225,
+        "draft_propose_s": 543.7597812500001,
+        "decision_commit_s": 87.85831666666667,
+        "terminal_sync_s": 0.00153125,
+        "other_host_s": 1.3392395833333737,
+        "service_s": 10168.27715
+      },
+      "control_mean_ms": {
+        "context_s": 0.5387375,
+        "target_prefill_s": 6637.939739583334,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2502.356439583333,
+        "draft_prefill_s": 113.23701249999999,
+        "draft_sync_s": 201.5881625,
+        "draft_propose_s": 541.9626437499999,
+        "decision_commit_s": 87.81937083333334,
+        "terminal_sync_s": 0.002333333333333333,
+        "other_host_s": 1.347464583333402,
+        "service_s": 10086.791904166666
+      }
+    },
+    {
+      "study": "A5000_P4_257",
+      "contrast": "TO_P4/TO_C4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.0032611458333333676,
+        "target_prefill_s": -1065.0954265625,
+        "target_decode_s": -0.8281020208332848,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 0.4188797083333071,
+        "terminal_sync_s": -1.3208333333332954e-05,
+        "other_host_s": 6.749999999999812e-05
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.6568732291666667,
+        "target_prefill_s": 1854.7553144166668,
+        "target_decode_s": 4539.5149896875,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 96.025931125,
+        "terminal_sync_s": 0.0013270833333333335,
+        "other_host_s": 0.16721114583333335,
+        "service_s": 6491.1216466875
+      },
+      "control_mean_ms": {
+        "context_s": 0.660134375,
+        "target_prefill_s": 2919.850740979167,
+        "target_decode_s": 4540.343091708333,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 95.60705141666669,
+        "terminal_sync_s": 0.0013402916666666665,
+        "other_host_s": 0.16714364583333335,
+        "service_s": 7556.629502416667
+      }
+    },
+    {
+      "study": "A5000_P4_257",
+      "contrast": "SD_P4/SD_C4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.01863164583333332,
+        "target_prefill_s": -1064.5357212708332,
+        "target_decode_s": 0.0,
+        "target_verify_s": -5.679280541666685,
+        "draft_prefill_s": -1.6664786250000105,
+        "draft_sync_s": -4.024877312499996,
+        "draft_propose_s": -4.294349604166655,
+        "decision_commit_s": 3.14299166666666,
+        "terminal_sync_s": 1.4541666666666609e-05,
+        "other_host_s": -0.007611187500000005
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.6874546458333334,
+        "target_prefill_s": 1852.4345000208336,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2932.1091744375,
+        "draft_prefill_s": 88.51328847916668,
+        "draft_sync_s": 247.1314973541667,
+        "draft_propose_s": 308.8246262916667,
+        "decision_commit_s": 222.9526976875,
+        "terminal_sync_s": 0.0021160625000000003,
+        "other_host_s": 0.27984058333333334,
+        "service_s": 5652.9351955625
+      },
+      "control_mean_ms": {
+        "context_s": 0.7060862916666667,
+        "target_prefill_s": 2916.970221291667,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2937.7884549791665,
+        "draft_prefill_s": 90.17976710416669,
+        "draft_sync_s": 251.1563746666667,
+        "draft_propose_s": 313.11897589583333,
+        "decision_commit_s": 219.80970602083335,
+        "terminal_sync_s": 0.0021015208333333337,
+        "other_host_s": 0.28745177083333334,
+        "service_s": 6730.019139541668
+      }
+    },
+    {
+      "study": "A5000_P4_257",
+      "contrast": "SD_P4/TO_P4",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 0.030581416666666694,
+        "target_prefill_s": -2.3208143958331675,
+        "target_decode_s": -4539.5149896875,
+        "target_verify_s": 2932.1091744375,
+        "draft_prefill_s": 88.51328847916668,
+        "draft_sync_s": 247.1314973541667,
+        "draft_propose_s": 308.8246262916667,
+        "decision_commit_s": 126.9267665625,
+        "terminal_sync_s": 0.0007889791666666668,
+        "other_host_s": 0.11262943749999998
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.6874546458333334,
+        "target_prefill_s": 1852.4345000208336,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2932.1091744375,
+        "draft_prefill_s": 88.51328847916668,
+        "draft_sync_s": 247.1314973541667,
+        "draft_propose_s": 308.8246262916667,
+        "decision_commit_s": 222.9526976875,
+        "terminal_sync_s": 0.0021160625000000003,
+        "other_host_s": 0.27984058333333334,
+        "service_s": 5652.9351955625
+      },
+      "control_mean_ms": {
+        "context_s": 0.6568732291666667,
+        "target_prefill_s": 1854.7553144166668,
+        "target_decode_s": 4539.5149896875,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 96.025931125,
+        "terminal_sync_s": 0.0013270833333333335,
+        "other_host_s": 0.16721114583333335,
+        "service_s": 6491.1216466875
+      }
+    },
+    {
+      "study": "A5000_bridge_259",
+      "contrast": "C4/C1",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.01274762500000004,
+        "target_prefill_s": 3.786995583333919,
+        "target_decode_s": 0.0,
+        "target_verify_s": -2462.095977000001,
+        "draft_prefill_s": -4.825080208333333,
+        "draft_sync_s": -11.013859916666632,
+        "draft_propose_s": -12.843031124999982,
+        "decision_commit_s": 9.79406879166666,
+        "terminal_sync_s": 0.0004470833333333336,
+        "other_host_s": -0.016316958333333353
+      },
+      "candidate_mean_ms": {
+        "context_s": 0.524651375,
+        "target_prefill_s": 2923.8158946250005,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2929.2315304583335,
+        "draft_prefill_s": 85.28492479166667,
+        "draft_sync_s": 242.04918608333338,
+        "draft_propose_s": 302.40235800000005,
+        "decision_commit_s": 229.9913206666667,
+        "terminal_sync_s": 0.002464666666666667,
+        "other_host_s": 0.25778154166666667,
+        "service_s": 6713.5601122083335
+      },
+      "control_mean_ms": {
+        "context_s": 0.5373990000000001,
+        "target_prefill_s": 2920.0288990416666,
+        "target_decode_s": 0.0,
+        "target_verify_s": 5391.327507458334,
+        "draft_prefill_s": 90.110005,
+        "draft_sync_s": 253.063046,
+        "draft_propose_s": 315.24538912500003,
+        "decision_commit_s": 220.19725187500003,
+        "terminal_sync_s": 0.0020175833333333335,
+        "other_host_s": 0.2740985,
+        "service_s": 9190.785613583334
+      }
+    },
+    {
+      "study": "B570_SD_247",
+      "contrast": "SD_C/SD_A",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -1.4163979166666607,
+        "target_prefill_s": -3261.465825,
+        "target_decode_s": 0.0,
+        "target_verify_s": -1057.9998354166669,
+        "draft_prefill_s": 3.660281250002299,
+        "draft_sync_s": -11.08791250000013,
+        "draft_propose_s": -5.835527083333545,
+        "decision_commit_s": 158.17286666666678,
+        "terminal_sync_s": 0.00028333333333333335,
+        "other_host_s": 0.011839583333333126
+      },
+      "candidate_mean_ms": {
+        "context_s": 40.575025000000004,
+        "target_prefill_s": 7440.902397916666,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2876.9664166666666,
+        "draft_prefill_s": 11602.961379166667,
+        "draft_sync_s": 1253.4969875,
+        "draft_propose_s": 4248.584041666666,
+        "decision_commit_s": 693.4924625,
+        "terminal_sync_s": 0.01043125,
+        "other_host_s": 0.6483791666666667,
+        "service_s": 28157.637520833334
+      },
+      "control_mean_ms": {
+        "context_s": 41.991422916666664,
+        "target_prefill_s": 10702.368222916666,
+        "target_decode_s": 0.0,
+        "target_verify_s": 3934.9662520833335,
+        "draft_prefill_s": 11599.301097916665,
+        "draft_sync_s": 1264.5849,
+        "draft_propose_s": 4254.41956875,
+        "decision_commit_s": 535.3195958333332,
+        "terminal_sync_s": 0.010147916666666666,
+        "other_host_s": 0.6365395833333336,
+        "service_s": 32333.59774791666
+      }
+    },
+    {
+      "study": "B570_SD_247",
+      "contrast": "SD_C/TO_A",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 10.084483333333338,
+        "target_prefill_s": -3262.5217583333333,
+        "target_decode_s": -3252.8275270833333,
+        "target_verify_s": 2876.9664166666666,
+        "draft_prefill_s": 11602.961379166667,
+        "draft_sync_s": 1253.4969875,
+        "draft_propose_s": 4248.584041666666,
+        "decision_commit_s": 254.10329999999988,
+        "terminal_sync_s": 0.0005354166666666667,
+        "other_host_s": 0.14849166666666586
+      },
+      "candidate_mean_ms": {
+        "context_s": 40.575025000000004,
+        "target_prefill_s": 7440.902397916666,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2876.9664166666666,
+        "draft_prefill_s": 11602.961379166667,
+        "draft_sync_s": 1253.4969875,
+        "draft_propose_s": 4248.584041666666,
+        "decision_commit_s": 693.4924625,
+        "terminal_sync_s": 0.01043125,
+        "other_host_s": 0.6483791666666667,
+        "service_s": 28157.637520833334
+      },
+      "control_mean_ms": {
+        "context_s": 30.490541666666665,
+        "target_prefill_s": 10703.42415625,
+        "target_decode_s": 3252.8275270833333,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 439.3891625000001,
+        "terminal_sync_s": 0.009895833333333333,
+        "other_host_s": 0.4998875000000009,
+        "service_s": 14426.641170833333
+      }
+    },
+    {
+      "study": "B570_SD_247",
+      "contrast": "SD_C/TO_C",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 10.75639375,
+        "target_prefill_s": 5.6673791666653415,
+        "target_decode_s": -3252.1727375,
+        "target_verify_s": 2876.9664166666666,
+        "draft_prefill_s": 11602.961379166667,
+        "draft_sync_s": 1253.4969875,
+        "draft_propose_s": 4248.584041666666,
+        "decision_commit_s": 255.32557291666666,
+        "terminal_sync_s": 0.0001708333333333336,
+        "other_host_s": 0.14963124999999922
+      },
+      "candidate_mean_ms": {
+        "context_s": 40.575025000000004,
+        "target_prefill_s": 7440.902397916666,
+        "target_decode_s": 0.0,
+        "target_verify_s": 2876.9664166666666,
+        "draft_prefill_s": 11602.961379166667,
+        "draft_sync_s": 1253.4969875,
+        "draft_propose_s": 4248.584041666666,
+        "decision_commit_s": 693.4924625,
+        "terminal_sync_s": 0.01043125,
+        "other_host_s": 0.6483791666666667,
+        "service_s": 28157.637520833334
+      },
+      "control_mean_ms": {
+        "context_s": 29.818631250000003,
+        "target_prefill_s": 7435.235018750001,
+        "target_decode_s": 3252.1727375,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 438.16688958333333,
+        "terminal_sync_s": 0.010260416666666666,
+        "other_host_s": 0.4987479166666675,
+        "service_s": 11155.902285416665
+      }
+    },
+    {
+      "study": "B570_SD_247",
+      "contrast": "TO_C/TO_A",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.6719104166666625,
+        "target_prefill_s": -3268.1891374999987,
+        "target_decode_s": -0.6547895833332404,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": -1.2222729166667818,
+        "terminal_sync_s": 0.0003645833333333331,
+        "other_host_s": -0.0011395833333333605
+      },
+      "candidate_mean_ms": {
+        "context_s": 29.818631250000003,
+        "target_prefill_s": 7435.235018750001,
+        "target_decode_s": 3252.1727375,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 438.16688958333333,
+        "terminal_sync_s": 0.010260416666666666,
+        "other_host_s": 0.4987479166666675,
+        "service_s": 11155.902285416665
+      },
+      "control_mean_ms": {
+        "context_s": 30.490541666666665,
+        "target_prefill_s": 10703.42415625,
+        "target_decode_s": 3252.8275270833333,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 439.3891625000001,
+        "terminal_sync_s": 0.009895833333333333,
+        "other_host_s": 0.4998875000000009,
+        "service_s": 14426.641170833333
+      }
+    },
+    {
+      "study": "B570_repair_254",
+      "contrast": "SD_C/SD_A",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": -0.7926500000000019,
+        "target_prefill_s": -3468.533699999999,
+        "target_decode_s": 0.0,
+        "target_verify_s": -2235.1946,
+        "draft_prefill_s": -0.14269999999987704,
+        "draft_sync_s": 1.0695499999992535,
+        "draft_propose_s": -6.0158999999976,
+        "decision_commit_s": -0.635749999999998,
+        "terminal_sync_s": 0.0013500000000000005,
+        "other_host_s": -0.018500000000000072
+      },
+      "candidate_mean_ms": {
+        "context_s": 42.7089,
+        "target_prefill_s": 7822.4507,
+        "target_decode_s": 0.0,
+        "target_verify_s": 1799.59545,
+        "draft_prefill_s": 2318.62485,
+        "draft_sync_s": 5960.46635,
+        "draft_propose_s": 6528.232600000001,
+        "decision_commit_s": 29.56475,
+        "terminal_sync_s": 0.010350000000000002,
+        "other_host_s": 0.7344000000000003,
+        "service_s": 24502.388350000005
+      },
+      "control_mean_ms": {
+        "context_s": 43.50155,
+        "target_prefill_s": 11290.9844,
+        "target_decode_s": 0.0,
+        "target_verify_s": 4034.7900499999996,
+        "draft_prefill_s": 2318.76755,
+        "draft_sync_s": 5959.3968,
+        "draft_propose_s": 6534.248499999999,
+        "decision_commit_s": 30.200499999999998,
+        "terminal_sync_s": 0.009000000000000001,
+        "other_host_s": 0.7529000000000003,
+        "service_s": 30212.65125
+      }
+    },
+    {
+      "study": "B570_repair_254",
+      "contrast": "SD_C/TO_A",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 12.4423,
+        "target_prefill_s": -3471.9703500000005,
+        "target_decode_s": -3442.0490000000004,
+        "target_verify_s": 1799.59545,
+        "draft_prefill_s": 2318.62485,
+        "draft_sync_s": 5960.46635,
+        "draft_propose_s": 6528.232600000001,
+        "decision_commit_s": 4.7912000000000035,
+        "terminal_sync_s": 0.008300000000000002,
+        "other_host_s": 0.2766499999999997
+      },
+      "candidate_mean_ms": {
+        "context_s": 42.7089,
+        "target_prefill_s": 7822.4507,
+        "target_decode_s": 0.0,
+        "target_verify_s": 1799.59545,
+        "draft_prefill_s": 2318.62485,
+        "draft_sync_s": 5960.46635,
+        "draft_propose_s": 6528.232600000001,
+        "decision_commit_s": 29.56475,
+        "terminal_sync_s": 0.010350000000000002,
+        "other_host_s": 0.7344000000000003,
+        "service_s": 24502.388350000005
+      },
+      "control_mean_ms": {
+        "context_s": 30.2666,
+        "target_prefill_s": 11294.42105,
+        "target_decode_s": 3442.0490000000004,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 24.773549999999997,
+        "terminal_sync_s": 0.0020499999999999997,
+        "other_host_s": 0.4577500000000006,
+        "service_s": 14791.970000000001
+      }
+    },
+    {
+      "study": "B570_repair_254",
+      "contrast": "SD_C/TO_C",
+      "unit": "ms",
+      "estimand": "arithmetic mean candidate minus control; negative saves time",
+      "signed_mean_ms": {
+        "context_s": 13.47955,
+        "target_prefill_s": -11.591049999999996,
+        "target_decode_s": -3442.1531000000014,
+        "target_verify_s": 1799.59545,
+        "draft_prefill_s": 2318.62485,
+        "draft_sync_s": 5960.46635,
+        "draft_propose_s": 6528.232600000001,
+        "decision_commit_s": 3.9491999999999976,
+        "terminal_sync_s": 0.0072000000000000015,
+        "other_host_s": 0.2818999999999999
+      },
+      "candidate_mean_ms": {
+        "context_s": 42.7089,
+        "target_prefill_s": 7822.4507,
+        "target_decode_s": 0.0,
+        "target_verify_s": 1799.59545,
+        "draft_prefill_s": 2318.62485,
+        "draft_sync_s": 5960.46635,
+        "draft_propose_s": 6528.232600000001,
+        "decision_commit_s": 29.56475,
+        "terminal_sync_s": 0.010350000000000002,
+        "other_host_s": 0.7344000000000003,
+        "service_s": 24502.388350000005
+      },
+      "control_mean_ms": {
+        "context_s": 29.22935,
+        "target_prefill_s": 7834.04175,
+        "target_decode_s": 3442.1531000000014,
+        "target_verify_s": 0.0,
+        "draft_prefill_s": 0.0,
+        "draft_sync_s": 0.0,
+        "draft_propose_s": 0.0,
+        "decision_commit_s": 25.615550000000002,
+        "terminal_sync_s": 0.0031500000000000005,
+        "other_host_s": 0.4525000000000004,
+        "service_s": 11331.4954
+      }
+    }
+  ],
+  "local": [
+    {
+      "history": "within-block base137",
+      "case": "negative",
+      "step": 0,
+      "is_primary": true,
+      "root": "CodeContests/train/161",
+      "pairs": [
+        {
+          "round": 1,
+          "SIMPLE_ms": 74.147389,
+          "LOCAL_ms": 75.077323,
+          "ratio": 1.012541695837732,
+          "reduction_pct": -1.2541695837732014
+        },
+        {
+          "round": 2,
+          "SIMPLE_ms": 79.03482100000001,
+          "LOCAL_ms": 74.99926500000001,
+          "ratio": 0.9489395186964491,
+          "reduction_pct": 5.10604813035509
+        }
+      ],
+      "ratio": 0.9802248872112683,
+      "reduction_pct": 1.9775112788731675,
+      "population_ci": null,
+      "clock": "selected verify_to_commit_s; no history construction or drafting",
+      "source_commit": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1"
+    },
+    {
+      "history": "within-block base137",
+      "case": "negative",
+      "step": 1,
+      "is_primary": false,
+      "root": "CodeContests/train/161",
+      "pairs": [
+        {
+          "round": 1,
+          "SIMPLE_ms": 74.51243600000001,
+          "LOCAL_ms": 75.88478500000001,
+          "ratio": 1.0184177175471758,
+          "reduction_pct": -1.8417717547175805
+        },
+        {
+          "round": 2,
+          "SIMPLE_ms": 77.111811,
+          "LOCAL_ms": 75.68805,
+          "ratio": 0.9815364082163757,
+          "reduction_pct": 1.8463591783624334
+        }
+      ],
+      "ratio": 0.9998070156511077,
+      "reduction_pct": 0.019298434889225557,
+      "population_ci": null,
+      "clock": "selected verify_to_commit_s; no history construction or drafting",
+      "source_commit": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1"
+    },
+    {
+      "history": "crossing base253",
+      "case": "positive",
+      "step": 0,
+      "is_primary": true,
+      "root": "CodeContests/train/161",
+      "pairs": [
+        {
+          "round": 1,
+          "SIMPLE_ms": 100.35986700000001,
+          "LOCAL_ms": 77.31228800000001,
+          "ratio": 0.770350642254239,
+          "reduction_pct": 22.9649357745761
+        },
+        {
+          "round": 2,
+          "SIMPLE_ms": 99.63751100000002,
+          "LOCAL_ms": 77.475347,
+          "ratio": 0.7775720832689206,
+          "reduction_pct": 22.24279167310794
+        }
+      ],
+      "ratio": 0.7739529402652202,
+      "reduction_pct": 22.60470597347798,
+      "population_ci": null,
+      "clock": "selected verify_to_commit_s; no history construction or drafting",
+      "source_commit": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1"
+    },
+    {
+      "history": "crossing base253",
+      "case": "positive",
+      "step": 1,
+      "is_primary": false,
+      "root": "CodeContests/train/161",
+      "pairs": [
+        {
+          "round": 1,
+          "SIMPLE_ms": 102.813003,
+          "LOCAL_ms": 83.540369,
+          "ratio": 0.8125467262151657,
+          "reduction_pct": 18.745327378483434
+        },
+        {
+          "round": 2,
+          "SIMPLE_ms": 104.24706,
+          "LOCAL_ms": 81.746656,
+          "ratio": 0.7841626996483162,
+          "reduction_pct": 21.58373003516838
+        }
+      ],
+      "ratio": 0.7982285602628395,
+      "reduction_pct": 20.17714397371605,
+      "population_ci": null,
+      "clock": "selected verify_to_commit_s; no history construction or drafting",
+      "source_commit": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1"
+    }
+  ],
+  "local_diagnostics": [
+    {
+      "request_id": "a5l-diagnostic-c0-r0-LOCAL-profile",
+      "category_calls": {
+        "other_kernel": 515,
+        "projection_prepare": 449,
+        "projection_dot": 449,
+        "attention_core": 192
+      },
+      "category_kernel_ms": {
+        "other_kernel": 1.90809,
+        "projection_prepare": 0.992718,
+        "projection_dot": 52.801002,
+        "attention_core": 9.089852
+      },
+      "memcpy_ms": 0.266148,
+      "clock": "independent profiler CUDA kernel/event duration; not additive with clean wall clock"
+    },
+    {
+      "request_id": "a5l-diagnostic-c0-r0-SIMPLE-profile-profiler-repair1",
+      "category_calls": {
+        "other_kernel": 515,
+        "projection_prepare": 449,
+        "projection_dot": 449,
+        "attention_core": 192
+      },
+      "category_kernel_ms": {
+        "other_kernel": 1.911448,
+        "projection_prepare": 0.995136,
+        "projection_dot": 52.699847,
+        "attention_core": 9.126754
+      },
+      "memcpy_ms": 0.267611,
+      "clock": "independent profiler CUDA kernel/event duration; not additive with clean wall clock"
+    },
+    {
+      "request_id": "a5l-diagnostic-c1-r0-LOCAL-profile",
+      "category_calls": {
+        "other_kernel": 515,
+        "projection_prepare": 449,
+        "projection_dot": 449,
+        "attention_core": 384,
+        "attention_stitch": 64
+      },
+      "category_kernel_ms": {
+        "other_kernel": 1.901002,
+        "projection_prepare": 0.98742,
+        "projection_dot": 52.4296,
+        "attention_core": 11.620952,
+        "attention_stitch": 0.13424
+      },
+      "memcpy_ms": 0.493891,
+      "clock": "independent profiler CUDA kernel/event duration; not additive with clean wall clock"
+    },
+    {
+      "request_id": "a5l-diagnostic-c1-r0-SIMPLE-profile",
+      "category_calls": {
+        "other_kernel": 839,
+        "projection_prepare": 834,
+        "projection_dot": 834,
+        "attention_core": 384
+      },
+      "category_kernel_ms": {
+        "other_kernel": 3.283646,
+        "projection_prepare": 1.753355,
+        "projection_dot": 72.58023,
+        "attention_core": 12.059635
+      },
+      "memcpy_ms": 0.361093,
+      "clock": "independent profiler CUDA kernel/event duration; not additive with clean wall clock"
+    }
+  ],
+  "M1": {
+    "source_commit": "ad16a13d2510363bb6f7c7b99241fe9ef1b54bb0",
+    "source_directory": "benchmarks/server_expansion_v1/M/results_ampere_m1_20261107",
+    "runtime_reference_commit": "592abdfe9267fd97ecbde18cd0ee9a1bfc319e20",
+    "model": "Qwen3-8B / 0.6B Q8_0",
+    "hardware": "A5000",
+    "roots": 16,
+    "sessions": 4,
+    "measurement_requests": 256,
+    "primers": 32,
+    "arm_total_service_s": {
+      "W_L4_D4": 142.271207231,
+      "W_P_D4": 139.944720542,
+      "L_L4_D4": 141.97424164,
+      "L_P_D4": 139.765106784
+    },
+    "census": {
+      "W_L4_D4": {
+        "cycles": 2224,
+        "verify_calls": 2244
+      },
+      "W_P_D4": {
+        "cycles": 2224,
+        "verify_calls": 2244
+      },
+      "L_P_D4": {
+        "cycles": 2224,
+        "verify_calls": 2224
+      },
+      "L_L4_D4": {
+        "cycles": 2224,
+        "verify_calls": 2224
+      }
+    },
+    "opportunity_pct": 0.8992805755395683,
+    "contrasts": [
+      {
+        "candidate": "L_L4_D4",
+        "control": "W_L4_D4",
+        "ratio": 0.9979126796153642,
+        "ci99_family_ratio": [
+          0.9953697462334151,
+          0.9995757534257415
+        ],
+        "reduction_pct": 0.20873203846357713,
+        "ci99_family_reduction_pct": [
+          0.04242465742585466,
+          0.463025376658488
+        ],
+        "estimand": "ratio of total native service seconds; sum 4 sessions within each of 16 roots before paired-root bootstrap",
+        "root_effects": [
+          {
+            "root": "MATH/geometry/train/333",
+            "ratio": 0.9993603489427764
+          },
+          {
+            "root": "MATH/algebra/train/313",
+            "ratio": 0.9998845346930082
+          },
+          {
+            "root": "MATH/intermediate_algebra/train/315",
+            "ratio": 0.9922252465607049
+          },
+          {
+            "root": "MATH/geometry/train/654",
+            "ratio": 1.0002524608508103
+          },
+          {
+            "root": "MATH/prealgebra/train/745",
+            "ratio": 0.9990836058130929
+          },
+          {
+            "root": "MATH/number_theory/train/523",
+            "ratio": 1.000002552540672
+          },
+          {
+            "root": "MATH/prealgebra/train/1186",
+            "ratio": 1.0000476914388676
+          },
+          {
+            "root": "MATH/prealgebra/train/142",
+            "ratio": 0.9976641179130877
+          },
+          {
+            "root": "APPS/train/914",
+            "ratio": 0.9992141710284976
+          },
+          {
+            "root": "APPS/train/879",
+            "ratio": 1.00025371472249
+          },
+          {
+            "root": "APPS/train/859",
+            "ratio": 0.9956432031460304
+          },
+          {
+            "root": "APPS/train/413",
+            "ratio": 0.9850775216761447
+          },
+          {
+            "root": "APPS/train/726",
+            "ratio": 0.9994321934838888
+          },
+          {
+            "root": "APPS/train/845",
+            "ratio": 1.000398463190357
+          },
+          {
+            "root": "APPS/train/475",
+            "ratio": 0.9965662232075987
+          },
+          {
+            "root": "APPS/train/733",
+            "ratio": 0.9997844758259278
+          }
+        ]
+      },
+      {
+        "candidate": "L_P_D4",
+        "control": "W_P_D4",
+        "ratio": 0.9987165378064685,
+        "ci99_family_ratio": [
+          0.9959526146511872,
+          1.0005697353116352
+        ],
+        "reduction_pct": 0.12834621935314816,
+        "ci99_family_reduction_pct": [
+          -0.05697353116351778,
+          0.4047385348812771
+        ],
+        "estimand": "ratio of total native service seconds; sum 4 sessions within each of 16 roots before paired-root bootstrap",
+        "root_effects": [
+          {
+            "root": "MATH/geometry/train/333",
+            "ratio": 0.9992947378794057
+          },
+          {
+            "root": "MATH/algebra/train/313",
+            "ratio": 1.0006991904456122
+          },
+          {
+            "root": "MATH/intermediate_algebra/train/315",
+            "ratio": 0.9920417976949919
+          },
+          {
+            "root": "MATH/geometry/train/654",
+            "ratio": 1.0006036563791727
+          },
+          {
+            "root": "MATH/prealgebra/train/745",
+            "ratio": 1.0010948166091473
+          },
+          {
+            "root": "MATH/number_theory/train/523",
+            "ratio": 0.999155828166141
+          },
+          {
+            "root": "MATH/prealgebra/train/1186",
+            "ratio": 1.0001992941477347
+          },
+          {
+            "root": "MATH/prealgebra/train/142",
+            "ratio": 1.000570034975351
+          },
+          {
+            "root": "APPS/train/914",
+            "ratio": 1.001068320124887
+          },
+          {
+            "root": "APPS/train/879",
+            "ratio": 1.0002466694285805
+          },
+          {
+            "root": "APPS/train/859",
+            "ratio": 0.9965768045211792
+          },
+          {
+            "root": "APPS/train/413",
+            "ratio": 0.9854822442923831
+          },
+          {
+            "root": "APPS/train/726",
+            "ratio": 1.0009750415950522
+          },
+          {
+            "root": "APPS/train/845",
+            "ratio": 1.0001022650209181
+          },
+          {
+            "root": "APPS/train/475",
+            "ratio": 0.9962902025892652
+          },
+          {
+            "root": "APPS/train/733",
+            "ratio": 1.0016148087298442
+          }
+        ]
+      },
+      {
+        "candidate": "W_P_D4",
+        "control": "W_L4_D4",
+        "ratio": 0.983647522683753,
+        "ci99_family_ratio": [
+          0.9802358572066093,
+          0.9886544126838048
+        ],
+        "reduction_pct": 1.6352477316247005,
+        "ci99_family_reduction_pct": [
+          1.1345587316195171,
+          1.976414279339067
+        ],
+        "estimand": "ratio of total native service seconds; sum 4 sessions within each of 16 roots before paired-root bootstrap",
+        "root_effects": [
+          {
+            "root": "MATH/geometry/train/333",
+            "ratio": 0.9919003823498637
+          },
+          {
+            "root": "MATH/algebra/train/313",
+            "ratio": 0.9895950420821797
+          },
+          {
+            "root": "MATH/intermediate_algebra/train/315",
+            "ratio": 0.9881033985893979
+          },
+          {
+            "root": "MATH/geometry/train/654",
+            "ratio": 0.9904407018215703
+          },
+          {
+            "root": "MATH/prealgebra/train/745",
+            "ratio": 0.9961203067292006
+          },
+          {
+            "root": "MATH/number_theory/train/523",
+            "ratio": 0.991008216316207
+          },
+          {
+            "root": "MATH/prealgebra/train/1186",
+            "ratio": 0.9898372393908589
+          },
+          {
+            "root": "MATH/prealgebra/train/142",
+            "ratio": 0.9962083180744935
+          },
+          {
+            "root": "APPS/train/914",
+            "ratio": 0.9770286364505962
+          },
+          {
+            "root": "APPS/train/879",
+            "ratio": 0.9818893464011171
+          },
+          {
+            "root": "APPS/train/859",
+            "ratio": 0.9800734765745396
+          },
+          {
+            "root": "APPS/train/413",
+            "ratio": 0.9872827139200879
+          },
+          {
+            "root": "APPS/train/726",
+            "ratio": 0.978278779501404
+          },
+          {
+            "root": "APPS/train/845",
+            "ratio": 0.9768975431364754
+          },
+          {
+            "root": "APPS/train/475",
+            "ratio": 0.9793818395488867
+          },
+          {
+            "root": "APPS/train/733",
+            "ratio": 0.980287473399482
+          }
+        ]
+      },
+      {
+        "candidate": "L_P_D4",
+        "control": "L_L4_D4",
+        "ratio": 0.9844398897259009,
+        "ci99_family_ratio": [
+          0.9812282831016758,
+          0.9893909649260213
+        ],
+        "reduction_pct": 1.5560110274099093,
+        "ci99_family_reduction_pct": [
+          1.06090350739787,
+          1.8771716898324242
+        ],
+        "estimand": "ratio of total native service seconds; sum 4 sessions within each of 16 roots before paired-root bootstrap",
+        "root_effects": [
+          {
+            "root": "MATH/geometry/train/333",
+            "ratio": 0.9918352610561156
+          },
+          {
+            "root": "MATH/algebra/train/313",
+            "ratio": 0.9904013144724494
+          },
+          {
+            "root": "MATH/intermediate_algebra/train/315",
+            "ratio": 0.9879207117969517
+          },
+          {
+            "root": "MATH/geometry/train/654",
+            "ratio": 0.9907884523737578
+          },
+          {
+            "root": "MATH/prealgebra/train/745",
+            "ratio": 0.9981255522395925
+          },
+          {
+            "root": "MATH/number_theory/train/523",
+            "ratio": 0.9901691076459506
+          },
+          {
+            "root": "MATH/prealgebra/train/1186",
+            "ratio": 0.9899872942413563
+          },
+          {
+            "root": "MATH/prealgebra/train/142",
+            "ratio": 0.9991099947982359
+          },
+          {
+            "root": "APPS/train/914",
+            "ratio": 0.9788416179073709
+          },
+          {
+            "root": "APPS/train/879",
+            "ratio": 0.9818824304567622
+          },
+          {
+            "root": "APPS/train/859",
+            "ratio": 0.9809924784243848
+          },
+          {
+            "root": "APPS/train/413",
+            "ratio": 0.9876883425474317
+          },
+          {
+            "root": "APPS/train/726",
+            "ratio": 0.9797889725660115
+          },
+          {
+            "root": "APPS/train/845",
+            "ratio": 0.9766083031239673
+          },
+          {
+            "root": "APPS/train/475",
+            "ratio": 0.9791105785181177
+          },
+          {
+            "root": "APPS/train/733",
+            "ratio": 0.9820821126054748
+          }
+        ]
+      }
+    ],
+    "interaction": {
+      "ratio": 1.000696007210281,
+      "ci99_family_ratio": [
+        1.000069259965508,
+        1.0013928122812554
+      ]
+    },
+    "bundle_sha256": "141a1dcd53f738cb1a11e0c13c960b61318a93c96783a9129495746ba9d77c8f"
+  },
+  "natural_A5000": {
+    "roots": 2,
+    "rounds": 2,
+    "episodes": 8,
+    "W_s": 36.38533145998372,
+    "L_s": 37.92065565302619,
+    "ratio": 1.0421962403923957,
+    "clock": "controller_service_plus_reset_s",
+    "estimand": "ratio of sums",
+    "population_ci": null,
+    "source_commit": "92c47c1a49243fdb871036ff39ac33babddec04b"
+  },
+  "natural_RTX": {
+    "roots": 4,
+    "sessions": 3,
+    "pairs": [
+      {
+        "root_index": 0,
+        "session": 0,
+        "LOCAL_s": 1.7229888,
+        "WHOLE_s": 1.6972683,
+        "ratio": 1.0151540566685893
+      },
+      {
+        "root_index": 1,
+        "session": 0,
+        "LOCAL_s": 3.8078775,
+        "WHOLE_s": 3.6471763,
+        "ratio": 1.0440618129702148
+      },
+      {
+        "root_index": 2,
+        "session": 0,
+        "LOCAL_s": 3.3723349,
+        "WHOLE_s": 3.3726161,
+        "ratio": 0.9999166225886189
+      },
+      {
+        "root_index": 3,
+        "session": 0,
+        "LOCAL_s": 4.8642528,
+        "WHOLE_s": 4.8798552,
+        "ratio": 0.996802692014304
+      },
+      {
+        "root_index": 0,
+        "session": 1,
+        "LOCAL_s": 1.7085124,
+        "WHOLE_s": 1.6740996,
+        "ratio": 1.0205560051504703
+      },
+      {
+        "root_index": 1,
+        "session": 1,
+        "LOCAL_s": 3.8110023,
+        "WHOLE_s": 3.7802884,
+        "ratio": 1.0081247504820003
+      },
+      {
+        "root_index": 2,
+        "session": 1,
+        "LOCAL_s": 3.3321846,
+        "WHOLE_s": 3.4250627,
+        "ratio": 0.9728828029921905
+      },
+      {
+        "root_index": 3,
+        "session": 1,
+        "LOCAL_s": 5.0000764,
+        "WHOLE_s": 4.8778043,
+        "ratio": 1.025067036822285
+      },
+      {
+        "root_index": 0,
+        "session": 2,
+        "LOCAL_s": 1.7356413,
+        "WHOLE_s": 1.693042,
+        "ratio": 1.0251613958779522
+      },
+      {
+        "root_index": 1,
+        "session": 2,
+        "LOCAL_s": 3.7570453,
+        "WHOLE_s": 3.7713195,
+        "ratio": 0.9962150647803772
+      },
+      {
+        "root_index": 2,
+        "session": 2,
+        "LOCAL_s": 3.3417521,
+        "WHOLE_s": 3.3968372,
+        "ratio": 0.9837834147600598
+      },
+      {
+        "root_index": 3,
+        "session": 2,
+        "LOCAL_s": 4.9171047,
+        "WHOLE_s": 4.9076739,
+        "ratio": 1.0019216435713059
+      }
+    ],
+    "ratio": 1.0072937506333233,
+    "clock": "service_seconds",
+    "estimand": "geometric mean of 12 paired ratios (4 roots repeated 3 sessions)",
+    "population_ci": null,
+    "source_commit": "371223b696bb805030c29f04e39eb17b57fb2ebb"
+  },
+  "row_counts": [
+    {
+      "study": "RTX_P4_255",
+      "raw_rows": 392,
+      "selected_requests": 192,
+      "roots": 24,
+      "rounds": 2,
+      "arms": [
+        "SD_C4",
+        "SD_P4",
+        "TO_C4",
+        "TO_P4"
+      ]
+    },
+    {
+      "study": "RTX_bridge_256",
+      "raw_rows": 312,
+      "selected_requests": 144,
+      "roots": 24,
+      "rounds": 2,
+      "arms": [
+        "B",
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "study": "A5000_P4_257",
+      "raw_rows": 384,
+      "selected_requests": 192,
+      "roots": 12,
+      "rounds": 4,
+      "arms": [
+        "SD_C4",
+        "SD_P4",
+        "TO_C4",
+        "TO_P4"
+      ]
+    },
+    {
+      "study": "A5000_bridge_259",
+      "raw_rows": 102,
+      "selected_requests": 48,
+      "roots": 12,
+      "rounds": 2,
+      "arms": [
+        "C1",
+        "C4"
+      ]
+    },
+    {
+      "study": "B570_SD_247",
+      "raw_rows": 384,
+      "selected_requests": 192,
+      "roots": 24,
+      "rounds": 2,
+      "arms": [
+        "SD_A",
+        "SD_C",
+        "TO_A",
+        "TO_C"
+      ]
+    },
+    {
+      "study": "B570_repair_254",
+      "raw_rows": 16,
+      "selected_requests": 8,
+      "roots": 2,
+      "rounds": 1,
+      "arms": [
+        "SD_A",
+        "SD_C",
+        "TO_A",
+        "TO_C"
+      ]
+    }
+  ],
+  "audit": {
+    "independent_code": true,
+    "modern_values_compared": 45,
+    "maximum_absolute_difference_pp": 5.684341886080802e-14,
+    "GPU_requests": 0,
+    "native_M1_receipts": 288
+  }
+}

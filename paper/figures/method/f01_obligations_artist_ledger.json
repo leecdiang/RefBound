@@ -1,0 +1,1709 @@
+{
+  "scientific_data": "figure_marks.json",
+  "mapping_notes": "INTEGRATION_NOTES.md",
+  "coordinates": "PostScript points from top left; schematic spans are query membership",
+  "artists": [
+    {
+      "svg_id": "f01_obligations-panel-1",
+      "kind": "text",
+      "text": "(a)",
+      "x_pt": 3,
+      "y_pt": 9,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-panel-title-2",
+      "kind": "text",
+      "text": "Projection arithmetic",
+      "x_pt": 22,
+      "y_pt": 9,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-study-3",
+      "kind": "text",
+      "text": "RTX · complete operator outputs",
+      "x_pt": 391.34400000000005,
+      "y_pt": 9,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-4",
+      "kind": "text",
+      "text": "Arithmetic recipe",
+      "x_pt": 4,
+      "y_pt": 29,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-5",
+      "kind": "text",
+      "text": "Grouping at q8",
+      "x_pt": 129,
+      "y_pt": 29,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-6",
+      "kind": "text",
+      "text": "Unequal model/operator pairs",
+      "x_pt": 286,
+      "y_pt": 23,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-q-7",
+      "kind": "text",
+      "text": "q2",
+      "x_pt": 199,
+      "y_pt": 39,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-q-8",
+      "kind": "text",
+      "text": "q4",
+      "x_pt": 243,
+      "y_pt": 39,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-q-9",
+      "kind": "text",
+      "text": "q8",
+      "x_pt": 287,
+      "y_pt": 39,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-q-10",
+      "kind": "text",
+      "text": "q16",
+      "x_pt": 331,
+      "y_pt": 39,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-q-11",
+      "kind": "text",
+      "text": "q32",
+      "x_pt": 375,
+      "y_pt": 39,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-recipe-12",
+      "kind": "text",
+      "text": "Native width",
+      "x_pt": 4,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arithmetic-group-13",
+      "kind": "rectangle",
+      "bounds_pt": [
+        99.0,
+        50.6,
+        61.0,
+        6.8
+      ],
+      "role": "arithmetic-group"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-14",
+      "kind": "line",
+      "points_pt": [
+        [
+          106.625,
+          52.6
+        ],
+        [
+          106.625,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-15",
+      "kind": "line",
+      "points_pt": [
+        [
+          114.25,
+          52.6
+        ],
+        [
+          114.25,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-16",
+      "kind": "line",
+      "points_pt": [
+        [
+          121.875,
+          52.6
+        ],
+        [
+          121.875,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-17",
+      "kind": "line",
+      "points_pt": [
+        [
+          129.5,
+          52.6
+        ],
+        [
+          129.5,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-18",
+      "kind": "line",
+      "points_pt": [
+        [
+          137.125,
+          52.6
+        ],
+        [
+          137.125,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-19",
+      "kind": "line",
+      "points_pt": [
+        [
+          144.75,
+          52.6
+        ],
+        [
+          144.75,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-20",
+      "kind": "line",
+      "points_pt": [
+        [
+          152.375,
+          52.6
+        ],
+        [
+          152.375,
+          55.4
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-count-wide-q2-21",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 199,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-wide-q4-22",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 243,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-nonzero-count-23",
+      "kind": "rectangle",
+      "bounds_pt": [
+        271,
+        47.9,
+        32,
+        12.2
+      ],
+      "role": "nonzero-count"
+    },
+    {
+      "svg_id": "f01_obligations-count-wide-q8-24",
+      "kind": "text",
+      "text": "16/16",
+      "x_pt": 287,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-nonzero-count-25",
+      "kind": "rectangle",
+      "bounds_pt": [
+        315,
+        47.9,
+        32,
+        12.2
+      ],
+      "role": "nonzero-count"
+    },
+    {
+      "svg_id": "f01_obligations-count-wide-q16-26",
+      "kind": "text",
+      "text": "16/16",
+      "x_pt": 331,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-nonzero-count-27",
+      "kind": "rectangle",
+      "bounds_pt": [
+        359,
+        47.9,
+        32,
+        12.2
+      ],
+      "role": "nonzero-count"
+    },
+    {
+      "svg_id": "f01_obligations-count-wide-q32-28",
+      "kind": "text",
+      "text": "16/16",
+      "x_pt": 375,
+      "y_pt": 54,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-recipe-29",
+      "kind": "text",
+      "text": "Tiles of ≤4",
+      "x_pt": 4,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arithmetic-group-30",
+      "kind": "rectangle",
+      "bounds_pt": [
+        99.0,
+        67.6,
+        28.8,
+        6.8
+      ],
+      "role": "arithmetic-group"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-31",
+      "kind": "line",
+      "points_pt": [
+        [
+          106.2,
+          69.6
+        ],
+        [
+          106.2,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-32",
+      "kind": "line",
+      "points_pt": [
+        [
+          113.4,
+          69.6
+        ],
+        [
+          113.4,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-33",
+      "kind": "line",
+      "points_pt": [
+        [
+          120.6,
+          69.6
+        ],
+        [
+          120.6,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-arithmetic-group-34",
+      "kind": "rectangle",
+      "bounds_pt": [
+        131.2,
+        67.6,
+        28.8,
+        6.8
+      ],
+      "role": "arithmetic-group"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-35",
+      "kind": "line",
+      "points_pt": [
+        [
+          138.39999999999998,
+          69.6
+        ],
+        [
+          138.39999999999998,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-36",
+      "kind": "line",
+      "points_pt": [
+        [
+          145.6,
+          69.6
+        ],
+        [
+          145.6,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-37",
+      "kind": "line",
+      "points_pt": [
+        [
+          152.79999999999998,
+          69.6
+        ],
+        [
+          152.79999999999998,
+          72.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-count-tile-q2-38",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 199,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-tile-q4-39",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 243,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-tile-q8-40",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 287,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-tile-q16-41",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 331,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-tile-q32-42",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 375,
+      "y_pt": 71,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-recipe-43",
+      "kind": "text",
+      "text": "Packed fours",
+      "x_pt": 4,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-shared-matmul-44",
+      "kind": "rectangle",
+      "bounds_pt": [
+        96.2,
+        82.3,
+        66.6,
+        11.399999999999999
+      ],
+      "role": "shared-matmul"
+    },
+    {
+      "svg_id": "f01_obligations-arithmetic-group-45",
+      "kind": "rectangle",
+      "bounds_pt": [
+        99.0,
+        84.6,
+        28.8,
+        6.8
+      ],
+      "role": "arithmetic-group"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-46",
+      "kind": "line",
+      "points_pt": [
+        [
+          106.2,
+          86.6
+        ],
+        [
+          106.2,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-47",
+      "kind": "line",
+      "points_pt": [
+        [
+          113.4,
+          86.6
+        ],
+        [
+          113.4,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-48",
+      "kind": "line",
+      "points_pt": [
+        [
+          120.6,
+          86.6
+        ],
+        [
+          120.6,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-arithmetic-group-49",
+      "kind": "rectangle",
+      "bounds_pt": [
+        131.2,
+        84.6,
+        28.8,
+        6.8
+      ],
+      "role": "arithmetic-group"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-50",
+      "kind": "line",
+      "points_pt": [
+        [
+          138.39999999999998,
+          86.6
+        ],
+        [
+          138.39999999999998,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-51",
+      "kind": "line",
+      "points_pt": [
+        [
+          145.6,
+          86.6
+        ],
+        [
+          145.6,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-query-column-52",
+      "kind": "line",
+      "points_pt": [
+        [
+          152.79999999999998,
+          86.6
+        ],
+        [
+          152.79999999999998,
+          89.39999999999999
+        ]
+      ],
+      "role": "query-column"
+    },
+    {
+      "svg_id": "f01_obligations-count-packed-q2-53",
+      "kind": "text",
+      "text": "not run",
+      "x_pt": 199,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-packed-q4-54",
+      "kind": "text",
+      "text": "not run",
+      "x_pt": 243,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-packed-q8-55",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 287,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-packed-q16-56",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 331,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-packed-q32-57",
+      "kind": "text",
+      "text": "0/16",
+      "x_pt": 375,
+      "y_pt": 88,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-panel-rule-58",
+      "kind": "line",
+      "points_pt": [
+        [
+          3,
+          101
+        ],
+        [
+          391.34400000000005,
+          101
+        ]
+      ],
+      "role": "panel-rule"
+    },
+    {
+      "svg_id": "f01_obligations-panel-59",
+      "kind": "text",
+      "text": "(b)",
+      "x_pt": 3,
+      "y_pt": 113,
+      "font_pt": 8.7,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-panel-title-60",
+      "kind": "text",
+      "text": "Physical attention views",
+      "x_pt": 22,
+      "y_pt": 113,
+      "font_pt": 8.7,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-study-61",
+      "kind": "text",
+      "text": "B570 / Vulkan · committed vocabulary vectors",
+      "x_pt": 391.34400000000005,
+      "y_pt": 113,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-62",
+      "kind": "text",
+      "text": "Before repair: heavy segment = unequal",
+      "x_pt": 176,
+      "y_pt": 130,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-63",
+      "kind": "text",
+      "text": "Unequal vectors",
+      "x_pt": 337.8,
+      "y_pt": 130,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-64",
+      "kind": "text",
+      "text": "Arm",
+      "x_pt": 4,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-input-65",
+      "kind": "text",
+      "text": "Code/108",
+      "x_pt": 110.5,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-input-66",
+      "kind": "text",
+      "text": "Code/43",
+      "x_pt": 175.5,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-input-67",
+      "kind": "text",
+      "text": "GSM8K/496",
+      "x_pt": 240.5,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-68",
+      "kind": "text",
+      "text": "Before",
+      "x_pt": 313,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-69",
+      "kind": "text",
+      "text": "After",
+      "x_pt": 366,
+      "y_pt": 145,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arm-70",
+      "kind": "text",
+      "text": "Reference R",
+      "x_pt": 4,
+      "y_pt": 161,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-71",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          161
+        ],
+        [
+          138,
+          161
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-72",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          159.4
+        ],
+        [
+          83,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-73",
+      "kind": "line",
+      "points_pt": [
+        [
+          138,
+          159.4
+        ],
+        [
+          138,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-74",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          161
+        ],
+        [
+          203,
+          161
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-75",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          159.4
+        ],
+        [
+          148,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-76",
+      "kind": "line",
+      "points_pt": [
+        [
+          203,
+          159.4
+        ],
+        [
+          203,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-77",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          161
+        ],
+        [
+          268,
+          161
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-78",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          159.4
+        ],
+        [
+          213,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-79",
+      "kind": "line",
+      "points_pt": [
+        [
+          268,
+          159.4
+        ],
+        [
+          268,
+          162.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-count-R-before-80",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 313,
+      "y_pt": 161,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-R-after-81",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 366,
+      "y_pt": 161,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arm-82",
+      "kind": "text",
+      "text": "Greedy PQ",
+      "x_pt": 4,
+      "y_pt": 175,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-83",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          175
+        ],
+        [
+          138,
+          175
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-84",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          173.4
+        ],
+        [
+          83,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-85",
+      "kind": "line",
+      "points_pt": [
+        [
+          138,
+          173.4
+        ],
+        [
+          138,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-86",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          175
+        ],
+        [
+          203,
+          175
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-87",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          173.4
+        ],
+        [
+          148,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-88",
+      "kind": "line",
+      "points_pt": [
+        [
+          203,
+          173.4
+        ],
+        [
+          203,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-89",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          175
+        ],
+        [
+          268,
+          175
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-90",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          173.4
+        ],
+        [
+          213,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-91",
+      "kind": "line",
+      "points_pt": [
+        [
+          268,
+          173.4
+        ],
+        [
+          268,
+          176.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-count-M_PQ-before-92",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 313,
+      "y_pt": 175,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-M_PQ-after-93",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 366,
+      "y_pt": 175,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arm-94",
+      "kind": "text",
+      "text": "Greedy QB",
+      "x_pt": 4,
+      "y_pt": 189,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-95",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          189
+        ],
+        [
+          138,
+          189
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-96",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          187.4
+        ],
+        [
+          83,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-97",
+      "kind": "line",
+      "points_pt": [
+        [
+          138,
+          187.4
+        ],
+        [
+          138,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-98",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          189
+        ],
+        [
+          203,
+          189
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-99",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          187.4
+        ],
+        [
+          148,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-100",
+      "kind": "line",
+      "points_pt": [
+        [
+          203,
+          187.4
+        ],
+        [
+          203,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-101",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          189
+        ],
+        [
+          268,
+          189
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-102",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          187.4
+        ],
+        [
+          213,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-103",
+      "kind": "line",
+      "points_pt": [
+        [
+          268,
+          187.4
+        ],
+        [
+          268,
+          190.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-count-M_QB-before-104",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 313,
+      "y_pt": 189,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-count-M_QB-after-105",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 366,
+      "y_pt": 189,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arm-106",
+      "kind": "text",
+      "text": "Speculative PQ",
+      "x_pt": 4,
+      "y_pt": 203,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-107",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          203
+        ],
+        [
+          138,
+          203
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-108",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          201.4
+        ],
+        [
+          83,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-109",
+      "kind": "line",
+      "points_pt": [
+        [
+          138,
+          201.4
+        ],
+        [
+          138,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-unequal-index-run-110",
+      "kind": "rectangle",
+      "bounds_pt": [
+        95.4609375,
+        200.9,
+        42.5390625,
+        4.2
+      ],
+      "role": "unequal-index-run"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-111",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          203
+        ],
+        [
+          203,
+          203
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-112",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          201.4
+        ],
+        [
+          148,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-113",
+      "kind": "line",
+      "points_pt": [
+        [
+          203,
+          201.4
+        ],
+        [
+          203,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-114",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          203
+        ],
+        [
+          268,
+          203
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-115",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          201.4
+        ],
+        [
+          213,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-116",
+      "kind": "line",
+      "points_pt": [
+        [
+          268,
+          201.4
+        ],
+        [
+          268,
+          204.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-count-C_PQ-before-117",
+      "kind": "text",
+      "text": "99/384",
+      "x_pt": 313,
+      "y_pt": 203,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-count-C_PQ-after-118",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 366,
+      "y_pt": 203,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-arm-119",
+      "kind": "text",
+      "text": "Speculative QB",
+      "x_pt": 4,
+      "y_pt": 217,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-120",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          217
+        ],
+        [
+          138,
+          217
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-121",
+      "kind": "line",
+      "points_pt": [
+        [
+          83,
+          215.4
+        ],
+        [
+          83,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-122",
+      "kind": "line",
+      "points_pt": [
+        [
+          138,
+          215.4
+        ],
+        [
+          138,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-unequal-index-run-123",
+      "kind": "rectangle",
+      "bounds_pt": [
+        95.4609375,
+        214.9,
+        42.5390625,
+        4.2
+      ],
+      "role": "unequal-index-run"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-124",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          217
+        ],
+        [
+          203,
+          217
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-125",
+      "kind": "line",
+      "points_pt": [
+        [
+          148,
+          215.4
+        ],
+        [
+          148,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-126",
+      "kind": "line",
+      "points_pt": [
+        [
+          203,
+          215.4
+        ],
+        [
+          203,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-match-span-127",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          217
+        ],
+        [
+          268,
+          217
+        ]
+      ],
+      "role": "match-span"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-128",
+      "kind": "line",
+      "points_pt": [
+        [
+          213,
+          215.4
+        ],
+        [
+          213,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-track-end-129",
+      "kind": "line",
+      "points_pt": [
+        [
+          268,
+          215.4
+        ],
+        [
+          268,
+          218.6
+        ]
+      ],
+      "role": "track-end"
+    },
+    {
+      "svg_id": "f01_obligations-count-C_QB-before-130",
+      "kind": "text",
+      "text": "99/384",
+      "x_pt": 313,
+      "y_pt": 217,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-count-C_QB-after-131",
+      "kind": "text",
+      "text": "0/384",
+      "x_pt": 366,
+      "y_pt": 217,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-label-132",
+      "kind": "text",
+      "text": "Output index",
+      "x_pt": 4,
+      "y_pt": 234,
+      "font_pt": 8.0,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-index-range-133",
+      "kind": "text",
+      "text": "0–127",
+      "x_pt": 110.5,
+      "y_pt": 234,
+      "font_pt": 7.8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-first-mismatch-134",
+      "kind": "line",
+      "points_pt": [
+        [
+          95.4609375,
+          218
+        ],
+        [
+          95.4609375,
+          222
+        ]
+      ],
+      "role": "first-mismatch"
+    },
+    {
+      "svg_id": "f01_obligations-first-mismatch-135",
+      "kind": "text",
+      "text": "29",
+      "x_pt": 95.4609375,
+      "y_pt": 224,
+      "font_pt": 7.8,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-index-range-136",
+      "kind": "text",
+      "text": "0–127",
+      "x_pt": 175.5,
+      "y_pt": 234,
+      "font_pt": 7.8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-index-range-137",
+      "kind": "text",
+      "text": "0–127",
+      "x_pt": 240.5,
+      "y_pt": 234,
+      "font_pt": 7.8,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-line-138",
+      "kind": "line",
+      "points_pt": [
+        [
+          4,
+          242
+        ],
+        [
+          391.34400000000005,
+          242
+        ]
+      ],
+      "role": "line"
+    },
+    {
+      "svg_id": "f01_obligations-total-139",
+      "kind": "text",
+      "text": "All five arms",
+      "x_pt": 4,
+      "y_pt": 254,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-label-140",
+      "kind": "text",
+      "text": "3 inputs × 128 output positions per arm",
+      "x_pt": 83,
+      "y_pt": 254,
+      "font_pt": 8.2,
+      "weight": "normal"
+    },
+    {
+      "svg_id": "f01_obligations-total-vector-count-141",
+      "kind": "text",
+      "text": "198/1,920",
+      "x_pt": 313,
+      "y_pt": 254,
+      "font_pt": 8.2,
+      "weight": "bold"
+    },
+    {
+      "svg_id": "f01_obligations-total-vector-count-142",
+      "kind": "text",
+      "text": "0/1,920",
+      "x_pt": 366,
+      "y_pt": 254,
+      "font_pt": 8.2,
+      "weight": "bold"
+    }
+  ]
+}

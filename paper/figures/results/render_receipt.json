@@ -1,0 +1,54 @@
+{
+  "units": "PostScript points (72/in), top-left origin",
+  "figures": [
+    {
+      "stem": "f07_confirmation",
+      "width_pt": 394.34400000000005,
+      "height_pt": 274,
+      "min_font_pt": 7.6,
+      "editable_text_labels": 60,
+      "artists": 159,
+      "corrected_label_collisions": 0,
+      "point_keys": 60
+    },
+    {
+      "stem": "f03_alternate",
+      "width_pt": 394.34400000000005,
+      "height_pt": 294,
+      "min_font_pt": 8.0,
+      "editable_text_labels": 48,
+      "artists": 208,
+      "corrected_label_collisions": 0,
+      "point_keys": 96
+    },
+    {
+      "stem": "f04_few_column",
+      "width_pt": 394.34400000000005,
+      "height_pt": 286,
+      "min_font_pt": 8.0,
+      "editable_text_labels": 48,
+      "artists": 156,
+      "corrected_label_collisions": 0,
+      "point_keys": 75
+    },
+    {
+      "stem": "f05_prefill",
+      "width_pt": 394.34400000000005,
+      "height_pt": 299,
+      "min_font_pt": 8.0,
+      "editable_text_labels": 30,
+      "artists": 191,
+      "corrected_label_collisions": 0,
+      "point_keys": 114
+    }
+  ],
+  "CI_and_mark_numbers_verified_against_frozen_data": true,
+  "root_and_native_counts": {
+    "fig3_native_seconds": 96,
+    "fig4_native_selected_requests": 864,
+    "fig4_root_effect_marks": 72,
+    "fig4_distinct_roots": 24,
+    "fig5_root_effect_marks": 108,
+    "fig5_study_specific_roots": 36
+  }
+}

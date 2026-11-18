@@ -1,0 +1,6 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+A quantized decoder can preserve its numerical interface while letting different operators use different query partitions. The implemented local lowering retains admitted projection groups, refines attention's physical views, and rejoins outputs before surrounding computation continues. Owned rows preserve requested scores, commit establishes the next active state, and full-view guards validate graph reuse for that state. Complete-vector and state comparisons check this connection against the bound references.
+
+The selected crossing studies measure the transaction benefit of local lowering. Independent request studies separately quantify the value of few-column arithmetic after shared preparation and of packing multiple admitted groups in prefill. Natural workloads show that service outcomes also depend on crossing frequency and costs from sampling, drafting, and setup. The resulting execution policy should preserve compatible work at each operator and be judged over the complete request and deployment lifetime in which that work is used.

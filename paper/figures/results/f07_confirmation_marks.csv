@@ -1,0 +1,160 @@
+svg_id,kind,x_pt,y_pt,data_key,text,font_pt,weight,align,color,shape,diameter_pt,stroke_pt,fill,x2_pt,y2_pt,dash
+f07_confirmation-0001,text,4,8,,A,8.7,bold,left,#254B70,,,,,,,
+f07_confirmation-0002,text,18,8,,32B · two fixed histories,8.7,normal,left,#24313B,,,,,,,
+f07_confirmation-0003,text,204,8,,B,8.7,bold,left,#254B70,,,,,,,
+f07_confirmation-0004,text,218,8,,8B · target-only service,8.7,normal,left,#24313B,,,,,,,
+f07_confirmation-0005,text,4,21,,Selected verification through commit,8.2,normal,left,#505F69,,,,,,,
+f07_confirmation-0006,text,204,21,,Two conversations · response + reset,8.2,normal,left,#505F69,,,,,,,
+f07_confirmation-0007,point,31,36,,,,,,#254B70,o,4.0,0.7,#FFFFFF,,,
+f07_confirmation-0008,text,37,36,,Noncrossing,8.2,normal,left,#24313B,,,,,,,
+f07_confirmation-0009,point,109,36,,,,,,#087B70,^,4.0,0.7,#087B70,,,
+f07_confirmation-0010,text,115,36,,Crossing,8.2,normal,left,#24313B,,,,,,,
+f07_confirmation-0011,point,224,36,,,,,,#505F69,o,3.6,0.7,#FFFFFF,,,
+f07_confirmation-0012,text,230,36,,C0,8.2,normal,left,#24313B,,,,,,,
+f07_confirmation-0013,point,254,36,,,,,,#505F69,s,3.6,0.7,#FFFFFF,,,
+f07_confirmation-0014,text,260,36,,C1,8.2,normal,left,#24313B,,,,,,,
+f07_confirmation-0015,point,284,36,,,,,,#254B70,D,4.0,0.7,#254B70,,,
+f07_confirmation-0016,text,290,36,,Equal weight,8.2,normal,left,#24313B,,,,,,,
+f07_confirmation-0017,text,4,50,,Block,8,normal,left,#505F69,,,,,,,
+f07_confirmation-0018,text,204,48,,Block,8,normal,left,#505F69,,,,,,,
+f07_confirmation-0019,line,35.696969696969695,51,,,,,,#E5EAEB,,,0.5,,35.696969696969695,164.1,-
+f07_confirmation-0020,text,35.696969696969695,171.1,,−5,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0021,line,59.18181818181819,51,,,,,,#505F69,,,0.7,,59.18181818181819,164.1,-
+f07_confirmation-0022,text,59.18181818181819,171.1,,0,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0023,line,106.15151515151516,51,,,,,,#E5EAEB,,,0.5,,106.15151515151516,164.1,-
+f07_confirmation-0024,text,106.15151515151516,171.1,,10,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0025,line,153.12121212121212,51,,,,,,#E5EAEB,,,0.5,,153.12121212121212,164.1,-
+f07_confirmation-0026,text,153.12121212121212,171.1,,20,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0027,line,223.1818181818182,51,,,,,,#E5EAEB,,,0.5,,223.1818181818182,164.1,-
+f07_confirmation-0028,text,223.1818181818182,171.1,,−5,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0029,line,249.0909090909091,51,,,,,,#505F69,,,0.7,,249.0909090909091,164.1,-
+f07_confirmation-0030,text,249.0909090909091,171.1,,0,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0031,line,300.9090909090909,51,,,,,,#E5EAEB,,,0.5,,300.9090909090909,164.1,-
+f07_confirmation-0032,text,300.9090909090909,171.1,,10,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0033,line,352.72727272727275,51,,,,,,#E5EAEB,,,0.5,,352.72727272727275,164.1,-
+f07_confirmation-0034,text,352.72727272727275,171.1,,20,8,normal,center,#505F69,,,,,,,
+f07_confirmation-0035,text,20,59.0,,1,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0036,text,208,59.0,,1,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0037,line,43.43352768586152,59.0,266:negative+positive:block=1,,,,,#A2BDB9,,,0.75,,168.1478139856142,59.0,-
+f07_confirmation-0038,point,43.43352768586152,59.0,266:negative:block=1,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0039,point,168.1478139856142,59.0,266:positive:block=1,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0040,line,255.43414450398595,56.3,266:C0+C1:block=1,,,,,#A7B5BF,,,0.65,,234.06632396606713,61.7,-
+f07_confirmation-0041,point,255.43414450398595,56.3,266:C0:block=1,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0042,point,234.06632396606713,61.7,266:C1:block=1,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0043,point,244.85947151470305,59.0,266:equal_conversation_overall:block=1,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0044,text,20,68.1,,2,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0045,text,208,68.1,,2,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0046,line,86.60841487420404,68.1,266:negative+positive:block=2,,,,,#A2BDB9,,,0.75,,165.6875932549443,68.1,-
+f07_confirmation-0047,point,86.60841487420404,68.1,266:negative:block=2,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0048,point,165.6875932549443,68.1,266:positive:block=2,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0049,line,231.91532712448983,65.39999999999999,266:C0+C1:block=2,,,,,#A7B5BF,,,0.65,,231.25027400104224,70.8,-
+f07_confirmation-0050,point,231.91532712448983,65.39999999999999,266:C0:block=2,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0051,point,231.25027400104224,70.8,266:C1:block=2,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0052,point,231.5829037697888,68.1,266:equal_conversation_overall:block=2,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0053,text,20,77.2,,3,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0054,text,208,77.2,,3,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0055,line,59.8282747253369,77.2,266:negative+positive:block=3,,,,,#A2BDB9,,,0.75,,157.25771224958424,77.2,-
+f07_confirmation-0056,point,59.8282747253369,77.2,266:negative:block=3,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0057,point,157.25771224958424,77.2,266:positive:block=3,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0058,line,268.36759135807927,74.5,266:C0+C1:block=3,,,,,#A7B5BF,,,0.65,,230.79831873475672,79.9,-
+f07_confirmation-0059,point,268.36759135807927,74.5,266:C0:block=3,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0060,point,230.79831873475672,79.9,266:C1:block=3,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0061,point,249.92387233404415,77.2,266:equal_conversation_overall:block=3,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0062,text,20,86.3,,4,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0063,text,208,86.3,,4,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0064,line,70.60030272657099,86.3,266:negative+positive:block=4,,,,,#A2BDB9,,,0.75,,154.08529365480553,86.3,-
+f07_confirmation-0065,point,70.60030272657099,86.3,266:negative:block=4,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0066,point,154.08529365480553,86.3,266:positive:block=4,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0067,line,295.62239011919127,83.6,266:C0+C1:block=4,,,,,#A7B5BF,,,0.65,,250.73145234139096,89.0,-
+f07_confirmation-0068,point,295.62239011919127,83.6,266:C0:block=4,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0069,point,250.73145234139096,89.0,266:C1:block=4,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0070,point,273.68700374024695,86.3,266:equal_conversation_overall:block=4,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0071,text,20,95.4,,5,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0072,text,208,95.4,,5,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0073,line,63.19350849612857,95.4,266:negative+positive:block=5,,,,,#A2BDB9,,,0.75,,148.56825436216064,95.4,-
+f07_confirmation-0074,point,63.19350849612857,95.4,266:negative:block=5,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0075,point,148.56825436216064,95.4,266:positive:block=5,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0076,line,288.83616963482064,92.7,266:C0+C1:block=5,,,,,#A7B5BF,,,0.65,,311.6034001150012,98.10000000000001,-
+f07_confirmation-0077,point,288.83616963482064,92.7,266:C0:block=5,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0078,point,311.6034001150012,98.10000000000001,266:C1:block=5,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0079,point,300.3585335427406,95.4,266:equal_conversation_overall:block=5,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0080,text,20,104.5,,6,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0081,text,208,104.5,,6,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0082,line,74.45072020118766,104.5,266:negative+positive:block=6,,,,,#A2BDB9,,,0.75,,161.3551606587156,104.5,-
+f07_confirmation-0083,point,74.45072020118766,104.5,266:negative:block=6,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0084,point,161.3551606587156,104.5,266:positive:block=6,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0085,line,246.64845750707096,101.8,266:C0+C1:block=6,,,,,#A7B5BF,,,0.65,,294.9038931953529,107.2,-
+f07_confirmation-0086,point,246.64845750707096,101.8,266:C0:block=6,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0087,point,294.9038931953529,107.2,266:C1:block=6,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0088,point,271.3627764736054,104.5,266:equal_conversation_overall:block=6,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0089,text,20,113.6,,7,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0090,text,208,113.6,,7,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0091,line,57.95082737330653,113.6,266:negative+positive:block=7,,,,,#A2BDB9,,,0.75,,169.4214416327621,113.6,-
+f07_confirmation-0092,point,57.95082737330653,113.6,266:negative:block=7,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0093,point,169.4214416327621,113.6,266:positive:block=7,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0094,line,249.0670011894995,110.89999999999999,266:C0+C1:block=7,,,,,#A7B5BF,,,0.65,,253.95059430155484,116.3,-
+f07_confirmation-0095,point,249.0670011894995,110.89999999999999,266:C0:block=7,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0096,point,253.95059430155484,116.3,266:C1:block=7,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0097,point,251.51457791305154,113.6,266:equal_conversation_overall:block=7,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0098,text,20,122.69999999999999,,8,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0099,text,208,122.69999999999999,,8,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0100,line,53.47757175509379,122.69999999999999,266:negative+positive:block=8,,,,,#A2BDB9,,,0.75,,151.13637332443528,122.69999999999999,-
+f07_confirmation-0101,point,53.47757175509379,122.69999999999999,266:negative:block=8,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0102,point,151.13637332443528,122.69999999999999,266:positive:block=8,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0103,line,225.0392348758008,119.99999999999999,266:C0+C1:block=8,,,,,#A7B5BF,,,0.65,,242.14196887277535,125.39999999999999,-
+f07_confirmation-0104,point,225.0392348758008,119.99999999999999,266:C0:block=8,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0105,point,242.14196887277535,125.39999999999999,266:C1:block=8,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0106,point,233.65911697755072,122.69999999999999,266:equal_conversation_overall:block=8,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0107,text,20,131.8,,9,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0108,text,208,131.8,,9,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0109,line,54.19002183966876,131.8,266:negative+positive:block=9,,,,,#A2BDB9,,,0.75,,137.042244892601,131.8,-
+f07_confirmation-0110,point,54.19002183966876,131.8,266:negative:block=9,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0111,point,137.042244892601,131.8,266:positive:block=9,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0112,line,235.33847358493892,129.10000000000002,266:C0+C1:block=9,,,,,#A7B5BF,,,0.65,,229.92915033607707,134.5,-
+f07_confirmation-0113,point,235.33847358493892,129.10000000000002,266:C0:block=9,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0114,point,229.92915033607707,134.5,266:C1:block=9,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0115,point,232.64065325198195,131.8,266:equal_conversation_overall:block=9,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0116,text,20,140.89999999999998,,10,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0117,text,208,140.89999999999998,,10,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0118,line,61.7787664142284,140.89999999999998,266:negative+positive:block=10,,,,,#A2BDB9,,,0.75,,162.83359845217086,140.89999999999998,-
+f07_confirmation-0119,point,61.7787664142284,140.89999999999998,266:negative:block=10,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0120,point,162.83359845217086,140.89999999999998,266:positive:block=10,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0121,line,270.7541019072978,138.2,266:C0+C1:block=10,,,,,#A7B5BF,,,0.65,,250.0851853156902,143.59999999999997,-
+f07_confirmation-0122,point,270.7541019072978,138.2,266:C0:block=10,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0123,point,250.0851853156902,143.59999999999997,266:C1:block=10,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0124,point,260.5250115515477,140.89999999999998,266:equal_conversation_overall:block=10,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0125,text,20,150.0,,11,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0126,text,208,150.0,,11,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0127,line,69.19271068002135,150.0,266:negative+positive:block=11,,,,,#A2BDB9,,,0.75,,170.19542272123593,150.0,-
+f07_confirmation-0128,point,69.19271068002135,150.0,266:negative:block=11,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0129,point,170.19542272123593,150.0,266:positive:block=11,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0130,line,242.6174868392506,147.3,266:C0+C1:block=11,,,,,#A7B5BF,,,0.65,,236.59812624818323,152.7,-
+f07_confirmation-0131,point,242.6174868392506,147.3,266:C0:block=11,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0132,point,236.59812624818323,152.7,266:C1:block=11,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0133,point,239.61638987832865,150.0,266:equal_conversation_overall:block=11,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0134,text,20,159.1,,12,8,normal,right,#505F69,,,,,,,
+f07_confirmation-0135,text,208,159.1,,12,7.6,normal,right,#505F69,,,,,,,
+f07_confirmation-0136,line,37.45661516228464,159.1,266:negative+positive:block=12,,,,,#A2BDB9,,,0.75,,177.99848885317593,159.1,-
+f07_confirmation-0137,point,37.45661516228464,159.1,266:negative:block=12,,,,,#254B70,o,3.9,0.7,#FFFFFF,,,
+f07_confirmation-0138,point,177.99848885317593,159.1,266:positive:block=12,,,,,#087B70,^,4.5,0.7,#087B70,,,
+f07_confirmation-0139,line,242.86661321580985,156.4,266:C0+C1:block=12,,,,,#A7B5BF,,,0.65,,321.5866442564121,161.79999999999998,-
+f07_confirmation-0140,point,242.86661321580985,156.4,266:C0:block=12,,,,,#505F69,o,3.1,0.65,#FFFFFF,,,
+f07_confirmation-0141,point,321.5866442564121,161.79999999999998,266:C1:block=12,,,,,#505F69,s,2.7,0.6,#FFFFFF,,,
+f07_confirmation-0142,point,283.8262391441708,159.1,266:equal_conversation_overall:block=12,,,,,#254B70,D,3.6,0.45,#254B70,,,
+f07_confirmation-0143,text,197.17200000000003,184,,LOCAL time reduction (%)   ·   right of zero = less time,8.2,normal,center,#24313B,,,,,,,
+f07_confirmation-0144,line,4,194,,,,,,#D2DADC,,,0.65,,390.34400000000005,194,-
+f07_confirmation-0145,text,4,204,,"Geometric reduction, % [95% CI]",8.2,bold,left,#24313B,,,,,,,
+f07_confirmation-0146,text,204,204,,"Geometric reduction, % [95% CI]",8.2,bold,left,#24313B,,,,,,,
+f07_confirmation-0147,text,4,218,,Noncrossing · primary,8,bold,left,#24313B,,,,,,,
+f07_confirmation-0148,text,191,218,266:negative:estimate_ci,"0.43 [−1.13, 2.01]",8,normal,right,#254B70,,,,,,,
+f07_confirmation-0149,text,4,230,,Crossing · supp.,8,normal,left,#24313B,,,,,,,
+f07_confirmation-0150,text,191,230,266:positive:estimate_ci,"21.56 [20.21, 22.83]",8,normal,right,#24313B,,,,,,,
+f07_confirmation-0151,text,204,218,,Equal weight · primary,8,bold,left,#24313B,,,,,,,
+f07_confirmation-0152,text,390,218,266:equal_conversation_overall:estimate_ci,"1.44 [−0.82, 3.85]",8,normal,right,#254B70,,,,,,,
+f07_confirmation-0153,text,204,230,,C0 · supp.,8,normal,left,#24313B,,,,,,,
+f07_confirmation-0154,text,390,230,266:C0:estimate_ci,"1.11 [−1.18, 3.52]",8,normal,right,#24313B,,,,,,,
+f07_confirmation-0155,text,204,242,,C1 · supp.,8,normal,left,#24313B,,,,,,,
+f07_confirmation-0156,text,390,242,266:C1:estimate_ci,"1.78 [−1.48, 5.51]",8,normal,right,#24313B,,,,,,,
+f07_confirmation-0157,line,4,252,,,,,,#D2DADC,,,0.65,,390.34400000000005,252,-
+f07_confirmation-0158,text,4,264,,32B paired interaction · crossing / noncrossing,8.2,bold,left,#24313B,,,,,,,
+f07_confirmation-0159,text,390,264,266:interaction:ratio_ci,"0.788 [0.768, 0.806]",8.2,bold,right,#087B70,,,,,,,

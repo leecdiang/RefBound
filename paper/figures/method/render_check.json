@@ -1,0 +1,26 @@
+{
+  "f01_obligations": {
+    "width_in": 5.477,
+    "height_pt": 265,
+    "ordinary_type_pt": 8.2,
+    "minimum_type_pt": 7.8,
+    "editable_labels": 64,
+    "checked_text_bounds_and_overlaps": true
+  },
+  "f02_local_lowering": {
+    "width_in": 5.477,
+    "height_pt": 322,
+    "ordinary_type_pt": 8.2,
+    "minimum_type_pt": 8.0,
+    "editable_labels": 70,
+    "checked_text_bounds_and_overlaps": true
+  },
+  "f02_layered": {
+    "width_in": 5.477,
+    "height_pt": 333,
+    "ordinary_type_pt": 8.2,
+    "minimum_type_pt": 8.0,
+    "editable_labels": 61,
+    "checked_text_bounds_and_overlaps": true
+  }
+}

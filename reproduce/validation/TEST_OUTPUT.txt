@@ -1,0 +1,2 @@
+PASS: A5000 96 values/48 pairs; RTX 864 formal and 1764 role records; 1134 prior contrast rows; M1 256 measured + 32 primers.
+Maximum frozen-reference error: 1.2434497875801753e-14

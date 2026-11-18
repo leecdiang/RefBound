@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "B_candidate_episodes": 104,
+  "observed_partitions": {
+    "A/negative/SIMPLE": {
+      "projection_widths": [
+        4
+      ],
+      "row_extents": [
+        256,
+        256,
+        256,
+        256
+      ]
+    },
+    "A/negative/LOCAL": {
+      "projection_widths": [
+        4
+      ],
+      "row_extents": [
+        256,
+        256,
+        256,
+        256
+      ]
+    },
+    "A/positive/SIMPLE": {
+      "projection_widths": [
+        3,
+        1
+      ],
+      "row_extents": [
+        256,
+        256,
+        256,
+        512
+      ]
+    },
+    "A/positive/LOCAL": {
+      "projection_widths": [
+        4
+      ],
+      "row_extents": [
+        256,
+        256,
+        256,
+        512
+      ]
+    },
+    "B/C0/W": {
+      "physical_projection_calls": 263,
+      "physical_rows": 508,
+      "width_counts": {
+        "1": 254,
+        "2": 1,
+        "28": 1,
+        "32": 7
+      }
+    },
+    "B/C0/L": {
+      "physical_projection_calls": 263,
+      "physical_rows": 508,
+      "width_counts": {
+        "1": 254,
+        "2": 1,
+        "28": 1,
+        "32": 7
+      }
+    },
+    "B/C1/W": {
+      "physical_projection_calls": 273,
+      "physical_rows": 809,
+      "width_counts": {
+        "1": 254,
+        "7": 1,
+        "9": 1,
+        "27": 1,
+        "32": 16
+      }
+    },
+    "B/C1/L": {
+      "physical_projection_calls": 272,
+      "physical_rows": 809,
+      "width_counts": {
+        "1": 254,
+        "16": 1,
+        "27": 1,
+        "32": 16
+      }
+    }
+  },
+  "continuation_layer_evidence": {
+    "status": "PASS",
+    "GPU_requests_added": 0,
+    "actual_frozen_graph_source_sha256": "772e7b3f572f6ad6b013f40e8d8bb4e87aa3d053c58cbfbcc39f914d666d6c41",
+    "checks": [
+      {
+        "request_id": "a261-qualification-b00-c0-SIMPLE-full_trace",
+        "status": "PASS",
+        "layers": 64,
+        "evidence": "Reused same q4 graph and all64 original physical views; no repeated build-only trace; complete prefix key identical",
+        "actual_new_build_trace_calls": 0,
+        "graphs_built": 0,
+        "graphs_reused": 1,
+        "actual_layer0_tiles": []
+      },
+      {
+        "request_id": "a261-qualification-b00-c1-SIMPLE-full_trace",
+        "status": "PASS",
+        "layers": 64,
+        "evidence": "New actual per-layer graph-build view trace; changed complete prefix key",
+        "actual_new_build_trace_calls": 128,
+        "graphs_built": 2,
+        "graphs_reused": 0,
+        "actual_layer0_tiles": []
+      },
+      {
+        "request_id": "a261-qualification-b00-c0-LOCAL-full_trace",
+        "status": "PASS",
+        "layers": 64,
+        "evidence": "Reused same q4 graph and all64 original physical views; no repeated build-only trace; complete prefix key identical",
+        "actual_new_build_trace_calls": 0,
+        "graphs_built": 0,
+        "graphs_reused": 1,
+        "actual_layer0_tiles": []
+      },
+      {
+        "request_id": "a261-qualification-b00-c1-LOCAL-full_trace",
+        "status": "PASS",
+        "layers": 64,
+        "evidence": "New actual per-layer graph-build view trace; changed complete prefix key",
+        "actual_new_build_trace_calls": 64,
+        "graphs_built": 1,
+        "graphs_reused": 0,
+        "actual_layer0_tiles": [
+          [
+            255,
+            0,
+            1,
+            256
+          ],
+          [
+            255,
+            1,
+            3,
+            512
+          ]
+        ]
+      }
+    ]
+  }
+}

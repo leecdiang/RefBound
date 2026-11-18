@@ -1,0 +1,350 @@
+% Formal publication metadata and fixed code URLs.
+% Actual reading versions and source hashes are recorded in the literature source register.
+
+@inproceedings{leviathan2023,
+  author = {Leviathan, Yaniv and Kalman, Matan and Matias, Yossi},
+  title = {Fast Inference from Transformers via Speculative Decoding},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  series = {Proceedings of Machine Learning Research},
+  volume = {202},
+  pages = {19274--19286},
+  year = {2023},
+  publisher = {PMLR},
+  url = {https://proceedings.mlr.press/v202/leviathan23a.html}
+}
+
+@misc{chen2023,
+  author = {Chen, Charlie and Borgeaud, Sebastian and Irving, Geoffrey and Lespiau, Jean-Baptiste and Sifre, Laurent and Jumper, John},
+  title = {Accelerating Large Language Model Decoding with Speculative Sampling},
+  year = {2023},
+  howpublished = {arXiv:2302.01318v1},
+  doi = {10.48550/arXiv.2302.01318},
+  url = {https://arxiv.org/abs/2302.01318v1}
+}
+
+@online{thinkingmachines,
+  author = {He, Horace and {Thinking Machines Lab}},
+  title = {Defeating Nondeterminism in {LLM} Inference},
+  organization = {Thinking Machines Lab: Connectionism},
+  year = {2025},
+  month = sep,
+  doi = {10.64434/tml.20250910},
+  url = {https://thinkingmachines.ai/blog/defeating-nondeterminism-in-llm-inference/},
+  lastaccessed = {November 18, 2026}
+}
+
+@inproceedings{llm42,
+  author = {Gond, Raja and Kamath, Aditya K and Ramjee, Ramachandran and Panwar, Ashish},
+  title = {{LLM-42}: Enabling Determinism in {LLM} Inference with Verified Speculation},
+  booktitle = {Proceedings of the ACM SIGOPS 32nd Symposium on Operating Systems Principles},
+  year = {2026},
+  pages = {916--931},
+  publisher = {Association for Computing Machinery},
+  doi = {10.1145/3830418.3843901},
+  url = {https://doi.org/10.1145/3830418.3843901}
+}
+
+@misc{corun,
+  author = {Zhao, Shiju and Yang, Jiacheng and Chen, Qihang and Hu, Junhao and Zheng, Jiaqi and Chen, Guihai and Chen, Xusheng},
+  title = {{CoRun}: Padding is Simple and Efficient for Deterministic {LLM} Inference},
+  year = {2026},
+  howpublished = {arXiv:2608.14376v1},
+  doi = {10.48550/arXiv.2608.14376},
+  url = {https://arxiv.org/abs/2608.14376v1}
+}
+
+@misc{vosti,
+  author = {Qin, Jianxing and Du, Alexander and Zhang, Danfeng and Lentz, Matthew and Zhuo, Danyang},
+  title = {{Vosti}: Specifying, Implementing, and Verifying Deterministic {LLM} Inference},
+  year = {2026},
+  howpublished = {arXiv:2609.38981v1},
+  doi = {10.48550/arXiv.2609.38981},
+  url = {https://arxiv.org/abs/2609.38981v1}
+}
+
+@misc{taming,
+  author = {Yang, Ziteng and Riasanovsky, Nicholas J. and Deng, Warren and Sarkar, Vivek},
+  title = {Taming Bitwise Behavior in {GPU} Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification},
+  year = {2026},
+  howpublished = {arXiv:2609.11356v1},
+  doi = {10.48550/arXiv.2609.11356},
+  url = {https://arxiv.org/abs/2609.11356v1}
+}
+
+@misc{chordiya2026,
+  author = {Chordiya, Param},
+  title = {Lossless but Not Free: An Empirical Anatomy of Speculative Decoding on Consumer Hardware},
+  year = {2026},
+  howpublished = {arXiv:2607.17283v1},
+  doi = {10.48550/arXiv.2607.17283},
+  url = {https://arxiv.org/abs/2607.17283v1}
+}
+
+@misc{song2026,
+  author = {Song, Wei and Cao, Yuxin and Ding, Ziqi and Cheng, Xiao},
+  title = {{GPU}-Resident Speculative Decoding for In-Browser {LLM} Inference with {WebGPU}},
+  year = {2026},
+  howpublished = {arXiv:2610.39761v1},
+  doi = {10.48550/arXiv.2610.39761},
+  url = {https://arxiv.org/abs/2610.39761v1}
+}
+
+@misc{loop4code,
+  author = {Miller, Andrew},
+  title = {{llama\_reproducible}: Deterministic Quantized Inference Implementation},
+  year = {2026},
+  howpublished = {GitHub repository},
+  url = {https://github.com/amiller/llama_reproducible/tree/f0dafdbd9dba40bd0e596f74f3da5f592900fca4}
+}
+
+@misc{llama_cpp_fewrow,
+  author = {{llama.cpp contributors}},
+  title = {Few-Row Quantized Matrix Multiplication in {llama.cpp}},
+  year = {2026},
+  howpublished = {Source code, ggml/src/ggml-cuda/mmq-few.cu},
+  url = {https://github.com/ggml-org/llama.cpp/blob/0fb8f157702702f33f4e018de8701b2569a1bc28/ggml/src/ggml-cuda/mmq-few.cu}
+}
+
+@inproceedings{flashattention,
+  author = {Dao, Tri and Fu, Dan and Ermon, Stefano and Rudra, Atri and R{\'e}, Christopher},
+  title = {{FlashAttention}: Fast and Memory-Efficient Exact Attention with {IO}-Awareness},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {35},
+  year = {2022},
+  pages = {16344--16359},
+  publisher = {Curran Associates, Inc.},
+  doi = {10.52202/068431-1189},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2022/hash/67d57c32e20fd0a7a302cb81d36e40d5-Abstract-Conference.html}
+}
+
+@inproceedings{flashinfer,
+  author = {Ye, Zihao and Chen, Lequn and Lai, Ruihang and Lin, Wuwei and Zhang, Yineng and Wang, Stephanie and Chen, Tianqi and Kasikci, Baris and Grover, Vinod and Krishnamurthy, Arvind and Ceze, Luis},
+  title = {{FlashInfer}: Efficient and Customizable Attention Engine for {LLM} Inference Serving},
+  booktitle = {Proceedings of Machine Learning and Systems},
+  volume = {7},
+  year = {2025},
+  publisher = {MLSys},
+  url = {https://proceedings.mlsys.org/paper_files/paper/2025/hash/dbf02b21d77409a2db30e56866a8ab3a-Abstract-Conference.html},
+  numpages = {17}
+}
+
+@misc{qwen3,
+  author = {Yang, An and others},
+  title = {{Qwen3} Technical Report},
+  year = {2025},
+  howpublished = {arXiv:2505.09388v1},
+  doi = {10.48550/arXiv.2505.09388},
+  url = {https://arxiv.org/abs/2505.09388v1}
+}
+
+@misc{llama3,
+  author = {Grattafiori, Aaron and others},
+  title = {The {Llama 3} Herd of Models},
+  year = {2024},
+  howpublished = {arXiv:2407.21783v3},
+  doi = {10.48550/arXiv.2407.21783},
+  url = {https://arxiv.org/abs/2407.21783v3}
+}
+
+@inproceedings{smol,
+  author = {Ben Allal, Loubna and Lozhkov, Anton and Bakouch, Elie and Mart{\'i}n Bl{\'a}zquez, Gabriel and Penedo, Guilherme and Tunstall, Lewis and Marafioti, Andr{\'e}s and Kydl{\'i}{\v c}ek, Hynek and Srivastav, Vaibhav and Lochner, Joshua and Fourrier, Cl{\'e}mentine and Larcher, Hugo and Burtenshaw, Ben and Zhao, Haojun and Fahlgren, Caleb and Morlon, Mathieu and Piqueres Lajar{\'i}n, Agust{\'i}n and Nguyen, Xuan-Son and Zakka, Cyril and Raffel, Colin and von Werra, Leandro and Wolf, Thomas},
+  title = {{SmolLM2}: When Smol Goes Big---Data-Centric Training of a Fully Open Small Language Model},
+  booktitle = {Second Conference on Language Modeling},
+  year = {2025},
+  url = {https://proceedings.colm.cc/paper_files/paper/2025/hash/474ada926b331d78f06d95e8913111cc-Abstract-Conference.html}
+}
+
+@inproceedings{apps,
+  author = {Hendrycks, Dan and Basart, Steven and Kadavath, Saurav and Mazeika, Mantas and Arora, Akul and Guo, Ethan and Burns, Collin and Puranik, Samir and He, Horace and Song, Dawn and Steinhardt, Jacob},
+  title = {Measuring Coding Challenge Competence With {APPS}},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  volume = {1},
+  year = {2021},
+  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/c24cd76e1ce41366a4bbe8a49b02a028-Abstract-round2.html},
+  numpages = {11}
+}
+
+@inproceedings{math,
+  author = {Hendrycks, Dan and Burns, Collin and Kadavath, Saurav and Arora, Akul and Basart, Steven and Tang, Eric and Song, Dawn and Steinhardt, Jacob},
+  title = {Measuring Mathematical Problem Solving With the {MATH} Dataset},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
+  volume = {1},
+  year = {2021},
+  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/hash/be83ab3ecd0db773eb2dc1b0a17836a1-Abstract-round2.html},
+  numpages = {11}
+}
+
+@misc{gsm8k,
+  author = {Cobbe, Karl and Kosaraju, Vineet and Bavarian, Mohammad and Chen, Mark and Jun, Heewoo and Kaiser, Lukasz and Plappert, Matthias and Tworek, Jerry and Hilton, Jacob and Nakano, Reiichiro and Hesse, Christopher and Schulman, John},
+  title = {Training Verifiers to Solve Math Word Problems},
+  year = {2021},
+  howpublished = {arXiv:2110.14168v2},
+  doi = {10.48550/arXiv.2110.14168},
+  url = {https://arxiv.org/abs/2110.14168v2}
+}
+
+@inproceedings{oasst,
+  author = {K{\"o}pf, Andreas and Kilcher, Yannic and von R{\"u}tte, Dimitri and Anagnostidis, Sotiris and Tam, Zhi Rui and Stevens, Keith and Barhoum, Abdullah and Nguyen, Duc and Stanley, Oliver and Nagyfi, Rich{\'a}rd and ES, Shahul and Suri, Sameer and Glushkov, David and Dantuluri, Arnav and Maguire, Andrew and Schuhmann, Christoph and Nguyen, Huu and Mattick, Alexander},
+  title = {{OpenAssistant} Conversations---Democratizing Large Language Model Alignment},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {36},
+  year = {2023},
+  pages = {47669--47681},
+  publisher = {Curran Associates, Inc.},
+  doi = {10.52202/075280-2064},
+  url = {https://proceedings.neurips.cc/paper_files/paper/2023/hash/949f0f8f32267d297c2d4e3ee10a2e7e-Abstract-Datasets_and_Benchmarks.html}
+}
+
+@inproceedings{liu2026heterospec,
+  author = {Liu, Siran and Ye, Yang and Zhu, Qianchao and Cao, Zane and He, Yongchao},
+  title = {{HeteroSpec}: Leveraging Contextual Heterogeneity for Efficient Speculative Decoding},
+  booktitle = {Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},
+  year = {2026},
+  month = jul,
+  pages = {12930--12947},
+  publisher = {Association for Computational Linguistics},
+  doi = {10.18653/v1/2026.acl-long.589},
+  url = {https://aclanthology.org/2026.acl-long.589/}
+}
+
+@misc{blocklock,
+  author = {Qi, Xiuyuan and Reviriego, Pedro and Conde, Javier and Liu, Shanshan},
+  title = {{BlockLock: Reproducible LLM Inference with Fixed Batch Geometry}},
+  year = {2026},
+  howpublished = {arXiv:2611.06977v1},
+  doi = {10.48550/arXiv.2611.06977},
+  url = {https://arxiv.org/abs/2611.06977v1}
+}
+
+@misc{detent,
+  author = {Xin, Peixu and Feng, Runchuan and Guo, Jiazhen and Wu, Kan and Yin, Ming},
+  title = {{Detent: Batch-Invariant LLM Serving and RL Rollouts at Near-Stock Speed}},
+  year = {2026},
+  howpublished = {arXiv:2611.10611v1},
+  doi = {10.48550/arXiv.2611.10611},
+  url = {https://arxiv.org/abs/2611.10611v1}
+}
+
+@misc{beyondaccuracy,
+  author = {Xie, Shuxiao and Xie, Shuyang and Cao, Yuan and Ran, Dezhi and Yang, Wei and Xie, Tao},
+  title = {{Beyond Accuracy: Prefix-Invariant Realizations of Low-Precision Fast Matrix Multiplication}},
+  year = {2026},
+  howpublished = {arXiv:2609.39816v1},
+  doi = {10.48550/arXiv.2609.39816},
+  url = {https://arxiv.org/abs/2609.39816v1}
+}
+
+@misc{badc,
+  author = {Ding, Tianyu and Tong, Yaocheng and Yang, Muzhi and Yang, Lei and Jiang, Fei},
+  title = {{Testing Processor Contracts in Speculative Decoding Engines}},
+  year = {2026},
+  howpublished = {arXiv:2611.04042v1},
+  doi = {10.48550/arXiv.2611.04042},
+  url = {https://arxiv.org/abs/2611.04042v1}
+}
+
+@misc{tritify,
+  author = {Karim, Sayed Amir},
+  title = {{Deterministic, Reproducible Inference in Exact Integer Arithmetic, and Verifiable Distributed Inference as Its Consequence}},
+  year = {2026},
+  howpublished = {arXiv:2611.13730v1},
+  doi = {10.48550/arXiv.2611.13730},
+  url = {https://arxiv.org/abs/2611.13730v1}
+}
+
+@misc{power2int8,
+  author = {Chen, Teng-Ruei},
+  title = {{Deterministic LLM Inference Across GPU Kernels: Power-of-Two INT8 Quantization Scales and the Limits of Tolerance-Based Conformance}},
+  year = {2026},
+  howpublished = {arXiv:2609.00363v1},
+  doi = {10.48550/arXiv.2609.00363},
+  url = {https://arxiv.org/abs/2609.00363v1}
+}
+
+@inproceedings{qspec,
+  author = {Zhao, Juntao and Lu, Wenhao and Wang, Sheng and Kong, Lingpeng and Wu, Chuan},
+  title = {{QSpec}: Speculative Decoding with Complementary Quantization Schemes},
+  booktitle = {Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  year = {2025},
+  month = nov,
+  pages = {4779--4795},
+  publisher = {Association for Computational Linguistics},
+  doi = {10.18653/v1/2025.emnlp-main.240},
+  url = {https://aclanthology.org/2025.emnlp-main.240/}
+}
+
+@inproceedings{quantspec,
+  author = {Tiwari, Rishabh and Xi, Haocheng and Tomar, Aditya and Hooper, Coleman Richard Charles and Kim, Sehoon and Horton, Maxwell and Najibi, Mahyar and Mahoney, Michael W. and Keutzer, Kurt and Gholami, Amir},
+  title = {{QuantSpec}: Self-Speculative Decoding with Hierarchical Quantized {KV} Cache},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+  series = {Proceedings of Machine Learning Research},
+  volume = {267},
+  year = {2025},
+  pages = {59668--59686},
+  publisher = {PMLR},
+  url = {https://proceedings.mlr.press/v267/tiwari25b.html}
+}
+
+@misc{bievolve,
+  author = {Bao, Youwei and Wang, Chengpeng and Chen, Simin},
+  title = {God Does Not Play Dice: Enforcing Batch Invariance in Agentic Kernel Generation},
+  year = {2026},
+  howpublished = {arXiv:2610.36623v1},
+  doi = {10.48550/arXiv.2610.36623},
+  url = {https://arxiv.org/abs/2610.36623v1}
+}
+
+@misc{vllm_batchinv,
+  author = {{vLLM contributors}},
+  title = {Batch Invariance: Documentation and Implementation},
+  year = {2026},
+  howpublished = {Source code and documentation},
+  url = {https://github.com/vllm-project/vllm/tree/01fb22eed6b5ae67f7b97bc19dc637bd413851c7/vllm/model_executor/determinism}
+}
+
+@article{tensorcoremodels,
+  author = {Khattak, Faizan and Mikaitis, Mantas},
+  title = {Accurate Models of {NVIDIA} Tensor Cores},
+  journal = {ACM Transactions on Architecture and Code Optimization},
+  volume = {23},
+  number = {3},
+  articleno = {105},
+  numpages = {25},
+  year = {2026},
+  doi = {10.1145/3830409},
+  url = {https://doi.org/10.1145/3830409}
+}
+
+@article{sten,
+  author = {Ivanov, Andrei and Dryden, Nikoli and Ben-Nun, Tal and Schneider, Timo and Ashkboos, Saleh and Hoefler, Torsten},
+  title = {{STen}: Productive and Efficient Sparsity in {PyTorch}},
+  journal = {ACM Transactions on Architecture and Code Optimization},
+  volume = {23},
+  number = {2},
+  articleno = {74},
+  numpages = {25},
+  year = {2026},
+  doi = {10.1145/3815424},
+  url = {https://doi.org/10.1145/3815424}
+}
+
+@article{codecontests,
+  author = {Li, Yujia and Choi, David and Chung, Junyoung and Kushman, Nate and Schrittwieser, Julian and Leblond, R{\'e}mi and Eccles, Tom and Keeling, James and Gimeno, Felix and Dal Lago, Agustin and Hubert, Thomas and Choy, Peter and de Masson d'Autume, Cyprien and Babuschkin, Igor and Chen, Xinyun and Huang, Po-Sen and Welbl, Johannes and Gowal, Sven and Cherepanov, Alexey and Molloy, James and Mankowitz, Daniel J. and Robson, Esme Sutherland and Kohli, Pushmeet and de Freitas, Nando and Kavukcuoglu, Koray and Vinyals, Oriol},
+  title = {Competition-Level Code Generation with {AlphaCode}},
+  journal = {Science},
+  volume = {378},
+  number = {6624},
+  pages = {1092--1097},
+  year = {2022},
+  doi = {10.1126/science.abq1158},
+  url = {https://www.science.org/doi/10.1126/science.abq1158}
+}
+% Suggested addition only. The independent reviewer did not edit references.bib.
+% Primary source opened on 2026-11-18; model identity, not GGUF quantization provenance.
+@online{llama32,
+  author = {{Meta}},
+  title = {{Llama 3.2 Model Card}},
+  year = {2024},
+  url = {https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md},
+  lastaccessed = {November 18, 2026}
+}

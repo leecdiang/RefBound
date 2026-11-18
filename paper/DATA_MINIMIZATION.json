@@ -1,0 +1,110 @@
+{
+  "scope": "Derived public data, not original native identity records. Numerical columns and row order unchanged.",
+  "files": {
+    "RTX269_ALL_REQUESTS.csv": {
+      "kept_columns": [
+        "request_id",
+        "stage",
+        "root_slot",
+        "root",
+        "domain",
+        "round",
+        "time_block",
+        "role",
+        "study_variant",
+        "included",
+        "service_s",
+        "context_s",
+        "target_prefill_s",
+        "target_decode_s",
+        "target_verify_s",
+        "draft_prefill_s",
+        "draft_sync_s",
+        "draft_propose_s",
+        "decision_commit_s",
+        "terminal_sync_s",
+        "other_host_s"
+      ],
+      "removed_columns": [
+        "accepted",
+        "capture",
+        "core_identity",
+        "cycles",
+        "draft_rows",
+        "exclusion_reason",
+        "host_complete_wall",
+        "host_dispatch_wall",
+        "order_position",
+        "prompt_ids_sha256",
+        "prompt_tokens",
+        "proposed",
+        "scheduled_request_id",
+        "source_freeze_sha256",
+        "target_rows",
+        "ttft_s"
+      ],
+      "rows": 1764,
+      "derived_sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba",
+      "request_ids": "derived row IDs, not original identities"
+    },
+    "M1_NATIVE_REQUESTS.csv": {
+      "kept_columns": [
+        "kind",
+        "root",
+        "session",
+        "arm",
+        "service_s",
+        "cycles"
+      ],
+      "removed_columns": [
+        "accepted_proposals",
+        "generated_tokens",
+        "native_receipt_sha256",
+        "output_copy_s",
+        "planning_s",
+        "prompt_tokens",
+        "reference_id",
+        "request_s",
+        "reset_s",
+        "target_rows",
+        "teardown_s",
+        "terminal_kind"
+      ],
+      "rows": 288,
+      "derived_sha256": "76263c5fb6e34b058dc662bf23e40c38a083fb2e7a09522285583149c3997585",
+      "request_ids": "not included"
+    },
+    "S3_TIMING_ROWS.csv": {
+      "kept_columns": [
+        "panel",
+        "root_id",
+        "slot",
+        "domain",
+        "day",
+        "round",
+        "pair_id",
+        "arm",
+        "role",
+        "ordinal",
+        "elapsed_s",
+        "reset_s",
+        "prefill_s",
+        "decode_s",
+        "planning_s",
+        "owned_output_copy_s",
+        "prompt_tokens",
+        "generated_tokens",
+        "stop_reason",
+        "actual_forward_rows"
+      ],
+      "removed_columns": [
+        "end_ns",
+        "source_receipt",
+        "start_ns"
+      ],
+      "rows": 288,
+      "derived_sha256": "a01a2621b780f75e31a2625a6b58b9f3cf21d17b849786ded6c0ca0af6833083",
+      "request_ids": "not included"
+    }
+  }
+}

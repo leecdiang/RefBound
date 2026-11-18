@@ -1,0 +1,352 @@
+{
+  "f01_obligations": {
+    "id": "1",
+    "kind": "figure",
+    "source_file": "sections/reference.tex",
+    "asset": "figures/f01_obligations.pdf",
+    "label": "fig:constraints",
+    "baseline_page": 3,
+    "old_caption": "Numerical obligations in two historical studies. (a) Complete-operator mismatch counts on RTX: each denominator of 16 comprises two models and eight operator descriptors. Columns are query widths; rows are arithmetic recipes. Native wide paths differ, while admitted four-column tiles and packed groups match the captured reference. Dashes mark packed q2/q4, which were not run. (b) Complete-vector mismatches before and after coordinated physical-view repair on B570. Each arm covers three inputs $\\times$ 128 committed vectors; PQ/QB are the recorded attention-layout identifiers. Each speculative arm changes from 99/384 to 0/384; the other arms remain at zero.",
+    "old_alt": "A query-width by arithmetic-path matrix shows mismatching model/operator pairs on RTX. A separate B570 table shows physical-view repair reducing complete-vector mismatches from 198/1,920 to 0/1,920."
+  },
+  "f02_local_lowering": {
+    "id": "2",
+    "kind": "figure",
+    "source_file": "sections/method.tex",
+    "asset": "figures/f02_local_lowering.pdf",
+    "label": "fig:construction",
+    "baseline_page": 5,
+    "old_caption": "Local refinement on shared query columns. (a) Positions 253--256 require extents $[256,256,256,512]$. Paired operator rows compare SIMPLE's q3+q1 whole calls with LOCAL's q4 projections; both use $3+1$ attention views. LOCAL joins attention rows before output projection and FFN. Spans encode query membership. (b) Owned row $z_1$ supplies the correction after proposal 2 is rejected; commit retains length 255 with the correction pending. (c) The successor keeps q4, maximum extent 512, and the same reference policy, but its full extent vector becomes $[256,512,512,512]$, requiring rebuilt $1+3$ views. Its all-accepted result uses $z_3$ for the bonus pending at 259.",
+    "old_alt": "Aligned SIMPLE and LOCAL operator rows show where the attention partition differs from projection grouping. Owned rows retain the correction score vector, and commit establishes the accepted active state. The next transaction changes its full extent vector under the same policy, so the view guard rebuilds the attention structure."
+  },
+  "f07_confirmation": {
+    "id": "3",
+    "kind": "figure",
+    "source_file": "sections/results.tex",
+    "asset": "figures/f07_confirmation.pdf",
+    "label": "fig:confirmation",
+    "baseline_page": 11,
+    "old_caption": "LOCAL across 12 paired time blocks. Each row shows unconnected block effects and the overall geometric reduction with a 95\\% whole-time-block bootstrap interval. Triangles mark the supporting 32B crossing; circles the primary 32B noncrossing; squares the primary 8B natural-service endpoint. Positive $100(1-\\mathrm{LOCAL/SIMPLE})\\%$ denotes lower LOCAL time. The 32B clock covers verification through commit with C4 on, P4 off, and frozen proposals; the 8B clock covers response plus reset. The 32B transaction and 8B service panels are analyzed separately. Blocks repeat the same cases; the natural endpoint weights two fixed conversations equally.",
+    "old_alt": "Three aligned endpoint rows preserve their distinct roles and clocks. Twelve unconnected block observations accompany each aggregate interval. The selected crossing has a positive reduction interval; noncrossing and natural-service intervals span zero."
+  },
+  "f04_few_column": {
+    "id": "4",
+    "kind": "figure",
+    "source_file": "sections/results.tex",
+    "asset": "figures/f04_few_column.pdf",
+    "label": "fig:c4",
+    "baseline_page": 12,
+    "old_caption": "RTX requests after shared activation preparation, with P4 off. (a) Same-binary B/C1/C4 controls. (b) Small dots show all 24 root effects; large symbols and bars give equal-root/equal-block geometric reductions and 95\\% crossed root/time-block intervals. The open circle marks the sole primary comparison, C1/B; triangles mark the descriptive C4 comparisons. Positive values mean lower candidate time. (c) Signed arithmetic mean C1-minus-B differences in milliseconds show verification, prefill, draft, residual, and total service (diamond). Prefill and draft costs offset verification savings. These mean differences use a different estimand from the geometric reductions in (b).",
+    "old_alt": "A compact control matrix precedes complete-request effects and their intervals. The C1/B time-reduction interval spans zero, while both descriptive C4 effects are positive. A separate signed millisecond plot shows the arithmetic phase account, including residual cost and total service."
+  },
+  "f05_prefill": {
+    "id": "5",
+    "kind": "figure",
+    "source_file": "sections/results.tex",
+    "asset": "figures/f05_prefill.pdf",
+    "label": "fig:p4",
+    "baseline_page": 13,
+    "old_caption": "Packing and speculation under direct controls. Columns are independent platform studies; rows compare P4 with C4 within each decoding policy, then speculation with target-only execution at fixed P4. Small points show every root's geometric time reduction; filled squares and bars give equal-root estimates and individual 95\\% stratified-root intervals. All use $100(1-r)\\%$, with zero denoting equal time. The open diamond marks A5000 \\texttt{train/279}, whose speculative P4 request is 0.33\\% slower than its target-only P4 control. A5000 uses q32 packed prefill; RTX uses q32 and admitted tail widths.",
+    "old_alt": "Three comparison rows align A5000 and RTX on the same percentage scale while retaining their separate root samples. All root effects, aggregate estimates and intervals remain visible; an open diamond identifies the negative A5000 speculation comparison."
+  },
+  "f06_b570": {
+    "id": "6",
+    "kind": "figure",
+    "source_file": "sections/results.tex",
+    "asset": "figures/f06_b570.pdf",
+    "label": "fig:b570",
+    "baseline_page": 15,
+    "old_caption": "Grouping and full speculative service in the formal B570 CPU-draft study. (a) Cumulative counts of all 24 root-geometric time ratios: squares mark target-only grouping, circles speculative grouping, and triangles speculation with a grouped target. (b) Equal-root geometric ratios and individual 95\\% stratified-root intervals for the corresponding direct contrasts. Both logarithmic axes place equal time at one. Grouping lowers time within both decoding policies, while grouped speculation takes 2.512 times its grouped target-only control. Each root has two rounds; the service clock includes CPU drafting and normal teardown.",
+    "old_alt": "Empirical cumulative counts preserve all B570 root ratios. Grouping ratios lie below one for both decoding policies, while all grouped-speculation versus grouped-target-only ratios lie above one. Aligned forest estimates and intervals quantify these three distinct comparisons."
+  },
+  "f03_transaction": {
+    "id": "S1",
+    "kind": "figure",
+    "source_file": "sections/supplement.tex",
+    "asset": "figures/f03_transaction.pdf",
+    "label": "fig:local",
+    "baseline_page": 20,
+    "old_caption": "Original LOCAL transactions and separate device-event diagnostics. Open squares denote SIMPLE and filled circles LOCAL throughout; segments join matched observations. (a) Verification-through-commit times in milliseconds for both repeats of each selected history; ``Inside'' denotes the noncrossing case. (b) Independently clocked projection and attention event times for the crossing diagnostic, also in milliseconds. Both arms use C4, frozen proposals, and P4 off. Device events locate retained work within the lowering; their clock differs from the transaction wall clock. Dependent successors appear in Table~\\ref{tab:local-pairs}.",
+    "old_alt": "Paired SIMPLE and LOCAL observations show both selected crossing repeats and both noncrossing repeats. A separate device-event panel shows projection and attention costs under its own clock, using the same square and circle arm encoding."
+  },
+  "f08_c4_initial": {
+    "id": "S2",
+    "kind": "figure",
+    "source_file": "sections/supplement.tex",
+    "asset": "figures/f08_c4_initial.pdf",
+    "label": "fig:c4-initial",
+    "baseline_page": 27,
+    "old_caption": "Initial C4 studies, separate from the 12-round RTX confirmation. Coordinates are root-geometric complete-request seconds over two rounds; the diagonal marks equal time. Left: A5000 C4 versus C1, with 12 roots. Right: initial RTX C1 and C4 versus B, with 24 roots. Filled circles denote C4 and open squares C1; vertical segments pair the RTX candidates with the same root's B control. Numeric rows report each study's direct geometric ratios and 95\\% stratified-root intervals. SIMPLE and P4-off are fixed.",
+    "old_alt": "Separate A5000 and initial RTX paired-root scatter plots show complete-request seconds against contemporaneous controls. C4 circles lie below the equal-time diagonal; RTX C1 squares are near it. Vertical RTX segments connect the same root's two candidates."
+  },
+  "t01_dispatch": {
+    "id": "1",
+    "kind": "table",
+    "source_file": "sections/implementation.tex",
+    "asset": "tables/t01_dispatch.tex",
+    "label": "tab:dispatch",
+    "baseline_page": 6,
+    "old_caption": "Target-projection dispatch in the independent RTX B/C1/C4 studies. All three paths begin after the same Q8\\_1 activation preparation; counts refer to one examined MMVQ operation.",
+    "old_alt": null
+  },
+  "t02_qualification": {
+    "id": "2",
+    "kind": "table",
+    "source_file": "sections/implementation.tex",
+    "asset": "tables/t02_qualification.tex",
+    "label": "tab:qualification",
+    "baseline_page": 7,
+    "old_caption": "Numerical qualification of the bound CUDA paths. These are original-machine complete-object checks; Table~\\ref{tab:access} distinguishes the independently readable public subset.",
+    "old_alt": null
+  },
+  "t03_deployments": {
+    "id": "3",
+    "kind": "table",
+    "source_file": "sections/design.tex",
+    "asset": "tables/t03_deployments.tex",
+    "label": "tab:deployments",
+    "baseline_page": 8,
+    "old_caption": "Deployment profiles for the principal studies. Context is C1024 except A5000 confirmation B (C4096). The artifact deployment register binds compiler, driver, placement and model identities.",
+    "old_alt": null
+  },
+  "t04_studies": {
+    "id": "4",
+    "kind": "table",
+    "source_file": "sections/design.tex",
+    "asset": "tables/t04_studies.tex",
+    "label": "tab:studies",
+    "baseline_page": 9,
+    "old_caption": "Sampling and workloads by independent study. Inputs are prompt tokens or selected LOCAL history lengths; outputs are generated tokens or requested rows. Repeated rounds remain within their root and time block. NR denotes an unreported field in the earlier RTX normalized table.",
+    "old_alt": null
+  },
+  "t05_m1": {
+    "id": "5",
+    "kind": "table",
+    "source_file": "sections/results.tex",
+    "asset": "tables/t05_m1.tex",
+    "label": "tab:m1",
+    "baseline_page": 14,
+    "old_caption": "M1's actual factorial: 16 roots and four sessions per root, 64 measured requests per cell. Upper cells give total native-service seconds. Lower rows give direct LOCAL/WHOLE effects with 99\\% marginal intervals from the five-comparison Bonferroni family; Table~\\ref{tab:m1-family} retains the complete family.",
+    "old_alt": null
+  },
+  "t07_confirmation_natural": {
+    "id": "6",
+    "kind": "table",
+    "source_file": "sections/results.tex",
+    "asset": "tables/t07_confirmation_natural.tex",
+    "label": "tab:confirmation-natural",
+    "baseline_page": 14,
+    "old_caption": "Natural 8B target-only confirmation: effects and individual 95\\% whole-time-block intervals over two fixed conversations and 12 paired blocks. The primary estimate weights conversations equally within each block. All block values and direction counts remain in Section~\\ref{supp:confirmation}.",
+    "old_alt": null
+  },
+  "t06_neighbors": {
+    "id": "7",
+    "kind": "table",
+    "source_file": "sections/related.tex",
+    "asset": "tables/t06_neighbors.tex",
+    "label": "tab:neighbors",
+    "baseline_page": 16,
+    "old_caption": "Reference selection, retained execution freedom, and state handoff in the closest systems.",
+    "old_alt": null
+  },
+  "s01_local_pairs": {
+    "id": "S1",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s01_local_pairs.tex",
+    "label": "tab:local-pairs",
+    "baseline_page": 21,
+    "old_caption": "Every original LOCAL pair, including successors from each arm's own committed state.",
+    "old_alt": null
+  },
+  "s02_diagnostics": {
+    "id": "S2",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s02_diagnostics.tex",
+    "label": "tab:diagnostics",
+    "baseline_page": 21,
+    "old_caption": "Independent device-event diagnostics for the two first-transaction histories. Times and counts use the profiler's own clock.",
+    "old_alt": null
+  },
+  "s14_confirmation_effects": {
+    "id": "S3",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s14_confirmation_effects.tex",
+    "label": "tab:confirmation-effects",
+    "baseline_page": 22,
+    "old_caption": "All six A5000 confirmation endpoints and their prespecified roles. The interaction is a ratio of ratios.",
+    "old_alt": null
+  },
+  "s15_confirmation_A": {
+    "id": "S4",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s15_confirmation_A.tex",
+    "label": "tab:confirmation-a-pairs",
+    "baseline_page": 22,
+    "old_caption": "Every 32B confirmation pair: first-transaction verification-through-commit milliseconds. Noncrossing is primary and crossing supporting.",
+    "old_alt": null
+  },
+  "s16_confirmation_B": {
+    "id": "S5",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s16_confirmation_B.tex",
+    "label": "tab:confirmation-b-pairs",
+    "baseline_page": 23,
+    "old_caption": "Every 8B confirmation pair: complete two-turn response-plus-reset seconds. C0/C1 identify conversations in this panel.",
+    "old_alt": null
+  },
+  "s17_confirmation_costs": {
+    "id": "S6",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s17_confirmation_costs.tex",
+    "label": "tab:confirmation-costs",
+    "baseline_page": 23,
+    "old_caption": "The full B confirmation phase account within the registered response-plus-reset clock.",
+    "old_alt": null
+  },
+  "s18_rtx269_effects": {
+    "id": "S7",
+    "kind": "table",
+    "source_file": "sections/rtx_confirmation.tex",
+    "asset": "tables/s18_rtx269_effects.tex",
+    "label": "tab:rtx269-effects",
+    "baseline_page": 24,
+    "old_caption": "RTX confirmation primary and descriptive complete-request estimates, with crossed root/time-block intervals.",
+    "old_alt": null
+  },
+  "s19_rtx269_blocks": {
+    "id": "S8",
+    "kind": "table",
+    "source_file": "sections/rtx_confirmation.tex",
+    "asset": "tables/s19_rtx269_blocks.tex",
+    "label": "tab:rtx269-blocks",
+    "baseline_page": 25,
+    "old_caption": "All six RTX time blocks in execution order: within-block geometric time ratios.",
+    "old_alt": null
+  },
+  "s20_rtx269_roots": {
+    "id": "S9",
+    "kind": "table",
+    "source_file": "sections/rtx_confirmation.tex",
+    "asset": "tables/s20_rtx269_roots.tex",
+    "label": "tab:rtx269-roots",
+    "baseline_page": 25,
+    "old_caption": "All 24 RTX roots: per-root geometric time ratios over 12 rounds.",
+    "old_alt": null
+  },
+  "s21_rtx269_phases": {
+    "id": "S10",
+    "kind": "table",
+    "source_file": "sections/rtx_confirmation.tex",
+    "asset": "tables/s21_rtx269_phases.tex",
+    "label": "tab:rtx269-phases",
+    "baseline_page": 26,
+    "old_caption": "RTX confirmation arithmetic phase differences, candidate minus control, within the complete-service boundary.",
+    "old_alt": null
+  },
+  "s11_direct_effects": {
+    "id": "S11",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s11_direct_effects.tex",
+    "label": "tab:direct-effects",
+    "baseline_page": 27,
+    "old_caption": "All direct modern request effects, retaining each independent study and its contemporaneous control.",
+    "old_alt": null
+  },
+  "s03_phase_costs": {
+    "id": "S12",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s03_phase_costs.tex",
+    "label": "tab:phase-costs",
+    "baseline_page": 28,
+    "old_caption": "Signed arithmetic mean phase differences in milliseconds. Each column is one same-study SD/SD comparison.",
+    "old_alt": null
+  },
+  "s06_m1_family": {
+    "id": "S13",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s06_m1_family.tex",
+    "label": "tab:m1-family",
+    "baseline_page": 28,
+    "old_caption": "M1's five-comparison family. Direct contrasts use ratios of totals; interaction uses root-geometric ratios.",
+    "old_alt": null
+  },
+  "s07_m1_roots": {
+    "id": "S14",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s07_m1_roots.tex",
+    "label": "tab:m1-roots",
+    "baseline_page": 29,
+    "old_caption": "Every M1 paired root. Times sum four sessions in seconds; each row gives its direct cut-policy ratios.",
+    "old_alt": null
+  },
+  "s05_natural": {
+    "id": "S15",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s05_natural.tex",
+    "label": "tab:natural",
+    "baseline_page": 29,
+    "old_caption": "Other historical natural LOCAL/WHOLE panels with their original units, clocks and estimators.",
+    "old_alt": null
+  },
+  "s04_ledger": {
+    "id": "S16",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s04_ledger.tex",
+    "label": "tab:ledger",
+    "baseline_page": 30,
+    "old_caption": "Request-role accounting. Timing-table scope and full-campaign completion are distinct.",
+    "old_alt": null
+  },
+  "s08_access": {
+    "id": "S17",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s08_access.tex",
+    "label": "tab:access",
+    "baseline_page": 31,
+    "old_caption": "Numerical evidence scope: original-machine comparisons and the independently readable saved-object subset.",
+    "old_alt": null
+  },
+  "s09_pilot": {
+    "id": "S18",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s09_pilot.tex",
+    "label": "tab:pilot",
+    "baseline_page": 31,
+    "old_caption": "The separate B570 repair pilot: two roots, one round and a predeclared complete-service stop.",
+    "old_alt": null
+  },
+  "s12_historical_geometry": {
+    "id": "S19",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s12_historical_geometry.tex",
+    "label": "tab:historical-geometry",
+    "baseline_page": 32,
+    "old_caption": "Earlier Vulkan geometry observations, including slower LOCAL cells and their original fixed-cell summaries.",
+    "old_alt": null
+  },
+  "s13_historical_applications": {
+    "id": "S20",
+    "kind": "table",
+    "source_file": "sections/supplement.tex",
+    "asset": "tables/s13_historical_applications.tex",
+    "label": "tab:historical-applications",
+    "baseline_page": 32,
+    "old_caption": "Historical resident effects and the separate worker lifetime. Fastest resident and worker controls are selected within their own measured configurations.",
+    "old_alt": null
+  }
+}

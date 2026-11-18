@@ -1,0 +1,363 @@
+{
+  "f01_obligations": {
+    "id": "1",
+    "kind": "figure",
+    "label": "fig:constraints",
+    "asset": "figures/f01_obligations.pdf",
+    "svg": "figures/f01_obligations.svg",
+    "caption_source": "method/captions.json",
+    "caption": "Independent tests of arithmetic and physical-view bitwise agreement. (a) Unequal complete operator outputs among 16 RTX model/operator pairs, relative to concatenated scalar columns; packed q2/q4 were not run. (b) B570 committed-vector mismatches fall from 198/1,920 to 0/1,920 after coordinated extent/crop, layout and dispatch repair (three inputs, 128 rows each, five arms). Tracks show committed output indices; PQ/QB denote recorded attention layouts.",
+    "description": "The upper matrix compares native, tiled and packed projection arithmetic on RTX. Native q8, q16 and q32 each have 16 unequal complete outputs among 16 pairs; tiled and packed fours match, and packed q2/q4 are marked not run. The lower B570 tracks locate 99 mismatches at indices 29 through 127 on one of three inputs in each of two speculative arms. Counts total 198 of 1,920 vectors before physical-view repair and zero afterward.",
+    "status": "selected formal figure"
+  },
+  "f02_local_lowering": {
+    "id": "2",
+    "kind": "figure",
+    "label": "fig:construction",
+    "asset": "figures/f02_local_lowering.pdf",
+    "svg": "figures/f02_local_lowering.svg",
+    "caption_source": "method/captions.json",
+    "caption": "Local lowering at the selected A5000 32B crossing with frozen proposals (C4 on, P4 off). (a) SIMPLE splits the whole decoder into q3+q1 calls; LOCAL retains q4 projections and FFN around $3+1$ attention views. Spans encode query membership. (b) SIMPLE's owned row supplies the rejection correction after native storage is reused. (c) LOCAL's successor starts from its own commit and rebuilds views when the full extent vector changes.",
+    "description": "Three panels show the crossing construction, a rejected proposal and the successor guard. At positions 253 to 256, SIMPLE makes q3 and q1 decoder calls while LOCAL makes a q4 call with 3+1 attention views and rejoins before output projection and FFN. SIMPLE preserves its first call's owned logit row z1 by synchronization and copying. Rejection leaves KV positions 0 to 254 and a correction pending at 255. LOCAL continues from its own commit at positions 255 to 258, rebuilds 1+3 views after the full extent vector changes, and leaves the bonus selected from z3 pending at 259. Box spans encode query membership, not time or memory size; the two policy arms are alternatives.",
+    "status": "selected formal figure"
+  },
+  "f07_confirmation": {
+    "id": "3",
+    "kind": "figure",
+    "label": "fig:confirmation",
+    "asset": "figures/f07_confirmation.pdf",
+    "svg": "figures/f07_confirmation.svg",
+    "caption_source": "results/captions.json",
+    "caption": "LOCAL/SIMPLE effects in 12 paired A5000 time blocks. Left: lines connect the same block's two fixed 32B histories (one root; C4 on, P4 off, frozen proposals; verification through commit). Noncrossing is primary; crossing and their ratio-of-ratios interaction are supporting. Right: the separately analyzed 8B target-only primary endpoint weights two fixed conversations equally in log time, from response through reset. Positive $100(1-\\mathrm{LOCAL}/\\mathrm{SIMPLE})\\%$ means less LOCAL time. Printed limits give individual 95\\% joint whole-block intervals. The interaction has null value one.",
+    "description": "Two panels show all twelve numbered time blocks. Lines connect cases within each block. The 32B crossing effects consistently favor LOCAL, while the primary noncrossing interval spans zero. The separately clocked 8B target-only panel retains both conversations and their equal-weight diamond; its primary interval also spans zero. Printed intervals accompany the estimates, and the supporting ratio-of-ratios interaction is below one.",
+    "status": "selected formal figure"
+  },
+  "f04_few_column": {
+    "id": "4",
+    "kind": "figure",
+    "label": "fig:c4",
+    "asset": "figures/f04_few_column.pdf",
+    "svg": "figures/f04_few_column.svg",
+    "caption_source": "results/captions.json",
+    "caption": "RTX resident-request controls with SIMPLE fixed and P4 off (reset through final synchronization). Dots show 24 root effects per contrast; diamonds and bars give equal-root/equal-block geometric reductions and individual 95\\% crossed stratified-root/whole-block intervals. C1/B is the sole primary contrast; C4 contrasts are descriptive. Positive values mean time saved. The waterfall instead reports arithmetic mean milliseconds saved, B minus C1; it does not decompose the geometric effects.",
+    "description": "A dispatch matrix distinguishes scalar loop B, grouped scalar C1 and few-column C4. Each contrast retains twelve code and twelve math root effects plus its geometric summary. The primary C1/B interval crosses zero; both descriptive C4 intervals favor the candidate. A separate arithmetic waterfall shows verification savings outweighed by prefill cost, ending at a net cost of 80.52 milliseconds. All signed values and the zero lines remain visible.",
+    "status": "selected formal figure"
+  },
+  "f05_prefill": {
+    "id": "5",
+    "kind": "figure",
+    "label": "fig:p4",
+    "asset": "figures/f05_prefill.pdf",
+    "svg": "figures/f05_prefill.svg",
+    "caption_source": "results/captions.json",
+    "caption": "Independent A5000 and RTX P4 controls with SIMPLE fixed (resident requests, reset through final synchronization). The studies contain 12 and 24 roots, each reused in three contrasts (36 study-specific roots; 108 effect marks). Horizontal positions follow prompt-length rank, not proportional token spacing; the studies are unpaired. Row labels specify candidate/control; positive reductions mean less candidate time. Diamonds and bars give equal-root geometric reductions and individual 95\\% code/math-stratified root intervals. The outlined A5000 \\texttt{train/279} effect is $-0.33\\%$.",
+    "description": "Three contrast rows appear in two independent deployment columns. Every root effect is retained at a rank ordered by prompt length, with a separate overall diamond and confidence interval. Packing favors the candidate for every root in the first two rows. At fixed P4, the A5000 train/279 point is an outlined diamond at a small negative reduction; it is not moved to zero. The two studies are not paired.",
+    "status": "selected formal figure"
+  },
+  "f06_b570": {
+    "id": "6",
+    "kind": "figure",
+    "label": "fig:b570",
+    "asset": "figures/f06_b570.pdf",
+    "svg": "figures/f06_b570.svg",
+    "caption_source": "tail/captions.json",
+    "caption": "Grouping and complete speculative service in the formal B570 CPU-draft study (24 roots, two rounds). Each comparison reuses the same roots (72 effect marks); open diamonds give equal-root estimates with individual 95\\% stratified-root intervals printed at right. Ratios share a logarithmic axis: one means equal time, and lower values mean less candidate time. Service includes CPU drafting and normal teardown.",
+    "description": "Three rows each retain 24 measured root ratios and an open-diamond equal-root summary on one continuous log axis. Grouped/scalar target-only execution is 0.783 with 95% interval 0.770 to 0.797; grouped/scalar speculation is 0.872 with interval 0.870 to 0.874. Grouped speculation versus grouped target-only is 2.512 with interval 2.486 to 2.539, to the right of the equal-time line at one and therefore slower. The 72 root marks reuse the same 24 roots across three contrasts. Numeric limits retain the narrow grouping intervals without changing their graphical extent.",
+    "status": "selected formal figure"
+  },
+  "f03_transaction": {
+    "id": "S1",
+    "kind": "figure",
+    "label": "fig:local",
+    "asset": "figures/f03_transaction.pdf",
+    "svg": "figures/f03_transaction.svg",
+    "caption_source": "tail/captions.json",
+    "caption": "Original LOCAL measurements for two fixed histories and two paired repeats (four first-transaction pairs), with C4 on, P4 off and frozen proposals. Open squares are SIMPLE; filled circles are LOCAL; segments join matched arms. (a) First-transaction verification-through-commit time. (b) Separately clocked projection and attention event time for each history; both panels use milliseconds. Device-event times are not added to the transaction clock. Four dependent successor pairs are retained in Table~\\ref{tab:local-pairs}.",
+    "description": "The upper panel shows four first-transaction pairs: two crossing repeats at base 253 and two noncrossing repeats at base 137. Open SIMPLE squares and filled LOCAL circles are connected within each pair, with milliseconds and LOCAL/SIMPLE ratios printed at right. The lower panel separately compares projection and attention event times for both histories. These device-event costs use their own clock; they are not components to add to the transaction wall clock.",
+    "status": "selected formal figure"
+  },
+  "f08_c4_initial": {
+    "id": "S2",
+    "kind": "figure",
+    "label": "fig:c4-initial",
+    "asset": "figures/f08_c4_initial.pdf",
+    "svg": "figures/f08_c4_initial.svg",
+    "caption_source": "tail/captions.json",
+    "caption": "Initial C4 studies with SIMPLE fixed and P4 off, separate from the 12-round RTX confirmation. (a) Twelve A5000 roots: paired C1/C4 geometric complete-request seconds over two rounds. (b) Twenty-four initial RTX roots: geometric time ratios for C1/B, C4/B and C4/C1 over two rounds, with equal time at one. Summaries give equal-root estimates and individual 95\\% stratified-root intervals. The two studies are unpaired.",
+    "description": "The upper panel uses seconds and links the C1 open square to the C4 filled circle for each of 12 A5000 roots. The lower panel uses time ratios for 24 initial RTX roots in each of three direct comparisons. C1/B has an estimate of 1.008 and interval 0.994 to 1.022, crossing equal time; both C4 comparisons lie below one. Each initial study has two rounds and a separate control and interval; neither is pooled with the later RTX confirmation.",
+    "status": "selected formal figure"
+  },
+  "f02_layered": {
+    "id": null,
+    "kind": "alternative",
+    "asset": "alternatives/f02_layered.pdf",
+    "svg": "alternatives/f02_layered.svg",
+    "caption_source": "method/captions.json",
+    "caption": "The same local lowering, shown as a schematic layer section and two transaction records. (a) Horizontal extent is query membership. The shallow faces identify operator groups; depth has no numerical or storage meaning. SIMPLE cuts the whole call after query 3. LOCAL writes KV from the four-query group, splits only the attention views, and rejoins their outputs in query order. Before the next native call, each requested full logit row is synchronized and copied. (b) The two columns follow the first call's own committed state. Rejection selects owned $z_1$ from SIMPLE's first subcall; the pending correction becomes the next seed. Although LOCAL retains q4, maximum extent 512 and the same reference policy, the full extent vector changes, so the successor rebuilds $1+3$ views. Its all-accepted outcome uses $z_3$ for the pending bonus.",
+    "description": "Two shallow layer stacks compare a cut through every SIMPLE operator with a LOCAL cut confined to attention. A ledger contrasts the crossing and its successor: row one gives a correction pending at 255, the full extent vector changes, and row three then gives a bonus pending at 259.",
+    "status": "editable diagnostic attachment; no formal number"
+  },
+  "f03_alternate": {
+    "id": null,
+    "kind": "alternative",
+    "asset": "alternatives/f03_alternate.pdf",
+    "svg": "alternatives/f03_alternate.svg",
+    "caption_source": "results/captions.json",
+    "caption": "Native SIMPLE and LOCAL times for all 48 A5000 confirmation pairs in 12 time blocks. Each stem links the two arms of one fixed case in one block. The two 32B histories use verification-through-commit milliseconds with C4 on, P4 off and frozen proposals; the two fixed 8B target-only conversations use seconds for two-turn response plus reset. Summary reductions use paired time ratios and individual 95\\% whole-block intervals. Noncrossing and equal-conversation service are primary for their respective clocks. The supporting 32B interaction is the crossing/noncrossing ratio of ratios, with null value one.",
+    "description": "Four plots expose every native pair against block index. The 32B crossing shows a consistent gap between the two arm times, unlike the noncrossing history. Both separate 8B conversations retain blocks with either arm faster. Individual intervals accompany the two primary endpoints and the supporting comparisons.",
+    "status": "editable diagnostic attachment; no formal number"
+  },
+  "f05_prompt_length": {
+    "id": null,
+    "kind": "alternative",
+    "asset": "alternatives/f05_prompt_length.pdf",
+    "svg": "alternatives/f05_prompt_length.svg",
+    "caption_source": "results/captions.json",
+    "caption": "Diagnostic view of the three direct resident-request contrasts in two independent studies, with SIMPLE fixed and clocks from reset through final synchronization. The horizontal axis uses observed prompt tokens within each study; it is not a between-deployment comparison or a fitted causal trend. All 108 effect marks represent 36 study-specific root entries recurring across three contrasts. Candidate/control reductions are positive when the candidate takes less time. Squares and bars give equal-root geometric estimates and individual 95\\% code/math-stratified root intervals. The open A5000 \\texttt{train/279} diamond retains its negative effect at fixed P4.",
+    "description": "Six panels place the original root effects at their measured prompt lengths. Equal prompt lengths can overlap; no curve is fitted. Each panel retains its separate overall square and confidence interval. The longest A5000 prompt, train/279, is an open diamond slightly below zero under speculation at fixed P4. This is a diagnostic alternative to the selected rank plot.",
+    "status": "editable diagnostic attachment; no formal number"
+  },
+  "t01_dispatch": {
+    "id": "1",
+    "kind": "table",
+    "label": "tab:dispatch",
+    "asset": "tables/t01_dispatch.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Target-projection dispatch in the independent RTX B/C1/C4 studies. All three paths begin after the same Q8\\_1 activation preparation; counts refer to one examined MMVQ operation.",
+    "status": "selected native LaTeX table"
+  },
+  "t02_qualification": {
+    "id": "2",
+    "kind": "table",
+    "label": "tab:qualification",
+    "asset": "tables/t02_qualification.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Numerical qualification of the bound CUDA paths. These are original-machine complete-object checks; Table~\\ref{tab:access} distinguishes the independently readable public subset.",
+    "status": "selected native LaTeX table"
+  },
+  "t03_deployments": {
+    "id": "3",
+    "kind": "table",
+    "label": "tab:deployments",
+    "asset": "tables/t03_deployments.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Deployment profiles for the principal studies. Context is C1024 except A5000 confirmation B (C4096). The artifact deployment register binds compiler, driver, placement and model identities.",
+    "status": "selected native LaTeX table"
+  },
+  "t04_studies": {
+    "id": "4",
+    "kind": "table",
+    "label": "tab:studies",
+    "asset": "tables/t04_studies.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Sampling and workloads by independent study. Inputs are prompt tokens or selected LOCAL history lengths; outputs are generated tokens or requested rows. Repeated rounds remain within their root and time block. NR denotes an unreported field in the earlier RTX normalized table.",
+    "status": "selected native LaTeX table"
+  },
+  "t05_m1": {
+    "id": "5",
+    "kind": "table",
+    "label": "tab:m1",
+    "asset": "tables/t05_m1.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "M1 factorial: 16 roots and four sessions per root, with 64 measured requests per cell. Each projection row reports native-service totals and its direct LOCAL/WHOLE time reduction. Intervals are 99\\% marginal members of the five-comparison Bonferroni family; Table~\\ref{tab:m1-family} retains the complete family.",
+    "status": "selected native LaTeX table"
+  },
+  "t07_confirmation_natural": {
+    "id": "6",
+    "kind": "table",
+    "label": "tab:confirmation-natural",
+    "asset": "tables/t07_confirmation_natural.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Natural 8B target-only confirmation: effects and individual 95\\% whole-time-block intervals over two fixed conversations and 12 paired blocks. The primary estimate weights conversations equally within each block. All block values and direction counts remain in Section~\\ref{supp:confirmation}.",
+    "status": "selected native LaTeX table"
+  },
+  "t06_neighbors": {
+    "id": "7",
+    "kind": "table",
+    "label": "tab:neighbors",
+    "asset": "tables/t06_neighbors.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Reference selection, retained execution freedom, and state handoff in the closest systems.",
+    "status": "selected native LaTeX table"
+  },
+  "s01_local_pairs": {
+    "id": "S1",
+    "kind": "table",
+    "label": "tab:local-pairs",
+    "asset": "tables/s01_local_pairs.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Every original LOCAL pair, including successors from each arm's own committed state.",
+    "status": "selected native LaTeX table"
+  },
+  "s02_diagnostics": {
+    "id": "S2",
+    "kind": "table",
+    "label": "tab:diagnostics",
+    "asset": "tables/s02_diagnostics.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Independent device-event diagnostics for the two first-transaction histories. Times and counts use the profiler's own clock.",
+    "status": "selected native LaTeX table"
+  },
+  "s14_confirmation_effects": {
+    "id": "S3",
+    "kind": "table",
+    "label": "tab:confirmation-effects",
+    "asset": "tables/s14_confirmation_effects.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "All six A5000 confirmation endpoints and their prespecified roles. The interaction is a ratio of ratios.",
+    "status": "selected native LaTeX table"
+  },
+  "s15_confirmation_A": {
+    "id": "S4",
+    "kind": "table",
+    "label": "tab:confirmation-a-pairs",
+    "asset": "tables/s15_confirmation_A.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Every 32B confirmation pair: first-transaction verification-through-commit milliseconds. Noncrossing is primary and crossing supporting.",
+    "status": "selected native LaTeX table"
+  },
+  "s16_confirmation_B": {
+    "id": "S5",
+    "kind": "table",
+    "label": "tab:confirmation-b-pairs",
+    "asset": "tables/s16_confirmation_B.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Every 8B confirmation pair: complete two-turn response-plus-reset seconds. C0/C1 identify conversations in this panel.",
+    "status": "selected native LaTeX table"
+  },
+  "s17_confirmation_costs": {
+    "id": "S6",
+    "kind": "table",
+    "label": "tab:confirmation-costs",
+    "asset": "tables/s17_confirmation_costs.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Arithmetic mean LOCAL-minus-SIMPLE phase differences in milliseconds within the registered response-plus-reset clock.",
+    "status": "selected native LaTeX table"
+  },
+  "s18_rtx269_effects": {
+    "id": "S7",
+    "kind": "table",
+    "label": "tab:rtx269-effects",
+    "asset": "tables/s18_rtx269_effects.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "RTX confirmation primary and descriptive complete-request estimates, with crossed root/time-block intervals.",
+    "status": "selected native LaTeX table"
+  },
+  "s19_rtx269_blocks": {
+    "id": "S8",
+    "kind": "table",
+    "label": "tab:rtx269-blocks",
+    "asset": "tables/s19_rtx269_blocks.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "All six RTX time blocks in execution order: within-block geometric time ratios.",
+    "status": "selected native LaTeX table"
+  },
+  "s20_rtx269_roots": {
+    "id": "S9",
+    "kind": "table",
+    "label": "tab:rtx269-roots",
+    "asset": "tables/s20_rtx269_roots.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "All 24 RTX roots: per-root geometric time ratios over 12 rounds.",
+    "status": "selected native LaTeX table"
+  },
+  "s21_rtx269_phases": {
+    "id": "S10",
+    "kind": "table",
+    "label": "tab:rtx269-phases",
+    "asset": "tables/s21_rtx269_phases.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "RTX confirmation arithmetic phase differences, candidate minus control, within the complete resident-request clock.",
+    "status": "selected native LaTeX table"
+  },
+  "s11_direct_effects": {
+    "id": "S11",
+    "kind": "table",
+    "label": "tab:direct-effects",
+    "asset": "tables/s11_direct_effects.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "All direct modern request effects, retaining each independent study and its contemporaneous control.",
+    "status": "selected native LaTeX table"
+  },
+  "s03_phase_costs": {
+    "id": "S12",
+    "kind": "table",
+    "label": "tab:phase-costs",
+    "asset": "tables/s03_phase_costs.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Signed arithmetic mean phase differences in milliseconds. Each column is one same-study SD/SD comparison.",
+    "status": "selected native LaTeX table"
+  },
+  "s06_m1_family": {
+    "id": "S13",
+    "kind": "table",
+    "label": "tab:m1-family",
+    "asset": "tables/s06_m1_family.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "M1's five-comparison family. Direct contrasts use ratios of totals; interaction uses root-geometric ratios.",
+    "status": "selected native LaTeX table"
+  },
+  "s07_m1_roots": {
+    "id": "S14",
+    "kind": "table",
+    "label": "tab:m1-roots",
+    "asset": "tables/s07_m1_roots.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Every M1 paired root. Times sum four sessions in seconds; each row gives its direct cut-policy ratios.",
+    "status": "selected native LaTeX table"
+  },
+  "s05_natural": {
+    "id": "S15",
+    "kind": "table",
+    "label": "tab:natural",
+    "asset": "tables/s05_natural.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Other historical natural LOCAL/WHOLE panels with their original units, clocks and estimators.",
+    "status": "selected native LaTeX table"
+  },
+  "s04_ledger": {
+    "id": "S16",
+    "kind": "table",
+    "label": "tab:ledger",
+    "asset": "tables/s04_ledger.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Request-role accounting. Timing-table scope and full-campaign completion are distinct.",
+    "status": "selected native LaTeX table"
+  },
+  "s08_access": {
+    "id": "S17",
+    "kind": "table",
+    "label": "tab:access",
+    "asset": "tables/s08_access.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Numerical evidence scope: original-machine comparisons and the independently readable saved-object subset.",
+    "status": "selected native LaTeX table"
+  },
+  "s09_pilot": {
+    "id": "S18",
+    "kind": "table",
+    "label": "tab:pilot",
+    "asset": "tables/s09_pilot.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "The separate B570 draft-placement pilot: two roots, one round and a predeclared complete-service stop.",
+    "status": "selected native LaTeX table"
+  },
+  "s12_historical_geometry": {
+    "id": "S19",
+    "kind": "table",
+    "label": "tab:historical-geometry",
+    "asset": "tables/s12_historical_geometry.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Earlier Vulkan geometry observations, including slower LOCAL cells and their original fixed-cell summaries.",
+    "status": "selected native LaTeX table"
+  },
+  "s13_historical_applications": {
+    "id": "S20",
+    "kind": "table",
+    "label": "tab:historical-applications",
+    "asset": "tables/s13_historical_applications.tex",
+    "caption_source": "table_design/captions.json",
+    "caption": "Historical resident effects and the separate worker lifetime. Fastest resident and worker controls are selected within their own measured configurations.",
+    "status": "selected native LaTeX table"
+  }
+}

@@ -1,0 +1,1055 @@
+{
+  "layout_coordinates": "PostScript points measured from top left",
+  "source_notes": "INTEGRATION_NOTES.md",
+  "marks": [
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/99-0013",
+      "kind": "paired_root_seconds",
+      "x": 250.460092701338,
+      "y": 42.0,
+      "key": "259/C4_C1/CodeContests/train/99/C1_geomean_s",
+      "shape": "s",
+      "value": 8.647156003927694,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/99-0014",
+      "kind": "paired_root_seconds",
+      "x": 182.45784998616722,
+      "y": 42.0,
+      "key": "259/C4_C1/CodeContests/train/99/C4_geomean_s",
+      "shape": "o",
+      "value": 5.764111612316767,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/93-0016",
+      "kind": "paired_root_seconds",
+      "x": 248.06516259333222,
+      "y": 50.8,
+      "key": "259/C4_C1/CodeContests/train/93/C1_geomean_s",
+      "shape": "s",
+      "value": 8.54561979658367,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/93-0017",
+      "kind": "paired_root_seconds",
+      "x": 180.92118915839814,
+      "y": 50.8,
+      "key": "259/C4_C1/CodeContests/train/93/C4_geomean_s",
+      "shape": "o",
+      "value": 5.698962858328399,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/27-0019",
+      "kind": "paired_root_seconds",
+      "x": 214.33693018023212,
+      "y": 59.6,
+      "key": "259/C4_C1/MATH/algebra/train/27/C1_geomean_s",
+      "shape": "s",
+      "value": 7.115667085982191,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/27-0020",
+      "kind": "paired_root_seconds",
+      "x": 159.86693871774577,
+      "y": 59.6,
+      "key": "259/C4_C1/MATH/algebra/train/27/C4_geomean_s",
+      "shape": "o",
+      "value": 4.806340259001203,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/25-0022",
+      "kind": "paired_root_seconds",
+      "x": 218.1096632698085,
+      "y": 68.4,
+      "key": "259/C4_C1/MATH/algebra/train/25/C1_geomean_s",
+      "shape": "s",
+      "value": 7.2756170602868115,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/25-0023",
+      "kind": "paired_root_seconds",
+      "x": 165.05299766684143,
+      "y": 68.4,
+      "key": "259/C4_C1/MATH/algebra/train/25/C4_geomean_s",
+      "shape": "o",
+      "value": 5.026210039331526,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/20-0025",
+      "kind": "paired_root_seconds",
+      "x": 228.17253541732805,
+      "y": 77.2,
+      "key": "259/C4_C1/MATH/algebra/train/20/C1_geomean_s",
+      "shape": "s",
+      "value": 7.702245741195474,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/20-0026",
+      "kind": "paired_root_seconds",
+      "x": 173.1709554133337,
+      "y": 77.2,
+      "key": "259/C4_C1/MATH/algebra/train/20/C4_geomean_s",
+      "shape": "o",
+      "value": 5.370381519827973,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/4-0028",
+      "kind": "paired_root_seconds",
+      "x": 247.87046155627118,
+      "y": 86.0,
+      "key": "259/C4_C1/MATH/algebra/train/4/C1_geomean_s",
+      "shape": "s",
+      "value": 8.537365190404124,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/4-0029",
+      "kind": "paired_root_seconds",
+      "x": 192.70421812040226,
+      "y": 86.0,
+      "key": "259/C4_C1/MATH/algebra/train/4/C4_geomean_s",
+      "shape": "o",
+      "value": 6.198519846579266,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/46-0031",
+      "kind": "paired_root_seconds",
+      "x": 224.83364522832835,
+      "y": 94.80000000000001,
+      "key": "259/C4_C1/MATH/algebra/train/46/C1_geomean_s",
+      "shape": "s",
+      "value": 7.560689106454474,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/46-0032",
+      "kind": "paired_root_seconds",
+      "x": 177.28971079209856,
+      "y": 94.80000000000001,
+      "key": "259/C4_C1/MATH/algebra/train/46/C4_geomean_s",
+      "shape": "o",
+      "value": 5.545001563535976,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/240-0034",
+      "kind": "paired_root_seconds",
+      "x": 266.0799936806297,
+      "y": 103.60000000000001,
+      "key": "259/C4_C1/CodeContests/train/240/C1_geomean_s",
+      "shape": "s",
+      "value": 9.309382220561258,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/240-0035",
+      "kind": "paired_root_seconds",
+      "x": 208.24349092718097,
+      "y": 103.60000000000001,
+      "key": "259/C4_C1/CodeContests/train/240/C4_geomean_s",
+      "shape": "o",
+      "value": 6.857327725944999,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:MATH/algebra/train/0-0037",
+      "kind": "paired_root_seconds",
+      "x": 278.7691607698013,
+      "y": 112.4,
+      "key": "259/C4_C1/MATH/algebra/train/0/C1_geomean_s",
+      "shape": "s",
+      "value": 9.847356124802637,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:MATH/algebra/train/0-0038",
+      "kind": "paired_root_seconds",
+      "x": 221.42230400647256,
+      "y": 112.4,
+      "key": "259/C4_C1/MATH/algebra/train/0/C4_geomean_s",
+      "shape": "o",
+      "value": 7.416060815020956,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/161-0040",
+      "kind": "paired_root_seconds",
+      "x": 291.87054105678897,
+      "y": 121.2,
+      "key": "259/C4_C1/CodeContests/train/161/C1_geomean_s",
+      "shape": "s",
+      "value": 10.40280634895142,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/161-0041",
+      "kind": "paired_root_seconds",
+      "x": 231.90633410324756,
+      "y": 121.2,
+      "key": "259/C4_C1/CodeContests/train/161/C4_geomean_s",
+      "shape": "o",
+      "value": 7.860545040322017,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/279-0043",
+      "kind": "paired_root_seconds",
+      "x": 361.2767330198776,
+      "y": 130.0,
+      "key": "259/C4_C1/CodeContests/train/279/C1_geomean_s",
+      "shape": "s",
+      "value": 13.345373012824306,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/279-0044",
+      "kind": "paired_root_seconds",
+      "x": 290.94429850108014,
+      "y": 130.0,
+      "key": "259/C4_C1/CodeContests/train/279/C4_geomean_s",
+      "shape": "o",
+      "value": 10.363537079308466,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1:CodeContests/train/173-0046",
+      "kind": "paired_root_seconds",
+      "x": 329.4803710618165,
+      "y": 138.8,
+      "key": "259/C4_C1/CodeContests/train/173/C1_geomean_s",
+      "shape": "s",
+      "value": 11.997324487413419,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4:CodeContests/train/173-0047",
+      "kind": "paired_root_seconds",
+      "x": 274.1807011027062,
+      "y": 138.8,
+      "key": "259/C4_C1/CodeContests/train/173/C4_geomean_s",
+      "shape": "o",
+      "value": 9.652822350898145,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-point-0048",
+      "kind": "legend",
+      "x": 7,
+      "y": 42,
+      "key": "point",
+      "shape": "s",
+      "value": null,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-point-0050",
+      "kind": "legend",
+      "x": 7,
+      "y": 54,
+      "key": "point",
+      "shape": "o",
+      "value": null,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/0-0066",
+      "kind": "root_ratio",
+      "x": 279.1596029640365,
+      "y": 208.9,
+      "key": "256/C1/B/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 0.9272044426631962,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/81-0067",
+      "kind": "root_ratio",
+      "x": 281.33023389637435,
+      "y": 210.45,
+      "key": "256/C1/B/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 0.9339175954459429,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/159-0068",
+      "kind": "root_ratio",
+      "x": 288.9594965497061,
+      "y": 212.0,
+      "key": "256/C1/B/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 0.957900750066105,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/counting_and_probability/train/35-0069",
+      "kind": "root_ratio",
+      "x": 293.388302330223,
+      "y": 213.55,
+      "key": "256/C1/B/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 0.972104560708439,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/geometry/train/701-0070",
+      "kind": "root_ratio",
+      "x": 297.97294075873924,
+      "y": 215.1,
+      "key": "256/C1/B/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 0.9870300487286273,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/129-0071",
+      "kind": "root_ratio",
+      "x": 299.1181630327218,
+      "y": 208.9,
+      "key": "256/C1/B/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 0.9907940043267734,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/algebra/train/917-0072",
+      "kind": "root_ratio",
+      "x": 299.1220056325901,
+      "y": 210.45,
+      "key": "256/C1/B/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 0.9908066577745693,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/algebra/train/320-0073",
+      "kind": "root_ratio",
+      "x": 299.52153954706563,
+      "y": 212.0,
+      "key": "256/C1/B/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 0.9921231809541177,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/algebra/train/355-0074",
+      "kind": "root_ratio",
+      "x": 302.1863878904899,
+      "y": 213.55,
+      "key": "256/C1/B/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 1.0009491070316443,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/116-0075",
+      "kind": "root_ratio",
+      "x": 302.28239686295245,
+      "y": 215.1,
+      "key": "256/C1/B/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 1.0012685480487553,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/geometry/train/545-0076",
+      "kind": "root_ratio",
+      "x": 302.54124543789544,
+      "y": 208.9,
+      "key": "256/C1/B/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 1.0021302969653874,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/counting_and_probability/train/398-0077",
+      "kind": "root_ratio",
+      "x": 303.1470616630002,
+      "y": 210.45,
+      "key": "256/C1/B/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 1.0041500578157139,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/108-0078",
+      "kind": "root_ratio",
+      "x": 303.6032374310675,
+      "y": 212.0,
+      "key": "256/C1/B/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 1.0056736111454228,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/algebra/train/337-0079",
+      "kind": "root_ratio",
+      "x": 304.82973501983605,
+      "y": 213.55,
+      "key": "256/C1/B/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 1.0097813873841721,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/geometry/train/387-0080",
+      "kind": "root_ratio",
+      "x": 308.5012853733494,
+      "y": 215.1,
+      "key": "256/C1/B/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 1.022178679773399,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/71-0081",
+      "kind": "root_ratio",
+      "x": 309.3071335103882,
+      "y": 208.9,
+      "key": "256/C1/B/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 1.0249199970280412,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/algebra/train/1050-0082",
+      "kind": "root_ratio",
+      "x": 309.3772892125668,
+      "y": 210.45,
+      "key": "256/C1/B/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 1.0251589988134926,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/geometry/train/567-0083",
+      "kind": "root_ratio",
+      "x": 311.2498152328059,
+      "y": 212.0,
+      "key": "256/C1/B/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 1.0315588333914747,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/124-0084",
+      "kind": "root_ratio",
+      "x": 314.6795632873577,
+      "y": 213.55,
+      "key": "256/C1/B/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 1.0433846561269084,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:MATH/prealgebra/train/316-0085",
+      "kind": "root_ratio",
+      "x": 315.3778358679794,
+      "y": 215.1,
+      "key": "256/C1/B/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 1.0458088706059403,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/6-0086",
+      "kind": "root_ratio",
+      "x": 315.889865533846,
+      "y": 208.9,
+      "key": "256/C1/B/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 1.0475900784385372,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/52-0087",
+      "kind": "root_ratio",
+      "x": 320.5203489675067,
+      "y": 210.45,
+      "key": "256/C1/B/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 1.063836635903889,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/60-0088",
+      "kind": "root_ratio",
+      "x": 320.8191826049118,
+      "y": 212.0,
+      "key": "256/C1/B/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 1.0648937398113785,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-C1/B:CodeContests/test/90-0089",
+      "kind": "root_ratio",
+      "x": 321.7903747934268,
+      "y": 213.55,
+      "key": "256/C1/B/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 1.0683365265058462,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f08_c4_initial-interval-0090",
+      "kind": "interval",
+      "x": 299.97346528336476,
+      "y": 206.2,
+      "x_hi": 308.56593397573135,
+      "key": "256/C1/B/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        0.9936144514802386,
+        1.0223983292572805
+      ]
+    },
+    {
+      "gid": "f08_c4_initial-point-0093",
+      "kind": "summary",
+      "x": 304.3614601417015,
+      "y": 206.2,
+      "key": "256/C1/B/ratio",
+      "shape": "D",
+      "value": 1.0082110683836147,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/algebra/train/917-0096",
+      "kind": "root_ratio",
+      "x": 196.54334206297054,
+      "y": 226.9,
+      "key": "256/C4/B/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 0.7045770873632743,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/counting_and_probability/train/398-0097",
+      "kind": "root_ratio",
+      "x": 204.48707056175192,
+      "y": 228.45,
+      "key": "256/C4/B/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 0.7234264216942772,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/algebra/train/337-0098",
+      "kind": "root_ratio",
+      "x": 208.13627470008484,
+      "y": 230.0,
+      "key": "256/C4/B/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 0.7322536906540681,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/algebra/train/320-0099",
+      "kind": "root_ratio",
+      "x": 210.97218378342777,
+      "y": 231.55,
+      "key": "256/C4/B/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 0.7391879439945301,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/geometry/train/567-0100",
+      "kind": "root_ratio",
+      "x": 215.34231615297898,
+      "y": 233.1,
+      "key": "256/C4/B/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 0.7500024016566722,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/6-0101",
+      "kind": "root_ratio",
+      "x": 245.6201784825591,
+      "y": 226.9,
+      "key": "256/C4/B/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 0.8294023006224296,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/159-0102",
+      "kind": "root_ratio",
+      "x": 246.47542643570708,
+      "y": 228.45,
+      "key": "256/C4/B/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 0.8317631714297883,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/81-0103",
+      "kind": "root_ratio",
+      "x": 246.99867566241443,
+      "y": 230.0,
+      "key": "256/C4/B/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 0.8332108879580837,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/124-0104",
+      "kind": "root_ratio",
+      "x": 251.52238226399874,
+      "y": 231.55,
+      "key": "256/C4/B/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 0.8458325268400294,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/geometry/train/387-0105",
+      "kind": "root_ratio",
+      "x": 254.70241206468594,
+      "y": 233.1,
+      "key": "256/C4/B/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 0.8548194321629533,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/geometry/train/701-0106",
+      "kind": "root_ratio",
+      "x": 254.82218557541606,
+      "y": 226.9,
+      "key": "256/C4/B/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 0.8551597770097467,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/71-0107",
+      "kind": "root_ratio",
+      "x": 258.82074382779774,
+      "y": 228.45,
+      "key": "256/C4/B/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 0.8666000710540185,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/0-0108",
+      "kind": "root_ratio",
+      "x": 259.8034503109186,
+      "y": 230.0,
+      "key": "256/C4/B/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 0.8694350479051814,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/116-0109",
+      "kind": "root_ratio",
+      "x": 262.2573581401759,
+      "y": 231.55,
+      "key": "256/C4/B/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 0.876554804224011,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/108-0110",
+      "kind": "root_ratio",
+      "x": 262.57480175216386,
+      "y": 233.1,
+      "key": "256/C4/B/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 0.8774800824753483,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/counting_and_probability/train/35-0111",
+      "kind": "root_ratio",
+      "x": 266.9280322051638,
+      "y": 226.9,
+      "key": "256/C4/B/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 0.890267768853113,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/52-0112",
+      "kind": "root_ratio",
+      "x": 267.91715790137965,
+      "y": 228.45,
+      "key": "256/C4/B/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 0.8931992273216934,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/algebra/train/1050-0113",
+      "kind": "root_ratio",
+      "x": 269.92625953492507,
+      "y": 230.0,
+      "key": "256/C4/B/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 0.899183323650541,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/129-0114",
+      "kind": "root_ratio",
+      "x": 271.0438296376409,
+      "y": 231.55,
+      "key": "256/C4/B/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 0.902529334778449,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/60-0115",
+      "kind": "root_ratio",
+      "x": 272.6150424344773,
+      "y": 233.1,
+      "key": "256/C4/B/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 0.9072546232913485,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/prealgebra/train/316-0116",
+      "kind": "root_ratio",
+      "x": 283.7000049254111,
+      "y": 226.9,
+      "key": "256/C4/B/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 0.9413021428374753,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/geometry/train/545-0117",
+      "kind": "root_ratio",
+      "x": 284.7972320849244,
+      "y": 228.45,
+      "key": "256/C4/B/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 0.9447410089558962,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:CodeContests/test/90-0118",
+      "kind": "root_ratio",
+      "x": 293.6130732134998,
+      "y": 230.0,
+      "key": "256/C4/B/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 0.9728310225870359,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-C4/B:MATH/algebra/train/355-0119",
+      "kind": "root_ratio",
+      "x": 295.3406365977809,
+      "y": 231.55,
+      "key": "256/C4/B/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 0.9784326773379506,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f08_c4_initial-interval-0120",
+      "kind": "interval",
+      "x": 242.9953776652394,
+      "y": 224.2,
+      "x_hi": 263.84501250472556,
+      "key": "256/C4/B/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        0.8221984244558403,
+        0.8811922506809683
+      ]
+    },
+    {
+      "gid": "f08_c4_initial-point-0123",
+      "kind": "summary",
+      "x": 253.54000292967726,
+      "y": 224.2,
+      "key": "256/C4/B/ratio",
+      "shape": "D",
+      "value": 0.851523393174273,
+      "fill": "white"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/algebra/train/917-0126",
+      "kind": "root_ratio",
+      "x": 199.32228644204434,
+      "y": 244.9,
+      "key": "256/C4/C1/MATH/algebra/train/917/ratio",
+      "shape": "o",
+      "value": 0.7111146073097759,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/counting_and_probability/train/398-0127",
+      "kind": "root_ratio",
+      "x": 203.2409589104156,
+      "y": 246.45,
+      "key": "256/C4/C1/MATH/counting_and_probability/train/398/ratio",
+      "shape": "o",
+      "value": 0.7204365682833468,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/algebra/train/337-0128",
+      "kind": "root_ratio",
+      "x": 205.20748969191266,
+      "y": 248.0,
+      "key": "256/C4/C1/MATH/algebra/train/337/ratio",
+      "shape": "o",
+      "value": 0.7251606137749909,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/geometry/train/567-0129",
+      "kind": "root_ratio",
+      "x": 205.99345093183695,
+      "y": 249.55,
+      "key": "256/C4/C1/MATH/geometry/train/567/ratio",
+      "shape": "o",
+      "value": 0.7270573208033861,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/algebra/train/320-0130",
+      "kind": "root_ratio",
+      "x": 213.3515942480261,
+      "y": 251.1,
+      "key": "256/C4/C1/MATH/algebra/train/320/ratio",
+      "shape": "o",
+      "value": 0.7450566201705504,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/6-0131",
+      "kind": "root_ratio",
+      "x": 231.63126296037694,
+      "y": 244.9,
+      "key": "256/C4/C1/CodeContests/test/6/ratio",
+      "shape": "o",
+      "value": 0.7917240891195506,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/124-0132",
+      "kind": "root_ratio",
+      "x": 238.74376898830485,
+      "y": 246.45,
+      "key": "256/C4/C1/CodeContests/test/124/ratio",
+      "shape": "o",
+      "value": 0.8106622249744388,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/geometry/train/387-0133",
+      "kind": "root_ratio",
+      "x": 248.10207670300048,
+      "y": 248.0,
+      "key": "256/C4/C1/MATH/geometry/train/387/ratio",
+      "shape": "o",
+      "value": 0.8362720227665613,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/52-0134",
+      "kind": "root_ratio",
+      "x": 249.29775894553674,
+      "y": 249.55,
+      "key": "256/C4/C1/CodeContests/test/52/ratio",
+      "shape": "o",
+      "value": 0.8396018685357515,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/71-0135",
+      "kind": "root_ratio",
+      "x": 251.41456032907337,
+      "y": 251.1,
+      "key": "256/C4/C1/CodeContests/test/71/ratio",
+      "shape": "o",
+      "value": 0.8455294789514277,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/60-0136",
+      "kind": "root_ratio",
+      "x": 253.69680984122928,
+      "y": 244.9,
+      "key": "256/C4/C1/CodeContests/test/60/ratio",
+      "shape": "o",
+      "value": 0.8519672802772301,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/geometry/train/701-0137",
+      "kind": "root_ratio",
+      "x": 258.7501948283406,
+      "y": 246.45,
+      "key": "256/C4/C1/MATH/geometry/train/701/ratio",
+      "shape": "o",
+      "value": 0.8663969026183752,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/159-0138",
+      "kind": "root_ratio",
+      "x": 259.4168798976649,
+      "y": 248.0,
+      "key": "256/C4/C1/CodeContests/test/159/ratio",
+      "shape": "o",
+      "value": 0.8683187390472219,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/108-0139",
+      "kind": "root_ratio",
+      "x": 260.87251433276026,
+      "y": 249.55,
+      "key": "256/C4/C1/CodeContests/test/108/ratio",
+      "shape": "o",
+      "value": 0.8725296883110346,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/116-0140",
+      "kind": "root_ratio",
+      "x": 261.8759112888873,
+      "y": 251.1,
+      "key": "256/C4/C1/CodeContests/test/116/ratio",
+      "shape": "o",
+      "value": 0.8754442611147798,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/algebra/train/1050-0141",
+      "kind": "root_ratio",
+      "x": 262.4499203340222,
+      "y": 244.9,
+      "key": "256/C4/C1/MATH/algebra/train/1050/ratio",
+      "shape": "o",
+      "value": 0.8771159641492154,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/81-0142",
+      "kind": "root_ratio",
+      "x": 267.569391777704,
+      "y": 246.45,
+      "key": "256/C4/C1/CodeContests/test/81/ratio",
+      "shape": "o",
+      "value": 0.8921674589075795,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/prealgebra/train/316-0143",
+      "kind": "root_ratio",
+      "x": 270.22311906909556,
+      "y": 248.0,
+      "key": "256/C4/C1/MATH/prealgebra/train/316/ratio",
+      "shape": "o",
+      "value": 0.900070910941964,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/90-0144",
+      "kind": "root_ratio",
+      "x": 273.7236484317367,
+      "y": 249.55,
+      "key": "256/C4/C1/CodeContests/test/90/ratio",
+      "shape": "o",
+      "value": 0.9106035396625672,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/129-0145",
+      "kind": "root_ratio",
+      "x": 273.826616616583,
+      "y": 251.1,
+      "key": "256/C4/C1/CodeContests/test/129/ratio",
+      "shape": "o",
+      "value": 0.9109152163185539,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/counting_and_probability/train/35-0146",
+      "kind": "root_ratio",
+      "x": 275.4406798866047,
+      "y": 244.9,
+      "key": "256/C4/C1/MATH/counting_and_probability/train/35/ratio",
+      "shape": "o",
+      "value": 0.9158148257264774,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:CodeContests/test/0-0147",
+      "kind": "root_ratio",
+      "x": 282.544797358546,
+      "y": 246.45,
+      "key": "256/C4/C1/CodeContests/test/0/ratio",
+      "shape": "o",
+      "value": 0.9376950841692642,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/geometry/train/545-0148",
+      "kind": "root_ratio",
+      "x": 284.15693665869287,
+      "y": 248.0,
+      "key": "256/C4/C1/MATH/geometry/train/545/ratio",
+      "shape": "o",
+      "value": 0.9427327083281734,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-C4/C1:MATH/algebra/train/355-0149",
+      "kind": "root_ratio",
+      "x": 295.0551987189547,
+      "y": 249.55,
+      "key": "256/C4/C1/MATH/algebra/train/355/ratio",
+      "shape": "o",
+      "value": 0.977504920544395,
+      "fill": "#A95524"
+    },
+    {
+      "gid": "f08_c4_initial-interval-0150",
+      "kind": "interval",
+      "x": 240.5897413807507,
+      "y": 242.2,
+      "x_hi": 261.3254407885246,
+      "key": "256/C4/C1/ci95_ratio",
+      "shape": "capped-line",
+      "value": [
+        0.8156510194626566,
+        0.873844102950264
+      ]
+    },
+    {
+      "gid": "f08_c4_initial-point-0153",
+      "kind": "summary",
+      "x": 251.07949279963958,
+      "y": 242.2,
+      "key": "256/C4/C1/ratio",
+      "shape": "D",
+      "value": 0.8445884199024448,
+      "fill": "white"
+    }
+  ]
+}

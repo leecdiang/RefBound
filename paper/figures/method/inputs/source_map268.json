@@ -1,0 +1,215 @@
+{
+  "review_date": "2026-11-17",
+  "sources": [
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/inherited/resident_context.hpp",
+      "source_sha256": "66a912d3320f9761093d76b77b0dddffae040bc20a67cbdf43fc04298add4a01",
+      "lines": [
+        19,
+        36
+      ],
+      "function_or_type": "PhaseContext::decode",
+      "supports": "native requirements and SIMPLE vs LOCAL outer partition",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/inherited/resident_context.hpp",
+      "source_sha256": "66a912d3320f9761093d76b77b0dddffae040bc20a67cbdf43fc04298add4a01",
+      "lines": [
+        40,
+        60
+      ],
+      "function_or_type": "PhaseContext::decode",
+      "supports": "requested rows copied immediately after synchronized native calls",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/inherited/phase_plan.hpp",
+      "source_sha256": "d379ba5518dd03c6d6439ad5024a957af0f1b71d92f062688bc8cc1de52935b5",
+      "lines": [
+        36,
+        52
+      ],
+      "function_or_type": "refplan::plan",
+      "supports": "adjacent equal extent/arithmetic-tag whole-call grouping",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/inherited/phase_plan.hpp",
+      "source_sha256": "d379ba5518dd03c6d6439ad5024a957af0f1b71d92f062688bc8cc1de52935b5",
+      "lines": [
+        54,
+        96
+      ],
+      "function_or_type": "OutputRows/Identity/OnlineWork",
+      "supports": "auxiliary definitions; no runtime instantiation in this frontend",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/native.cpp",
+      "source_sha256": "431cd4a9f5dcfa155f31b17c2e176ac2907166de2438c08f0a45e51f7eacf75b",
+      "lines": [
+        115,
+        139
+      ],
+      "function_or_type": "Context::decode",
+      "supports": "actual dispatch to PhaseContext and owned rows returned",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/native.cpp",
+      "source_sha256": "431cd4a9f5dcfa155f31b17c2e176ac2907166de2438c08f0a45e51f7eacf75b",
+      "lines": [
+        157,
+        179
+      ],
+      "function_or_type": "Context::trim and reference_commit",
+      "supports": "canonical suffix trim; independently implemented scalar-reference commit",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/local_replay.inc",
+      "source_sha256": "3b5c8b4950ad08d4cf37f9a59543ad11c3b9e865d30fbe9eb8206422c65c2511",
+      "lines": [
+        30,
+        60
+      ],
+      "function_or_type": "local_request",
+      "supports": "immutable profile, P4 disabled, reference/candidate forward",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/local_replay.inc",
+      "source_sha256": "3b5c8b4950ad08d4cf37f9a59543ad11c3b9e865d30fbe9eb8206422c65c2511",
+      "lines": [
+        75,
+        121
+      ],
+      "function_or_type": "local_request",
+      "supports": "two transactions; per-call complete owned rows; own commit feeds continuation",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/9398a857e8cbfc8fbe3f35b1f7b6876b65a533d1/benchmarks/a5000_local_boundary_20261117/results/RAW_TEXT.tar.xz",
+      "archive_member": "host/candidate-04/source/src/transaction.hpp",
+      "source_sha256": "f6ab6d5aaeb893c4242d99cefe6ec857cd0e330fbc6bcce37fc4e81455c99cd8",
+      "lines": [
+        17,
+        49
+      ],
+      "function_or_type": "real_sd::select",
+      "supports": "accepted prefix, rejection, correction/bonus, EOG/cap, keep/pending",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/src/llama-graph.cpp",
+      "source_sha256": "772e7b3f572f6ad6b013f40e8d8bb4e87aa3d053c58cbfbcc39f914d666d6c41",
+      "lines": [
+        501,
+        514
+      ],
+      "function_or_type": "llm_graph_input_attn_kv::can_reuse",
+      "supports": "reference policy plus full prefix extent vector",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/src/llama-graph.cpp",
+      "source_sha256": "772e7b3f572f6ad6b013f40e8d8bb4e87aa3d053c58cbfbcc39f914d666d6c41",
+      "lines": [
+        1574,
+        1634
+      ],
+      "function_or_type": "llm_graph_context::build_lora_mm",
+      "supports": "C4 q2-4, channel C, P4 wide markers, Q8 loop4 branch",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/src/llama-graph.cpp",
+      "source_sha256": "772e7b3f572f6ad6b013f40e8d8bb4e87aa3d053c58cbfbcc39f914d666d6c41",
+      "lines": [
+        2738,
+        2778
+      ],
+      "function_or_type": "llm_graph_context::build_attn_mha",
+      "supports": "query outer-dimensional layout preserves per-query one-column matmul",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/src/llama-graph.cpp",
+      "source_sha256": "772e7b3f572f6ad6b013f40e8d8bb4e87aa3d053c58cbfbcc39f914d666d6c41",
+      "lines": [
+        3030,
+        3095
+      ],
+      "function_or_type": "llm_graph_context::build_attn",
+      "supports": "KV writes; physical run views; mask contiguity and attention concat",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/ggml/src/ggml-cuda/hs_native4_ref1.hpp",
+      "source_sha256": "5291e58d75e20e26f9a70d6a89901127dd309dd11ce92a8aa7daa818a44724b6",
+      "lines": [
+        7,
+        49
+      ],
+      "function_or_type": "hs_native4_require",
+      "supports": "immutable P4 config, supported width/types/strides and alignment guards",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/ggml/src/ggml-cuda/mmvq.cu",
+      "source_sha256": "cde75d6d31c16fd262e965ea24febdb3e2cf8de1ffd3b2699a5b2a859c68338c",
+      "lines": [
+        1459,
+        1536
+      ],
+      "function_or_type": "ggml_cuda_mul_mat_vec_q",
+      "supports": "Q8_1 preparation reused, four-column groups only at launch boundary",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    },
+    {
+      "source_head": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+      "archive_url": "https://github.com/leecdiang/HeteroSpec/blob/7deb9aa28a934878837d3d74be8ed14bc374809a/benchmarks/three_platform_closeout_20261116/prefill_p4/results_a5000_20261116/formal/RAW_TEXT.tar.xz",
+      "archive_member": "./data/core_source/ggml/src/ggml-cuda/ggml-cuda.cu",
+      "source_sha256": "60b923d536271084ffb1729e59b9bb1d2a1b1f09b4e9a6fc94ce547abfbfc15b",
+      "lines": [
+        1779,
+        1818
+      ],
+      "function_or_type": "ggml_cuda_should_fuse_mul_mat_vec_q",
+      "supports": "fusion gate supports only ncols_dst=1; q1 vs q4 changes fusion",
+      "level": "directly inspected in Git-blob-bound public archive; source/CPU only"
+    }
+  ],
+  "source_archive_identity_note": "#260 uses #257 numerical archives with P4 disabled, not #259 bridge archives. Source parent ancestry alone is not execution identity.",
+  "qualification_note": "CPU source-chain review is not new GPU or full raw-tensor qualification."
+}

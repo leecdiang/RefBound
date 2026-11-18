@@ -1,0 +1,45 @@
+\section{Local Attention Refinement and State Continuation}
+\label{sec:method}
+
+\subsection{From two partitions to one decoder transaction}
+An outer call retains known queries that the surrounding decoder can process together. Within each layer, attention refines that call into its required physical views. Algorithm~\ref{alg:lowering} binds the two partitions to a complete transaction: the reference profile supplies admitted numerical recipes, the live cache supplies each query's geometry, and the consumer determines which outputs and state survive.
+
+\begin{algorithm}[tbp]
+\caption{Execute known queries under a registered reference profile}
+\label{alg:lowering}
+\small
+\textbf{Inputs:} profile $R$, admitted recipes, incoming active KV and consumer state $s$, contiguous known rows $Q$, requested logical rows $O$, and fixed execution policy.
+\begin{enumerate}
+\item \textbf{Plan.} Validate cache, positions, capacity and output reserve; obtain each row's reference extent. Form outer calls of at most 32 rows: \Simple{} ends at incompatible physical requirements; \Local{} retains the group across them.
+\item \textbf{Execute each outer call.} Reuse its graph only if the complete extent vector, reference policy, shape and mask checks match. In each layer:
+\begin{enumerate}
+\item Execute admitted projections and write current K/V.
+\item Form adjacent compatible attention runs; slice Q/K/V and mask views, materialize noncontiguous masks, and execute admitted query tiles.
+\item Join attention outputs in logical order before output projection and the remaining layer operations.
+\end{enumerate}
+Synchronize and copy every requested complete vocabulary vector into its owned logical slot before the next native call.
+\item \textbf{Commit.} Apply the registered consumer to owned rows; trim tentative KV, retain the accepted materialized prefix, and record pending token and termination. Return owned outputs and committed state for the successor's next plan.
+\end{enumerate}
+\end{algorithm}
+
+In the selected A5000 example, a pending seed and three frozen proposals occupy positions 253--256, with extents $[256,256,256,512]$. \Simple{} calls the complete decoder on three rows and then one. \Local{} calls it on four rows and places the $3+1$ refinement inside attention (Figure~\ref{fig:construction}), retaining the admitted four-column projection.
+
+\paperfigure{f02_local_lowering}{Local lowering at the selected A5000 32B crossing with frozen proposals (C4 on, P4 off). (a) SIMPLE splits the whole decoder into q3+q1 calls; LOCAL retains q4 projections and FFN around $3+1$ attention views. Spans encode query membership. (b) SIMPLE's owned row supplies the rejection correction after native storage is reused. (c) LOCAL's successor starts from its own commit and rebuilds views when the full extent vector changes.}{Three panels show the crossing construction, a rejected proposal and the successor guard. At positions 253 to 256, SIMPLE makes q3 and q1 decoder calls while LOCAL makes a q4 call with 3+1 attention views and rejoins before output projection and FFN. SIMPLE preserves its first call's owned logit row z1 by synchronization and copying. Rejection leaves KV positions 0 to 254 and a correction pending at 255. LOCAL continues from its own commit at positions 255 to 258, rebuilds 1+3 views after the full extent vector changes, and leaves the bonus selected from z3 pending at 259. Box spans encode query membership, not time or memory size; the two policy arms are alternatives.}{fig:construction}
+
+\subsection{Preserve groups around the attention refinement}
+Each layer computes its admitted projections and writes current keys and values to the canonical cache before attention reads them. Attention derives adjacent compatible runs from the complete extent vector and bound view descriptors. It slices Q, K, V and the mask, materializing a contiguous mask where required, and tiles each run at the admitted width, at most four queries in the exercised layout. Queries occupy an outer dimension while each retains its one-column attention matrix operation.
+
+Ordered concatenation returns the results to logical query order before output projection and feed-forward computation. Normalization, residual connections and inherited layer operations follow the reference profile. \Simple{} instead refines the whole call at each incompatible descriptor and can restart a group after the boundary. Both policies request identical logical rows. Preserving q4 instead of q3+q1 changes dispatch, fusion opportunities and launches along with view placement; the direct comparison measures this complete lowering, including views, copies, joins and synchronization.
+
+\subsection{Own the row that survives a rejection}
+Native output storage can be overwritten by the next decoder call. After each synchronized call, the frontend therefore copies every requested complete vocabulary vector into its logical slot. Under \Simple{}, rows from the first subcall remain available after the second executes.
+
+In the first transaction, row 0 accepts proposal 1 and row 1 rejects proposal 2. Row 1 supplies the correction. The consumer keeps materialized positions 0--254, trims the rejected suffix, and leaves the correction pending at position 255. This row originated in SIMPLE's three-row subcall; the last one-row subcall belongs to a different conditional history. Selecting its final native buffer would violate the consumer interface even if every operator computed its own row correctly.
+
+The successor materializes the pending correction and three new proposals at positions 255--258, starting from the preceding transaction's committed state in the same arm. All three proposals are accepted, row 3 supplies the bonus token, the retained materialized length becomes 259, and the bonus remains pending at 259. Output ownership and commit preserve the history consumed by the next transaction.
+
+\subsection{Bind reuse to the successor's actual views}
+The successor's extent vector is $[256,512,512,512]$, requiring $1+3$ attention views. Query count, maximum extent, and reference policy match the first transaction, but the changed extent vector prevents reuse of the old $3+1$ views. The predicate compares the complete \texttt{prefix\_n\_kv} vector and \texttt{reference\_policy}, together with inherited shape and mask checks; a mismatch rebuilds the affected structure. LOCAL/SIMPLE and packing choices are fixed within a worker, with context modes set at decode boundaries. The guard checks structural identity; commit supplies the corresponding active KV values.
+
+\subsection{Composition from operator outputs to successor state}
+Assume equal incoming state, reference-equivalent outputs and KV writes from every affected admitted operator, complete ordered row partitions, correct ownership, and the same consumer transition. Induction along the decoder graph preserves the values consumed by subsequent nodes. Reassembly preserves row identity; owned copies retain each complete vocabulary vector. Equal vectors yield equal greedy decisions, and the same trim, pending-token and stopping rules yield equal successor state. The argument then applies at the next boundary. Prior stateful contracts provide this composition framework~\cite{vosti}; here it connects differing operator partitions to the inherited consumer. The implementation below binds its operator premises to executable paths and checks complete vectors and successor state.

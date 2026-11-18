@@ -1,0 +1,42 @@
+HeteroSpec — named author-review / future arXiv source edition
+Entry point: main.tex. Compile from the package root.
+Author: Chengzhan Li. Target journal: ACM TACO.
+Class options: acmsmall,screen,nonacm; bundled acmart.cls 2026/11/01 v2.21.
+This package prepares a later author-authorized arXiv update; it is not a submission.
+
+Original fonts and layout are required. Tested local runtime: pdfTeX 1.40.26,
+TeX Live 2025/dev/Debian; BibTeX 0.99d. Packages include Libertine 2024-04-23,
+zi4 1.12 and newtxmath 1.754, with their original font mappings.
+No substitute font, class modification, shell escape, or disabled layout feature
+is required. The actual package/font dependency hashes and logs are in the full
+repository delivery under review/build/.
+
+Build with the supplied matching main.bbl (no bibliography regeneration needed):
+  pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+  pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+  pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+
+Optional bibliography rebuild, independently checked against the supplied bbl:
+  bibtex main
+  pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+  pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -file-line-error main.tex
+
+For the reproducible local timestamps used in the delivery:
+  SOURCE_DATE_EPOCH=1794960000 FORCE_SOURCE_DATE=1 TZ=UTC
+
+The package includes all 11 section files, 8 vector figure PDFs, 27 native TeX
+tables, references.bib, matching main.bbl, acmart.cls and ACM-Reference-Format.bst.
+It uses relative paths and needs no original workspace, raw experiment archive,
+SVG converter, network access or GPU/model execution.
+
+Official guidance checked 2026-11-18:
+  https://info.arxiv.org/help/submit_tex.html
+  https://info.arxiv.org/help/faq/texlive.html
+arXiv currently defaults to TeX Live 2025, snapshot 2025-08-03. Its current
+submission system supports .bib and gives an existing matching .bbl precedence.
+The local Debian/user-font runtime is not the exact arXiv production stack.
+During a future authorized update, select PDFLaTeX, main.tex, and review every
+page of the arXiv-generated PDF before completing the update.
+
+MANIFEST.json lists the SHA-256 and size of every source payload except itself.
+No main.pdf, .aux, .log, .out, .fls or .blg output is included in this ZIP.

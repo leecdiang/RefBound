@@ -1,0 +1,43 @@
+{
+  "input_binding": {
+    "f03_transaction": "#276 arxiv_source.zip tables/s01_local_pairs.tex and tables/s02_diagnostics.tex; cell values read verbatim",
+    "f06_b570": "#276 scientific_data.zip data/plot_data.json modern[pr=247] root_effects and ci95_ratio",
+    "f08_c4_initial": "#276 scientific_data.zip data/plot_data.json modern[pr=259,256]; paired_request_times.csv for root means"
+  },
+  "figure_marks": [
+    "results/f03_transaction_marks.csv",
+    "results/f06_b570_marks.csv",
+    "results/f08_c4_initial_marks.csv"
+  ],
+  "layout_notes": {
+    "f03_transaction": "four first-transaction pairs (two histories by two repeats), plus independently clocked projection/attention events; four dependent successors stay in Table S1",
+    "f06_b570": "three comparison rows, each with 24 root ratios, an equal-root diamond, exact CI, and numeric limits on one continuous log scale",
+    "f08_c4_initial": "(a) 12 A5000 root pairs in seconds; (b) 24 initial RTX root ratios per contrast; each study has two rounds and remains separate"
+  },
+  "figures": [
+    {
+      "stem": "f03_transaction",
+      "width_pt": 394.34400000000005,
+      "height_pt": 276,
+      "min_font_pt": 7.6,
+      "editable_text_labels": 41,
+      "marks": 16
+    },
+    {
+      "stem": "f06_b570",
+      "width_pt": 394.34400000000005,
+      "height_pt": 208,
+      "min_font_pt": 7.9,
+      "editable_text_labels": 22,
+      "marks": 80
+    },
+    {
+      "stem": "f08_c4_initial",
+      "width_pt": 394.34400000000005,
+      "height_pt": 292,
+      "min_font_pt": 7.6,
+      "editable_text_labels": 25,
+      "marks": 104
+    }
+  ]
+}

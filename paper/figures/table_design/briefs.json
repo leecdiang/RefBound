@@ -1,0 +1,272 @@
+{
+  "1": {
+    "title": "Target-projection dispatch in three RTX paths",
+    "page": 6,
+    "lookup": "Compare invocations and columns per group for B, C1 and C4; the last row describes the shared preparation. Read across one MMVQ operation only.",
+    "method": "One examined MMVQ operation after identical Q8_1 activation preparation. The invocation counts describe dispatch organization, not a claimed count of physical GPU launches or request latency.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Target-projection dispatch in the independent RTX B/C1/C4 studies. All three paths begin after the same Q8\\_1 activation preparation; counts refer to one examined MMVQ operation."
+  },
+  "2": {
+    "title": "Numerical qualification of the bound CUDA paths",
+    "page": 7,
+    "lookup": "Each row is a bound profile and the numerical objects actually exercised. The boundary column says what was not checked.",
+    "method": "Original-machine complete-object comparisons on the named CUDA profiles; saved public objects are a subset.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Numerical qualification of the bound CUDA paths. These are original-machine complete-object checks; Table~\\ref{tab:access} distinguishes the independently readable public subset."
+  },
+  "3": {
+    "title": "Deployment profiles for the principal studies",
+    "page": 8,
+    "lookup": "Rows bind a study to target/draft models, backend and placement. Context and execution settings are part of the row.",
+    "method": "Deployment register values. Context is C1024 except the noted C4096 case; model identities include quantization.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Deployment profiles for the principal studies. Context is C1024 except A5000 confirmation B (C4096). The artifact deployment register binds compiler, driver, placement and model identities."
+  },
+  "4": {
+    "title": "Sampling and workload boundaries by study",
+    "page": 9,
+    "lookup": "Follow one study row: roots, repeats, arms, input/output units and the number of measured observations. Footnotes mark dependent successors and clocks.",
+    "method": "Prompt or selected history tokens in; generated tokens or requested rows out. Rounds stay within root and time block.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Sampling and workloads by independent study. Inputs are prompt tokens or selected LOCAL history lengths; outputs are generated tokens or requested rows. Repeated rounds remain within their root and time block. NR denotes an unreported field in the earlier RTX normalized table."
+  },
+  "5": {
+    "title": "M1 native service and direct effects",
+    "page": 14,
+    "lookup": "Each projection row reports WHOLE/LOCAL native-service totals, the direct LOCAL/WHOLE time reduction, and its 99% interval side by side.",
+    "method": "Sixteen roots, four sessions per root, 64 measured requests per cell. Effects use sums over the same roots and sessions.",
+    "reading": "The 20 removed calls per 2,224 logical cycles describe a 0.90% opportunity frequency, not a service speedup. Direct effects use ratios of totals; the root-geometric interaction is a separate estimand.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "M1 factorial: 16 roots and four sessions per root, with 64 measured requests per cell. Each projection row reports native-service totals and its direct LOCAL/WHOLE time reduction. Intervals are 99\\% marginal members of the five-comparison Bonferroni family; Table~\\ref{tab:m1-family} retains the complete family."
+  },
+  "6": {
+    "title": "Natural 8B confirmation: effects and blocks",
+    "page": 14,
+    "lookup": "The primary row weights the two fixed conversations equally. C0/C1 rows show direct effects and outer physical target invocations per two-turn episode; the counts are not per-layer projections or GPU kernels.",
+    "method": "Two fixed conversations and 12 paired time blocks. The complete two-turn response-plus-reset clock includes common consumer work. Native dispatch physical_calls and width histograms give C0 263/263 calls and 508/508 rows, C1 273/272 calls and 809/809 rows.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Natural 8B target-only confirmation: effects and individual 95\\% whole-time-block intervals over two fixed conversations and 12 paired blocks. The primary estimate weights conversations equally within each block. All block values and direction counts remain in Section~\\ref{supp:confirmation}."
+  },
+  "7": {
+    "title": "Reference selection and state handoff in related systems",
+    "page": 16,
+    "lookup": "Read horizontally: what each system fixes, what it still lets vary, and where state passes to the consumer. This is a design comparison, not a measured ranking.",
+    "method": "Invariants and handoff contracts stated by the cited systems. No new measurement is introduced.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection keeps the original four-column design comparison and only repairs the citation wrap.",
+    "caption": "Reference selection, retained execution freedom, and state handoff in the closest systems."
+  },
+  "S1": {
+    "title": "Every original LOCAL pair, including successors",
+    "page": 21,
+    "lookup": "Rows are clean verify-through-commit milliseconds; ratio is LOCAL/SIMPLE. A successor starts from its own arm’s commit and is not an independent repeat.",
+    "method": "One root, two histories and two paired repeats supply four first-transaction pairs; successors depend on their own first commit.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Every original LOCAL pair, including successors from each arm's own committed state."
+  },
+  "S2": {
+    "title": "Independent device-event diagnostics",
+    "page": 21,
+    "lookup": "Each column is a separate profiler run. Event counts and event-clock milliseconds are not added to the wall clock.",
+    "method": "Independent profiler output for both selected first-transaction histories, Noncrossing (base 137) and Crossing (base 253); event counts and durations retain their own instrumentation clock.",
+    "reading": "The profiler clock is not the transaction wall clock. Counts locate work; they do not apportion complete-request time.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "Event counts and event-clock times remain separate; no wall-clock total is implied.",
+    "caption": "Independent device-event diagnostics for the two first-transaction histories. Times and counts use the profiler's own clock."
+  },
+  "S3": {
+    "title": "All six A5000 confirmation endpoints",
+    "page": 22,
+    "lookup": "Six prespecified endpoints on the A5000 confirmation alone. The interaction is a ratio of ratios, not a time difference.",
+    "method": "A5000 confirmation: 12 joint time blocks, six endpoints, whole-block bootstrap intervals.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "All six A5000 confirmation endpoints and their prespecified roles. The interaction is a ratio of ratios."
+  },
+  "S4": {
+    "title": "Every 32B confirmation pair",
+    "page": 22,
+    "lookup": "Twelve paired time blocks for each 32B history. Times are milliseconds; ratios above one mean LOCAL took longer.",
+    "method": "Verification through trim/commit and synchronization with C4 on, P4 off and frozen proposals.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Every 32B confirmation pair: first-transaction verification-through-commit milliseconds. Noncrossing is primary and crossing supporting."
+  },
+  "S5": {
+    "title": "Every natural 8B confirmation pair",
+    "page": 23,
+    "lookup": "Twelve paired blocks for each fixed conversation. Times are seconds; ratios above one mean LOCAL took longer.",
+    "method": "Two-turn response plus reset, including common CPU sampling and control.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Every 8B confirmation pair: complete two-turn response-plus-reset seconds. C0/C1 identify conversations in this panel."
+  },
+  "S6": {
+    "title": "Phase account within the 8B confirmation clock",
+    "page": 23,
+    "lookup": "Mean component differences LOCAL minus SIMPLE within the response-plus-reset clock; negative values save time.",
+    "method": "The same B confirmation episodes as the endpoint table; component means close to the service difference before rounding.",
+    "reading": "Retain all signed LOCAL-minus-SIMPLE arithmetic phase differences and residuals. They are not a strict decomposition of geometric endpoint effects.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Arithmetic mean LOCAL-minus-SIMPLE phase differences in milliseconds within the registered response-plus-reset clock."
+  },
+  "S7": {
+    "title": "RTX confirmation effects and roles",
+    "page": 24,
+    "lookup": "Three RTX contrasts with their roles. Intervals are crossed root/time-block intervals from 10,000 draws.",
+    "method": "864 formal measured requests; two log ratios averaged within each root/block, 10,000 crossed draws.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "RTX confirmation primary and descriptive complete-request estimates, with crossed root/time-block intervals."
+  },
+  "S8": {
+    "title": "All six RTX time blocks in execution order",
+    "page": 25,
+    "lookup": "Columns are time blocks in execution order; rows are contrasts. Cells are within-block geometric ratios from the same formal measured requests, not six new input samples.",
+    "method": "Equal root weight and equal log weight to the two paired rounds inside each block.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The six temporal summaries are labelled as summaries of the same 864 requests, not as replication.",
+    "caption": "All six RTX time blocks in execution order: within-block geometric time ratios."
+  },
+  "S9": {
+    "title": "All 24 RTX roots",
+    "page": 25,
+    "lookup": "Two lists of twelve roots retain their IDs, domain membership, and all twelve rounds. Adjacent rows in the code and math lists are not paired inputs.",
+    "method": "Root geometric ratio over 12 rounds; code and math roots are stratified, not ranked.",
+    "reading": "Each root appears once per contrast. Repeated roots and negative values are retained; no root is dropped.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "All 24 RTX roots: per-root geometric time ratios over 12 rounds."
+  },
+  "S10": {
+    "title": "RTX arithmetic phase differences",
+    "page": 26,
+    "lookup": "Mean paired phase differences in milliseconds for each RTX contrast; positive values add time to the candidate.",
+    "method": "Nonoverlapping arithmetic phases from the complete resident-request ledger.",
+    "reading": "All phase, reset, synchronization and residual costs remain. The C1-minus-B column has the opposite sign to Figure~\\ref{fig:c4}(c), whose arithmetic savings are B minus C1. Neither account strictly decomposes the geometric percentage.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "RTX confirmation arithmetic phase differences, candidate minus control, within the complete resident-request clock."
+  },
+  "S11": {
+    "title": "All direct modern request effects",
+    "page": 27,
+    "lookup": "Every direct modern effect with its own study, control and interval. Do not pool rows across deployments.",
+    "method": "Equal-root geometric paired effects; each row keeps its contemporaneous denominator and 95% interval.",
+    "reading": "Rows come from different deployments. The table is an inventory of direct effects, not a meta-analysis.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "All direct modern request effects, retaining each independent study and its contemporaneous control."
+  },
+  "S12": {
+    "title": "Signed arithmetic phase costs",
+    "page": 28,
+    "lookup": "Each column is one same-study SD/SD comparison. Negative values mean the candidate phase is shorter.",
+    "method": "Arithmetic phase means within each named study; target decode is zero in these SD/SD comparisons.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Signed arithmetic mean phase differences in milliseconds. Each column is one same-study SD/SD comparison."
+  },
+  "S13": {
+    "title": "M1 five-comparison family",
+    "page": 28,
+    "lookup": "Four direct contrasts plus the interaction. Older tables gave only marginal intervals; all five are retained here.",
+    "method": "Four ratios of native-service totals and a separate root-geometric interaction; 99% marginal intervals are members of the five-comparison Bonferroni family.",
+    "reading": "The interaction is on a ratio scale and can exceed one even when both direct ratios are below one.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "M1's five-comparison family. Direct contrasts use ratios of totals; interaction uses root-geometric ratios."
+  },
+  "S14": {
+    "title": "Every M1 paired root",
+    "page": 29,
+    "lookup": "Times sum four sessions per root. Ratios use unrounded totals and both cut policies are shown.",
+    "method": "Four sessions summed per root; the five-comparison family lives in the adjacent table.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Every M1 paired root. Times sum four sessions in seconds; each row gives its direct cut-policy ratios."
+  },
+  "S15": {
+    "title": "Other historical natural panels",
+    "page": 29,
+    "lookup": "Each panel keeps its original unit, clock and estimator. The rows are not interchangeable.",
+    "method": "Historical natural panels with their original units, clocks and estimators.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Other historical natural LOCAL/WHOLE panels with their original units, clocks and estimators."
+  },
+  "S16": {
+    "title": "Request-role accounting",
+    "page": 30,
+    "lookup": "Ledger rows count scheduled work; measured and warm-up roles are separate. Timing tables cover only measured requests.",
+    "method": "Scheduled rows by measured, warm-up, qualification and resource roles.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "Ledger roles are separated so a scheduled row cannot be mistaken for a measured timing observation.",
+    "caption": "Request-role accounting. Timing-table scope and full-campaign completion are distinct."
+  },
+  "S17": {
+    "title": "Numerical evidence scope",
+    "page": 31,
+    "lookup": "Original-machine checks cover more objects than the independently readable saved subset. Read the coverage column literally.",
+    "method": "Complete numerical objects on the original machine versus the saved, independently readable subset.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Numerical evidence scope: original-machine comparisons and the independently readable saved-object subset."
+  },
+  "S18": {
+    "title": "The separate B570 repair pilot",
+    "page": 31,
+    "lookup": "Two roots, one measured round and a predeclared stop. No population interval is assigned.",
+    "method": "Two roots, one measured round, complete service including normal teardown.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "The separate B570 draft-placement pilot: two roots, one round and a predeclared complete-service stop."
+  },
+  "S19": {
+    "title": "Earlier Vulkan geometry observations",
+    "page": 32,
+    "lookup": "Historical Vulkan fixed-cell summaries. Ratios are inverted from the original W/L direction; values above one favor the control.",
+    "method": "Earlier Vulkan observations and their original fixed-cell summaries, including slower LOCAL cells.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Earlier Vulkan geometry observations, including slower LOCAL cells and their original fixed-cell summaries."
+  },
+  "S20": {
+    "title": "Historical resident effects and worker lifetime",
+    "page": 32,
+    "lookup": "Resident ratios compare the composite with the fastest measured target-only control in the same study; worker totals are a different clock.",
+    "method": "Resident effects and worker lifetime are separate clocks and are not added.",
+    "reading": "Values, signs, units and original scope are retained. Do not infer a new endpoint, a pooled sample or a between-deployment ranking.",
+    "verdict": "Keep the values; tighten the lookup.",
+    "comparison": "The projection preserves every source value and row; grouping and rules move units and scope into the table itself.",
+    "caption": "Historical resident effects and the separate worker lifetime. Fastest resident and worker controls are selected within their own measured configurations."
+  }
+}

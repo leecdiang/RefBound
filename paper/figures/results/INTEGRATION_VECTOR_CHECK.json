@@ -1,0 +1,180 @@
+[
+  {
+    "stem": "f07_confirmation",
+    "vector": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        274.0
+      ],
+      "size_histogram": {
+        "8.7": 44,
+        "8.2": 253,
+        "8.0": 189,
+        "7.6": 15
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 60,
+      "svg_images": 0
+    },
+    "svg_fonts": {
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "proof_dpi": 144,
+    "proof_panel_width_in": 5.477
+  },
+  {
+    "stem": "f04_few_column",
+    "vector": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        286.0
+      ],
+      "size_histogram": {
+        "8.7": 72,
+        "8.0": 173,
+        "8.2": 247
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 48,
+      "svg_images": 0
+    },
+    "svg_fonts": {
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "proof_dpi": 144,
+    "proof_panel_width_in": 5.477
+  },
+  {
+    "stem": "f05_prefill",
+    "vector": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        299.0
+      ],
+      "size_histogram": {
+        "8.7": 32,
+        "8.2": 242,
+        "8.0": 214
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 30,
+      "svg_images": 0
+    },
+    "svg_fonts": {
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "proof_dpi": 144,
+    "proof_panel_width_in": 5.477
+  },
+  {
+    "stem": "f03_alternate",
+    "vector": {
+      "fonts_embedded": {
+        "EVICAO+DejaVuSans-Bold": true,
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        294.0
+      ],
+      "size_histogram": {
+        "8.7": 115,
+        "8.2": 359,
+        "8.0": 44
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 48,
+      "svg_images": 0
+    },
+    "svg_fonts": {
+      "embedded_svg_subsets": [
+        "Regular",
+        "Bold"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+        "DejaVuSans-Bold.ttf": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167"
+      }
+    },
+    "proof_dpi": 144,
+    "proof_panel_width_in": 5.477
+  },
+  {
+    "stem": "f05_prompt_length",
+    "vector": {
+      "fonts_embedded": {
+        "BMQQDV+DejaVuSans": true
+      },
+      "embedded_images": 0,
+      "media_box_bp": [
+        394.344,
+        345.6
+      ],
+      "size_histogram": {
+        "8.5": 23,
+        "8.0": 251,
+        "3.1": 6,
+        "7.6": 1,
+        "5.1": 6,
+        "4.9": 8,
+        "2.2": 3,
+        "4.4": 1,
+        "3.3": 2,
+        "7.8": 2,
+        "4.2": 1,
+        "2.9": 1,
+        "5.6": 1
+      },
+      "possible_edge_glyphs": [],
+      "svg_text_elements": 27,
+      "svg_images": 0
+    },
+    "svg_fonts": {
+      "embedded_svg_subsets": [
+        "Regular"
+      ],
+      "base_font_sha256": {
+        "DejaVuSans.ttf": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+      }
+    },
+    "proof_dpi": 144,
+    "proof_panel_width_in": 5.477
+  }
+]

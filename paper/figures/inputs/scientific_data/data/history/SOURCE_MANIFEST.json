@@ -1,0 +1,42 @@
+[
+  {
+    "file": "applications.json",
+    "source_commit": "997be15f9388f904055a3b09f409818e13483365",
+    "source_path": "papers/reference_compatible/20261111_final/paper/data/applications.json",
+    "git_blob": "2b0436803117dabf99b4699534944633a4b16f8c",
+    "sha256": "ab7e824107681bb7a1244dccca4d0c16e98d861d48b1752758b667a653b145af",
+    "scope": "inherited source-bound scalar summary, not a fresh native-receipt replay"
+  },
+  {
+    "file": "b570_append.json",
+    "source_commit": "997be15f9388f904055a3b09f409818e13483365",
+    "source_path": "papers/reference_compatible/20261111_final/paper/data/b570_append.json",
+    "git_blob": "2c72587f28c81b83d4880dd03125113f481dfa7c",
+    "sha256": "6ec5ea92db1d6a1429e3df21ae8202b095bcc30e573acbc9580a0f65210bb18d",
+    "scope": "inherited source-bound scalar summary, not a fresh native-receipt replay"
+  },
+  {
+    "file": "historical_evidence.json",
+    "source_commit": "997be15f9388f904055a3b09f409818e13483365",
+    "source_path": "papers/reference_compatible/20261111_final/paper/data/historical_evidence.json",
+    "git_blob": "6bddb5a2499dc4f69d80070c5960a65740527ba1",
+    "sha256": "400f7c0165bbfd83ceece1a7516060ffcc171b9b9ea2eab51254ad8ba37b5bd5",
+    "scope": "inherited source-bound scalar summary, not a fresh native-receipt replay"
+  },
+  {
+    "file": "q32_recomputed.json",
+    "source_commit": "997be15f9388f904055a3b09f409818e13483365",
+    "source_path": "papers/reference_compatible/20261111_final/paper/data/q32_recomputed.json",
+    "git_blob": "424cc1564ccc6308e24f3dad3689785029f93765",
+    "sha256": "d8f6f56bf56dbc52c4d98bd407123a5111fee0daddb584e35b1b31e8e44b635e",
+    "scope": "inherited source-bound scalar summary, not a fresh native-receipt replay"
+  },
+  {
+    "file": "q8_recomputed.json",
+    "source_commit": "997be15f9388f904055a3b09f409818e13483365",
+    "source_path": "papers/reference_compatible/20261111_final/paper/data/q8_recomputed.json",
+    "git_blob": "91684729bb4ef5d22101a02d1b8a87a460a2d266",
+    "sha256": "0ed5d4d43f70d432be3777292e0ce8b226078012bc4ea80ecd33e4611a547214",
+    "scope": "inherited source-bound scalar summary, not a fresh native-receipt replay"
+  }
+]

@@ -1,0 +1,3533 @@
+{
+  "schema": "heterospec.all_statistics.v1",
+  "GPU_requests": 0,
+  "model_loads": 0,
+  "modern_effects": [
+    {
+      "study_pr": 247,
+      "contrast": "TO_C/TO_A",
+      "candidate": "TO_C",
+      "control": "TO_A",
+      "ratio": 0.782728172718679,
+      "reduction_percent": 21.7271827281321,
+      "ci95_ratio": [
+        0.7698675395853887,
+        0.7965375119826233
+      ],
+      "ci95_reduction_percent": [
+        20.346248801737666,
+        23.013246041461134
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.784647382506887
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.7616777191443372
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.7572792934832495
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.7486972304765259
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.7610718451698673
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8053040968657548
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.784547065061405
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8006756877853313
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.7497056807841037
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.7954407459054285
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.7595449739600082
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.7354152122471939
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.7489242713772848
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8461224355483801
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8492419403599096
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.7504293782679725
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8588343113101632
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.7617403036686798
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.843440206500752
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.7935488467602249
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.7635011585536234
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.8310718626186655
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.7641577828494875
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.7506217671230149
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 247,
+      "contrast": "SD_C/SD_A",
+      "candidate": "SD_C",
+      "control": "SD_A",
+      "ratio": 0.8721821172319397,
+      "reduction_percent": 12.781788276806028,
+      "ci95_ratio": [
+        0.8700513207829158,
+        0.8744051471257422
+      ],
+      "ci95_reduction_percent": [
+        12.559485287425776,
+        12.994867921708419
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8743482978845142
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8691750360794379
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8668967791421871
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8667622363564791
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.8691321123379019
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8760028466624561
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8733358059266115
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8775366721229672
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.8665345985357055
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.874024561805866
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8708276571265551
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.8652273670853862
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.8668911200867632
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8785371839110034
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8855195950659005
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.8675961057859318
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8826169853240737
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.8714170190728165
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.876089750051128
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8701337225749803
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.8721107120117575
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.8801586322292888
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8687934515302385
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.8631391623959127
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 247,
+      "contrast": "SD_C/TO_C",
+      "candidate": "SD_C",
+      "control": "TO_C",
+      "ratio": 2.512086715810322,
+      "reduction_percent": -151.2086715810322,
+      "ci95_ratio": [
+        2.485677338153511,
+        2.538986405945927
+      ],
+      "ci95_reduction_percent": [
+        -153.8986405945927,
+        -148.5677338153511
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 2.449730187036307
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 2.5639957618622886
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 2.5025734761688185
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 2.5448118114218543
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 2.5224995990531154
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 2.4121256593847553
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 2.476088535161742
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 2.4434955510989336
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 2.5182429290763615
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 2.4969775721334395
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 2.5533597242193125
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 2.616259228871667
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 2.541561981715834
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 2.481653565272018
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 2.396943403060885
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 2.5545709301933073
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 2.525263550834497
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 2.690240789808621
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.4095583189751797
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 2.5320204541609304
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 2.5844854711297405
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 2.4531278019094644
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 2.5535871315721903
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 2.488135976133723
+        }
+      ],
+      "n_faster_roots": 0,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 247,
+      "contrast": "SD_C/TO_A",
+      "candidate": "SD_C",
+      "control": "TO_A",
+      "ratio": 1.9662810447770809,
+      "reduction_percent": -96.62810447770809,
+      "ci95_ratio": [
+        1.9428154081126143,
+        1.9907958936427774
+      ],
+      "ci95_reduction_percent": [
+        -99.07958936427774,
+        -94.28154081126144
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 1.9221743791061452
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 1.952938443791015
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.8951470739230425
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.905293555295494
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 1.9198034242916049
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 1.9424946756575536
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 1.942607993093338
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 1.9564474809765355
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 1.8879410295229488
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 1.986197702486949
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 1.9393915452426915
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.9240368360943365
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.903437455316739
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 2.0997827588352806
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 2.035584866548311
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 1.9170250748863997
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 2.168782982557602
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 2.0492648361706878
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.0323183661320305
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 2.009281911372707
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.9732576514725642
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 2.0387254915745316
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 1.9513434807751875
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 1.8676490232478427
+        }
+      ],
+      "n_faster_roots": 0,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 248,
+      "contrast": "SD_C4/SD_B",
+      "candidate": "SD_C4",
+      "control": "SD_B",
+      "ratio": 0.8441213875929339,
+      "reduction_percent": 15.587861240706612,
+      "ci95_ratio": [
+        0.8149396898803638,
+        0.8742543206746086
+      ],
+      "ci95_reduction_percent": [
+        12.574567932539138,
+        18.50603101196362
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8805688622816599
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8954216836612335
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.9357561273861857
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8497509828104726
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.8889047510224052
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.7883511539458263
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8325911505037625
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.7658477891127383
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9818920928378451
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8528905704280978
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.878107616925906
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9758460726076855
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.958544365533759
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7279150000547712
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7099289367564698
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.8291222583285162
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7267910248096621
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.88851434748837
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7711898424242876
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8156580621713659
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.939325663935405
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7220488807695676
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8393427919154896
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.8971088878163476
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 248,
+      "contrast": "SD_C4/TO_B",
+      "candidate": "SD_C4",
+      "control": "TO_B",
+      "ratio": 0.9242171199284431,
+      "reduction_percent": 7.578288007155686,
+      "ci95_ratio": [
+        0.8920388564423893,
+        0.9558625612587845
+      ],
+      "ci95_reduction_percent": [
+        4.413743874121545,
+        10.796114355761066
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.946534075587006
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.9797107416247044
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.0034189296634375
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.9111895669826043
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9741616364192854
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8045256818488161
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8888863357263042
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8242337372215857
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9837161376683664
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.9470189741440634
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.9966684054217917
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.0209451090770798
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.0396312306632005
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8710506290347823
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8251257353017105
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.9272359895460399
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8521284478466175
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 1.045890989507901
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.8197234743081862
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.9687409022237717
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.0193568334992198
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7574558726938913
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.9353448551758979
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.9230962599498443
+        }
+      ],
+      "n_faster_roots": 19,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 248,
+      "contrast": "SD_C4/TO_C4",
+      "candidate": "SD_C4",
+      "control": "TO_C4",
+      "ratio": 0.9143719946574709,
+      "reduction_percent": 8.562800534252911,
+      "ci95_ratio": [
+        0.8889999678480685,
+        0.9416324647276727
+      ],
+      "ci95_reduction_percent": [
+        5.83675352723273,
+        11.100003215193155
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 1.0009128212495197
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.9015273726027662
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.0293606772402735
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.876743896532888
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.94177256541916
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.9239146562814066
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8948097789898574
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8381148483771166
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9813799784825055
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.9430755306483984
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.9199721575967578
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9592279481394927
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.0401062079413808
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.8340324864773178
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.8200356401653823
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.8459209369686538
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.8732594092183001
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.9511927452195011
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.858311215689552
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.9565788098589586
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.004849259769354
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7772857803693224
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.862240274477852
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.9725942898000403
+        }
+      ],
+      "n_faster_roots": 20,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 248,
+      "contrast": "TO_C4/TO_B",
+      "candidate": "TO_C4",
+      "control": "TO_B",
+      "ratio": 1.0107670896839533,
+      "reduction_percent": -1.0767089683953346,
+      "ci95_ratio": [
+        0.9880767824282664,
+        1.0327262815843727
+      ],
+      "ci95_reduction_percent": [
+        -3.272628158437274,
+        1.1923217571733646
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.9456708471426828
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 1.0867232337008448
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.9747981945003126
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.0392881782079497
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 1.0343916059879168
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8707792179495127
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.9933802206875297
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.9834376980882635
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 1.0023804838463013
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 1.004181471544441
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 1.0833680097725864
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.064340453233554
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.9995433377144047
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 1.0443845331658688
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 1.0062071633073189
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 1.0961260668979036
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.9758021944583476
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 1.09955736601686
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.9550422496222828
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 1.0127141561567796
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.0144375622401274
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.9744882665086075
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 1.0847844653769112
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.9491072172957418
+        }
+      ],
+      "n_faster_roots": 10,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 251,
+      "contrast": "SD_C4/SD_B",
+      "candidate": "SD_C4",
+      "control": "SD_B",
+      "ratio": 0.6946189281046864,
+      "reduction_percent": 30.53810718953136,
+      "ci95_ratio": [
+        0.6698658019214205,
+        0.7188204866481294
+      ],
+      "ci95_reduction_percent": [
+        28.117951335187065,
+        33.01341980785794
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.7396784954559019
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7667154515873029
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.7099295587504778
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7474567904370343
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.6299164008275182
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.6290004423066935
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.7318278261289922
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.6725788853691724
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.6603434716258175
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.6528517797359787
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.7085462045180768
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.703788443813107
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 251,
+      "contrast": "SD_C4/TO_B",
+      "candidate": "SD_C4",
+      "control": "TO_B",
+      "ratio": 0.8554064791156307,
+      "reduction_percent": 14.459352088436928,
+      "ci95_ratio": [
+        0.8362625581995355,
+        0.8757135803247716
+      ],
+      "ci95_reduction_percent": [
+        12.428641967522836,
+        16.373744180046444
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.8747061606862688
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.9016896188202792
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8564374626561805
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.9741610821324842
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9362598270456971
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9399058488335887
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8588743026162796
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.798644883433611
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.7891667960371562
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.7839619771916788
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8158409790201634
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7655813673484091
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 251,
+      "contrast": "SD_C4/TO_C4",
+      "candidate": "SD_C4",
+      "control": "TO_C4",
+      "ratio": 0.8677955411477256,
+      "reduction_percent": 13.220445885227438,
+      "ci95_ratio": [
+        0.8482905659143956,
+        0.8891147333468703
+      ],
+      "ci95_reduction_percent": [
+        11.088526665312969,
+        15.170943408560444
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.8909030313815207
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.9218613957059713
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8702228765673408
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.9953054890891719
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9435101233714094
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9473649531390311
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8748990965490594
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.8084844230260078
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.7971392984416269
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.7914474336639274
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8282735099120583
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7760727615391072
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 251,
+      "contrast": "TO_C4/TO_B",
+      "candidate": "TO_C4",
+      "control": "TO_B",
+      "ratio": 0.9857235242120402,
+      "reduction_percent": 1.4276475787959764,
+      "ci95_ratio": [
+        0.9832002842194864,
+        0.988358187960707
+      ],
+      "ci95_reduction_percent": [
+        1.1641812039293042,
+        1.6799715780513647
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.981819715362136
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.9781184275861294
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.9841587548634231
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.9787558622066502
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.992315613636656
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9921264721892792
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.9816838376036874
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.9878296485223931
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.9899986082481987
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.9905420674148939
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.9849898243235922
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.9864814296923763
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 254,
+      "contrast": "SD_C/SD_A",
+      "candidate": "SD_C",
+      "control": "SD_A",
+      "ratio": 0.8168142985596337,
+      "reduction_percent": 18.318570144036627,
+      "ci95_ratio": null,
+      "ci95_reduction_percent": null,
+      "root_points": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.7970524637203633
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.8370661012918477
+        }
+      ],
+      "n_faster_roots": 2,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": null,
+      "population_interval": false
+    },
+    {
+      "study_pr": 254,
+      "contrast": "SD_C/TO_A",
+      "candidate": "SD_C",
+      "control": "TO_A",
+      "ratio": 1.8319067618312599,
+      "reduction_percent": -83.19067618312599,
+      "ci95_ratio": null,
+      "ci95_reduction_percent": null,
+      "root_points": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.417248507768573
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.367885635898009
+        }
+      ],
+      "n_faster_roots": 0,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": null,
+      "population_interval": false
+    },
+    {
+      "study_pr": 254,
+      "contrast": "SD_C/TO_C",
+      "candidate": "SD_C",
+      "control": "TO_C",
+      "ratio": 2.3261445073213896,
+      "reduction_percent": -132.61445073213895,
+      "ci95_ratio": null,
+      "ci95_reduction_percent": null,
+      "root_points": [
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.9076048541377422
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 2.83651420639065
+        }
+      ],
+      "n_faster_roots": 0,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": null,
+      "population_interval": false
+    },
+    {
+      "study_pr": 255,
+      "contrast": "TO_P4/TO_C4",
+      "candidate": "TO_P4",
+      "control": "TO_C4",
+      "ratio": 0.5381068140605575,
+      "reduction_percent": 46.18931859394425,
+      "ci95_ratio": [
+        0.5068462089243362,
+        0.5728330246420084
+      ],
+      "ci95_reduction_percent": [
+        42.71669753579916,
+        49.31537910756638
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.5502865293681499
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.4955327276789105
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.4658780715281523
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.46492231095713676
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.4834999979369619
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.6508327220858777
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.6016958114727347
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.5860506825853365
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.44146489955810736
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.5811203142246587
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.46767501086396623
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.4363397671098548
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.4437102667137482
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.6674576502421943
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.6886588262060275
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.4726048003236381
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7159293030389575
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.4826183604708245
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.669743660667062
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.6191598953802594
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.48531842355165583
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.6602419263653553
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.5042292746079139
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.45378686066220403
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 255,
+      "contrast": "SD_P4/SD_C4",
+      "candidate": "SD_P4",
+      "control": "SD_C4",
+      "ratio": 0.5047228634215919,
+      "reduction_percent": 49.52771365784081,
+      "ci95_ratio": [
+        0.481320675541324,
+        0.5299738149609785
+      ],
+      "ci95_reduction_percent": [
+        47.00261850390215,
+        51.8679324458676
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.5086442816541517
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.4566663406376432
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.46123055863759255
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.43818564558962286
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.46696775436008886
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.5696034362447983
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.5005972942991795
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.5398167337271155
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.44894887675929557
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.5206014152484859
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.4407426416407396
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.4338204300250748
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.4275844907206977
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.6364608791863673
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.63235212575181
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.48127478703740484
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.6486214280514525
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.46852646585010227
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.6277182256418278
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.5337080410496657
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.45319580581065083
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.5678673752652939
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.5074784580949193
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.4497802509562702
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 255,
+      "contrast": "SD_P4/TO_P4",
+      "candidate": "SD_P4",
+      "control": "TO_P4",
+      "ratio": 0.8508907793170855,
+      "reduction_percent": 14.910922068291455,
+      "ci95_ratio": [
+        0.8256307706139034,
+        0.8750286338401136
+      ],
+      "ci95_reduction_percent": [
+        12.497136615988635,
+        17.436922938609655
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8665320636504311
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8792996988052375
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8790341312460758
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.9225597547844103
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9147390193700574
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.7728454767418161
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8398372330835991
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.7916355785528846
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9204880574239273
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8321948146539327
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8980175888784496
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9349331670378419
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.9125283571337128
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7654054854625172
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7277207328129355
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.9122511238515566
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7763394918984929
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.9203040928974793
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7502415869442921
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8259404718597704
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.8644185472691208
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7791998233076626
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8933789910742718
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.8992330710654795
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 255,
+      "contrast": "SD_P4/TO_C4",
+      "candidate": "SD_P4",
+      "control": "TO_C4",
+      "ratio": 0.45787012637182173,
+      "reduction_percent": 54.212987362817834,
+      "ci95_ratio": [
+        0.4418075607976439,
+        0.47484286217434596
+      ],
+      "ci95_reduction_percent": [
+        52.51571378256541,
+        55.81924392023561
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.4768409218924165
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.43572177819620383
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.40952272587234656
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.42891861319041746
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.4422763139782813
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.502993125379634
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.5053265454652524
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.4639385711697558
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.4063631678150914
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.48360531218782504
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.4199803856347616
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.40794852036857093
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.40489820072765814
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.5108757468092978
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.5011513056647463
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.4311342602328793
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.5558041913565065
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.44415565244877087
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.5024695468247361
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.5113892161470175
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.41951824664946225
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.5144603923641956
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.45046784061933
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.4080601523224366
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 256,
+      "contrast": "C4/C1",
+      "candidate": "C4",
+      "control": "C1",
+      "ratio": 0.8445884199024449,
+      "reduction_percent": 15.541158009755506,
+      "ci95_ratio": [
+        0.8156510194626567,
+        0.8738441029502639
+      ],
+      "ci95_reduction_percent": [
+        12.615589704973607,
+        18.43489805373433
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.9376950841692641
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8725296883110346
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.8754442611147798
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8106622249744388
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9109152163185539
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8683187390472219
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8396018685357515
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.7917240891195506
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.8519672802772301
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8455294789514277
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8921674589075795
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9106035396625672
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.8771159641492154
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7450566201705504
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7251606137749909
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.977504920544395
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7111146073097759
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.9158148257264774
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7204365682833468
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8362720227665613
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.9427327083281734
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7270573208033861
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8663969026183752
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.900070910941964
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 256,
+      "contrast": "C4/B",
+      "candidate": "C4",
+      "control": "B",
+      "ratio": 0.851523393174273,
+      "reduction_percent": 14.847660682572705,
+      "ci95_ratio": [
+        0.8221984244558402,
+        0.8811922506809683
+      ],
+      "ci95_reduction_percent": [
+        11.88077493190317,
+        17.780157554415975
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.8694350479051814
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 0.8774800824753483
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 0.876554804224011
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 0.8458325268400294
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.902529334778449
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.8317631714297883
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 0.8931992273216934
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 0.8294023006224296
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 0.9072546232913485
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 0.8666000710540185
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.8332108879580837
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 0.9728310225870359
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 0.899183323650541
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.7391879439945301
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 0.7322536906540681
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 0.9784326773379506
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.7045770873632743
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.890267768853113
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 0.7234264216942772
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 0.8548194321629533
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 0.9447410089558962
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 0.7500024016566722
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.8551597770097467
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 0.9413021428374753
+        }
+      ],
+      "n_faster_roots": 24,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 256,
+      "contrast": "C1/B",
+      "candidate": "C1",
+      "control": "B",
+      "ratio": 1.0082110683836147,
+      "reduction_percent": -0.8211068383614739,
+      "ci95_ratio": [
+        0.9936144514802386,
+        1.0223983292572805
+      ],
+      "ci95_reduction_percent": [
+        -2.239832925728047,
+        0.6385548519761364
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/test/0",
+          "domain": "code",
+          "ratio": 0.9272044426631962
+        },
+        {
+          "root": "CodeContests/test/108",
+          "domain": "code",
+          "ratio": 1.0056736111454228
+        },
+        {
+          "root": "CodeContests/test/116",
+          "domain": "code",
+          "ratio": 1.0012685480487553
+        },
+        {
+          "root": "CodeContests/test/124",
+          "domain": "code",
+          "ratio": 1.0433846561269084
+        },
+        {
+          "root": "CodeContests/test/129",
+          "domain": "code",
+          "ratio": 0.9907940043267734
+        },
+        {
+          "root": "CodeContests/test/159",
+          "domain": "code",
+          "ratio": 0.957900750066105
+        },
+        {
+          "root": "CodeContests/test/52",
+          "domain": "code",
+          "ratio": 1.063836635903889
+        },
+        {
+          "root": "CodeContests/test/6",
+          "domain": "code",
+          "ratio": 1.0475900784385372
+        },
+        {
+          "root": "CodeContests/test/60",
+          "domain": "code",
+          "ratio": 1.0648937398113785
+        },
+        {
+          "root": "CodeContests/test/71",
+          "domain": "code",
+          "ratio": 1.0249199970280412
+        },
+        {
+          "root": "CodeContests/test/81",
+          "domain": "code",
+          "ratio": 0.9339175954459429
+        },
+        {
+          "root": "CodeContests/test/90",
+          "domain": "code",
+          "ratio": 1.0683365265058462
+        },
+        {
+          "root": "MATH/algebra/train/1050",
+          "domain": "math",
+          "ratio": 1.0251589988134926
+        },
+        {
+          "root": "MATH/algebra/train/320",
+          "domain": "math",
+          "ratio": 0.9921231809541177
+        },
+        {
+          "root": "MATH/algebra/train/337",
+          "domain": "math",
+          "ratio": 1.0097813873841721
+        },
+        {
+          "root": "MATH/algebra/train/355",
+          "domain": "math",
+          "ratio": 1.0009491070316443
+        },
+        {
+          "root": "MATH/algebra/train/917",
+          "domain": "math",
+          "ratio": 0.9908066577745693
+        },
+        {
+          "root": "MATH/counting_and_probability/train/35",
+          "domain": "math",
+          "ratio": 0.972104560708439
+        },
+        {
+          "root": "MATH/counting_and_probability/train/398",
+          "domain": "math",
+          "ratio": 1.0041500578157139
+        },
+        {
+          "root": "MATH/geometry/train/387",
+          "domain": "math",
+          "ratio": 1.022178679773399
+        },
+        {
+          "root": "MATH/geometry/train/545",
+          "domain": "math",
+          "ratio": 1.0021302969653874
+        },
+        {
+          "root": "MATH/geometry/train/567",
+          "domain": "math",
+          "ratio": 1.0315588333914747
+        },
+        {
+          "root": "MATH/geometry/train/701",
+          "domain": "math",
+          "ratio": 0.9870300487286273
+        },
+        {
+          "root": "MATH/prealgebra/train/316",
+          "domain": "math",
+          "ratio": 1.0458088706059403
+        }
+      ],
+      "n_faster_roots": 8,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 257,
+      "contrast": "TO_P4/TO_C4",
+      "candidate": "TO_P4",
+      "control": "TO_C4",
+      "ratio": 0.8681924096235066,
+      "reduction_percent": 13.180759037649336,
+      "ci95_ratio": [
+        0.8427438474555948,
+        0.8961761276549101
+      ],
+      "ci95_reduction_percent": [
+        10.382387234508993,
+        15.725615254440516
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.800390417977575
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7868410201783809
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8273507331277337
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7893167583185223
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9237268157406087
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9235054863257887
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8439848827078247
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.9316634354772584
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.9294079113094963
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.9255277122229678
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.883662751385009
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.8745867048910789
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 257,
+      "contrast": "SD_P4/SD_C4",
+      "candidate": "SD_P4",
+      "control": "SD_C4",
+      "ratio": 0.8505239921551292,
+      "reduction_percent": 14.947600784487081,
+      "ci95_ratio": [
+        0.8223985505776311,
+        0.8820388435358857
+      ],
+      "ci95_reduction_percent": [
+        11.796115646411431,
+        17.760144942236888
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.7666527386449258
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7766259542809629
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8008702626229877
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7929636050365071
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9198486686952726
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.9204070342969884
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8129472521417055
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.9170471291454595
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.9132374985565248
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.9080626595761542
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8541185531519322
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.8477050456763443
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 257,
+      "contrast": "SD_P4/TO_P4",
+      "candidate": "SD_P4",
+      "control": "TO_P4",
+      "ratio": 0.8640445187871596,
+      "reduction_percent": 13.59554812128404,
+      "ci95_ratio": [
+        0.8411283368579062,
+        0.8873963522186432
+      ],
+      "ci95_reduction_percent": [
+        11.260364778135678,
+        15.887166314209377
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.8715304771232433
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.9115087729864485
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.8601355676347879
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 1.0033480777022763
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.9605256503279817
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.965771437505418
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.8585120907198148
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.8064301822475651
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.7971610489141137
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.7928621838395715
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.8178066441066627
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7608175996679533
+        }
+      ],
+      "n_faster_roots": 11,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 257,
+      "contrast": "SD_P4/TO_C4",
+      "candidate": "SD_P4",
+      "control": "TO_C4",
+      "ratio": 0.7501568927878074,
+      "reduction_percent": 24.98431072121926,
+      "ci95_ratio": [
+        0.7187469740174515,
+        0.784926114680322
+      ],
+      "ci95_reduction_percent": [
+        21.5073885319678,
+        28.125302598254855
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.6975646428648681
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.7172124928382013
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.7116337924718811
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7919594521570815
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.8872633004146439
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.891895221072997
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.7245712261894123
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.751321514065318
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.7408877854485536
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.7338159231171448
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.7226652692322345
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.6654009575167353
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261116,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    },
+    {
+      "study_pr": 259,
+      "contrast": "C4/C1",
+      "candidate": "C4",
+      "control": "C1",
+      "ratio": 0.7223137053538058,
+      "reduction_percent": 27.768629464619423,
+      "ci95_ratio": [
+        0.6991084518249239,
+        0.7457484155664731
+      ],
+      "ci95_reduction_percent": [
+        25.425158443352693,
+        30.089154817507612
+      ],
+      "root_points": [
+        {
+          "root": "CodeContests/train/161",
+          "domain": "code",
+          "ratio": 0.7556177416600995
+        },
+        {
+          "root": "CodeContests/train/173",
+          "domain": "code",
+          "ratio": 0.8045812515136247
+        },
+        {
+          "root": "CodeContests/train/240",
+          "domain": "code",
+          "ratio": 0.7366039510977961
+        },
+        {
+          "root": "CodeContests/train/279",
+          "domain": "code",
+          "ratio": 0.7765640622670921
+        },
+        {
+          "root": "CodeContests/train/93",
+          "domain": "code",
+          "ratio": 0.6668870127602335
+        },
+        {
+          "root": "CodeContests/train/99",
+          "domain": "code",
+          "ratio": 0.6665904500506992
+        },
+        {
+          "root": "MATH/algebra/train/0",
+          "domain": "math",
+          "ratio": 0.753101717966922
+        },
+        {
+          "root": "MATH/algebra/train/20",
+          "domain": "math",
+          "ratio": 0.6972487895451682
+        },
+        {
+          "root": "MATH/algebra/train/25",
+          "domain": "math",
+          "ratio": 0.690829382261824
+        },
+        {
+          "root": "MATH/algebra/train/27",
+          "domain": "math",
+          "ratio": 0.6754588432713013
+        },
+        {
+          "root": "MATH/algebra/train/4",
+          "domain": "math",
+          "ratio": 0.7260459999469524
+        },
+        {
+          "root": "MATH/algebra/train/46",
+          "domain": "math",
+          "ratio": 0.7333989647586846
+        }
+      ],
+      "n_faster_roots": 12,
+      "independent_unit": "prompt root",
+      "estimand": "equal-root geometric mean of within-root paired geometric ratios",
+      "seed": 20261117,
+      "population_interval": "conditional on fixed panel and observed rounds; no cross-date/device claim"
+    }
+  ],
+  "LOCAL": [
+    {
+      "study_pr": 260,
+      "case": "positive",
+      "step": 0,
+      "pairs": [
+        {
+          "round": 1,
+          "base": 253,
+          "LOCAL_ms": 77.31228800000001,
+          "SIMPLE_ms": 100.35986700000001,
+          "ratio": 0.770350642254239
+        },
+        {
+          "round": 2,
+          "base": 253,
+          "LOCAL_ms": 77.475347,
+          "SIMPLE_ms": 99.63751100000002,
+          "ratio": 0.7775720832689206
+        }
+      ],
+      "ratio": 0.7739529402652202,
+      "reduction_percent": 22.60470597347798,
+      "population_ci": null,
+      "scope": "selected verify-through-commit; one exposed root; frozen proposals; P4 off; continuation dependent"
+    },
+    {
+      "study_pr": 260,
+      "case": "positive",
+      "step": 1,
+      "pairs": [
+        {
+          "round": 1,
+          "base": 255,
+          "LOCAL_ms": 83.540369,
+          "SIMPLE_ms": 102.813003,
+          "ratio": 0.8125467262151657
+        },
+        {
+          "round": 2,
+          "base": 255,
+          "LOCAL_ms": 81.746656,
+          "SIMPLE_ms": 104.24706,
+          "ratio": 0.7841626996483162
+        }
+      ],
+      "ratio": 0.7982285602628395,
+      "reduction_percent": 20.17714397371605,
+      "population_ci": null,
+      "scope": "selected verify-through-commit; one exposed root; frozen proposals; P4 off; continuation dependent"
+    },
+    {
+      "study_pr": 260,
+      "case": "negative",
+      "step": 0,
+      "pairs": [
+        {
+          "round": 1,
+          "base": 137,
+          "LOCAL_ms": 75.077323,
+          "SIMPLE_ms": 74.147389,
+          "ratio": 1.012541695837732
+        },
+        {
+          "round": 2,
+          "base": 137,
+          "LOCAL_ms": 74.99926500000001,
+          "SIMPLE_ms": 79.03482100000001,
+          "ratio": 0.9489395186964491
+        }
+      ],
+      "ratio": 0.9802248872112683,
+      "reduction_percent": 1.9775112788731675,
+      "population_ci": null,
+      "scope": "selected verify-through-commit; one exposed root; frozen proposals; P4 off; continuation dependent"
+    },
+    {
+      "study_pr": 260,
+      "case": "negative",
+      "step": 1,
+      "pairs": [
+        {
+          "round": 1,
+          "base": 139,
+          "LOCAL_ms": 75.88478500000001,
+          "SIMPLE_ms": 74.51243600000001,
+          "ratio": 1.0184177175471758
+        },
+        {
+          "round": 2,
+          "base": 139,
+          "LOCAL_ms": 75.68805,
+          "SIMPLE_ms": 77.111811,
+          "ratio": 0.9815364082163757
+        }
+      ],
+      "ratio": 0.9998070156511077,
+      "reduction_percent": 0.019298434889225557,
+      "population_ci": null,
+      "scope": "selected verify-through-commit; one exposed root; frozen proposals; P4 off; continuation dependent"
+    }
+  ],
+  "M1": {
+    "study": "M1 historical Qwen3-8B Q8_0",
+    "roots": 16,
+    "sessions": 4,
+    "measured_requests": 256,
+    "primers": 32,
+    "arm_total_s": {
+      "W_L4_D4": 142.271207231,
+      "W_P_D4": 139.944720542,
+      "L_L4_D4": 141.97424164,
+      "L_P_D4": 139.765106784
+    },
+    "contrasts": [
+      {
+        "candidate": "L_L4_D4",
+        "control": "W_L4_D4",
+        "ratio": 0.9979126796153642,
+        "ci99_ratio": [
+          0.9953697462334152,
+          0.9995757534257416
+        ],
+        "reduction_percent": 0.20873203846357713,
+        "root_ratios": [
+          0.9993603489427765,
+          0.9998845346930081,
+          0.9922252465607049,
+          1.0002524608508103,
+          0.9990836058130927,
+          1.000002552540672,
+          1.0000476914388676,
+          0.9976641179130877,
+          0.9992141710284976,
+          1.00025371472249,
+          0.9956432031460304,
+          0.9850775216761449,
+          0.9994321934838889,
+          1.000398463190357,
+          0.9965662232075987,
+          0.9997844758259278
+        ],
+        "estimand": "ratio of native-service totals after retaining all four sessions within root"
+      },
+      {
+        "candidate": "L_P_D4",
+        "control": "W_P_D4",
+        "ratio": 0.9987165378064685,
+        "ci99_ratio": [
+          0.9959526146511872,
+          1.0005697353116352
+        ],
+        "reduction_percent": 0.12834621935314816,
+        "root_ratios": [
+          0.9992947378794059,
+          1.000699190445612,
+          0.9920417976949918,
+          1.0006036563791725,
+          1.0010948166091473,
+          0.999155828166141,
+          1.0001992941477347,
+          1.000570034975351,
+          1.0010683201248867,
+          1.0002466694285805,
+          0.9965768045211792,
+          0.9854822442923831,
+          1.0009750415950522,
+          1.0001022650209184,
+          0.996290202589265,
+          1.0016148087298442
+        ],
+        "estimand": "ratio of native-service totals after retaining all four sessions within root"
+      },
+      {
+        "candidate": "W_P_D4",
+        "control": "W_L4_D4",
+        "ratio": 0.983647522683753,
+        "ci99_ratio": [
+          0.9802358572066092,
+          0.9886544126838048
+        ],
+        "reduction_percent": 1.6352477316247005,
+        "root_ratios": [
+          0.9919003823498636,
+          0.9895950420821796,
+          0.9881033985893979,
+          0.9904407018215703,
+          0.9961203067292005,
+          0.991008216316207,
+          0.9898372393908589,
+          0.9962083180744937,
+          0.9770286364505962,
+          0.9818893464011172,
+          0.9800734765745396,
+          0.987282713920088,
+          0.9782787795014041,
+          0.9768975431364753,
+          0.9793818395488867,
+          0.980287473399482
+        ],
+        "estimand": "ratio of native-service totals after retaining all four sessions within root"
+      },
+      {
+        "candidate": "L_P_D4",
+        "control": "L_L4_D4",
+        "ratio": 0.9844398897259009,
+        "ci99_ratio": [
+          0.9812282831016756,
+          0.9893909649260214
+        ],
+        "reduction_percent": 1.5560110274099093,
+        "root_ratios": [
+          0.9918352610561154,
+          0.9904013144724492,
+          0.9879207117969516,
+          0.9907884523737576,
+          0.9981255522395925,
+          0.9901691076459506,
+          0.9899872942413562,
+          0.9991099947982359,
+          0.9788416179073708,
+          0.9818824304567622,
+          0.9809924784243848,
+          0.9876883425474317,
+          0.9797889725660115,
+          0.9766083031239673,
+          0.9791105785181176,
+          0.9820821126054748
+        ],
+        "estimand": "ratio of native-service totals after retaining all four sessions within root"
+      }
+    ],
+    "interaction": {
+      "ratio": 1.000696007210281,
+      "ci99_ratio": [
+        1.000069259965508,
+        1.0013928122812554
+      ],
+      "estimand": "geometric mean of root interaction ratios"
+    },
+    "census": {
+      "W_L4_D4": {
+        "target_rows": 25232,
+        "draft_rows": 25232,
+        "verify_physical_width_hist": {
+          "4": 2204,
+          "2": 16,
+          "1": 12,
+          "3": 12
+        },
+        "prefill_physical_width_hist": {
+          "32": 480,
+          "29": 4,
+          "22": 16,
+          "13": 4,
+          "4": 8,
+          "12": 4,
+          "31": 4,
+          "5": 4,
+          "7": 4,
+          "9": 4,
+          "11": 4,
+          "23": 4,
+          "8": 4
+        },
+        "graphs_reused": 15268,
+        "graphs_built": 524,
+        "cycles": 2224,
+        "accepted": 5476,
+        "rejected_cycles": 552,
+        "stops": {
+          "CAP": 48,
+          "EOG": 16
+        }
+      },
+      "W_P_D4": {
+        "target_rows": 25232,
+        "draft_rows": 25232,
+        "verify_physical_width_hist": {
+          "4": 2204,
+          "2": 16,
+          "1": 12,
+          "3": 12
+        },
+        "prefill_physical_width_hist": {
+          "32": 480,
+          "29": 4,
+          "22": 16,
+          "13": 4,
+          "4": 8,
+          "12": 4,
+          "31": 4,
+          "5": 4,
+          "7": 4,
+          "9": 4,
+          "11": 4,
+          "23": 4,
+          "8": 4
+        },
+        "graphs_reused": 15268,
+        "graphs_built": 524,
+        "cycles": 2224,
+        "accepted": 5476,
+        "rejected_cycles": 552,
+        "stops": {
+          "CAP": 48,
+          "EOG": 16
+        }
+      },
+      "L_P_D4": {
+        "target_rows": 25232,
+        "draft_rows": 25232,
+        "verify_physical_width_hist": {
+          "4": 2224
+        },
+        "prefill_physical_width_hist": {
+          "32": 480,
+          "29": 4,
+          "22": 16,
+          "13": 4,
+          "4": 8,
+          "12": 4,
+          "31": 4,
+          "5": 4,
+          "7": 4,
+          "9": 4,
+          "11": 4,
+          "23": 4,
+          "8": 4
+        },
+        "graphs_reused": 15268,
+        "graphs_built": 504,
+        "cycles": 2224,
+        "accepted": 5476,
+        "rejected_cycles": 552,
+        "stops": {
+          "CAP": 48,
+          "EOG": 16
+        }
+      },
+      "L_L4_D4": {
+        "target_rows": 25232,
+        "draft_rows": 25232,
+        "verify_physical_width_hist": {
+          "4": 2224
+        },
+        "prefill_physical_width_hist": {
+          "32": 480,
+          "29": 4,
+          "22": 16,
+          "13": 4,
+          "4": 8,
+          "12": 4,
+          "31": 4,
+          "5": 4,
+          "7": 4,
+          "9": 4,
+          "11": 4,
+          "23": 4,
+          "8": 4
+        },
+        "graphs_reused": 15268,
+        "graphs_built": 504,
+        "cycles": 2224,
+        "accepted": 5476,
+        "rejected_cycles": 552,
+        "stops": {
+          "CAP": 48,
+          "EOG": 16
+        }
+      }
+    },
+    "family_size": 5,
+    "bootstrap": "10000 paired whole-root draws; seed 19720261107; 99% marginal intervals for Bonferroni family"
+  },
+  "S3_stability": {
+    "source_commit": "ded501f64422b4645f94f8701a895bc211d4446b",
+    "frozen_paper_copy_commit": "6be7f28420b84f2d28b9baa54a56e67137101b38",
+    "timing_rows_sha256": "d44d4c3d7855d18369b1839fd698486ceffd029a7bfb43ee0a3dc127e5ef4f9a",
+    "total_rows": 288,
+    "measured_rows": 144,
+    "warm_rows": 144,
+    "panels": {
+      "R1": {
+        "roots": 12,
+        "ratio": 0.984862655645711,
+        "reduction_percent": 1.513734435428904,
+        "ci95_reduction_percent": [
+          1.2429312556276773,
+          1.7758505798914914
+        ],
+        "timing_rows": 48,
+        "reference": "a=1 whole-call target-only, shared-activation-quantization B versus independent scalar-group C",
+        "independent_time_blocks": "two observed dates for R_combined, not a population of dates"
+      },
+      "R2": {
+        "roots": 12,
+        "ratio": 0.9849963111783672,
+        "reduction_percent": 1.5003688821632832,
+        "ci95_reduction_percent": [
+          1.2392973587474376,
+          1.7466978740071193
+        ],
+        "timing_rows": 48,
+        "reference": "a=1 whole-call target-only, shared-activation-quantization B versus independent scalar-group C",
+        "independent_time_blocks": "two observed dates for R_combined, not a population of dates"
+      },
+      "H1": {
+        "roots": 12,
+        "ratio": 0.9840468604557708,
+        "reduction_percent": 1.5953139544229167,
+        "ci95_reduction_percent": [
+          1.3335160592376605,
+          1.8038935536111356
+        ],
+        "timing_rows": 48,
+        "reference": "a=1 whole-call target-only, shared-activation-quantization B versus independent scalar-group C",
+        "independent_time_blocks": "two observed dates for R_combined, not a population of dates"
+      },
+      "R_combined": {
+        "roots": 12,
+        "ratio": 0.9849294811448969,
+        "reduction_percent": 1.5070518855103132,
+        "ci95_reduction_percent": [
+          1.2435976824545225,
+          1.7554091339482825
+        ],
+        "timing_rows": 96,
+        "reference": "a=1 whole-call target-only, shared-activation-quantization B versus independent scalar-group C",
+        "independent_time_blocks": "two observed dates for R_combined, not a population of dates"
+      }
+    }
+  },
+  "natural_service": {
+    "historical_RTX": {
+      "roots": 4,
+      "sessions": 3,
+      "pairs": [
+        {
+          "root_index": 0,
+          "session": 0,
+          "LOCAL_s": 1.7229888,
+          "WHOLE_s": 1.6972683,
+          "ratio": 1.0151540566685893
+        },
+        {
+          "root_index": 0,
+          "session": 1,
+          "LOCAL_s": 1.7085124,
+          "WHOLE_s": 1.6740996,
+          "ratio": 1.0205560051504703
+        },
+        {
+          "root_index": 0,
+          "session": 2,
+          "LOCAL_s": 1.7356413,
+          "WHOLE_s": 1.693042,
+          "ratio": 1.0251613958779522
+        },
+        {
+          "root_index": 1,
+          "session": 0,
+          "LOCAL_s": 3.8078775,
+          "WHOLE_s": 3.6471763,
+          "ratio": 1.0440618129702148
+        },
+        {
+          "root_index": 1,
+          "session": 1,
+          "LOCAL_s": 3.8110023,
+          "WHOLE_s": 3.7802884,
+          "ratio": 1.0081247504820003
+        },
+        {
+          "root_index": 1,
+          "session": 2,
+          "LOCAL_s": 3.7570453,
+          "WHOLE_s": 3.7713195,
+          "ratio": 0.9962150647803772
+        },
+        {
+          "root_index": 2,
+          "session": 0,
+          "LOCAL_s": 3.3723349,
+          "WHOLE_s": 3.3726161,
+          "ratio": 0.9999166225886189
+        },
+        {
+          "root_index": 2,
+          "session": 1,
+          "LOCAL_s": 3.3321846,
+          "WHOLE_s": 3.4250627,
+          "ratio": 0.9728828029921905
+        },
+        {
+          "root_index": 2,
+          "session": 2,
+          "LOCAL_s": 3.3417521,
+          "WHOLE_s": 3.3968372,
+          "ratio": 0.9837834147600598
+        },
+        {
+          "root_index": 3,
+          "session": 0,
+          "LOCAL_s": 4.8642528,
+          "WHOLE_s": 4.8798552,
+          "ratio": 0.996802692014304
+        },
+        {
+          "root_index": 3,
+          "session": 1,
+          "LOCAL_s": 5.0000764,
+          "WHOLE_s": 4.8778043,
+          "ratio": 1.025067036822285
+        },
+        {
+          "root_index": 3,
+          "session": 2,
+          "LOCAL_s": 4.9171047,
+          "WHOLE_s": 4.9076739,
+          "ratio": 1.0019216435713059
+        }
+      ],
+      "ratio": 1.0072937506333233,
+      "estimand": "geometric mean of paired native-service ratios, balanced four roots and three sessions",
+      "clock": "native service_seconds",
+      "population_ci": null,
+      "source_commit": "371223b696bb805030c29f04e39eb17b57fb2ebb"
+    },
+    "historical_A5000_target_only": {
+      "roots": 2,
+      "rounds": 2,
+      "measured_episodes": 8,
+      "LOCAL_total_s": 37.92065565302619,
+      "WHOLE_total_s": 36.38533145998372,
+      "ratio": 1.0421962403923957,
+      "physical_calls": {
+        "L": 1070,
+        "W": 1072
+      },
+      "clock": "controller_service_plus_reset_s",
+      "estimand": "ratio of complete episode service totals",
+      "population_ci": null,
+      "source_commit": "92c47c1a49243fdb871036ff39ac33babddec04b"
+    }
+  },
+  "limits": [
+    "Separate studies retain their own controls, clocks, models and estimators.",
+    "Modern intervals are individual 95% intervals conditional on fixed panels and observed rounds.",
+    "M1 direct effects are ratios of totals; its five-comparison family uses 99% marginal intervals.",
+    "Two-root pilots, selected LOCAL and the small natural panels receive no population confidence interval.",
+    "No new numerical tensor qualification, GPU request or model execution occurs."
+  ]
+}

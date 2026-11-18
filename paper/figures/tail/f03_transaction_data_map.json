@@ -1,0 +1,166 @@
+{
+  "layout_coordinates": "PostScript points measured from top left",
+  "source_notes": "INTEGRATION_NOTES.md",
+  "marks": [
+    {
+      "gid": "f03_transaction-SIMPLE-0015",
+      "kind": "first_pair_arm",
+      "x": 265.05371428571425,
+      "y": 52,
+      "key": "first/Crossing/repeat1/SIMPLE_ms",
+      "shape": "s",
+      "value": 100.36,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-LOCAL-0016",
+      "kind": "first_pair_arm",
+      "x": 161.00845714285714,
+      "y": 52,
+      "key": "first/Crossing/repeat1/LOCAL_ms",
+      "shape": "o",
+      "value": 77.312,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f03_transaction-SIMPLE-0021",
+      "kind": "first_pair_arm",
+      "x": 261.7944,
+      "y": 74,
+      "key": "first/Crossing/repeat2/SIMPLE_ms",
+      "shape": "s",
+      "value": 99.638,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-LOCAL-0022",
+      "kind": "first_pair_arm",
+      "x": 161.7442857142857,
+      "y": 74,
+      "key": "first/Crossing/repeat2/LOCAL_ms",
+      "shape": "o",
+      "value": 77.475,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f03_transaction-SIMPLE-0027",
+      "kind": "first_pair_arm",
+      "x": 146.72074285714288,
+      "y": 98,
+      "key": "first/Noncrossing/repeat1/SIMPLE_ms",
+      "shape": "s",
+      "value": 74.147,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-LOCAL-0028",
+      "kind": "first_pair_arm",
+      "x": 150.91902857142856,
+      "y": 98,
+      "key": "first/Noncrossing/repeat1/LOCAL_ms",
+      "shape": "o",
+      "value": 75.077,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f03_transaction-SIMPLE-0033",
+      "kind": "first_pair_arm",
+      "x": 168.78657142857142,
+      "y": 120,
+      "key": "first/Noncrossing/repeat2/SIMPLE_ms",
+      "shape": "s",
+      "value": 79.035,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-LOCAL-0034",
+      "kind": "first_pair_arm",
+      "x": 150.56691428571426,
+      "y": 120,
+      "key": "first/Noncrossing/repeat2/LOCAL_ms",
+      "shape": "o",
+      "value": 74.999,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f03_transaction-within-SIMPLE-0057",
+      "kind": "event_arm",
+      "x": 271.471375,
+      "y": 202.8,
+      "key": "device_event/within/Projection/SIMPLE_ms",
+      "shape": "s",
+      "value": 53.695,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-within-LOCAL-0058",
+      "kind": "event_arm",
+      "x": 271.69165,
+      "y": 205.2,
+      "key": "device_event/within/Projection/LOCAL_ms",
+      "shape": "o",
+      "value": 53.794,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f03_transaction-crossing-SIMPLE-0062",
+      "kind": "event_arm",
+      "x": 317.39315,
+      "y": 216.8,
+      "key": "device_event/crossing/Projection/SIMPLE_ms",
+      "shape": "s",
+      "value": 74.334,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-crossing-LOCAL-0063",
+      "kind": "event_arm",
+      "x": 270.852825,
+      "y": 219.2,
+      "key": "device_event/crossing/Projection/LOCAL_ms",
+      "shape": "o",
+      "value": 53.417,
+      "fill": "#087B70"
+    },
+    {
+      "gid": "f03_transaction-within-SIMPLE-0067",
+      "kind": "event_arm",
+      "x": 172.30757499999999,
+      "y": 230.8,
+      "key": "device_event/within/Attention/SIMPLE_ms",
+      "shape": "s",
+      "value": 9.127,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-within-LOCAL-0068",
+      "kind": "event_arm",
+      "x": 172.22525,
+      "y": 233.2,
+      "key": "device_event/within/Attention/LOCAL_ms",
+      "shape": "o",
+      "value": 9.09,
+      "fill": "#254B70"
+    },
+    {
+      "gid": "f03_transaction-crossing-SIMPLE-0072",
+      "kind": "event_arm",
+      "x": 178.83350000000002,
+      "y": 244.8,
+      "key": "device_event/crossing/Attention/SIMPLE_ms",
+      "shape": "s",
+      "value": 12.06,
+      "fill": "white"
+    },
+    {
+      "gid": "f03_transaction-crossing-LOCAL-0073",
+      "kind": "event_arm",
+      "x": 177.856725,
+      "y": 247.2,
+      "key": "device_event/crossing/Attention/LOCAL_ms",
+      "shape": "o",
+      "value": 11.621,
+      "fill": "#087B70"
+    }
+  ]
+}

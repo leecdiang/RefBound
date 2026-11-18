@@ -1,0 +1,192 @@
+svg_id,kind,x_pt,y_pt,data_key,text,font_pt,weight,align,color,x2_pt,y2_pt,stroke_pt,dash,shape,diameter_pt,fill
+f05_prefill-0001,text,4,8,,A,8.7,bold,left,#254B70,,,,,,,
+f05_prefill-0002,text,18,8,,RTX A5000,8.7,normal,left,#24313B,,,,,,,
+f05_prefill-0003,text,4,21,,Qwen3-32B / Qwen3-0.6B,8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0004,text,4,33,,12 roots × 4 rounds · 39–187 prompt tokens,8,normal,left,#505F69,,,,,,,
+f05_prefill-0005,text,204,8,,B,8.7,bold,left,#254B70,,,,,,,
+f05_prefill-0006,text,218,8,,GeForce RTX 5070 Ti Laptop,8.7,normal,left,#24313B,,,,,,,
+f05_prefill-0007,text,204,21,,Llama-3.1-8B / Llama-3.2-1B,8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0008,text,204,33,,24 roots × 2 rounds · 140–757 prompt tokens,8,normal,left,#505F69,,,,,,,
+f05_prefill-0009,line,4,43,,,,,,#D2DADC,390.34400000000005,43,0.65,-,,,
+f05_prefill-0010,text,4,54,,Target-only packing · P4 / C4,8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0011,line,24,103.84615384615384,,,,,,#505F69,188,103.84615384615384,0.63,-,,,
+f05_prefill-0012,text,18,103.84615384615384,,0,8,normal,right,#505F69,,,,,,,
+f05_prefill-0013,line,24,84.92307692307692,,,,,,#E5EAEB,188,84.92307692307692,0.48,-,,,
+f05_prefill-0014,text,18,84.92307692307692,,30,8,normal,right,#505F69,,,,,,,
+f05_prefill-0015,line,24,66.0,,,,,,#E5EAEB,188,66.0,0.48,-,,,
+f05_prefill-0016,text,18,66.0,,60,8,normal,right,#505F69,,,,,,,
+f05_prefill-0017,line,168,65,,,,,,#D2DADC,168,107,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0018,point,27.0,99.03507606979224,257:TO_P4/TO_C4:rank=1:root=CodeContests/train/93,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0019,point,38.18181818181818,99.02111529131898,257:TO_P4/TO_C4:rank=2:root=CodeContests/train/99,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0020,point,49.36363636363636,99.14867107867951,257:TO_P4/TO_C4:rank=3:root=MATH/algebra/train/27,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0021,point,60.54545454545454,99.39342209798362,257:TO_P4/TO_C4:rank=4:root=MATH/algebra/train/25,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0022,point,71.72727272727272,99.53569362241169,257:TO_P4/TO_C4:rank=5:root=MATH/algebra/train/20,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0023,point,82.9090909090909,95.93546907774498,257:TO_P4/TO_C4:rank=6:root=MATH/algebra/train/46,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0024,point,94.09090909090908,96.50795816428518,257:TO_P4/TO_C4:rank=7:root=MATH/algebra/train/4,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0025,point,105.27272727272727,92.95596932036474,257:TO_P4/TO_C4:rank=8:root=CodeContests/train/240,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0026,point,116.45454545454545,94.00520029387818,257:TO_P4/TO_C4:rank=9:root=MATH/algebra/train/0,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0027,point,127.63636363636364,91.25539559550859,257:TO_P4/TO_C4:rank=10:root=CodeContests/train/161,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0028,point,138.8181818181818,90.40074127279019,257:TO_P4/TO_C4:rank=11:root=CodeContests/train/173,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0029,point,150.0,90.55690321701448,257:TO_P4/TO_C4:rank=12:root=CodeContests/train/279,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0030,line,182,97.29726343669432,257:TO_P4/TO_C4:stratified:interval,,,,,#254B70,182,93.92691960873752,1.15,-,,,
+f05_prefill-0031,line,179.4,97.29726343669432,257:TO_P4/TO_C4:stratified:lo,,,,,#254B70,184.6,97.29726343669432,0.85,-,,,
+f05_prefill-0032,line,179.4,93.92691960873752,257:TO_P4/TO_C4:stratified:hi,,,,,#254B70,184.6,93.92691960873752,0.85,-,,,
+f05_prefill-0033,point,182,95.53213660702119,257:TO_P4/TO_C4:stratified:estimate,,,,,#254B70,,,0.55,,D,4.1,#254B70
+f05_prefill-0034,text,104.5,116,257:TO_P4/TO_C4:estimate_ci,"13.18 [10.38, 15.73]%",8,normal,center,#254B70,,,,,,,
+f05_prefill-0035,line,221,103.84615384615384,,,,,,#505F69,385,103.84615384615384,0.63,-,,,
+f05_prefill-0036,line,221,84.92307692307692,,,,,,#E5EAEB,385,84.92307692307692,0.48,-,,,
+f05_prefill-0037,line,221,66.0,,,,,,#E5EAEB,385,66.0,0.48,-,,,
+f05_prefill-0038,line,365,65,,,,,,#D2DADC,365,107,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0039,point,224.0,85.92784834553424,255:TO_P4/TO_C4:rank=1:root=MATH/algebra/train/917,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0040,point,229.34782608695653,84.2077105760725,255:TO_P4/TO_C4:rank=2:root=MATH/algebra/train/337,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0041,point,234.69565217391303,82.87040563066148,255:TO_P4/TO_C4:rank=3:root=MATH/algebra/train/320,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0042,point,240.04347826086956,83.01460013438391,255:TO_P4/TO_C4:rank=4:root=MATH/counting_and_probability/train/398,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0043,point,245.3913043478261,82.4152599707378,255:TO_P4/TO_C4:rank=5:root=MATH/geometry/train/567,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0044,point,250.73913043478262,81.82175631618614,255:TO_P4/TO_C4:rank=6:root=CodeContests/test/159,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0045,point,256.0869565217391,77.7355045938443,255:TO_P4/TO_C4:rank=7:root=CodeContests/test/6,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0046,point,261.4347826086956,79.82393186244713,255:TO_P4/TO_C4:rank=8:root=MATH/geometry/train/387,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0047,point,266.7826086956522,78.72235118520327,255:TO_P4/TO_C4:rank=9:root=CodeContests/test/52,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0048,point,272.1304347826087,77.42451212801693,255:TO_P4/TO_C4:rank=10:root=CodeContests/test/71,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0049,point,277.47826086956525,68.29220069462161,255:TO_P4/TO_C4:rank=11:root=CodeContests/test/90,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0050,point,282.82608695652175,75.47961185245254,255:TO_P4/TO_C4:rank=12:root=CodeContests/test/0,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0051,point,288.17391304347825,72.57446193680688,255:TO_P4/TO_C4:rank=13:root=MATH/geometry/train/701,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0052,point,293.52173913043475,68.61547827981909,255:TO_P4/TO_C4:rank=14:root=CodeContests/test/60,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0053,point,298.8695652173913,71.38162363941214,255:TO_P4/TO_C4:rank=15:root=MATH/geometry/train/545,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0054,point,304.2173913043478,69.39270967253901,255:TO_P4/TO_C4:rank=16:root=MATH/prealgebra/train/316,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0055,point,309.5652173913044,72.02591051513127,255:TO_P4/TO_C4:rank=17:root=CodeContests/test/108,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0056,point,314.9130434782609,71.26692294679299,255:TO_P4/TO_C4:rank=18:root=CodeContests/test/129,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0057,point,320.2608695652174,71.21131196815969,255:TO_P4/TO_C4:rank=19:root=MATH/counting_and_probability/train/35,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0058,point,325.6086956521739,70.26873145449633,255:TO_P4/TO_C4:rank=20:root=CodeContests/test/81,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0059,point,330.95652173913044,70.1553860502373,255:TO_P4/TO_C4:rank=21:root=CodeContests/test/116,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0060,point,336.30434782608694,70.57968740502947,255:TO_P4/TO_C4:rank=22:root=MATH/algebra/train/355,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0061,point,341.6521739130435,68.75710913117489,255:TO_P4/TO_C4:rank=23:root=MATH/algebra/train/1050,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0062,point,347.0,70.0950996142194,255:TO_P4/TO_C4:rank=24:root=CodeContests/test/124,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0063,line,379,76.90177540049592,255:TO_P4/TO_C4:stratified:interval,,,,,#087B70,379,72.7395301013812,1.15,-,,,
+f05_prefill-0064,line,376.4,76.90177540049592,255:TO_P4/TO_C4:stratified:lo,,,,,#087B70,381.6,76.90177540049592,0.85,-,,,
+f05_prefill-0065,line,376.4,72.7395301013812,255:TO_P4/TO_C4:stratified:hi,,,,,#087B70,381.6,72.7395301013812,0.85,-,,,
+f05_prefill-0066,point,379,74.7113528868967,255:TO_P4/TO_C4:stratified:estimate,,,,,#087B70,,,0.55,,D,4.1,#087B70
+f05_prefill-0067,text,301.5,116,255:TO_P4/TO_C4:estimate_ci,"46.19 [42.72, 49.32]%",8,normal,center,#087B70,,,,,,,
+f05_prefill-0068,text,4,126,,Speculative packing · P4 / C4,8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0069,line,24,175.84615384615384,,,,,,#505F69,188,175.84615384615384,0.63,-,,,
+f05_prefill-0070,text,18,175.84615384615384,,0,8,normal,right,#505F69,,,,,,,
+f05_prefill-0071,line,24,156.92307692307693,,,,,,#E5EAEB,188,156.92307692307693,0.48,-,,,
+f05_prefill-0072,text,18,156.92307692307693,,30,8,normal,right,#505F69,,,,,,,
+f05_prefill-0073,line,24,138.0,,,,,,#E5EAEB,188,138.0,0.48,-,,,
+f05_prefill-0074,text,18,138.0,,60,8,normal,right,#505F69,,,,,,,
+f05_prefill-0075,line,168,137,,,,,,#D2DADC,168,179,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0076,point,27.0,170.7904544869326,257:SD_P4/SD_C4:rank=1:root=CodeContests/train/93,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0077,point,38.18181818181818,170.8256744710408,257:SD_P4/SD_C4:rank=2:root=CodeContests/train/99,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0078,point,49.36363636363636,170.04702929634203,257:SD_P4/SD_C4:rank=3:root=MATH/algebra/train/27,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0079,point,60.54545454545454,170.37344221664233,257:SD_P4/SD_C4:rank=4:root=MATH/algebra/train/25,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0080,point,71.72727272727272,170.61374199225207,257:SD_P4/SD_C4:rank=5:root=MATH/algebra/train/20,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0081,point,82.9090909090909,166.2398567272771,257:SD_P4/SD_C4:rank=6:root=MATH/algebra/train/46,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0082,point,94.09090909090908,166.64440104496802,257:SD_P4/SD_C4:rank=7:root=MATH/algebra/train/4,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0083,point,105.27272727272727,163.28566271929614,257:SD_P4/SD_C4:rank=8:root=CodeContests/train/240,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0084,point,116.45454545454545,164.0474420581691,257:SD_P4/SD_C4:rank=9:root=MATH/algebra/train/0,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0085,point,127.63636363636364,161.12732659144916,257:SD_P4/SD_C4:rank=10:root=CodeContests/train/161,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0086,point,138.8181818181818,161.75640634695304,257:SD_P4/SD_C4:rank=11:root=CodeContests/train/173,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0087,point,150.0,162.78693508691813,257:SD_P4/SD_C4:rank=12:root=CodeContests/train/279,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0088,line,182,168.40552705380202,257:SD_P4/SD_C4:stratified:interval,,,,,#254B70,182,164.64360088258903,1.15,-,,,
+f05_prefill-0089,line,179.4,168.40552705380202,257:SD_P4/SD_C4:stratified:lo,,,,,#254B70,184.6,168.40552705380202,0.85,-,,,
+f05_prefill-0090,line,179.4,164.64360088258903,257:SD_P4/SD_C4:stratified:hi,,,,,#254B70,184.6,164.64360088258903,0.85,-,,,
+f05_prefill-0091,point,182,166.41766719747739,257:SD_P4/SD_C4:stratified:estimate,,,,,#254B70,,,0.55,,D,4.1,#254B70
+f05_prefill-0092,text,104.5,188,257:SD_P4/SD_C4:estimate_ci,"14.95 [11.80, 17.76]%",8,normal,center,#254B70,,,,,,,
+f05_prefill-0093,line,221,175.84615384615384,,,,,,#505F69,385,175.84615384615384,0.63,-,,,
+f05_prefill-0094,line,221,156.92307692307693,,,,,,#E5EAEB,385,156.92307692307693,0.48,-,,,
+f05_prefill-0095,line,221,138.0,,,,,,#E5EAEB,385,138.0,0.48,-,,,
+f05_prefill-0096,line,365,137,,,,,,#D2DADC,365,179,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0097,point,224.0,153.68227469247623,255:SD_P4/SD_C4:rank=1:root=MATH/algebra/train/917,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0098,point,229.34782608695653,152.6560571628065,255:SD_P4/SD_C4:rank=2:root=MATH/algebra/train/337,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0099,point,234.69565217391303,152.9152246871401,255:SD_P4/SD_C4:rank=3:root=MATH/algebra/train/320,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0100,point,240.04347826086956,152.36376500202297,255:SD_P4/SD_C4:rank=4:root=MATH/counting_and_probability/train/398,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0101,point,245.3913043478261,148.5885575167339,255:SD_P4/SD_C4:rank=5:root=MATH/geometry/train/567,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0102,point,250.73913043478262,148.69806290159497,255:SD_P4/SD_C4:rank=6:root=CodeContests/test/159,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0103,point,256.0869565217391,146.81920935817192,255:SD_P4/SD_C4:rank=7:root=CodeContests/test/6,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0104,point,261.4347826086956,146.43389182005583,255:SD_P4/SD_C4:rank=8:root=MATH/geometry/train/387,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0105,point,266.7826086956522,144.34536779425594,255:SD_P4/SD_C4:rank=9:root=CodeContests/test/52,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0106,point,272.1304347826087,145.6071661925968,255:SD_P4/SD_C4:rank=10:root=CodeContests/test/71,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0107,point,277.47826086956525,140.13328866312008,255:SD_P4/SD_C4:rank=11:root=CodeContests/test/90,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0108,point,282.82608695652175,144.8529469966465,255:SD_P4/SD_C4:rank=12:root=CodeContests/test/0,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0109,point,288.17391304347825,144.77941043367952,255:SD_P4/SD_C4:rank=13:root=MATH/geometry/train/701,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0110,point,293.52173913043475,141.08754453404788,255:SD_P4/SD_C4:rank=14:root=CodeContests/test/60,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0111,point,298.8695652173913,141.35542775113336,255:SD_P4/SD_C4:rank=15:root=MATH/geometry/train/545,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0112,point,304.2173913043478,141.1399850603186,255:SD_P4/SD_C4:rank=16:root=MATH/prealgebra/train/316,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0113,point,309.5652173913044,141.57433840945134,255:SD_P4/SD_C4:rank=17:root=CodeContests/test/108,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0114,point,314.9130434782609,142.2241198904056,255:SD_P4/SD_C4:rank=18:root=CodeContests/test/129,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0115,point,320.2608695652174,142.3224386151603,255:SD_P4/SD_C4:rank=19:root=MATH/counting_and_probability/train/35,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0116,point,325.6086956521739,140.56992047272357,255:SD_P4/SD_C4:rank=20:root=CodeContests/test/81,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0117,point,330.95652173913044,141.86223523714045,255:SD_P4/SD_C4:rank=21:root=CodeContests/test/116,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0118,point,336.30434782608694,143.1265634900517,255:SD_P4/SD_C4:rank=22:root=MATH/algebra/train/355,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0119,point,341.6521739130435,139.73994479930553,255:SD_P4/SD_C4:rank=23:root=MATH/algebra/train/1050,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0120,point,347.0,140.4086330294993,255:SD_P4/SD_C4:rank=24:root=CodeContests/test/124,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0121,line,379,146.19834832830787,255:SD_P4/SD_C4:stratified:interval,,,,,#087B70,379,143.1294579956835,1.15,-,,,
+f05_prefill-0122,line,376.4,146.19834832830787,255:SD_P4/SD_C4:stratified:lo,,,,,#087B70,381.6,146.19834832830787,0.85,-,,,
+f05_prefill-0123,line,376.4,143.1294579956835,255:SD_P4/SD_C4:stratified:hi,,,,,#087B70,381.6,143.1294579956835,0.85,-,,,
+f05_prefill-0124,point,379,144.60559600043888,255:SD_P4/SD_C4:stratified:estimate,,,,,#087B70,,,0.55,,D,4.1,#087B70
+f05_prefill-0125,text,301.5,188,255:SD_P4/SD_C4:estimate_ci,"49.53 [47.00, 51.87]%",8,normal,center,#087B70,,,,,,,
+f05_prefill-0126,text,4,198,,Speculation at fixed P4 · speculative / target-only,8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0127,line,24,247.84615384615384,,,,,,#505F69,188,247.84615384615384,0.63,-,,,
+f05_prefill-0128,text,18,247.84615384615384,,0,8,normal,right,#505F69,,,,,,,
+f05_prefill-0129,line,24,228.92307692307693,,,,,,#E5EAEB,188,228.92307692307693,0.48,-,,,
+f05_prefill-0130,text,18,228.92307692307693,,30,8,normal,right,#505F69,,,,,,,
+f05_prefill-0131,line,24,210.0,,,,,,#E5EAEB,188,210.0,0.48,-,,,
+f05_prefill-0132,text,18,210.0,,60,8,normal,right,#505F69,,,,,,,
+f05_prefill-0133,line,168,209,,,,,,#D2DADC,168,251,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0134,point,27.0,245.35623332838037,257:SD_P4/TO_P4:rank=1:root=CodeContests/train/93,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0135,point,38.18181818181818,245.68712144264944,257:SD_P4/TO_P4:rank=2:root=CodeContests/train/99,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0136,point,49.36363636363636,234.78053774988066,257:SD_P4/TO_P4:rank=3:root=MATH/algebra/train/27,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0137,point,60.54545454545454,235.05169693150563,257:SD_P4/TO_P4:rank=4:root=MATH/algebra/train/25,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0138,point,71.72727272727272,235.6363653417695,257:SD_P4/TO_P4:rank=5:root=MATH/algebra/train/20,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0139,point,82.9090909090909,232.7592639790555,257:SD_P4/TO_P4:rank=6:root=MATH/algebra/train/46,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0140,point,94.09090909090908,236.35395755134334,257:SD_P4/TO_P4:rank=7:root=MATH/algebra/train/4,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0141,point,105.27272727272727,239.02393580465585,257:SD_P4/TO_P4:rank=8:root=CodeContests/train/240,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0142,point,116.45454545454545,238.92153187617293,257:SD_P4/TO_P4:rank=9:root=MATH/algebra/train/0,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0143,point,127.63636363636364,239.74269163392765,257:SD_P4/TO_P4:rank=10:root=CodeContests/train/161,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0144,point,138.8181818181818,242.2643995268375,257:SD_P4/TO_P4:rank=11:root=CodeContests/train/173,,,,,#254B70,,,0.45,,o,3.0,#254B70
+f05_prefill-0145,line,150.0,245.25734028583585,257:SD_P4/TO_P4:rank=12:root=CodeContests/train/279:leader,,,,,#A95524,150.0,223.24615384615385,0.68,-,,,
+f05_prefill-0146,line,150.0,223.24615384615385,257:SD_P4/TO_P4:rank=12:root=CodeContests/train/279:leader,,,,,#A95524,144.0,223.24615384615385,0.68,-,,,
+f05_prefill-0147,text,142.0,223.24615384615385,257:SD_P4/TO_P4:rank=12:root=CodeContests/train/279:annotation,train/279 · −0.33%,8,normal,right,#A95524,,,,,,,
+f05_prefill-0148,point,150.0,248.05734028583586,257:SD_P4/TO_P4:rank=12:root=CodeContests/train/279,,,,,#A95524,,,0.75,,D,4.5,#FFFFFF
+f05_prefill-0149,line,182,240.74346221686827,257:SD_P4/TO_P4:stratified:interval,,,,,#254B70,182,237.82501817103716,1.15,-,,,
+f05_prefill-0150,line,179.4,240.74346221686827,257:SD_P4/TO_P4:stratified:lo,,,,,#254B70,184.6,240.74346221686827,0.85,-,,,
+f05_prefill-0151,line,179.4,237.82501817103716,257:SD_P4/TO_P4:stratified:hi,,,,,#254B70,184.6,237.82501817103716,0.85,-,,,
+f05_prefill-0152,point,182,239.27050041580546,257:SD_P4/TO_P4:stratified:estimate,,,,,#254B70,,,0.55,,D,4.1,#254B70
+f05_prefill-0153,text,104.5,260,257:SD_P4/TO_P4:estimate_ci,"13.60 [11.26, 15.89]%",8,normal,center,#254B70,,,,,,,
+f05_prefill-0154,line,221,247.84615384615384,,,,,,#505F69,385,247.84615384615384,0.63,-,,,
+f05_prefill-0155,line,221,228.92307692307693,,,,,,#E5EAEB,385,228.92307692307693,0.48,-,,,
+f05_prefill-0156,line,221,210.0,,,,,,#E5EAEB,385,210.0,0.48,-,,,
+f05_prefill-0157,line,365,209,,,,,,#D2DADC,365,251,0.5,"(0, (1.5, 2))",,,
+f05_prefill-0158,point,224.0,233.73833718128955,255:SD_P4/TO_P4:rank=1:root=MATH/algebra/train/917,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0159,point,229.34782608695653,230.6716154543544,255:SD_P4/TO_P4:rank=2:root=MATH/algebra/train/337,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0160,point,234.69565217391303,233.04865369840493,255:SD_P4/TO_P4:rank=3:root=MATH/algebra/train/320,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0161,point,240.04347826086956,232.09216163802458,255:SD_P4/TO_P4:rank=4:root=MATH/counting_and_probability/train/398,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0162,point,245.3913043478261,233.91875808556026,255:SD_P4/TO_P4:rank=5:root=MATH/geometry/train/567,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0163,point,250.73913043478262,233.51794545602223,255:SD_P4/TO_P4:rank=6:root=CodeContests/test/159,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0164,point,256.0869565217391,234.70316726256658,255:SD_P4/TO_P4:rank=7:root=CodeContests/test/6,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0165,point,261.4347826086956,236.86701437884705,255:SD_P4/TO_P4:rank=8:root=MATH/geometry/train/387,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0166,point,266.7826086956522,237.74357931758087,255:SD_P4/TO_P4:rank=9:root=CodeContests/test/52,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0167,point,272.1304347826087,237.26151907817115,255:SD_P4/TO_P4:rank=10:root=CodeContests/test/71,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0168,point,277.47826086956525,243.7419382285408,255:SD_P4/TO_P4:rank=11:root=CodeContests/test/90,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0169,point,282.82608695652175,239.42740709179643,255:SD_P4/TO_P4:rank=12:root=CodeContests/test/0,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0170,point,288.17391304347825,241.12082866776174,255:SD_P4/TO_P4:rank=13:root=MATH/geometry/train/701,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0171,point,293.52173913043475,242.83078516058617,255:SD_P4/TO_P4:rank=14:root=CodeContests/test/60,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0172,point,298.8695652173913,239.2940929815907,255:SD_P4/TO_P4:rank=15:root=MATH/geometry/train/545,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0173,point,304.2173913043478,241.49008602105332,255:SD_P4/TO_P4:rank=16:root=MATH/prealgebra/train/316,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0174,point,309.5652173913044,240.23275023233037,255:SD_P4/TO_P4:rank=17:root=CodeContests/test/108,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0175,point,314.9130434782609,242.46815352949594,255:SD_P4/TO_P4:rank=18:root=CodeContests/test/129,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0176,point,320.2608695652174,242.81918124430254,255:SD_P4/TO_P4:rank=19:root=MATH/counting_and_probability/train/35,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0177,point,325.6086956521739,241.41341714464068,255:SD_P4/TO_P4:rank=20:root=CodeContests/test/81,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0178,point,330.95652173913044,240.2159990478294,255:SD_P4/TO_P4:rank=21:root=CodeContests/test/116,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0179,point,336.30434782608694,242.31122473525204,255:SD_P4/TO_P4:rank=22:root=MATH/algebra/train/355,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0180,point,341.6521739130435,242.32871175766496,255:SD_P4/TO_P4:rank=23:root=MATH/algebra/train/1050,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0181,point,347.0,242.96146145563205,255:SD_P4/TO_P4:rank=24:root=CodeContests/test/124,,,,,#087B70,,,0.45,,o,3.0,#087B70
+f05_prefill-0182,line,379,239.9633445960687,255:SD_P4/TO_P4:stratified:interval,,,,,#087B70,379,236.84747937718467,1.15,-,,,
+f05_prefill-0183,line,376.4,239.9633445960687,255:SD_P4/TO_P4:stratified:lo,,,,,#087B70,381.6,239.9633445960687,0.85,-,,,
+f05_prefill-0184,line,376.4,236.84747937718467,255:SD_P4/TO_P4:stratified:hi,,,,,#087B70,381.6,236.84747937718467,0.85,-,,,
+f05_prefill-0185,point,379,238.4408030030777,255:SD_P4/TO_P4:stratified:estimate,,,,,#087B70,,,0.55,,D,4.1,#087B70
+f05_prefill-0186,text,301.5,260,255:SD_P4/TO_P4:estimate_ci,"14.91 [12.50, 17.44]%",8,normal,center,#087B70,,,,,,,
+f05_prefill-0187,line,4,268,,,,,,#D2DADC,390.34400000000005,268,0.65,-,,,
+f05_prefill-0188,text,4,279,,Root rank (prompt-length order),8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0189,point,247,279,,,,,,#254B70,,,0.7,,D,4.0,#254B70
+f05_prefill-0190,text,255,279,,Estimate [95% interval],8.2,normal,left,#24313B,,,,,,,
+f05_prefill-0191,text,4,291,,Resident-request reduction (%) · above zero = less candidate time,8.2,normal,left,#505F69,,,,,,,

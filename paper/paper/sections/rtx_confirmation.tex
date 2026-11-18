@@ -1,0 +1,31 @@
+\subsection{RTX confirmation after shared activation preparation}
+\label{supp:rtx-confirmation}
+
+The six-block RTX confirmation retains the earlier bridge's numerical core, native workers and models. Its 24 exposed roots have 12 rounds each, three arms and two rounds per root/block. Every root receives each of the six arm orders twice; every domain/block/arm/position cell contains eight observations. Each root-round uses three fresh workers with same-arm warmups and measured requests. The observed campaign runs from 17 November 2026 21:33 to 18 November 06:56 in \mbox{Asia/Shanghai}, with at least 1,805.7 seconds between successive blocks. There are 24 distinct inputs and six temporal clusters.
+
+C1/B is the sole prespecified primary comparison; C4/C1 and C4/B are descriptive secondary contrasts (Table~\ref{tab:rtx269-effects}). For root $i$, block $b$ and its two rounds $j$,
+\begin{equation}
+ \widehat r_{\mathrm{RTX}}=\exp\!\left[\frac{1}{24\cdot6}\sum_{i=1}^{24}\sum_{b=1}^{6}\left(\frac12\sum_{j=1}^{2}\log\frac{T^{\mathrm{candidate}}_{ibj}}{T^{\mathrm{control}}_{ibj}}\right)\right].
+ \label{eq:rtx-estimator}
+\end{equation}
+The 10,000 prespecified draws independently resample roots within balanced code/math strata and whole time blocks, using common draws across all contrasts and linear percentile endpoints. The primary interval spans a 0.48\% reduction through a 2.19\% increase and is not contained in the prespecified $\pm2\%$ practical band; the data support neither a resolved benefit direction nor equivalence within that band.
+
+\papertable{s18_rtx269_effects}{RTX confirmation primary and descriptive complete-request estimates, with crossed root/time-block intervals.}{tab:rtx269-effects}
+
+The conditional root-only C1/B interval is [1.001432, 1.015407], holding the six blocks fixed. Tables~\ref{tab:rtx269-blocks} and~\ref{tab:rtx269-roots} retain every block and root. One C1/B block favors C1 and five favor B; all 24 root aggregates and all six block aggregates favor C4 against either scalar control.
+
+\papertable{s19_rtx269_blocks}{All six RTX time blocks in execution order: within-block geometric time ratios.}{tab:rtx269-blocks}
+\papertable{s20_rtx269_roots}{All 24 RTX roots: per-root geometric time ratios over 12 rounds.}{tab:rtx269-roots}
+
+Table~\ref{tab:rtx269-phases} closes the arithmetic phase account to complete service, retaining prefill and drafting. C1/B saves 100.43\,ms in verification, adds 173.57\,ms in prefill and 7.43\,ms in draft work, and changes remaining stages by $-0.06$\,ms: $+80.52$\,ms net. C4/C1 saves 1,465.29\,ms in verification while prefill adds 63.21\,ms, for a 1,411.60\,ms net request saving. These are arithmetic differences, separately defined from geometric effects.
+
+\papertable{s21_rtx269_phases}{RTX confirmation arithmetic phase differences, candidate minus control, within the complete resident-request clock.}{tab:rtx269-phases}
+
+C4 records 2,273,400 verification admissions and 2,652 prefill admissions. All prefill admissions occur at the q3 tail of the 163-token MATH/counting\_and\_probability/train/398 prompt, in its 12 measured requests. B and C1 have zero few-column admissions. The treatment includes both target verification and that observed prefill exposure. Prompts span 140--757 tokens; visible outputs 42--128; decision sequences including EOG 43--128. The ledger contains 684 cap-terminated and 180 EOG requests; separate initial-EOG and complete logical q1-tail qualification remain outside this panel.
+
+The ledger has 1,764 requests: 864 formal measured, 864 formal warmups, 24 eligible qualification and 12 resource-excluded requests. The excluded units are one complete six-request qualification unit and one complete six-request formal root-round unit, replaced under the frozen technical allowance; all original records remain. Eligible qualification contains twelve capture warmups and twelve clean requests, excluded from estimation even where an internal field says measured.
+
+\begin{samepage}
+Original-machine qualification compares fresh candidate captures with stored pristine references on two sentinel roots. Its overlapping counts are 1,932 pristine-target vector comparisons, 3,768 target/draft vector comparisons and 456 canonical checkpoints. Every timed request validates complete-state/frontier identities, pending and transaction state, actual target/draft work, dispatch and graph/view identity. Public material includes complete final frontiers, native records and bindings; large full-vector and KV payloads remain on the original host with manifests.
+\par
+\end{samepage}

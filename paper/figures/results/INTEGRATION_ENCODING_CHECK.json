@@ -1,0 +1,107 @@
+{
+  "scope": "CPU checks of saved-value graphic encoding, not a GPU/model experiment or laboratory reproduction",
+  "figure3": {
+    "effect_points": 60,
+    "same_block_pair_lines": 24,
+    "blocks": 12,
+    "histories": 2,
+    "conversations": 2,
+    "ci_encoding": "printed numbers, no CI bars"
+  },
+  "figure4": {
+    "root_effects": 72,
+    "distinct_roots": 24,
+    "summary_diamonds": 3,
+    "primary": "C1/B",
+    "waterfall_labels_ms": [
+      "+100.43",
+      "\u2212173.57",
+      "\u22127.43",
+      "+0.06",
+      "\u221280.52"
+    ],
+    "unrounded_net_saved_ms": -80.51542986111113,
+    "rounded_label_sum_not_asserted": true
+  },
+  "figure5": {
+    "study_specific_roots": 36,
+    "effect_marks": 108,
+    "summary_diamonds": 6,
+    "adverse_mark": {
+      "study_pr": "257",
+      "contrast": "SD_P4/TO_P4",
+      "root": "CodeContests/train/279",
+      "domain": "code",
+      "prompt_tokens": "187",
+      "output_tokens": "128",
+      "length_rank": "12",
+      "rounds": "4",
+      "ratio": "1.003348077702276",
+      "reduction_pct": "-0.33480777022760755"
+    },
+    "rank_axis_explicit": true
+  },
+  "files": {
+    "f07_confirmation": {
+      "width_pt": 394.343994140625,
+      "height_pt": 274.0,
+      "font_sizes_pt": [
+        7.6,
+        8.0,
+        8.2,
+        8.7
+      ],
+      "pdf_sha256": "d1bee686862bc8c1c4d34aa888a37ed63c7db0abb514d09f8a8a238fd82f1f3b",
+      "svg_sha256": "53e1884dd3259f04479fce5341d7b05e28214ca6d9bb637b7bbb5263403e7b97"
+    },
+    "f04_few_column": {
+      "width_pt": 394.343994140625,
+      "height_pt": 286.0,
+      "font_sizes_pt": [
+        8.0,
+        8.2,
+        8.7
+      ],
+      "pdf_sha256": "8841d6aae182cd85de25191b6173f8382c8f17b8985a454288cf2c3ee1f94af0",
+      "svg_sha256": "4ab4e64235cc3b70e7ce63c22e36316e68f306087227548bb2f8931083032945"
+    },
+    "f05_prefill": {
+      "width_pt": 394.343994140625,
+      "height_pt": 299.0,
+      "font_sizes_pt": [
+        8.0,
+        8.2,
+        8.7
+      ],
+      "pdf_sha256": "7a88e7fe0160d6fe95523c629ecb098db5dbcc3eaf68031e68a891f7f5f6fbcc",
+      "svg_sha256": "e8c01f05d83eb656c34958de997c2db717f36ca78a5f56b84b4e370f0fd7041e"
+    },
+    "f03_alternate": {
+      "width_pt": 394.343994140625,
+      "height_pt": 294.0,
+      "font_sizes_pt": [
+        8.0,
+        8.2,
+        8.7
+      ],
+      "pdf_sha256": "67e1f07118c300f2641aae7c870bea9f2865da9b0f0b1886f83e8840e1a1cd59",
+      "svg_sha256": "d4fbf7b3a4373c6da193aa9bb11d64d99e677bf4497396a60dfcef95523516b3"
+    },
+    "f05_prompt_length": {
+      "width_pt": 394.343994140625,
+      "height_pt": 345.6000061035156,
+      "font_sizes_pt": [
+        8.0,
+        8.5
+      ],
+      "pdf_sha256": "8117244b77bce0c996a2975bfa26568654f339bf9df67bc519a0e444d4674441",
+      "svg_sha256": "57b7fa123a683543314f4cc56241a22d4f609e840cc5d0760f29c142627feccc"
+    }
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8"
+  },
+  "font_measurement_note": "PyMuPDF span sizes are actual font sizes. pdfminer LTChar height on a rotated label can be below the font size."
+}

@@ -1,0 +1,83 @@
+{
+  "manuscript_head": "8224998c5aa3032476d669990e6ae20e10cd1fb0",
+  "confirmation266_head": "0cac675cc757f195b74893da53af2161c2599c97",
+  "rtx269_head": "3ed4671c21291f0ed0012fd61cc992558fdb024d",
+  "p4_heads": {
+    "257": "7deb9aa28a934878837d3d74be8ed14bc374809a",
+    "255": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6"
+  },
+  "zip_sha256": "d437b1f2c758f0593651af5441ef8d09183a5bcf31f0a55df4ec74efd0300568",
+  "zip_member_manifest_sha256": "0bdabcafd77f0839c7cc6f2cd442251a0826d733db1491e2986554e9ecfd6624",
+  "all_16_data_zip_members_verified": true,
+  "frozen_rtx_draws_sha256": "fba8f39df16e8efeb045e78585a3715189ba75872c14952a89775c8e211972b2",
+  "input_members": [
+    {
+      "path": "inputs/scientific_data/artifact/scientific_data/RTX269_ALL_REQUESTS.csv",
+      "bytes": 407245,
+      "sha256": "004b83432006c390d7ffa4c38c5e91063ef2bbe7b5da6ff3e9a79068573d58ba",
+      "use": "Fig 4: field-minimized role/timing derivative with public row IDs"
+    },
+    {
+      "path": "inputs/scientific_data/data/plot_data.json",
+      "bytes": 149863,
+      "sha256": "2b215272d7038d0ff3d2d41ca8c27f649fe3074c72c6aef31d524773f8c1fbe3",
+      "use": "Fig 5: underlying study heads and request counts"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/confirmation266_recomputed/INDEPENDENT_NATIVE_VALUES.csv",
+      "bytes": 3090,
+      "sha256": "bcf44fe8025b5ad4431e71ca311f849b809de58532e60340ce881bcfdaa51b86",
+      "use": "Fig 3 and alternate: 96 native seconds"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/confirmation266_recomputed/confirmation266_data.json",
+      "bytes": 103466,
+      "sha256": "8ddaed0b7b2c31535b758942a1df18fed97b5e115f0d48d9ad7b3fb141e95ea7",
+      "use": "Fig 3: pair/receipt IDs and independent check of six estimates and every interval"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/prior_studies_recomputed/all_point_estimates_and_intervals.json",
+      "bytes": 96224,
+      "sha256": "cbf2f109ca8d33d239f34648a65998f0910c694878da1f973aa9fa91d0b05085",
+      "use": "Fig 5: independent interval and all-root estimate check"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/prior_studies_recomputed/estimates/paired_request_times.csv",
+      "bytes": 101451,
+      "sha256": "b8ff071b5dc4e99b301044dfc8a46c420dbe2e2ca3f818ee49f8611c7b7a0ce1",
+      "use": "Fig 5: native candidate/control seconds by round"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/prior_studies_recomputed/estimates/workload_roots.csv",
+      "bytes": 10158,
+      "sha256": "a469e7ff8a333df55485aaa9904b08602c61c3a05f8b448fecd7e52ed238c7d5",
+      "use": "Fig 5: root domain and prompt/output lengths"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/rtx269_recomputed/NATIVE_FORMAL_TIMES.csv",
+      "bytes": 165089,
+      "sha256": "afb30f69ca3f60fb345ebf53b42d9ef2c230413ba36336933ac5fda9d632b00f",
+      "use": "Fig 4: independent cross-check of all selected arm and phase times"
+    },
+    {
+      "path": "inputs/scientific_data/statistics/rtx269_recomputed/figure_data.json",
+      "bytes": 10235,
+      "sha256": "014ecb0f0ab33cff04858825857b8d3f1473a16c9df428891ffa379c54cd12f0",
+      "use": "Fig 4: independent estimate/interval and dispatch check"
+    }
+  ],
+  "gpu_host_identity": {
+    "study": 255,
+    "head": "1f75de3433d4121f916bee81ca5fc5a1b848e7c6",
+    "path": "benchmarks/three_platform_closeout_20261116/prefill_p4/results/rtx5070ti_20261116/formal_packet/HOST.json",
+    "git_blob": "0b9d1c1c611af190dae1b5cd37b23b120eadeef0",
+    "reported_gpu": "NVIDIA GeForce RTX 5070 Ti Laptop GPU"
+  },
+  "ci_percentiles": [
+    2.5,
+    97.5
+  ],
+  "percentile_interpolation": "linear, on ratios; reversed for reductions",
+  "cpu_only": true,
+  "controlled_runtimes": "No fitting, simulations of timings, or model executions."
+}

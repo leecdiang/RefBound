@@ -1,0 +1,23 @@
+[
+  {
+    "first": 13,
+    "last": 13,
+    "lines": [
+      "R uses the frozen stock UB1 path. M_PQ/M_QB are ordinary greedy generation with the scoped candidate layout and target context microbatch capacity4. C_PQ/C_QB additionally execute draft and verification transactions. Thus M/R and C/R are complete-path comparisons, including their different prefill behavior. Pure layout cost is the paired C_QB versus C_PQ comparison. CPU draft placement is a disclosed capacity choice, not a controlled hardware-only CUDA/Vulkan comparison."
+    ]
+  },
+  {
+    "first": 19,
+    "last": 26,
+    "lines": [
+      "The36-request natural B570 baseline reproduces local failures. Actual local cycles, states and dispatches identify two independent factors:",
+      "",
+      "1. Before RoPE, q1 Q8 projection uses F32 activations while q4 selects Q8_1 activation quantization. Producer-safe real Q/K/V operands reproduce all15 original own paths. A declared intervention and a structural scoped GGML_PREC_F32 dispatch policy reproduce the concatenated scalar projections. The final binary also passes21 real-operand projection calls covering q1/2/3/4. There is no hidden environment switch or serial projection fallback.",
+      "2. Projection repair alone preserves development endpoints but leaves99 committed vectors different, beginning at output29 on the long input. At actual cycle8/base765, scalar rows use physical key extent768 before the final1024 row, whereas the original batch uses1024 throughout. Visible V, QK and probability prefixes agree bitwise. Eleven own-path and crossed-extent AV calls exchange the results. Actual Vulkan dispatch changes from the noncontiguous to contiguous matvec path; the claim is an extent/contiguity/dispatch factor, not an unchanged-pipeline loop-length explanation. Maximal adjacent equal-prefix attention groups, with graph-reuse invalidation, repair it structurally. The observed boundary remains a3+1 batch split on Vulkan0 in all32 layers.",
+      "",
+      "Sixteen real attention-chain replays cover q1..4, PQ/QB and keys768/1024, with64 stage comparisons. Five final same-state requests preserve natural trajectories and live source state; all20 q1/q4 full-vector rows match. Controlled layer0 attention/post-FFN traces and exact group concatenation agree. The final binary passes12 unchanged historical Qwen requests and914 saved vectors/descriptors under the original auditor.",
+      "",
+      "The final36-request development matrix passes3152 saved vectors and1920 committed candidate vectors. Prefix-off in the same binary restores the entire36-request/3152-vector projection-only trajectory, including the99 latent differences. Q8-off restores endpoint failures. A separate projection-off predecessor restores every original baseline trajectory and all3138 vectors. The original stock reference remains identical across384 development reference vectors. Numerical source changes and failed builds/admissions have distinct preserved epochs."
+    ]
+  }
+]

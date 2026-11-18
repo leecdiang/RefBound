@@ -1,0 +1,157 @@
+svg_id,kind,x_pt,y_pt,data_key,text,font_pt,weight,align,color,x2_pt,y2_pt,stroke_pt,dash,shape,diameter_pt,fill
+f04_few_column-0001,text,4,8,,A,8.7,bold,left,#254B70,,,,,,,
+f04_few_column-0002,text,18,8,,Dispatch controls,8.7,normal,left,#24313B,,,,,,,
+f04_few_column-0003,text,390,8,,Same binary · shared prep · SIMPLE fixed · P4 off,8,normal,right,#505F69,,,,,,,
+f04_few_column-0004,text,5,25,,B,8.2,bold,left,#254B70,,,,,,,
+f04_few_column-0005,text,24,25,,Scalar loop,8.2,normal,left,#24313B,,,,,,,
+f04_few_column-0006,text,5,38,,q calls · 1 column/group,8.2,normal,left,#505F69,,,,,,,
+f04_few_column-0007,text,136,25,,C1,8.2,bold,left,#254B70,,,,,,,
+f04_few_column-0008,text,155,25,,Scalar groups,8.2,normal,left,#24313B,,,,,,,
+f04_few_column-0009,text,136,38,,1 call · 1 column/group,8.2,normal,left,#505F69,,,,,,,
+f04_few_column-0010,text,267,25,,C4,8.2,bold,left,#087B70,,,,,,,
+f04_few_column-0011,text,286,25,,Few-column arithmetic,8.2,normal,left,#24313B,,,,,,,
+f04_few_column-0012,text,267,38,,1 call · q columns/group,8.2,normal,left,#505F69,,,,,,,
+f04_few_column-0013,line,4,48,,,,,,#D2DADC,390.34400000000005,48,0.65,-,,,
+f04_few_column-0014,text,4,60,,B,8.7,bold,left,#254B70,,,,,,,
+f04_few_column-0015,text,18,60,,Complete-request reduction (%),8.7,normal,left,#24313B,,,,,,,
+f04_few_column-0016,text,4,73,,Reset → final sync · 24 roots × 6 blocks × 2 rounds,8.2,normal,left,#505F69,,,,,,,
+f04_few_column-0017,text,390,73,,Above zero = time saved,8.2,normal,right,#505F69,,,,,,,
+f04_few_column-0018,text,29,89,,C1/B · primary,8.2,bold,left,#254B70,,,,,,,
+f04_few_column-0019,line,25,150.85714285714286,,,,,,#505F69,139,150.85714285714286,0.65,-,,,
+f04_few_column-0020,text,21,150.85714285714286,,0,8,normal,right,#505F69,,,,,,,
+f04_few_column-0021,line,25,126.42857142857143,,,,,,#E5EAEB,139,126.42857142857143,0.5,-,,,
+f04_few_column-0022,text,21,126.42857142857143,,15,8,normal,right,#505F69,,,,,,,
+f04_few_column-0023,line,25,102.0,,,,,,#E5EAEB,139,102.0,0.5,-,,,
+f04_few_column-0024,text,21,102.0,,30,8,normal,right,#505F69,,,,,,,
+f04_few_column-0025,line,113,101,,,,,,#D2DADC,113,158,0.5,"(0, (1.5, 2))",,,
+f04_few_column-0026,point,29.0,147.17550198450022,269:C1/B:slot=0:root=CodeContests/test/116,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0027,point,32.12,151.3043083338485,269:C1/B:slot=1:root=CodeContests/test/81,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0028,point,35.24,141.67548217287506,269:C1/B:slot=2:root=CodeContests/test/124,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0029,point,38.36,153.06720420458882,269:C1/B:slot=3:root=CodeContests/test/60,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0030,point,41.480000000000004,149.8091886781987,269:C1/B:slot=4:root=CodeContests/test/108,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0031,point,44.6,149.7954919492769,269:C1/B:slot=5:root=CodeContests/test/129,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0032,point,47.72,152.99880146228526,269:C1/B:slot=6:root=CodeContests/test/52,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0033,point,50.84,153.4513124622252,269:C1/B:slot=7:root=CodeContests/test/159,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0034,point,53.96,153.3915625363845,269:C1/B:slot=8:root=CodeContests/test/0,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0035,point,57.08,154.53744728024253,269:C1/B:slot=9:root=CodeContests/test/71,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0036,point,60.2,155.4880214020394,269:C1/B:slot=10:root=CodeContests/test/90,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0037,point,63.32,154.69835342422027,269:C1/B:slot=11:root=CodeContests/test/6,,,,,#254B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0038,point,70.44,153.95237159773075,269:C1/B:slot=12:root=MATH/counting_and_probability/train/35,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0039,point,73.56,151.69002660343588,269:C1/B:slot=13:root=MATH/geometry/train/701,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0040,point,76.68,153.13122177267138,269:C1/B:slot=14:root=MATH/prealgebra/train/316,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0041,point,79.80000000000001,155.69435769062113,269:C1/B:slot=15:root=MATH/geometry/train/545,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0042,point,82.92,154.27497014004146,269:C1/B:slot=16:root=MATH/algebra/train/355,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0043,point,86.03999999999999,154.32219476243958,269:C1/B:slot=17:root=MATH/algebra/train/1050,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0044,point,89.16,153.7456608543106,269:C1/B:slot=18:root=MATH/counting_and_probability/train/398,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0045,point,92.28,152.9771543579348,269:C1/B:slot=19:root=MATH/algebra/train/320,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0046,point,95.4,153.30919359137263,269:C1/B:slot=20:root=MATH/geometry/train/387,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0047,point,98.52,153.41416373957713,269:C1/B:slot=21:root=MATH/algebra/train/337,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0048,point,101.64,150.43476927426485,269:C1/B:slot=22:root=MATH/algebra/train/917,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0049,point,104.76,152.11767979667337,269:C1/B:slot=23:root=MATH/geometry/train/567,,,,,#254B70,,,0.58,,o,2.7,#254B70
+f04_few_column-0050,line,127,154.42150141674122,269:C1/B:crossed:interval,,,,,#254B70,127,150.07617997344624,1.15,-,,,
+f04_few_column-0051,line,124.4,154.42150141674122,269:C1/B:crossed:lo,,,,,#254B70,129.6,154.42150141674122,0.85,-,,,
+f04_few_column-0052,line,124.4,150.07617997344624,269:C1/B:crossed:hi,,,,,#254B70,129.6,150.07617997344624,0.85,-,,,
+f04_few_column-0053,point,127,152.3252087536199,269:C1/B:crossed:estimate,,,,,#254B70,,,0.55,,D,4.1,#254B70
+f04_few_column-0054,text,46,167,,code,8,normal,center,#505F69,,,,,,,
+f04_few_column-0055,text,87,167,,math,8,normal,center,#505F69,,,,,,,
+f04_few_column-0056,text,127,167,,all,8,normal,center,#505F69,,,,,,,
+f04_few_column-0057,text,77,181,269:C1/B:estimate_ci,"−0.90 [−2.19, 0.48]",8,normal,center,#254B70,,,,,,,
+f04_few_column-0058,text,151,89,,C4/C1 · descriptive,8.2,normal,left,#087B70,,,,,,,
+f04_few_column-0059,line,147,150.85714285714286,,,,,,#505F69,261,150.85714285714286,0.65,-,,,
+f04_few_column-0060,line,147,126.42857142857143,,,,,,#E5EAEB,261,126.42857142857143,0.5,-,,,
+f04_few_column-0061,line,147,102.0,,,,,,#E5EAEB,261,102.0,0.5,-,,,
+f04_few_column-0062,line,235,101,,,,,,#D2DADC,235,158,0.5,"(0, (1.5, 2))",,,
+f04_few_column-0063,point,151.0,133.45755907775083,269:C4/C1:slot=0:root=CodeContests/test/116,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0064,point,154.12,132.66858399017363,269:C4/C1:slot=1:root=CodeContests/test/81,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0065,point,157.24,149.0950274838319,269:C4/C1:slot=2:root=CodeContests/test/124,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0066,point,160.36,131.8645828290418,269:C4/C1:slot=3:root=CodeContests/test/60,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0067,point,163.48,132.27033911349884,269:C4/C1:slot=4:root=CodeContests/test/108,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0068,point,166.6,132.23778996182654,269:C4/C1:slot=5:root=CodeContests/test/129,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0069,point,169.72,127.59869091502914,269:C4/C1:slot=6:root=CodeContests/test/52,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0070,point,172.84,122.51441592370671,269:C4/C1:slot=7:root=CodeContests/test/159,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0071,point,175.96,123.53816231426605,269:C4/C1:slot=8:root=CodeContests/test/0,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0072,point,179.08,121.90391239223784,269:C4/C1:slot=9:root=CodeContests/test/71,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0073,point,182.2,136.405028761042,269:C4/C1:slot=10:root=CodeContests/test/90,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0074,point,185.32,124.30693308849774,269:C4/C1:slot=11:root=CodeContests/test/6,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0075,point,192.44,126.66344635493954,269:C4/C1:slot=12:root=MATH/counting_and_probability/train/35,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0076,point,195.56,132.34860887484828,269:C4/C1:slot=13:root=MATH/geometry/train/701,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0077,point,198.68,136.06453518170542,269:C4/C1:slot=14:root=MATH/prealgebra/train/316,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0078,point,201.8,127.14729058734531,269:C4/C1:slot=15:root=MATH/geometry/train/545,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0079,point,204.92000000000002,128.47649318073567,269:C4/C1:slot=16:root=MATH/algebra/train/355,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0080,point,208.04,135.0986200580014,269:C4/C1:slot=17:root=MATH/algebra/train/1050,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0081,point,211.16,107.20820319297053,269:C4/C1:slot=18:root=MATH/counting_and_probability/train/398,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0082,point,214.28,107.20683927448965,269:C4/C1:slot=19:root=MATH/algebra/train/320,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0083,point,217.4,124.43703004982274,269:C4/C1:slot=20:root=MATH/geometry/train/387,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0084,point,220.51999999999998,105.49442639781117,269:C4/C1:slot=21:root=MATH/algebra/train/337,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0085,point,223.64,105.37380338450234,269:C4/C1:slot=22:root=MATH/algebra/train/917,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0086,point,226.76,110.66678436852308,269:C4/C1:slot=23:root=MATH/geometry/train/567,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0087,line,249,129.5673269705142,269:C4/C1:crossed:interval,,,,,#087B70,249,121.04918835352976,1.15,-,,,
+f04_few_column-0088,line,246.4,129.5673269705142,269:C4/C1:crossed:lo,,,,,#087B70,251.6,129.5673269705142,0.85,-,,,
+f04_few_column-0089,line,246.4,121.04918835352976,269:C4/C1:crossed:hi,,,,,#087B70,251.6,121.04918835352976,0.85,-,,,
+f04_few_column-0090,point,249,125.13082208179138,269:C4/C1:crossed:estimate,,,,,#087B70,,,0.55,,D,4.1,#087B70
+f04_few_column-0091,text,168,167,,code,8,normal,center,#505F69,,,,,,,
+f04_few_column-0092,text,209,167,,math,8,normal,center,#505F69,,,,,,,
+f04_few_column-0093,text,249,167,,all,8,normal,center,#505F69,,,,,,,
+f04_few_column-0094,text,199,181,269:C4/C1:estimate_ci,"15.80 [13.07, 18.30]",8,normal,center,#087B70,,,,,,,
+f04_few_column-0095,text,273,89,,C4/B · descriptive,8.2,normal,left,#087B70,,,,,,,
+f04_few_column-0096,line,269,150.85714285714286,,,,,,#505F69,383,150.85714285714286,0.65,-,,,
+f04_few_column-0097,line,269,126.42857142857143,,,,,,#E5EAEB,383,126.42857142857143,0.5,-,,,
+f04_few_column-0098,line,269,102.0,,,,,,#E5EAEB,383,102.0,0.5,-,,,
+f04_few_column-0099,line,357,101,,,,,,#D2DADC,357,158,0.5,"(0, (1.5, 2))",,,
+f04_few_column-0100,point,273.0,130.16926305744525,269:C4/B:slot=0:root=CodeContests/test/116,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0101,point,276.12,133.06580817812983,269:C4/B:slot=1:root=CodeContests/test/81,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0102,point,279.24,140.01271242948508,269:C4/B:slot=2:root=CodeContests/test/124,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0103,point,282.36,133.81690465047896,269:C4/B:slot=3:root=CodeContests/test/60,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0104,point,285.48,131.34198741753238,269:C4/B:slot=4:root=CodeContests/test/108,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0105,point,288.6,131.29751692267666,269:C4/B:slot=5:root=CodeContests/test/129,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0106,point,291.72,129.43448842700587,269:C4/B:slot=6:root=CodeContests/test/52,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0107,point,294.84,124.65711106813022,269:C4/B:slot=7:root=CodeContests/test/159,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0108,point,297.96,125.64743784146137,269:C4/B:slot=8:root=CodeContests/test/0,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0109,point,301.08,124.9299212758629,269:C4/B:slot=9:root=CodeContests/test/71,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0110,point,304.2,140.62495827464713,269:C4/B:slot=10:root=CodeContests/test/90,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0111,point,307.32,127.52192030096981,269:C4/B:slot=11:root=CodeContests/test/6,,,,,#087B70,,,0.58,,o,2.7,#FFFFFF
+f04_few_column-0112,point,314.44,129.29885476808641,269:C4/B:slot=12:root=MATH/counting_and_probability/train/35,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0113,point,317.56,133.08683630548256,269:C4/B:slot=13:root=MATH/geometry/train/701,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0114,point,320.68,138.1320554125473,269:C4/B:slot=14:root=MATH/prealgebra/train/316,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0115,point,323.8,131.28027073337333,269:C4/B:slot=15:root=MATH/geometry/train/545,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0116,point,326.92,131.42462540616833,269:C4/B:slot=16:root=MATH/algebra/train/355,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0117,point,330.04,138.22838363334301,269:C4/B:slot=17:root=MATH/algebra/train/1050,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0118,point,333.16,109.32254115992708,269:C4/B:slot=18:root=MATH/counting_and_probability/train/398,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0119,point,336.28,108.75862795137107,269:C4/B:slot=19:root=MATH/algebra/train/320,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0120,point,339.4,126.49128762698817,269:C4/B:slot=20:root=MATH/geometry/train/387,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0121,point,342.52,107.33920702332159,269:C4/B:slot=21:root=MATH/algebra/train/337,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0122,point,345.64,105.06939184318591,269:C4/B:slot=22:root=MATH/algebra/train/917,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0123,point,348.76,111.61624234277716,269:C4/B:slot=23:root=MATH/geometry/train/567,,,,,#087B70,,,0.58,,o,2.7,#087B70
+f04_few_column-0124,line,371,130.67053028443863,269:C4/B:crossed:interval,,,,,#087B70,371,122.3812827393174,1.15,-,,,
+f04_few_column-0125,line,368.4,130.67053028443863,269:C4/B:crossed:lo,,,,,#087B70,373.6,130.67053028443863,0.85,-,,,
+f04_few_column-0126,line,368.4,122.3812827393174,269:C4/B:crossed:hi,,,,,#087B70,373.6,122.3812827393174,0.85,-,,,
+f04_few_column-0127,point,371,126.36697961054486,269:C4/B:crossed:estimate,,,,,#087B70,,,0.55,,D,4.1,#087B70
+f04_few_column-0128,text,290,167,,code,8,normal,center,#505F69,,,,,,,
+f04_few_column-0129,text,331,167,,math,8,normal,center,#505F69,,,,,,,
+f04_few_column-0130,text,371,167,,all,8,normal,center,#505F69,,,,,,,
+f04_few_column-0131,text,321,181,269:C4/B:estimate_ci,"15.04 [12.40, 17.49]",8,normal,center,#087B70,,,,,,,
+f04_few_column-0132,line,4,191,,,,,,#D2DADC,390.34400000000005,191,0.65,-,,,
+f04_few_column-0133,text,4,202,,C,8.7,bold,left,#254B70,,,,,,,
+f04_few_column-0134,text,18,202,,Arithmetic mean savings (ms),8.7,normal,left,#24313B,,,,,,,
+f04_few_column-0135,text,390,202,,B minus C1,8.2,normal,right,#505F69,,,,,,,
+f04_few_column-0136,line,23,238.0263157894737,,,,,,#505F69,381,238.0263157894737,0.65,-,,,
+f04_few_column-0137,text,16,238.0263157894737,,0,8,normal,right,#505F69,,,,,,,
+f04_few_column-0138,line,64,219.52678230994152,269:C1/B:running_after=verify,,,,,#505F69,107,219.52678230994152,0.6,"(0, (2, 1.6))",,,
+f04_few_column-0139,rect,34,219.52678230994152,269:C1/B:waterfall=verify,,,,,#087B70,64,238.0263157894737,,,,,#087B70
+f04_few_column-0140,text,49,266,,Verification,8,normal,center,#24313B,,,,,,,
+f04_few_column-0141,text,49,278,269:C1/B:arithmetic_ms_saved=verify,+100.43,8.2,bold,center,#087B70,,,,,,,
+f04_few_column-0142,line,137,251.5009290752924,269:C1/B:running_after=prefill,,,,,#505F69,180,251.5009290752924,0.6,"(0, (2, 1.6))",,,
+f04_few_column-0143,rect,107,219.52678230994152,269:C1/B:waterfall=prefill,,,,,#A95524,137,251.5009290752924,,,,,#A95524
+f04_few_column-0144,text,122,266,,Prefill,8,normal,center,#24313B,,,,,,,
+f04_few_column-0145,text,122,278,269:C1/B:arithmetic_ms_saved=prefill,−173.57,8.2,bold,center,#A95524,,,,,,,
+f04_few_column-0146,line,210,252.86994352156432,269:C1/B:running_after=draft,,,,,#505F69,253,252.86994352156432,0.6,"(0, (2, 1.6))",,,
+f04_few_column-0147,rect,180,251.5009290752924,269:C1/B:waterfall=draft,,,,,#A95524,210,252.86994352156432,,,,,#A95524
+f04_few_column-0148,text,195,266,,Draft,8,normal,center,#24313B,,,,,,,
+f04_few_column-0149,text,195,278,269:C1/B:arithmetic_ms_saved=draft,−7.43,8.2,bold,center,#A95524,,,,,,,
+f04_few_column-0150,line,283,252.858105500731,269:C1/B:running_after=remaining,,,,,#505F69,326,252.858105500731,0.6,"(0, (2, 1.6))",,,
+f04_few_column-0151,rect,253,252.858105500731,269:C1/B:waterfall=remaining,,,,,#087B70,283,252.86994352156432,,,,,#087B70
+f04_few_column-0152,text,268,266,,Residual,8,normal,center,#24313B,,,,,,,
+f04_few_column-0153,text,268,278,269:C1/B:arithmetic_ms_saved=remaining,+0.06,8.2,bold,center,#087B70,,,,,,,
+f04_few_column-0154,rect,326,238.0263157894737,269:C1/B:waterfall=service,,,,,#254B70,356,252.858105500731,,,,,#FFFFFF
+f04_few_column-0155,text,341,266,,Net service,8,normal,center,#24313B,,,,,,,
+f04_few_column-0156,text,341,278,269:C1/B:arithmetic_ms_saved=service,−80.52,8.2,bold,center,#254B70,,,,,,,

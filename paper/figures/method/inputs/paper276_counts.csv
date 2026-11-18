@@ -1,0 +1,26 @@
+study,width,route,total,equal,mismatch,evidence,source_commit
+RTX_historical_width,2,wide,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,2,tile,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,2,packed,0,0,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,4,wide,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,4,tile,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,4,packed,0,0,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,8,wide,16,0,16,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,8,tile,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,8,packed,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,16,wide,16,0,16,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,16,tile,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,16,packed,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,32,wide,16,0,16,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,32,tile,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+RTX_historical_width,32,packed,16,16,0,saved full-operator-output equality metadata; numeric tensor bytes not reread,371223b696bb805030c29f04e39eb17b57fb2ebb
+B570_COMMITTED_REFERENCE_AUDIT-00,,C_PQ,384,285,99,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMMITTED_REFERENCE_AUDIT-00,,C_QB,384,285,99,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMMITTED_REFERENCE_AUDIT-00,,M_PQ,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMMITTED_REFERENCE_AUDIT-00,,M_QB,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMMITTED_REFERENCE_AUDIT-00,,R,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMBINED_COMMITTED_AUDIT-03,,C_PQ,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMBINED_COMMITTED_AUDIT-03,,C_QB,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMBINED_COMMITTED_AUDIT-03,,M_PQ,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMBINED_COMMITTED_AUDIT-03,,M_QB,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07
+B570_COMBINED_COMMITTED_AUDIT-03,,R,384,384,0,saved complete-vocabulary equality metadata; not original tensor replay,10a70566ce01ab707dbdcc57d8270c1434088f07

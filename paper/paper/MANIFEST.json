@@ -1,0 +1,273 @@
+{
+  "entrypoint": "main.tex",
+  "files": [
+    {
+      "path": "main.tex",
+      "size": 3950,
+      "sha256": "54ed285c4e50b4478ce17e49c559886c1440c58e637048d5220452ad4ebe39ef"
+    },
+    {
+      "path": "preamble.tex",
+      "size": 1538,
+      "sha256": "f19f14b71a3b02cd88dd5cf57c250265308fae011e2208f7a0c8bb8148beb2c8"
+    },
+    {
+      "path": "references.bib",
+      "size": 15424,
+      "sha256": "b7f71cfeffecf917e5ae380774d431a6a4a2f7a791cd26849280e1d6c1e71eaf"
+    },
+    {
+      "path": "main.bbl",
+      "size": 17791,
+      "sha256": "7ca7b146714ea44336524e9136cff1b6a6ec7cfc88196df02901228397396f5f"
+    },
+    {
+      "path": "acmart.cls",
+      "size": 122556,
+      "sha256": "f125da317f9786bebc39dea412bc942405eee18f960f33d83b4ac936ff4438e5"
+    },
+    {
+      "path": "ACM-Reference-Format.bst",
+      "size": 94292,
+      "sha256": "4342d27456645567ef1a027f6474e894715bc31d468f040142fa54540440ad04"
+    },
+    {
+      "path": "BUILD.txt",
+      "size": 2479,
+      "sha256": "efb7be9dd2ef507d2d8e5cef8b712249a67de395d38bb5be19a4ea88f8ba962f"
+    },
+    {
+      "path": "sections/conclusion.tex",
+      "size": 1100,
+      "sha256": "ab152a779156cfe68c97276b72dcc171629faadef9933da2bc2862d8cd4901e7"
+    },
+    {
+      "path": "sections/design.tex",
+      "size": 5856,
+      "sha256": "0d1f16acab4a8fe1c654b1a7c0eab3ad7074fffc504d2b274073d32d05756ff1"
+    },
+    {
+      "path": "sections/discussion.tex",
+      "size": 3029,
+      "sha256": "12e00a716432626450edee589b6c3d5c92d12ac83d943511d9a10fa0a71139ec"
+    },
+    {
+      "path": "sections/implementation.tex",
+      "size": 3952,
+      "sha256": "32ceeb86f7e29dbe8489f1f79a8b316e00505a2440f04d5254ae40f4da61041e"
+    },
+    {
+      "path": "sections/introduction.tex",
+      "size": 4085,
+      "sha256": "13c67c30ac8bf1c846ad316259233b3669495bd7b46ed7533d4c3dadcf17b494"
+    },
+    {
+      "path": "sections/method.tex",
+      "size": 7472,
+      "sha256": "b5570d6276b2d31044b072d1b0729e95b26ccbe0da1442fbffe9b683f330e229"
+    },
+    {
+      "path": "sections/reference.tex",
+      "size": 5098,
+      "sha256": "1f1aeca66a8a8dc517cd138422d07c7a981d66dd6508ab9d1ed041447ac63e4f"
+    },
+    {
+      "path": "sections/related.tex",
+      "size": 4034,
+      "sha256": "d166d8e3ff3837af678e81ddc53846ccc37ab97abee182f0f41f4c25593f3a8b"
+    },
+    {
+      "path": "sections/results.tex",
+      "size": 13612,
+      "sha256": "d69be65867050ac07886fa4aad082f3738270173b54b9d7c1dd17e8e5fa56172"
+    },
+    {
+      "path": "sections/rtx_confirmation.tex",
+      "size": 4597,
+      "sha256": "fbdce7ddd0138f1cbf35c8e1a1ae7b781a65ba75fcb389547974d2475e568ec9"
+    },
+    {
+      "path": "sections/supplement.tex",
+      "size": 18268,
+      "sha256": "274e34dc5f4013afd7cd02cda96584c0a3c4052a08b31ff7105f61429b97de0e"
+    },
+    {
+      "path": "tables/s01_local_pairs.tex",
+      "size": 1403,
+      "sha256": "cd24ed2572f2415b5f54ce11843000ec9d34898c0e18daed78ee03cdc41f972c"
+    },
+    {
+      "path": "tables/s02_diagnostics.tex",
+      "size": 1478,
+      "sha256": "51b20b445c19041f4ad564a066fa7b8b6dfd1e71c4ce5299b41dac5d1a01ee43"
+    },
+    {
+      "path": "tables/s03_phase_costs.tex",
+      "size": 1487,
+      "sha256": "2e894c0998508a7a78bdd384c2dbcfb700e61a657676b914825a5397d7847e9e"
+    },
+    {
+      "path": "tables/s04_ledger.tex",
+      "size": 1735,
+      "sha256": "5b2668544da03b1563053f0229963c52f1d1c7898d1cc4b3ed78a08458fa73b6"
+    },
+    {
+      "path": "tables/s05_natural.tex",
+      "size": 1148,
+      "sha256": "f9d0d350d9c7548f4d4cef12bb3b13d6fef4a0883c08b18462ed6d7588b46777"
+    },
+    {
+      "path": "tables/s06_m1_family.tex",
+      "size": 1239,
+      "sha256": "f7ea8df66c8df93868371ba5e89ebd9174cdc8bcd4a6be28fab5ee773bd38a60"
+    },
+    {
+      "path": "tables/s07_m1_roots.tex",
+      "size": 2391,
+      "sha256": "13e7b03576790ce7695a83f95878f5c8f1aa55bc2b6e443071d5c0f34fae371d"
+    },
+    {
+      "path": "tables/s08_access.tex",
+      "size": 1677,
+      "sha256": "d027c3cc8c121d162e8daa507118fe857841b2120cb649c2aa9325e3d92d4859"
+    },
+    {
+      "path": "tables/s09_pilot.tex",
+      "size": 1230,
+      "sha256": "ebd1386d02b8d9ab5bd7f9a669c8b1e42c269c69ddca35404c1ae9640f1f80ed"
+    },
+    {
+      "path": "tables/s11_direct_effects.tex",
+      "size": 1829,
+      "sha256": "a8327e89740444a917334ac222a42afbad6d285e2adb0d30f083f3b04440f140"
+    },
+    {
+      "path": "tables/s12_historical_geometry.tex",
+      "size": 1687,
+      "sha256": "becca8e6ec2d9c10a9c429ab921b96def647bb2d13e96c6b9001f0ff40142cba"
+    },
+    {
+      "path": "tables/s13_historical_applications.tex",
+      "size": 1495,
+      "sha256": "d2ae640b09c79bc2b1ad13d512d9132b18238ffb5c8ff57374de03b8dfdb77d1"
+    },
+    {
+      "path": "tables/s14_confirmation_effects.tex",
+      "size": 1428,
+      "sha256": "7a4a986bc3f0515226e64dbc0cf08dfee7216f6d6fa7b02354ed597d892e218c"
+    },
+    {
+      "path": "tables/s15_confirmation_A.tex",
+      "size": 1867,
+      "sha256": "08da9bc7c36f0da90df0cae808fcdc6689bf260362fa92b89533c4e94769371d"
+    },
+    {
+      "path": "tables/s16_confirmation_B.tex",
+      "size": 1809,
+      "sha256": "a1a08ab085b705dfa819053cbbb08ffd4a511b15e0fd71c4c841d9af6c3174ec"
+    },
+    {
+      "path": "tables/s17_confirmation_costs.tex",
+      "size": 1706,
+      "sha256": "37d9d020c7ded639d61eab4873672ab370de23c05ea994b3f1b5e96f0497f2d9"
+    },
+    {
+      "path": "tables/s18_rtx269_effects.tex",
+      "size": 990,
+      "sha256": "1810438e5263140fe7e887dd30fbca6035f020f166fe2abc3eeb63dafcd08fbe"
+    },
+    {
+      "path": "tables/s19_rtx269_blocks.tex",
+      "size": 992,
+      "sha256": "5bcad5404ea51c966d915f2926d5821fd7788dfc4e28d664158881ee26069665"
+    },
+    {
+      "path": "tables/s20_rtx269_roots.tex",
+      "size": 2194,
+      "sha256": "23ecac430af6b423a7e483c8df383d839d648036aa5fd23ee5e89e908b0d2d9e"
+    },
+    {
+      "path": "tables/s21_rtx269_phases.tex",
+      "size": 1697,
+      "sha256": "c8c3272ca7830019bfe8b73eb73a462bd8a6b467824b01e352f392d289edbf60"
+    },
+    {
+      "path": "tables/t01_dispatch.tex",
+      "size": 1079,
+      "sha256": "a3b152c623e21e9945cbef11d537387c99f3589e9bba91937cc4c0ad0280cc7d"
+    },
+    {
+      "path": "tables/t02_qualification.tex",
+      "size": 2240,
+      "sha256": "23dd5b307a2b8021b4c2fc963d20727279599f55b0be62238e8dab0c6b12267a"
+    },
+    {
+      "path": "tables/t03_deployments.tex",
+      "size": 2334,
+      "sha256": "da579c09b98993c8a3ff09be030d389ada9baa4b740057788b6b5484c61143a8"
+    },
+    {
+      "path": "tables/t04_studies.tex",
+      "size": 2540,
+      "sha256": "0c6e302b24ed73736f2c857fa5f591570a1e0c3a67318c787268d66d6d8b4eb7"
+    },
+    {
+      "path": "tables/t05_m1.tex",
+      "size": 1147,
+      "sha256": "359db924e7ca2c07873a01d0915917a98a6e42d2b306e71a91a63f351e6e1347"
+    },
+    {
+      "path": "tables/t06_neighbors.tex",
+      "size": 1817,
+      "sha256": "b9731af9984e11c36ccd62c10b6fc5f81e86635e119fd47986a22e4711c4279f"
+    },
+    {
+      "path": "tables/t07_confirmation_natural.tex",
+      "size": 1392,
+      "sha256": "d1183b9763d589f6875414d41f3bb3be568425ff58b827880fd5a71e043f752c"
+    },
+    {
+      "path": "figures/f01_obligations.pdf",
+      "size": 25994,
+      "sha256": "564d97eb2c1a13f80ed8f71c0178987a1c13d491af4f3d9cde3969dcf29fb40a"
+    },
+    {
+      "path": "figures/f02_local_lowering.pdf",
+      "size": 30970,
+      "sha256": "1df2de85f90da0aa33c22412040e2d5048b694e304d83b7b610fd86c0d8f07b5"
+    },
+    {
+      "path": "figures/f03_transaction.pdf",
+      "size": 23302,
+      "sha256": "7c16a3d330eae9a883a1444d35786f715e9029bf6c62ca4fa1a2e5e16956d94c"
+    },
+    {
+      "path": "figures/f04_few_column.pdf",
+      "size": 37017,
+      "sha256": "8841d6aae182cd85de25191b6173f8382c8f17b8985a454288cf2c3ee1f94af0"
+    },
+    {
+      "path": "figures/f05_prefill.pdf",
+      "size": 38201,
+      "sha256": "7a88e7fe0160d6fe95523c629ecb098db5dbcc3eaf68031e68a891f7f5f6fbcc"
+    },
+    {
+      "path": "figures/f06_b570.pdf",
+      "size": 24693,
+      "sha256": "ab670ab6602c35375042c3104902d6916cb14440deeb75f28f042cc52b8adc12"
+    },
+    {
+      "path": "figures/f07_confirmation.pdf",
+      "size": 32345,
+      "sha256": "d1bee686862bc8c1c4d34aa888a37ed63c7db0abb514d09f8a8a238fd82f1f3b"
+    },
+    {
+      "path": "figures/f08_c4_initial.pdf",
+      "size": 32887,
+      "sha256": "b472ee28d23c2a1545e9c9e86980a202e3ecdba8b686574b53060de8ab05a6b7"
+    }
+  ],
+  "scope": "Complete named-author TeX source. Installed TeX/font runtime is required; no original workspace or figure-generation runtime is needed.",
+  "bbl": "Supplied main.bbl matches main.tex and references.bib; verify both the supplied-bbl build and independent BibTeX regeneration.",
+  "manifest_scope": "Every payload except MANIFEST.json itself; the enclosing ZIP has a separate SHA-256."
+}

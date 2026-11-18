@@ -1,0 +1,300 @@
+--- a/src/llama-graph.cpp
++++ b/src/llama-graph.cpp
+@@ -1,3 +1,6 @@
++#include "../ggml/src/ggml-cuda/hs_native4_ref1.hpp"
++#include "../ggml/src/ggml-cuda/hs_strong_ref1.hpp"
++extern "C" int hs_strong_selected_arm();
+ #include "../ggml/src/hs_loop4_tensor.hpp"
+ #include "hs_reference_batching.hpp"
+ #include "hs_scope.h"
+@@ -1568,7 +1571,48 @@
+           ggml_tensor * cur,
+           ggml_tensor * w_s) const {
+     ggml_tensor * res = nullptr;
+-    if (hs_query_batch && w->type == GGML_TYPE_Q8_0 && cur->type == GGML_TYPE_F32 &&
++    // Explicit mixed-Q4 reference recipe: one original scalar-MMVQ column.
++    // Q8's four-column marker and its backend guard remain unchanged.
++    const bool q32_ref1 = hs_query_batch &&
++        (w->type == GGML_TYPE_Q4_K || w->type == GGML_TYPE_Q6_K) &&
++        cur->type == GGML_TYPE_F32 && cur->ne[1] > 1;
++    if (q32_ref1) {
++        if (cur->ne[1] > 32 || cur->ne[2] != 1 || cur->ne[3] != 1 ||
++            w->ne[2] != 1 || w->ne[3] != 1 || !ggml_is_contiguous(w) ||
++            w->ne[0] != cur->ne[0] || w->ne[0] % ggml_blck_size(w->type) != 0)
++            throw std::runtime_error("unsupported mixed-Q4 REF1 descriptor");
++        const int strong_arm=hs_strong_selected_arm();
++        if(strong_arm==1) {
++        for (int64_t i=0;i<cur->ne[1];++i) {
++            auto * x=ggml_view_2d(ctx0,cur,cur->ne[0],1,cur->nb[1],i*cur->nb[1]);
++            auto * column=ggml_mul_mat(ctx0,w,x);
++            ggml_format_name(column,"hs_ref1_loop_%s_%s_%lld",ggml_type_name(w->type),w->name,(long long)i);
++            res=res?ggml_concat(ctx0,res,column,1):column;
++        }
++        } else if(strong_arm==2) {
++            if(!ggml_is_contiguous(cur)) throw std::runtime_error("B rejects noncontiguous activation; no fallback");
++            res=ggml_mul_mat(ctx0,w,cur);
++            hs_strong_mark(res);
++            ggml_format_name(res,"hs_backend_ref1_%s",w->name);
++        } else if(strong_arm==3) {
++            if(!ggml_is_contiguous(cur)) throw std::runtime_error("C rejects noncontiguous activation; no fallback");
++            if(cur->ne[1]>=2 && cur->ne[1]<=4) {
++                res=ggml_mul_mat(ctx0,w,cur);
++                hs_native4_mark(res);
++                hs_native4_require(w,cur,res);
++                ggml_format_name(res,"hs_native4_ref1_%s_%s",ggml_type_name(w->type),w->name);
++            } else {
++                auto * channels=ggml_view_3d(ctx0,cur,cur->ne[0],1,cur->ne[1],cur->nb[1],cur->nb[1],0);
++                auto * grouped=ggml_mul_mat(ctx0,w,channels);
++                if(hs_prefill_pack4_requested() && hs_prefill_pack4_width(cur->ne[1])) {
++                    hs_native4_mark(grouped);
++                    hs_native4_require(w,channels,grouped);
++                }
++                ggml_format_name(grouped,"hs_ref1_group_%s_%s",ggml_type_name(w->type),w->name);
++                res=ggml_reshape_2d(ctx0,grouped,w->ne[1],cur->ne[1]);
++            }
++        } else throw std::runtime_error("Strong arm not selected before graph construction");
++    } else if (hs_query_batch && w->type == GGML_TYPE_Q8_0 && cur->type == GGML_TYPE_F32 &&
+         cur->ne[1] > 4 && cur->ne[1] <= 32 && cur->ne[2] == 1 && cur->ne[3] == 1) {
+         // A wide MM dispatch is a different numerical operation on this backend.
+         // Preserve four-column parallel matmuls across the physical KV cut.
+--- a/ggml/src/ggml-cuda/ggml-cuda.cu
++++ b/ggml/src/ggml-cuda/ggml-cuda.cu
+@@ -1,3 +1,5 @@
++#include "hs_native4_ref1.hpp"
++#include "hs_strong_ref1.hpp"
+ #include "../hs_loop4_tensor.hpp"
+ #include "ggml-cuda.h"
+ #include "ggml-impl.h"
+@@ -1817,6 +1819,35 @@
+ }
+ 
+ static void ggml_cuda_mul_mat(ggml_backend_cuda_context & ctx, const ggml_tensor * src0, const ggml_tensor * src1, ggml_tensor * dst) {
++    if (hs_native4_marked(dst)) {
++        hs_native4_require(src0,src1,dst);
++        for(const auto * t : {src0,src1,static_cast<const ggml_tensor *>(dst)}) {
++            if(!t->data || !t->buffer || t->buffer->buft!=ggml_backend_cuda_buffer_type(ctx.device))
++                throw std::runtime_error("Native4 requires same-device CUDA storage");
++        }
++        const int cc=ggml_cuda_info().devices[ctx.device].cc;
++        if(!GGML_CUDA_CC_IS_NVIDIA(cc) || cc<GGML_CUDA_CC_AMPERE || cc>=GGML_CUDA_CC_ADA_LOVELACE ||
++           ggml_cuda_info().devices[ctx.device].warp_size!=32)
++            throw std::runtime_error("Native4 A5000 candidate requires Ampere/warp32");
++        ggml_cuda_mul_mat_vec_q(ctx,src0,src1,nullptr,dst);
++        return;
++    }
++
++    if (hs_strong_marked(dst)) {
++        hs_strong_require(src0, src1, dst);
++        for (const auto * t : {src0, src1, static_cast<const ggml_tensor *>(dst)}) {
++            if (!t->data || !t->buffer || t->buffer->buft != ggml_backend_cuda_buffer_type(ctx.device)) {
++                throw std::runtime_error("strong REF1 requires same-device CUDA storage");
++            }
++        }
++        if (ggml_cuda_info().devices[ctx.device].warp_size != 32) {
++            throw std::runtime_error("strong REF1 requires warp32");
++        }
++        hs_work_backend();
++        ggml_cuda_mul_mat_vec_q(ctx, src0, src1, nullptr, dst);
++        return;
++    }
++
+     if (hs_loop4::marked(dst)) {
+         hs_loop4::require(src0,src1,dst);
+ #if defined(GGML_USE_HIP) || defined(GGML_USE_MUSA)
+--- a/ggml/src/ggml-cuda/mmvq.cu
++++ b/ggml/src/ggml-cuda/mmvq.cu
+@@ -1,8 +1,35 @@
++#include "hs_native4_ref1.hpp"
++extern "C" uint32_t hs_a5000_native4_capability_v1() { return 0x48534E34; }
++#include "hs_strong_ref1.hpp"
+ #include "../hs_loop4_tensor.hpp"
+ #include "mmvq.cuh"
+ #include "quantize.cuh"
+ #include "unary.cuh"
+ #include "vecdotq.cuh"
++#include <atomic>
++
++// Actual admitted wide projection dispatches.  One record = one MMVQ launch.
++// [calls, columns, channel groups, launches, q8, q16, q32, other widths].
++static std::atomic<uint64_t> hs_prefill_pack4_counts[8];
++#if defined(_WIN32)
++#define HS_P4_EXPORT __declspec(dllexport)
++#else
++#define HS_P4_EXPORT __attribute__((visibility("default")))
++#endif
++extern "C" HS_P4_EXPORT uint32_t hs_prefill_pack4_capability_v1() {
++    return 0x48535034;
++}
++extern "C" HS_P4_EXPORT void hs_prefill_pack4_audit(uint64_t * counts) {
++    for (int i = 0; i < 8; ++i) counts[i] = hs_prefill_pack4_counts[i].load();
++}
++static void hs_prefill_pack4_record(int64_t q) {
++    ++hs_prefill_pack4_counts[0];
++    hs_prefill_pack4_counts[1] += uint64_t(q);
++    hs_prefill_pack4_counts[2] += uint64_t(q / 4);
++    ++hs_prefill_pack4_counts[3];
++    ++hs_prefill_pack4_counts[q == 8 ? 4 : q == 16 ? 5 : q == 32 ? 6 : 7];
++}
++#undef HS_P4_EXPORT
+ 
+ #include <cstdint>
+ #include <type_traits>
+@@ -1429,6 +1456,11 @@
+         if (ids || fusion)throw std::runtime_error("loop4 rejects IDs and fused arithmetic");
+         hs_loop4::plan(ne11,GGML_PAD(ne10,MATRIX_ROW_PADDING)/QK8_1,nb1/sizeof(float),sizeof(block_q8_1));
+     }
++    if (hs_native4_marked(dst)) {
++        hs_native4_require(src0,src1,dst);
++        if(ids || fusion || get_device_table_id(ggml_cuda_info().devices[ctx.device].cc)!=MMVQ_PARAMETERS_GENERIC)
++            throw std::runtime_error("Native4 rejects IDs, fused arithmetic or non-generic compiled table");
++    }
+     // If src0 is a temporary compute buffer, clear any potential padding.
+     if (ggml_backend_buffer_get_usage(src0->buffer) == GGML_BACKEND_BUFFER_USAGE_COMPUTE) {
+         const size_t size_data  = ggml_nbytes(src0);
+@@ -1446,7 +1478,9 @@
+         const int64_t s11 = src1->nb[1] / ts_src1;
+         const int64_t s12 = src1->nb[2] / ts_src1;
+         const int64_t s13 = src1->nb[3] / ts_src1;
++        hs_work_quant(ne13*ne12*ne11, ne13*ne12*ne11*ne10_padded*sizeof(block_q8_1)/QK8_1);
+         quantize_row_q8_1_cuda(src1_d, nullptr, src1_q8_1.get(), src0->type, ne10, s11, s12, s13, ne10_padded, ne11, ne12, ne13, stream);
++        hs_work_quant_payload(src1_q8_1.get(),ne13*ne12*ne11,ne13*ne12*ne11*ne10_padded*sizeof(block_q8_1)/QK8_1,stream);
+     }
+ 
+     const int64_t s01 = src0->nb[1] / ts_src0;
+@@ -1471,6 +1505,49 @@
+ 
+     const int64_t ids_stride = ids ? ids->nb[1] / ggml_type_size(ids->type) : 0;
+ 
++
++    if (hs_native4_marked(dst)) {
++        hs_native4_require(src0,src1,dst);
++        if(ids || fusion)throw std::runtime_error("Native4 rejects IDs and fused arithmetic");
++        // The existing C1 graph has [K,1,q] input and [M,1,q] output.
++        // Keep those views and exactly the same Q8_1 preparation launch.
++        // Reinterpret the contiguous columns only at the MMVQ launch boundary.
++        if (hs_prefill_pack4_requested() && ne11 == 1 && hs_prefill_pack4_width(ne12)) {
++            const int groups = int(ne12 / 4);
++            hs_work_dot(ne12);
++            hs_prefill_pack4_record(ne12);
++            mul_mat_vec_q_switch_type(src0->data,src0->type,src1_q8_1.get(),nullptr,fusion_local,
++                dst_d,ne00,ne01,4,s01,s11,s1,
++                1,groups,groups,s02,int(4*s11),int(4*s1),
++                1,1,s03,int(ne12*s11),int(ne12*s1),0,stream);
++            return;
++        }
++        // Existing full-batch Q8_1 preparation above is shared by every column.
++        // No new dot implementation, reduction tree, or activation format.
++        hs_work_native4(ne11);
++        hs_work_dot(ne11);
++        mul_mat_vec_q_switch_type(src0->data,src0->type,src1_q8_1.get(),nullptr,fusion_local,
++            dst_d,ne00,ne01,int(ne11),s01,s11,s1,
++            1,1,1,s02,int(ne11*s11),int(ne11*s1),
++            1,1,s03,int(ne11*s11),int(ne11*s1),0,stream);
++        return;
++    }
++    if (hs_strong_marked(dst)) {
++        hs_strong_require(src0, src1, dst);
++        if (ids || fusion) {
++            throw std::runtime_error("strong REF1 rejects IDs or fused descriptors");
++        }
++        for (int64_t col = 0; col < ne11; ++col) {
++            const void * input = src1_q8_1.get() + col*s11*sizeof(block_q8_1);
++            float * output = dst_d + col*s1;
++            hs_work_dot(1);
++            mul_mat_vec_q_switch_type(src0->data, src0->type, input, nullptr, fusion_local,
++                output, ne00, ne01, 1, s01, s11, s1,
++                1, 1, 1, s02, s11, ne0, 1, 1, s03, s11, ne0, 0, stream);
++        }
++        return;
++    }
++    hs_work_dot(ncols_dst*nchannels_dst*ne3);
+     if (hs_loop4::marked(dst)) {
+         hs_loop4::require(src0,src1,dst);
+         if (ids || fusion)throw std::runtime_error("loop4 rejects IDs and fused arithmetic");
+--- /dev/null
++++ b/ggml/src/ggml-cuda/hs_native4_ref1.hpp
+@@ -0,0 +1,49 @@
++#pragma once
++#include "ggml.h"
++#include <stdexcept>
++#include <cstdint>
++#include <cstdlib>
++
++// HS_PREFILL_PACK4 is immutable for the process.  Changing getenv in an
++// already running worker is not a profile switch; use a fresh worker.
++inline bool hs_prefill_pack4_requested() {
++    static const bool value = []() {
++        const char * p = std::getenv("HS_PREFILL_PACK4");
++        if (!p || (p[0] == '0' && p[1] == 0)) return false;
++        if (p[0] == '1' && p[1] == 0) return true;
++        throw std::invalid_argument("HS_PREFILL_PACK4 must be 0 or 1");
++    }();
++    return value;
++}
++inline bool hs_prefill_pack4_width(int64_t q) {
++    return q >= 8 && q <= 32 && q % 4 == 0;
++}
++extern "C" void hs_work_native4(uint64_t);
++static_assert(GGML_MAX_OP_PARAMS >= 64,"Private final matmul metadata slot required");
++constexpr int hs_native4_marker_slot=15;
++constexpr int hs_native4_marker=0x48534E34;
++inline bool hs_native4_marked(const ggml_tensor * t) {
++    return t && t->op==GGML_OP_MUL_MAT && t->op_params[hs_native4_marker_slot]==hs_native4_marker;
++}
++inline void hs_native4_mark(ggml_tensor* t) {
++    if(!t || t->op!=GGML_OP_MUL_MAT || t->op_params[hs_native4_marker_slot]!=0)
++        throw std::runtime_error("Occupied native4 metadata");
++    t->op_params[hs_native4_marker_slot]=hs_native4_marker;
++}
++inline void hs_native4_require(const ggml_tensor * w,const ggml_tensor * x,const ggml_tensor * y) {
++    // Existing q2--4 uses [K,q,1]. P4 preserves the C1 [K,1,q] view.
++    const bool small = x && y && x->ne[1]>=2 && x->ne[1]<=4 &&
++        x->ne[2]==1 && y->ne[1]==x->ne[1] && y->ne[2]==1;
++    const bool wide = x && y && hs_prefill_pack4_requested() &&
++        x->ne[1]==1 && hs_prefill_pack4_width(x->ne[2]) &&
++        y->ne[1]==1 && y->ne[2]==x->ne[2];
++    if(!w || !x || !y || !hs_native4_marked(y) || y->op_params[1]!=0 ||
++       (w->type!=GGML_TYPE_Q4_K && w->type!=GGML_TYPE_Q6_K) ||
++       x->type!=GGML_TYPE_F32 || y->type!=GGML_TYPE_F32 ||
++       w->ne[0]<2048 || w->ne[0]%256 || w->ne[1]%2 || x->ne[0]!=w->ne[0] ||
++       (!small && !wide) || y->ne[0]!=w->ne[1] ||
++       w->ne[2]!=1 || w->ne[3]!=1 || x->ne[3]!=1 ||
++       y->ne[3]!=1 || !ggml_is_contiguous(w) ||
++       !ggml_is_contiguous(x) || !ggml_is_contiguous(y) || w->view_src)
++        throw std::runtime_error("Native4 candidate rejects descriptor; no fallback");
++}
+--- /dev/null
++++ b/ggml/src/ggml-cuda/hs_strong_ref1.hpp
+@@ -0,0 +1,32 @@
++#pragma once
++#include "ggml.h"
++#include <cstring>
++#include <stdexcept>
++#include <cstdint>
++extern "C" void hs_work_quant(uint64_t, uint64_t);
++extern "C" void hs_work_dot(uint64_t);
++extern "C" void hs_work_backend();
++extern "C" void hs_work_quant_payload(const void*,uint64_t,uint64_t,void*);
++static_assert(GGML_MAX_OP_PARAMS >= 64,"Private final matmul metadata slot required");
++constexpr int hs_strong_marker_slot=15;
++constexpr int hs_strong_marker=0x48534231;
++inline bool hs_strong_marked(const ggml_tensor * t) {
++    return t && t->op==GGML_OP_MUL_MAT && t->op_params[hs_strong_marker_slot]==hs_strong_marker;
++}
++inline void hs_strong_mark(ggml_tensor* t) {
++    if(!t || t->op!=GGML_OP_MUL_MAT || t->op_params[hs_strong_marker_slot]!=0)
++        throw std::runtime_error("Occupied or unsupported backend-loop metadata");
++    t->op_params[hs_strong_marker_slot]=hs_strong_marker;
++}
++inline void hs_strong_require(const ggml_tensor * w, const ggml_tensor * x, const ggml_tensor * y) {
++    if (!w || !x || !y || !hs_strong_marked(y) || y->op_params[1]!=0 ||
++        (w->type != GGML_TYPE_Q4_K && w->type != GGML_TYPE_Q6_K) ||
++        x->type != GGML_TYPE_F32 || y->type != GGML_TYPE_F32 ||
++        w->ne[0] <= 0 || w->ne[0] % 256 || x->ne[0] != w->ne[0] ||
++        x->ne[1] < 1 || x->ne[1] > 32 || y->ne[0] != w->ne[1] || y->ne[1] != x->ne[1] ||
++        w->ne[2] != 1 || w->ne[3] != 1 || x->ne[2] != 1 || x->ne[3] != 1 ||
++        y->ne[2] != 1 || y->ne[3] != 1 || !ggml_is_contiguous(w) ||
++        !ggml_is_contiguous(x) || !ggml_is_contiguous(y) || w->view_src) {
++        throw std::runtime_error("strong REF1 backend rejects descriptor; no fallback");
++    }
++}

@@ -1,0 +1,385 @@
+{
+  "schema": "heterospec.rtx269.independent.v1",
+  "source_head": "3ed4671c21291f0ed0012fd61cc992558fdb024d",
+  "packet_sha256": "927ce0fc542c5fd40a1e449eac8be5d201d84ac8e35121827d4c6a7e901cd137",
+  "estimand": "Equal roots; equal six blocks; two paired log ratios averaged per root/block",
+  "interval": "95% linear percentile of 10000 prespecified independent stratified root / block bootstrap draws",
+  "phase_estimand": "Arithmetic paired mean differences in milliseconds; not a decomposition of the geometric percentage",
+  "counts": {
+    "roots": 24,
+    "rounds": 12,
+    "time_blocks": 6,
+    "formal_measured": 864
+  },
+  "workload": {
+    "prompt_tokens_range": [
+      140,
+      757
+    ],
+    "decision_tokens_including_EOG_range": [
+      43,
+      128
+    ],
+    "display_tokens_excluding_EOG_range": [
+      42,
+      128
+    ],
+    "measured_stop_reasons": {
+      "EOG": 180,
+      "CAP": 684
+    }
+  },
+  "estimates": {
+    "C1/B": {
+      "role": "prespecified primary",
+      "ratio": 1.0090144397152099,
+      "ci95": [
+        0.9952046138720383,
+        1.0218864122080602
+      ],
+      "reduction_percent": -0.9014439715209877,
+      "reduction_ci95": [
+        -2.18864122080602,
+        0.47953861279617094
+      ],
+      "root_only_ci95": [
+        1.0014321449712773,
+        1.0154066222025524
+      ],
+      "phase_ms": {
+        "service": 80.51542986111116,
+        "context": 0.016202083333333336,
+        "target_prefill": 173.57393958333336,
+        "target_decode": 0.0,
+        "target_verify": -100.42603888888893,
+        "draft_prefill": 3.3003687499999987,
+        "draft_sync": 1.210652430555555,
+        "draft_propose": 2.920771527777786,
+        "decision_commit": -0.08249409722221755,
+        "terminal_sync": 0.000425,
+        "other_host": 0.0016034722221977859,
+        "draft": 7.43179270833334,
+        "remaining": -0.06426354166661241
+      }
+    },
+    "C4/C1": {
+      "role": "prespecified descriptive secondary",
+      "ratio": 0.8420313636601225,
+      "ci95": [
+        0.8169687004164108,
+        0.8692730603452625
+      ],
+      "reduction_percent": 15.796863633987746,
+      "reduction_ci95": [
+        13.072693965473746,
+        18.303129958358923
+      ],
+      "root_only_ci95": [
+        0.8183264370581047,
+        0.8667140606397797
+      ],
+      "phase_ms": {
+        "service": -1411.5991690972226,
+        "context": -0.02430902777777777,
+        "target_prefill": 63.214436458333424,
+        "target_decode": 0.0,
+        "target_verify": -1465.285515972222,
+        "draft_prefill": 0.4087795138888906,
+        "draft_sync": -2.5403552083333354,
+        "draft_propose": -7.630520833333333,
+        "decision_commit": 0.3881083333333335,
+        "terminal_sync": -0.0003916666666666666,
+        "other_host": -0.12940069444438643,
+        "draft": -9.762096527777777,
+        "remaining": 0.23400694444365477
+      }
+    },
+    "C4/B": {
+      "role": "prespecified descriptive secondary",
+      "ratio": 0.8496218046261527,
+      "ci95": [
+        0.8251482273466858,
+        0.8760471157816406
+      ],
+      "reduction_percent": 15.037819537384733,
+      "reduction_ci95": [
+        12.395288421835938,
+        17.48517726533142
+      ],
+      "root_only_ci95": [
+        0.8261380252013147,
+        0.8739331206627678
+      ],
+      "phase_ms": {
+        "service": -1331.0837392361111,
+        "context": -0.008106944444444441,
+        "target_prefill": 236.7883760416669,
+        "target_decode": 0.0,
+        "target_verify": -1565.7115548611116,
+        "draft_prefill": 3.7091482638888906,
+        "draft_sync": -1.3297027777777808,
+        "draft_propose": -4.7097493055555475,
+        "decision_commit": 0.30561423611111593,
+        "terminal_sync": 3.3333333333333294e-05,
+        "other_host": -0.12779722222218867,
+        "draft": -2.3303038194444374,
+        "remaining": 0.16974340277805222
+      }
+    }
+  },
+  "roots": [
+    {
+      "root_slot": 0,
+      "root": "CodeContests/test/116",
+      "domain": "code",
+      "C1/B": 0.9773934332381592,
+      "C4/C1": 0.8931604504774173,
+      "C4/B": 0.8729691591246638
+    },
+    {
+      "root_slot": 1,
+      "root": "CodeContests/test/81",
+      "domain": "code",
+      "C1/B": 1.00274575292714,
+      "C4/C1": 0.8883158666063292,
+      "C4/B": 0.8907549624972885
+    },
+    {
+      "root_slot": 2,
+      "root": "CodeContests/test/124",
+      "domain": "code",
+      "C1/B": 0.9436213817632679,
+      "C4/C1": 0.9891799933217748,
+      "C4/B": 0.9334113921108732
+    },
+    {
+      "root_slot": 3,
+      "root": "CodeContests/test/60",
+      "domain": "code",
+      "C1/B": 1.0135705521334402,
+      "C4/C1": 0.8833790173713094,
+      "C4/B": 0.8953669583801339
+    },
+    {
+      "root_slot": 4,
+      "root": "CodeContests/test/108",
+      "domain": "code",
+      "C1/B": 0.9935651936380622,
+      "C4/C1": 0.8858705033285017,
+      "C4/B": 0.8801700981778304
+    },
+    {
+      "root_slot": 5,
+      "root": "CodeContests/test/129",
+      "domain": "code",
+      "C1/B": 0.9934810909166126,
+      "C4/C1": 0.8856706401164787,
+      "C4/B": 0.8798970337357338
+    },
+    {
+      "root_slot": 6,
+      "root": "CodeContests/test/52",
+      "domain": "code",
+      "C1/B": 1.013150535294734,
+      "C4/C1": 0.8571849442150912,
+      "C4/B": 0.8684573850781063
+    },
+    {
+      "root_slot": 7,
+      "root": "CodeContests/test/159",
+      "domain": "code",
+      "C1/B": 1.0159291116101548,
+      "C4/C1": 0.8259657118122341,
+      "C4/B": 0.8391226118218522
+    },
+    {
+      "root_slot": 8,
+      "root": "CodeContests/test/0",
+      "domain": "code",
+      "C1/B": 1.0155622261006065,
+      "C4/C1": 0.8322518738595284,
+      "C4/B": 0.8452035656931839
+    },
+    {
+      "root_slot": 9,
+      "root": "CodeContests/test/71",
+      "domain": "code",
+      "C1/B": 1.0225983604927174,
+      "C4/C1": 0.8222170059172499,
+      "C4/B": 0.8407977622202107
+    },
+    {
+      "root_slot": 10,
+      "root": "CodeContests/test/90",
+      "domain": "code",
+      "C1/B": 1.0284352191353296,
+      "C4/C1": 0.911258948532714,
+      "C4/B": 0.9371707964232718
+    },
+    {
+      "root_slot": 11,
+      "root": "CodeContests/test/6",
+      "domain": "code",
+      "C1/B": 1.0235863806750367,
+      "C4/C1": 0.8369723961574422,
+      "C4/B": 0.8567135457077093
+    },
+    {
+      "root_slot": 12,
+      "root": "MATH/counting_and_probability/train/35",
+      "domain": "math",
+      "C1/B": 1.0190057905123817,
+      "C4/C1": 0.851442214460155,
+      "C4/B": 0.8676245468215832
+    },
+    {
+      "root_slot": 13,
+      "root": "MATH/geometry/train/701",
+      "domain": "math",
+      "C1/B": 1.00511419844215,
+      "C4/C1": 0.8863511071262613,
+      "C4/B": 0.8908840825775245
+    },
+    {
+      "root_slot": 14,
+      "root": "MATH/prealgebra/train/316",
+      "domain": "math",
+      "C1/B": 1.0139636424637717,
+      "C4/C1": 0.9091681984841561,
+      "C4/B": 0.9218634981472201
+    },
+    {
+      "root_slot": 15,
+      "root": "MATH/geometry/train/545",
+      "domain": "math",
+      "C1/B": 1.0297021963459192,
+      "C4/C1": 0.8544131878170326,
+      "C4/B": 0.8797911360821169
+    },
+    {
+      "root_slot": 16,
+      "root": "MATH/algebra/train/355",
+      "domain": "math",
+      "C1/B": 1.0209866587546406,
+      "C4/C1": 0.8625749581273243,
+      "C4/B": 0.8806775244238407
+    },
+    {
+      "root_slot": 17,
+      "root": "MATH/algebra/train/1050",
+      "domain": "math",
+      "C1/B": 1.0212766345062079,
+      "C4/C1": 0.9032371407070261,
+      "C4/B": 0.9224549872222817
+    },
+    {
+      "root_slot": 18,
+      "root": "MATH/counting_and_probability/train/398",
+      "domain": "math",
+      "C1/B": 1.0177365140176966,
+      "C4/C1": 0.7319801950445559,
+      "C4/B": 0.74496297203464
+    },
+    {
+      "root_slot": 19,
+      "root": "MATH/algebra/train/320",
+      "domain": "math",
+      "C1/B": 1.013017614478547,
+      "C4/C1": 0.7319718201065154,
+      "C4/B": 0.7415003470698224
+    },
+    {
+      "root_slot": 20,
+      "root": "MATH/geometry/train/387",
+      "domain": "math",
+      "C1/B": 1.0150564518768495,
+      "C4/C1": 0.8377712371480344,
+      "C4/B": 0.8503850994639625
+    },
+    {
+      "root_slot": 21,
+      "root": "MATH/algebra/train/337",
+      "domain": "math",
+      "C1/B": 1.015701005418456,
+      "C4/C1": 0.7214570041970861,
+      "C4/B": 0.7327846045291677
+    },
+    {
+      "root_slot": 22,
+      "root": "MATH/algebra/train/917",
+      "domain": "math",
+      "C1/B": 0.9974064779998718,
+      "C4/C1": 0.7207163365715056,
+      "C4/B": 0.7188471428967556
+    },
+    {
+      "root_slot": 23,
+      "root": "MATH/geometry/train/567",
+      "domain": "math",
+      "C1/B": 1.0077401391023804,
+      "C4/C1": 0.7532170969997032,
+      "C4/B": 0.759047102104772
+    }
+  ],
+  "blocks": [
+    {
+      "time_block": 0,
+      "C1/B": 1.0081568836117216,
+      "C4/C1": 0.8531657310551052,
+      "C4/B": 0.8601249046248312
+    },
+    {
+      "time_block": 1,
+      "C1/B": 0.9829166232353141,
+      "C4/C1": 0.8488971010615515,
+      "C4/B": 0.8343950720496673
+    },
+    {
+      "time_block": 2,
+      "C1/B": 1.0226804008522765,
+      "C4/C1": 0.8458563961558342,
+      "C4/B": 0.8650407582841106
+    },
+    {
+      "time_block": 3,
+      "C1/B": 1.009427522556735,
+      "C4/C1": 0.8367980270202761,
+      "C4/B": 0.8446869592954412
+    },
+    {
+      "time_block": 4,
+      "C1/B": 1.0166507922943513,
+      "C4/C1": 0.836733456967182,
+      "C4/B": 0.850665731964877
+    },
+    {
+      "time_block": 5,
+      "C1/B": 1.0147349294797383,
+      "C4/C1": 0.8309535280362599,
+      "C4/B": 0.843197569672814
+    }
+  ],
+  "dispatch": {
+    "B": {
+      "verify_admitted": 0,
+      "prefill_admitted": 0,
+      "prefill_exposed_requests": 0,
+      "prefill_tail_root_slots": []
+    },
+    "C1": {
+      "verify_admitted": 0,
+      "prefill_admitted": 0,
+      "prefill_exposed_requests": 0,
+      "prefill_tail_root_slots": []
+    },
+    "C4": {
+      "verify_admitted": 2273400,
+      "prefill_admitted": 2652,
+      "prefill_exposed_requests": 12,
+      "prefill_tail_root_slots": [
+        18
+      ]
+    }
+  },
+  "scope": "Same-binary B/C1/C4 controlled study, P4 off. C4 includes small q3 prefill tails. Independent of #256 and LOCAL."
+}
