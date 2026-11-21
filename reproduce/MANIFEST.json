@@ -12,13 +12,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4693,
-      "sha256": "925436b9a6d0d05004f293443acbca3eb2a8c59c291967910601f119f240e088"
+      "bytes": 4177,
+      "sha256": "8e54d26c3018c45728e7ae16a45a3d06d2fc31dd92175c7edf10f0f010f2fecb"
     },
     {
       "path": "SCOPE.md",
-      "bytes": 2485,
-      "sha256": "f6440a1285e691ab7771985c63b8a66f540b7aeb22c94a27d34356eaac24f89a"
+      "bytes": 2567,
+      "sha256": "e3b8e9d708a5860ca7205c10f6effd14b05b927025aacafcfdd1fc0272797625"
     },
     {
       "path": "SOURCE_MAP.json",

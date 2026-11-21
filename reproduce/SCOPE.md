@@ -1,4 +1,6 @@
-# Release scope and remaining public-artifact gaps
+# Statistical reconstruction scope
+
+[Statistics guide](README.md) · [Artifact guide](../docs/README.md) · [Evidence map](../docs/EVIDENCE_MAP.md)
 
 ## Included and tested
 
@@ -10,7 +12,7 @@ The local-source map binds five CSV datasets and one bootstrap draw file to froz
 2. Full historical raw-request and failure archives. The published RTX role register retains every row and exclusion; M1 retains primers. This does not claim comprehensive public raw records for every historical study.
 3. Independent re-bootstrap of M1 simultaneous 99% intervals or all prior-study intervals.
 4. This statistics component does not generate graphics or rebuild the decoder. Separately reviewed `../paper/` and `../runtime/` provide those workflows, with their own explicit verification scope.
-5. Repository source hashes identify origins in a private repository; they are not advertised as public download URLs. Included data are available without that repository. A future public implementation release needs its own source/build register, exact supported toolchain, model acquisition instructions and licenses.
+5. Repository source hashes identify origins in the research archive. Included data are available without access to that archive. The public implementation's source/build register, toolchain instructions and licenses are in `../runtime/`; its validation scope is separate from statistical reconstruction.
 
 ## Data transformations
 

@@ -2,9 +2,39 @@
   "schema": "refbound-release-v1",
   "files": [
     {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.yml",
+      "bytes": 747,
+      "sha256": "9615b38a2f85786eea2a9456bc94332b07d2dc8de65b93a36a685ce139b14ff1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/reproduction.yml",
+      "bytes": 1694,
+      "sha256": "61e30a906466645023392aeac14babbb8563541886d2e984ad31b4aa58d8e54e"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 657,
+      "sha256": "39548215ab15f5159cc7bf8d1ceedbb872f871cb5a3aa114f748fda0f5eaa56f"
+    },
+    {
       "path": ".gitignore",
-      "bytes": 54,
-      "sha256": "08faa2b18815f095c55e32acc99b04c0317abb2ea5a6906cfcd922f7a871e6d9"
+      "bytes": 62,
+      "sha256": "8813beb26975e76f38743b3c7d05ae5c10450278298512bef8927f2f839f1301"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 600,
+      "sha256": "699db3f2cf712a2bdb73e9e3cae10e2155c16ae3eb2b141697ee3f5ef9e2e98c"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 3079,
+      "sha256": "7ff5568c0b998f6fbe02f52ec23ead8a8c042327bdb280d4bdacccd2dac7049d"
     },
     {
       "path": "LICENSE.md",
@@ -13,18 +43,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 4208,
-      "sha256": "c0d6d14ce65700d5babc3e0a6a4f3ddf4b8547ab2de23117b0276fc8bab85da1"
+      "bytes": 5945,
+      "sha256": "33a60ed2945b1c9306e24cadef5f4ea1322441924c43faad619e5025125d6fbe"
     },
     {
       "path": "docs/EVIDENCE_MAP.md",
-      "bytes": 3398,
-      "sha256": "79e96f58d1e967c968903dddbdc30621abbd294bdac867ce2251744457929d01"
+      "bytes": 4448,
+      "sha256": "69a8c215df176515da26956f4f99a6724d2c9819309a7e1b67090e3c9fc9087f"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 4324,
+      "sha256": "dac2d9867bcf464c4c47aeb27f43104e74d0e62b3d78830cbd7e484e8f8752c0"
     },
     {
       "path": "docs/RELEASE_CHECKLIST.md",
-      "bytes": 782,
-      "sha256": "3f1a827768c4d1effeb96de5dc51ee58451be6d4097f88ef25c150512605bf8f"
+      "bytes": 3131,
+      "sha256": "f286d62ecdaf91bee6d229d86a4e788b19a807a6ff0766e43820bf492114c87d"
+    },
+    {
+      "path": "docs/assets/refbound-banner.svg",
+      "bytes": 2476,
+      "sha256": "43545125ee5061b6dc50847975ef6d5427a5f383a18c77b36c618513a588e443"
     },
     {
       "path": "licenses/CC-BY-4.0.txt",
@@ -44,12 +84,12 @@
     {
       "path": "paper/DELIVERY_MANIFEST.json",
       "bytes": 38248,
-      "sha256": "e4321ade0f69ca8ab2eebde5005cba43c8b88412a69af0790f1a9d7bd93c3c57"
+      "sha256": "010367df5ec2a5bc6654c4ba730d5213c517a0c8123eef0ccafe4d71cb5db54c"
     },
     {
       "path": "paper/README.md",
-      "bytes": 1593,
-      "sha256": "475813de639d18908d4a629355aaab32622af268b35706f5baa4f3d2ae58ac8f"
+      "bytes": 3175,
+      "sha256": "95c6d1450ad454b785e994409d3283387accc6cf69949cb18fb72f51a2b90395"
     },
     {
       "path": "paper/VALIDATION.md",
@@ -68,8 +108,8 @@
     },
     {
       "path": "paper/figures/README.md",
-      "bytes": 1221,
-      "sha256": "ceb184150a7064be8fa3096cbd00b53468c0fcdc4bad88b363eaabe6b722c71b"
+      "bytes": 2165,
+      "sha256": "0962f456904cf4cf8f3f9b9d8812bfb11af0d955a2469e7bb2c674c6d9e53873"
     },
     {
       "path": "paper/figures/alternatives/f02_layered.pdf",
@@ -202,6 +242,11 @@
       "sha256": "fba8f39df16e8efeb045e78585a3715189ba75872c14952a89775c8e211972b2"
     },
     {
+      "path": "paper/figures/inputs/scientific_data.zip",
+      "bytes": 276392,
+      "sha256": "d437b1f2c758f0593651af5441ef8d09183a5bcf31f0a55df4ec74efd0300568"
+    },
+    {
       "path": "paper/figures/inputs/scientific_data/MANIFEST.json",
       "bytes": 4914,
       "sha256": "0bdabcafd77f0839c7cc6f2cd442251a0826d733db1491e2986554e9ecfd6624"
@@ -285,11 +330,6 @@
       "path": "paper/figures/inputs/scientific_data/statistics/rtx269_recomputed/figure_data.json",
       "bytes": 10235,
       "sha256": "014ecb0f0ab33cff04858825857b8d3f1473a16c9df428891ffa379c54cd12f0"
-    },
-    {
-      "path": "paper/figures/inputs/scientific_data.zip",
-      "bytes": 276392,
-      "sha256": "d437b1f2c758f0593651af5441ef8d09183a5bcf31f0a55df4ec74efd0300568"
     },
     {
       "path": "paper/figures/method/INPUTS.json",
@@ -1224,17 +1264,17 @@
     {
       "path": "reproduce/MANIFEST.json",
       "bytes": 2813,
-      "sha256": "ef2e3c5d505d80e4f31f243b5839968525cd29c0d25fe928909e47fa883f6ed7"
+      "sha256": "08937e5bc76162c3c8c3f8c80b0283485333ac3c4cc425dc31267457d0800eba"
     },
     {
       "path": "reproduce/README.md",
-      "bytes": 4693,
-      "sha256": "925436b9a6d0d05004f293443acbca3eb2a8c59c291967910601f119f240e088"
+      "bytes": 4177,
+      "sha256": "8e54d26c3018c45728e7ae16a45a3d06d2fc31dd92175c7edf10f0f010f2fecb"
     },
     {
       "path": "reproduce/SCOPE.md",
-      "bytes": 2485,
-      "sha256": "f6440a1285e691ab7771985c63b8a66f540b7aeb22c94a27d34356eaac24f89a"
+      "bytes": 2567,
+      "sha256": "e3b8e9d708a5860ca7205c10f6effd14b05b927025aacafcfdd1fc0272797625"
     },
     {
       "path": "reproduce/SOURCE_MAP.json",
@@ -1314,7 +1354,7 @@
     {
       "path": "runtime/DELIVERY_MANIFEST.json",
       "bytes": 267908,
-      "sha256": "8204e2f6b70bcc025381413db3453abeadf1a803854c0686d9963c13a630d1fd"
+      "sha256": "9a398ddaffde42ceae4661f2137a2157acbe71f32b488c5b004114b5420e2830"
     },
     {
       "path": "runtime/EXCLUDED_BACKENDS.json",
@@ -1338,8 +1378,8 @@
     },
     {
       "path": "runtime/README.md",
-      "bytes": 3994,
-      "sha256": "835d89d23ce584854fde3db3e8372695df78c152e0a3ee1515224818536469ac"
+      "bytes": 4574,
+      "sha256": "d5dd94063f0c9317ff4cf0ccba08f5f048585fcd3bbadb255f48b996f9413d61"
     },
     {
       "path": "runtime/THIRD_PARTY.md",
@@ -2072,6 +2112,11 @@
       "sha256": "d0ff177ec6041264ac16d727f86857002a792e5b1afafc6a078d74c4da0de8d4"
     },
     {
+      "path": "runtime/backend/ggml/src/ggml-cpu/arch-fallback.h",
+      "bytes": 22007,
+      "sha256": "1bd403f3b1d6ba107b2a64cb74efdfcb128729a7bd7b19a10d5ef781ea803b68"
+    },
+    {
       "path": "runtime/backend/ggml/src/ggml-cpu/arch/arm/cpu-feats.cpp",
       "bytes": 967,
       "sha256": "56fa818847f9295430d23899f554f1526e0025e71167ca9cc52bb24d746bec21"
@@ -2145,11 +2190,6 @@
       "path": "runtime/backend/ggml/src/ggml-cpu/arch/x86/repack.cpp",
       "bytes": 671445,
       "sha256": "0a717ddb7426715cee1905d296894c8101b38b6fddefd2cc0eb05627fe045e4f"
-    },
-    {
-      "path": "runtime/backend/ggml/src/ggml-cpu/arch-fallback.h",
-      "bytes": 22007,
-      "sha256": "1bd403f3b1d6ba107b2a64cb74efdfcb128729a7bd7b19a10d5ef781ea803b68"
     },
     {
       "path": "runtime/backend/ggml/src/ggml-cpu/binary-ops.cpp",
@@ -4217,6 +4257,21 @@
       "sha256": "24248f6d60794c581ddd13ada40d5138e27832c1d65713756baf9a87692eccd8"
     },
     {
+      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-drv.cpp",
+      "bytes": 18886,
+      "sha256": "0f4098f316d52621270ae8382c691f53e97c7fc65e9617256f47c2566e9c9fa7"
+    },
+    {
+      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-drv.h",
+      "bytes": 3239,
+      "sha256": "4cb2bbccd058eb2869bdad66e79a200df595565f287404157d709f8a70870496"
+    },
+    {
+      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-opnode.h",
+      "bytes": 13817,
+      "sha256": "1358f561b398a63abe8df8f6599c3f7488ebf31aa66c23e873d438800d5f1577"
+    },
+    {
       "path": "runtime/backend/ggml/src/ggml-hexagon/htp/CMakeLists.txt",
       "bytes": 1328,
       "sha256": "bcfd48a1f10cbb2bb113ef53f50df0289f7a791ab323a186c46a18740e6e3e55"
@@ -4605,21 +4660,6 @@
       "path": "runtime/backend/ggml/src/ggml-hexagon/htp/work-queue.h",
       "bytes": 1220,
       "sha256": "54d7d04670d699782bc8728dca618e8fc8e7057981e9955a8f1c9f8b73e22d47"
-    },
-    {
-      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-drv.cpp",
-      "bytes": 18886,
-      "sha256": "0f4098f316d52621270ae8382c691f53e97c7fc65e9617256f47c2566e9c9fa7"
-    },
-    {
-      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-drv.h",
-      "bytes": 3239,
-      "sha256": "4cb2bbccd058eb2869bdad66e79a200df595565f287404157d709f8a70870496"
-    },
-    {
-      "path": "runtime/backend/ggml/src/ggml-hexagon/htp-opnode.h",
-      "bytes": 13817,
-      "sha256": "1358f561b398a63abe8df8f6599c3f7488ebf31aa66c23e873d438800d5f1577"
     },
     {
       "path": "runtime/backend/ggml/src/ggml-hexagon/libdl.h",
