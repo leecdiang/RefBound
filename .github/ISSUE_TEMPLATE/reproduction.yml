@@ -1,0 +1,52 @@
+name: Reproduction or build issue
+description: Report a problem with file verification, reconstruction or a documented build.
+title: "[Reproduction] "
+body:
+  - type: dropdown
+    id: workflow
+    attributes:
+      label: Workflow
+      options:
+        - Release file verification
+        - Saved-measurement statistics
+        - CPU core and frontend build
+        - Paper and figure reconstruction
+        - CUDA build instructions
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: RefBound commit
+      description: Give the commit SHA and mention any local changes.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the operating system and the tool versions relevant to this workflow.
+      placeholder: Python and NumPy for statistics; compiler, CMake and Ninja for source builds; TeX and plotting dependencies for the paper.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: Paste the exact command and state the working directory if it was not the repository root.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and observed result
+      description: Describe the difference. For a numerical discrepancy, include the study and output field.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Relevant log excerpt
+      description: Include the first error and enough surrounding output to locate the failing step.
+      render: text

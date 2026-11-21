@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use RefBound, cite the paper below and identify the repository commit
+  used for your work.
+type: software
+title: RefBound
+authors:
+  - family-names: Li
+    given-names: Chengzhan
+url: https://github.com/leecdiang/RefBound
+repository-code: https://github.com/leecdiang/RefBound
+preferred-citation:
+  type: article
+  title: Recovering Parallelism under Fixed Numerical References in Quantized LLM Decoders
+  authors:
+    - family-names: Li
+      given-names: Chengzhan
+  year: 2026
+  url: https://arxiv.org/abs/2610.03228
+  notes: "Preprint, arXiv:2610.03228."

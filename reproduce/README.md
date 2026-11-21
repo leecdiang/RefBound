@@ -1,40 +1,47 @@
-# HeteroSpec: CPU Reproducibility Companion
+# Statistical reconstruction
 
-Reconstruct the saved-measurement results for **Recovering Parallelism under Fixed Numerical References in Quantized LLM Decoders**. This independent, self-contained companion does not require access to the private research repository.
+Reconstruct the saved-measurement results for **Recovering Parallelism under Fixed Numerical References in Quantized LLM Decoders**. This component includes the scalar records, fixed bootstrap draws, estimators and reference values needed by its public entry point.
+
+[Repository home](../README.md) · [Artifact guide](../docs/README.md) · [Evidence map](../docs/EVIDENCE_MAP.md) · [Detailed scope](SCOPE.md)
 
 ## Quick start
 
-Python 3.12 and NumPy 2.3.5 were tested. Install `requirements.txt` in your own environment before going offline, then run:
+From the repository root, in your Python environment:
 
 ```sh
-python scripts/reproduce.py
+python -m pip install -r reproduce/requirements.txt
+python reproduce/scripts/reproduce.py
 ```
 
-The command reads only local files, validates the pinned input hashes, writes `results/recomputed.json`, and fails if reconstructed reference values differ beyond the documented tolerance. No model download, accelerator, external service, shell command or private repository access is used. The checked package contains all data used by this command.
+Python **3.12** and NumPy **2.3.5** were tested. Install dependencies before running offline. Run without `-O`, `-OO` or `PYTHONOPTIMIZE`; the entry point rejects optimized Python because its integrity and scientific-reference checks use assertions.
+
+## Outputs and checks
+
+The script reads local files, validates pinned input hashes and writes `reproduce/results/recomputed.json`. It checks grouping and cardinality, retains adverse outcomes and excluded request roles, and fails if reconstructed reference values differ beyond the documented tolerance. A successful run prints `PASS` and the maximum reference error.
+
+The output records point estimates, the specified recomputed intervals, counts, comparison checks, and Python/NumPy versions. No model or accelerator is required. The generated JSON is ignored by Git; the frozen inputs and expectations remain in place.
 
 ## Results and units
 
-- A5000 confirmation: 96 scalar arm values, 48 matched pairs, 12 time blocks. Reconstructs four case effects, the crossing/noncrossing interaction, and the equal-conversation 8B effect; 10,000 whole-block bootstrap samples, seed 20261117.
-- RTX confirmation: 864 formal observations (24 roots × 12 rounds × three arms). Reconstructs C1/B, C4/C1 and C4/B using equal-root/equal-block log ratios and the 10,000 frozen crossed-bootstrap root/block index draws. The separate 1,764-row role register retains exclusions and nonformal roles; they are not silently mixed into timing estimates.
-- Prior studies: all 1,134 contrast-level paired rows retained, including negative roots. Reconstructs and checks all 474 per-root and all 27 equal-root geometric contrast point estimates against the frozen historical reference. These rows reuse requests across contrasts and are not 1,134 independent requests. Historical confidence intervals are not newly bootstrapped by this release.
-- M1: all 256 measured requests plus 32 excluded primers retained. Reconstructs four arm totals, original direct ratios of totals and the root-geometric interaction. Its historical simultaneous 99% intervals are retained in `expected.json` as reference metadata, not independently regenerated here.
+| Study | Released observations | Reconstructed result |
+| --- | --- | --- |
+| **A5000 confirmation** | 96 scalar arm values, 48 matched pairs, 12 time blocks | Four case effects, crossing/noncrossing interaction and equal-conversation 8B effect; 10,000 whole-block bootstrap draws, seed 20261117 |
+| **RTX confirmation** | 864 formal observations: 24 roots × 12 rounds × 3 arms; separate 1,764-row role register | C1/B, C4/C1 and C4/B with equal-root/equal-block log ratios and 10,000 frozen crossed-bootstrap index draws |
+| **Prior studies** | 1,134 contrast-level paired rows, including unfavorable roots | All 27 contrast and 474 per-root point estimates, checked against frozen historical references |
+| **M1** | 256 measured requests and 32 excluded primers | Four arm totals, original direct ratios of totals and the separate root-geometric interaction |
 
-A timing ratio below one means less time for the candidate. Reduction is `100 × (1 − ratio)`, not throughput speedup. Timing values are seconds. Within-study sampling units are preserved. Do not add improvements from different studies into a cumulative speedup claim.
+A time ratio below one favors the candidate. Time reduction is `100 × (1 − ratio)`; timing values are seconds. Prior-study rows reuse requests across contrasts. Preserve each study's sampling unit and estimator when using these records.
 
-## Evidence levels
+A5000 and RTX intervals listed above are reconstructed. Prior-study intervals and M1's simultaneous 99% intervals remain frozen reference metadata in `data/expected.json`. [SCOPE.md](SCOPE.md) describes the distinction and the retained data fields.
 
-This release reproduces arithmetic and specified confidence intervals **from saved scalar measurements**. The immutable raw source-archive digest and per-file mappings are in `SOURCE_MAP.json`; the necessary released derivatives are included locally. Private source commit identifiers are provenance labels, not public access links.
+## Related public components
 
-It does **not** perform a new GPU run, validate a newly compiled decoder, compare full vocabulary/KV payloads, or recover an entire original machine. Model weights, binaries, full KV/vector archives, native source capsules, original prompt/question text, generated token sequences, private paths and machine/context identifiers are not distributed. A researcher cannot recreate the full GPU experiment from this package alone. The original implementation/source-build mapping register is not independently reproducible from this statistics-only release.
+- [`../paper/`](../paper/README.md) regenerates the editable graphics, native tables and bundled 33-page manuscript using its separately bound inputs and statistical sidecars.
+- [`../runtime/`](../runtime/README.md) contains the P4 source, CPU build and state checks, plus CUDA build stages.
+- [`../docs/EVIDENCE_MAP.md`](../docs/EVIDENCE_MAP.md) connects manuscript anchors to this script's JSON fields and the paper's plotting inputs.
 
-The paper's complete graphics and manuscript build are not included in this minimal release. Their separate internal clean-build checks do not substitute for a public, standalone graphics release. This package is deliberately a statistics companion, not a claim that every artifact promised in the manuscript is already publicly available. See `SCOPE.md` for remaining work.
+This workflow reconstructs statistics from saved scalar measurements. Original model runs, full vocabulary/KV payloads and original-machine state are separate evidence. `SOURCE_MAP.json` binds the released derivatives to historical input identities; those private source identifiers are provenance labels, not required downloads.
 
 ## Licensing and attribution
 
-Author-owned reconstruction code: MIT (`LICENSE`). Author-owned measurements, bootstrap index arrays and derived statistics: CC BY 4.0 (`licenses/CC-BY-4.0.txt`). Attribute Chengzhan Li, HeteroSpec (2026), retain study identifiers and describe modifications. Third-party model, benchmark and runtime licenses are not overridden. Only benchmark identifiers are included, not benchmark question text or solutions. NumPy is an external dependency, not vendored here.
-
-This release is a documented derivative of frozen author records. It removes nonessential identity columns but changes no retained measurement or unfavorable observation. Original frozen records are not rewritten. No publication acceptance or peer review is implied.
-
-### Python optimization safety
-
-Run the reconstruction without `-O`, `-OO`, or `PYTHONOPTIMIZE`. The entry point explicitly rejects optimized Python before reading data or producing results, because its integrity and scientific-reference checks use assertions.
+Author reconstruction code uses MIT (`LICENSE`). Author measurements, bootstrap index arrays and derived statistics use CC BY 4.0 (`licenses/CC-BY-4.0.txt`). Attribute Chengzhan Li and the paper, retain study identifiers and describe modifications. Benchmark identifiers are included; benchmark question text and solutions are not. Third-party model, benchmark and runtime terms remain unchanged; NumPy is an external dependency. See the [repository license guide](../LICENSE.md).
