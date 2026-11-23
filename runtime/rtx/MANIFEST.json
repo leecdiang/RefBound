@@ -1,7 +1,7 @@
 {
   "schema": "refbound.rtx.manifest.v1",
   "component": "windows-rtx-native-c4-capture",
-  "version": "20261123-v1",
+  "version": "20261123-v2",
   "public_baseline": "58697de93d86fc39c105bdfb8d8c0fd2949f192c",
   "qualified_capture_source": "7e453c710af94c4a53e5f711534c753a35712153",
   "documentation": "docs/RTX_CAPTURE.md",
@@ -53,8 +53,8 @@
     {
       "path": "capture/run_pair.py",
       "class": "public-source",
-      "bytes": 6692,
-      "sha256": "2e8db2671790f0cdee236cef7bf78bb09e61d8c30239a33a8b7145d5eea15954"
+      "bytes": 8191,
+      "sha256": "29fe39379cf97c01a7d84b03ef5a9d5ff84f367b2ffabc24d2b2fbbcafb69d24"
     },
     {
       "path": "capture/trace_independent.py",
@@ -149,8 +149,14 @@
     {
       "path": "README.md",
       "class": "public-record",
-      "bytes": 6989,
-      "sha256": "5e7d922e262bcddcdb1a2647cc5d5903fbf60d5cda53190d04ad971534d5b10f"
+      "bytes": 7699,
+      "sha256": "f22819bdb3eb727e214a8201e812401881b87482cd542969d184c9c0cff60a3c"
+    },
+    {
+      "path": "records/device-replay.json",
+      "class": "redacted-derived",
+      "bytes": 6310,
+      "sha256": "926b5532a91b589a21b65346921ab82ab1deb2516f7eadb8011835ba2a9f3b98"
     },
     {
       "path": "records/expected.json",
@@ -167,8 +173,8 @@
     {
       "path": "records/release-checks.json",
       "class": "public-record",
-      "bytes": 2447,
-      "sha256": "857d48cc2d1d9a5a933aef6ff42aefc7644e6e0daa84b302c2acc4cb87f4e55b"
+      "bytes": 2560,
+      "sha256": "1c2ebd8956ebd09e5cbed3b69af13f3d5d70e58c54adee0c9360d5912b9db4d7"
     },
     {
       "path": "tests/test_capture.py",
@@ -185,8 +191,8 @@
     {
       "path": "verify.py",
       "class": "public-source",
-      "bytes": 3754,
-      "sha256": "091a0cb789bdac50eb91b44e95f83272f08d51bd03931546e8d23fa553c1ba73"
+      "bytes": 4755,
+      "sha256": "7899b9ecfd08346be4c14f2470e9aceae21b03cdda92f32f423aca0265a78d8c"
     },
     {
       "path": "verify_build.py",

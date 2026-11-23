@@ -31,7 +31,7 @@ The native verifier checks the worker link, five backend DLLs, CUDA images and r
 
 ## Capture and verify a local pair
 
-Supply the fixed input and two identified local GGUFs. Reserve the GPU and output volume exclusively, use the same lock path for coordinating local qualification work, and start with at least 26 GiB free at the output location. The launcher checks the pinned device and driver, quiet GPU utilization, process visibility and available VRAM before each worker. It runs two serial requests with one arm per worker, a 220-second limit per worker, an 18 GiB storage limit and an 8 GiB free-space floor. Save every run under a fresh ID. Device or capture errors stop the pair and preserve the outputs.
+Supply the fixed input and two identified local GGUFs. Reserve the GPU and output volume exclusively, use the same lock path for coordinating local qualification work, and start with at least 26 GiB free at the output location. The launcher checks the pinned device and driver, GPU recovery state, quiet GPU utilization, visible compute processes and available VRAM before each worker. It runs two serial requests with one arm per worker, a 220-second limit per worker, an 18 GiB storage limit and an 8 GiB free-space floor. While a worker is active, it checks GPU health and temperatures up to 84 °C, records whether it saw the worker in the compute process list, and saves the resource summary locally. Save every run under a fresh ID. Device or capture errors stop the pair and preserve the outputs.
 
 ```powershell
 python capture/run_pair.py --capture-bin <capture-build>/bin --cuda-bin <CUDA>/bin --input <local-input.json> --target <target.gguf> --draft <draft.gguf> --out <fresh-run-id> --lock <shared-local-lock> --exclusive-window
@@ -57,5 +57,7 @@ The primary trace reader binds GPU activity to successful driver/runtime API rec
 | Own-successor links | 37 | 37 |
 
 The public checkpoint rows give generation, role, geometry, size and hashes. The archived acceptance covered all F16 values, 5,065,667,352 intermediate bytes per arm, two terminal objects per arm and one inactive draft marker. It compared the paired payloads byte for byte and checked the terminal state against the independent references. Each arm also matched 174 complete F32 target vectors to the independent q1 trace and 339 complete target/draft F32 vectors to `SD_U`. [Expected counts and identities](records/expected.json) · [Checkpoint receipt](records/kv-checkpoints.json)
+
+The clean release build also passed on the GeForce RTX 5070 Ti Laptop GPU. This replay used two qualification requests and 454 native forwards. An independent SQL review matched every request-kernel link, the new per-checkpoint hashes matched all 78 published entries, and the paired payloads, independent F32 and terminal references, and own-successor checks passed. The replay receipt records the actual rebuilt EXE and CUDA DLL identities. [Release-build device replay](records/device-replay.json)
 
 See the [claim map and access inventory](../../docs/RTX_CAPTURE.md) and [third-party notices](THIRD_PARTY.md).

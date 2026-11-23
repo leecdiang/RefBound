@@ -58,8 +58,13 @@
       "reproduced_at_parent_commit": "f95b936b1cd60f43de4e6a7d12ccf41c13088f69"
     },
     "new device capture on the release build": {
-      "status": "NOT_RUN",
-      "reason": "nvidia-smi returned insufficient permissions and Windows did not expose the discrete GPU as present"
+      "status": "PASS",
+      "run": "rtx-release-device-r02",
+      "receipt": "device-replay.json",
+      "requests": 2,
+      "native_forward_submissions": 454,
+      "independent_profiler_review": "PASS",
+      "complete_numerical_qualification": "PASS"
     },
     "new formal panel requests": 0
   },

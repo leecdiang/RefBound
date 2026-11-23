@@ -19,6 +19,11 @@ def require(condition, label):
         raise ValueError(label)
 
 
+def identity(path):
+    with path.open("rb") as source:
+        return {"sha256": hashlib.file_digest(source, "sha256").hexdigest(), "bytes": path.stat().st_size}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--quick", action="store_true", required=True)
@@ -26,9 +31,7 @@ def main():
     files = read(ROOT / "MANIFEST.json")["files"]
     for entry in files:
         local = ROOT / entry["path"]
-        with local.open("rb") as source:
-            digest = hashlib.file_digest(source, "sha256").hexdigest()
-        require(digest == entry["sha256"] and local.stat().st_size == entry["bytes"], entry["path"])
+        require(identity(local) == {key: entry[key] for key in ("sha256", "bytes")}, entry["path"])
 
     expected = read(ROOT / "records" / "expected.json")
     require(expected["input"]["tokens"] == 757 and expected["shared_environment"]["HS_PREFILL_PACK4"] == "0"
@@ -64,7 +67,18 @@ def main():
                     row["C1_C4_raw_bytes"] == "BYTE_EQUAL" and row["finite"] == "FINITE", "KV comparison receipt")
     require(expected["historical_originals"] == "BLOCKED" and expected["historical_performance"]["requests"] == 864,
             "historical evidence boundary")
-    print(json.dumps({"status": "PASS", "manifest_files": len(files), "intermediate_KV_per_arm": len(intermediates),
+    replay = read(ROOT / "records" / "device-replay.json")
+    require(replay["status"] == "PASS" and replay["paired_intermediate_KV"] == "BYTE_EQUAL" and
+            replay["historical_originals"] == "BLOCKED" and replay["execution"]["new_formal_panel_requests"] == 0,
+            "device replay and evidence boundary")
+    require(replay["reference_checkpoints"] == identity(ROOT / "records" / "kv-checkpoints.json") and
+            replay["launcher"] == identity(ROOT / "capture" / "run_pair.py"), "device replay identities")
+    for arm, row in replay["arms"].items():
+        require(row["target_verify_q8_0_mmvq"] == widths[arm] and row["request_kernel_links"] == 246252 and
+                row["intermediate_F16_KV_objects"] == 75 and row["own_successor_links"] == 37 and
+                row["full_F32_sha256"] == expected["numerical"][arm]["full_F32_sha256"], f"{arm} replay evidence")
+    print(json.dumps({"status": "PASS", "device_replay_receipt": "PASS", "manifest_files": len(files),
+                      "intermediate_KV_per_arm": len(intermediates),
                       "actual_verify_launches": widths, "GPU_calls": 0}))
 
 
