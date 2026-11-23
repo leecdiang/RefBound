@@ -1,0 +1,198 @@
+{
+  "schema": "refbound.rtx.manifest.v1",
+  "component": "windows-rtx-native-c4-capture",
+  "version": "20261123-v1",
+  "public_baseline": "58697de93d86fc39c105bdfb8d8c0fd2949f192c",
+  "qualified_capture_source": "7e453c710af94c4a53e5f711534c753a35712153",
+  "documentation": "docs/RTX_CAPTURE.md",
+  "file_paths_relative_to": "runtime/rtx",
+  "private_classes": [
+    "model weights",
+    "benchmark inputs and outputs",
+    "full KV and F32 numerical payloads",
+    "raw CUPTI and full event export",
+    "local references and host details"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "class": "public-source",
+      "bytes": 72,
+      "sha256": "03ac59a40bb3c1c4e6baf742fefe13f8b6ccf5ab1f03dec3a51dfb8d4dbb1fb5"
+    },
+    {
+      "path": "build.ps1",
+      "class": "public-source",
+      "bytes": 1672,
+      "sha256": "0cadd67a7da18d9cb400a35c79bd861955cb9cca5e2e75db9258e5e724161b22"
+    },
+    {
+      "path": "capture/activity_capture.hpp",
+      "class": "public-source",
+      "bytes": 9349,
+      "sha256": "380fb303cc54d2849e73cfffce5088dec82ef6f5c4c1123a8a9cb55607c18f13"
+    },
+    {
+      "path": "capture/build_capture.ps1",
+      "class": "public-source",
+      "bytes": 2231,
+      "sha256": "c963fe68ef38f227997d31c489b4c0770ff308cb0828de5b9eff146761900927"
+    },
+    {
+      "path": "capture/instrument.py",
+      "class": "public-source",
+      "bytes": 5651,
+      "sha256": "adfb3e1c4c76fb15b5edabc9d191c69895ee94d1573376fb144b54752b1d00e3"
+    },
+    {
+      "path": "capture/kv_review.py",
+      "class": "public-source",
+      "bytes": 6367,
+      "sha256": "bbb955a86d5d9a8eb8a6b2649cdb38e1b23e35ff5504042ddcfd6327edf1175b"
+    },
+    {
+      "path": "capture/run_pair.py",
+      "class": "public-source",
+      "bytes": 6692,
+      "sha256": "2e8db2671790f0cdee236cef7bf78bb09e61d8c30239a33a8b7145d5eea15954"
+    },
+    {
+      "path": "capture/trace_independent.py",
+      "class": "public-source",
+      "bytes": 5722,
+      "sha256": "8dd6b62cafc8a0c7618b4fef326cab46ae9445f7e76dec55b425bd1be33fc313"
+    },
+    {
+      "path": "capture/trace_review.py",
+      "class": "public-source",
+      "bytes": 10044,
+      "sha256": "4662d105fddb99d0cdc4ba7dea7ceb6b15d99130793478ccee26acabdabeff92"
+    },
+    {
+      "path": "capture/verify_capture.py",
+      "class": "public-source",
+      "bytes": 5191,
+      "sha256": "5816bff558eee73865daa32e99c78cab35d39c6d58d323d92b9f76d369992110"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "class": "public-source",
+      "bytes": 1421,
+      "sha256": "dff1cd10b06f20c80c09b287003d682f2017842d9f8708bb397ea1c1884c5f9e"
+    },
+    {
+      "path": "LICENSE",
+      "class": "public-source",
+      "bytes": 1069,
+      "sha256": "81c30bf2c6302a4fb5389db58f37bffdb2afad3b0bcc8ef9ba2800333aa7e008"
+    },
+    {
+      "path": "LICENSE-JSONHPP.txt",
+      "class": "public-source",
+      "bytes": 1075,
+      "sha256": "c0d068392ea65358b798b8c165103560f06e9e3b38c4ab4e2d8810a7b931af86"
+    },
+    {
+      "path": "LICENSE-LLAMA.txt",
+      "class": "public-source",
+      "bytes": 1078,
+      "sha256": "94f29bbed6a22c35b992c5c6ebf0e7c92f13b836b90f36f461c9cf2f0f1d010d"
+    },
+    {
+      "path": "licenses/Abseil-NOTICE.txt",
+      "class": "public-source",
+      "bytes": 630,
+      "sha256": "eea9761c333697c568c8ac580fa5ae6a497c1b5cdb584137500028e4ecca34df"
+    },
+    {
+      "path": "licenses/Apache-2.0.txt",
+      "class": "public-source",
+      "bytes": 11560,
+      "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+    },
+    {
+      "path": "materialize_source.py",
+      "class": "public-source",
+      "bytes": 3345,
+      "sha256": "fb6779ad3cee45df1d0131fdb6226e87428b815a33dda873dd9715a57f81439e"
+    },
+    {
+      "path": "native-c4.patch",
+      "class": "public-source",
+      "bytes": 11617,
+      "sha256": "0231d587c04eebcd8494e9a1dc3df66a14df27571fdd879acfb36784ee98ba9b"
+    },
+    {
+      "path": "native_src/draft_policy.hpp",
+      "class": "public-source",
+      "bytes": 3429,
+      "sha256": "477c728777040a1597a75730fc334fc8aa55c0986c82171058e017ca6768af2e"
+    },
+    {
+      "path": "native_src/support.hpp",
+      "class": "public-source",
+      "bytes": 6947,
+      "sha256": "8a8bb82bad632cc7a9735e6f3ec2e85747b7df7fff0f2dde8ee2b009b6abff06"
+    },
+    {
+      "path": "native_src/worker.cpp",
+      "class": "public-source",
+      "bytes": 27917,
+      "sha256": "3f8084142cb78c8f6cb2c9580d856046d9694391c70742e86ee1b78e38058420"
+    },
+    {
+      "path": "PROFILE.json",
+      "class": "public-source",
+      "bytes": 2876,
+      "sha256": "2b1c5f5536a151e68b7f2069bd075ffe04f094b007ee92b7e01a8a44a80612e8"
+    },
+    {
+      "path": "README.md",
+      "class": "public-record",
+      "bytes": 6989,
+      "sha256": "5e7d922e262bcddcdb1a2647cc5d5903fbf60d5cda53190d04ad971534d5b10f"
+    },
+    {
+      "path": "records/expected.json",
+      "class": "redacted-derived",
+      "bytes": 16488,
+      "sha256": "45610bffe8a533a2b2b5bd22f1945e4056cae77126c4b2622b7bd988d6e6a76d"
+    },
+    {
+      "path": "records/kv-checkpoints.json",
+      "class": "redacted-derived",
+      "bytes": 64524,
+      "sha256": "b6bd384dead389243cc7c0cc868e1b2f4ff76daea4458789b2e96d39d18e8926"
+    },
+    {
+      "path": "records/release-checks.json",
+      "class": "public-record",
+      "bytes": 2447,
+      "sha256": "857d48cc2d1d9a5a933aef6ff42aefc7644e6e0daa84b302c2acc4cb87f4e55b"
+    },
+    {
+      "path": "tests/test_capture.py",
+      "class": "public-source",
+      "bytes": 2576,
+      "sha256": "be49ce7466e0260f19bd6abaccec127e0b39c2deab7fc8f267635432987d17fa"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "class": "public-record",
+      "bytes": 988,
+      "sha256": "aa213b5afdeef616cf70b79591a91a396d1aa459f48e83e18f076b08bb148278"
+    },
+    {
+      "path": "verify.py",
+      "class": "public-source",
+      "bytes": 3754,
+      "sha256": "091a0cb789bdac50eb91b44e95f83272f08d51bd03931546e8d23fa553c1ba73"
+    },
+    {
+      "path": "verify_build.py",
+      "class": "public-source",
+      "bytes": 5881,
+      "sha256": "dd4360ae8d14d53b8b5bd7128f7592cf86e76956037bb87b62232b3bc0348f95"
+    }
+  ]
+}
