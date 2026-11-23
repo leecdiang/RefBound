@@ -1,0 +1,9 @@
+Embedded Google Abseil code in backend/vendor/nlohmann/json.hpp
+Copyright 2017 The Abseil Authors.
+
+The C++11 fallback between START OF CODE FROM GOOGLE ABSEIL and END OF CODE FROM GOOGLE ABSEIL derives from:
+https://github.com/abseil/abseil-cpp/blob/10cb35e459f5ecca5b2ff107635da0bfa41011b4/absl/utility/utility.h
+
+Licensed under the Apache License, Version 2.0. See Apache-2.0.txt.
+The original source attribution inside json.hpp remains unchanged.
+This notice identifies the embedded component; it is not a claim that the entire json.hpp file is Apache-licensed. The surrounding nlohmann code retains its MIT license.

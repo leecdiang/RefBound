@@ -1,0 +1,194 @@
+{
+  "schema": "refbound.rtx.release.device_replay.v1",
+  "status": "PASS",
+  "run": "rtx-release-device-r02",
+  "public_checkout_base": "1552d683822ad9b8b2e64d97ebfb5dc46c1cd703",
+  "platform": "GeForce RTX 5070 Ti Laptop GPU",
+  "cuda_arch": "sm_120a",
+  "driver": "621.24",
+  "cupti": "12.9.79",
+  "build": {
+    "worker_and_backend": {
+      "rtx-c4-worker.exe": {
+        "bytes": 370176,
+        "sha256": "53fef81643b199d7554524f2db1b23558ed5b6ae94267888f34a0cae97cbbf81"
+      },
+      "llama.dll": {
+        "bytes": 3227648,
+        "sha256": "665937a14b627546aff20a79b3a738ec80832ea2fdb4392f29d17b8496a72fce"
+      },
+      "ggml.dll": {
+        "bytes": 61440,
+        "sha256": "9c5a82cb819f7516fc8143bf932641e1815a6dce10f63612d84a11a723dcfb2d"
+      },
+      "ggml-base.dll": {
+        "bytes": 702976,
+        "sha256": "684362b751a58744c6b79b7de6594e4336c3aa5c385bd90537ca1773c27404e4"
+      },
+      "ggml-cpu.dll": {
+        "bytes": 1101312,
+        "sha256": "c51d785d5c98bc12c2657f1405f860bd5301e9f3b70e183d39a58b592c7ed144"
+      },
+      "ggml-cuda.dll": {
+        "bytes": 38263296,
+        "sha256": "2d10d5b469bbb4234be865368ff67b756c47b802d8c7e0f45a45c3e3e4c04c5a"
+      }
+    },
+    "CUPTI": {
+      "bytes": 4552272,
+      "sha256": "be1ecb387e14c1c0515b3b162b44c89b480c9a12f16c60f7b82eb8b1ebc35e74"
+    }
+  },
+  "launcher": {
+    "bytes": 8191,
+    "sha256": "29fe39379cf97c01a7d84b03ef5a9d5ff84f367b2ffabc24d2b2fbbcafb69d24"
+  },
+  "fixed_input": {
+    "root": "CodeContests/test/124",
+    "tokens": 757,
+    "sha256": "6ed5bcd1846cd99d105f20481d5df050160b4ba939e7783c7a4fcc3503e1ac43"
+  },
+  "arm_difference": {
+    "HS_SD_TARGET_PACK4": {
+      "C1": "0",
+      "C4": "1"
+    }
+  },
+  "P4": "off",
+  "paired_intermediate_KV": "BYTE_EQUAL",
+  "reference_checkpoints": {
+    "bytes": 64524,
+    "sha256": "b6bd384dead389243cc7c0cc868e1b2f4ff76daea4458789b2e96d39d18e8926"
+  },
+  "historical_canonical_SHA256": "MATCH",
+  "own_successor": "PASS",
+  "independent_checks": {
+    "sql_launch_correlation": "PASS",
+    "public_KV_F32_reference_verifier": "PASS",
+    "original_KV_reader": "PASS",
+    "loaded_module_snapshot": "PASS"
+  },
+  "guard": {
+    "exclusive_lock_and_mutex": "PASS",
+    "worker_compute_visibility": "PASS",
+    "gpu_health_before_after": "PASS",
+    "quiet_after_and_locks_released": "PASS"
+  },
+  "owned_limits": {
+    "requests": 2,
+    "reference_requests": 0,
+    "formal_requests": 0,
+    "model_file_loads": 4,
+    "forward_submissions_bound": 1366,
+    "owned_seconds": 440,
+    "disk_cap_bytes": 19327352832,
+    "disk_free_min_bytes": 8589934592,
+    "max_vram_mib": 12288,
+    "max_temperature_c": 84,
+    "retries": 0
+  },
+  "execution": {
+    "requests": 2,
+    "model_file_loads": 4,
+    "native_forward_submissions": 454,
+    "profiler_traces": 2,
+    "new_reference_requests": 0,
+    "new_formal_panel_requests": 0,
+    "automatic_gpu_retries": 0
+  },
+  "prior_preflight": {
+    "status": "BLOCKED",
+    "worker_starts": 0,
+    "reason": "Local reference tooling needed NumPy on the Python path."
+  },
+  "arms": {
+    "C1": {
+      "request": "rtx-release-device-r02-C1",
+      "loaded_modules_verified": 11,
+      "prefill_admissions": 0,
+      "native_verify_dispatch": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "native_forward_submissions": 227,
+      "request_kernel_links": 246252,
+      "kernels_by_phase": {
+        "target_prefill_s": 116240,
+        "kv_export": 79,
+        "draft_prefill_s": 16091,
+        "draft_sync_s": 17252,
+        "draft_propose_s": 46762,
+        "target_verify_s": 49828
+      },
+      "target_verify_q8_0_mmvq": {
+        "q1": 8550
+      },
+      "cupti_dropped": 0,
+      "unassociated_request_records": 0,
+      "correlation_multiset_sha256": "5d08379cedda50d6311b6b316900e1e8f3b349228e98a7eb2ae3b6e31d97334c",
+      "intermediate_F16_KV_objects": 75,
+      "intermediate_F16_KV_bytes": 5065667352,
+      "complete_F32_vectors_against_SD_U": 339,
+      "complete_F32_target_vectors_against_q1": 174,
+      "full_F32_sha256": "9c687127512e06d4486b86b732c74cf2de0555651d3855b246cdd65c19f094d4",
+      "terminal_objects_equal_to_independent_reference": 2,
+      "own_successor_links": 37,
+      "peak_used_mib_observed": 9288,
+      "compute_inventory_samples": 32,
+      "retained_trace_sha256": {
+        "cupti.buffers.bin": "32401a07147326e8a2ee9d8c89f24649bcd8750d72b52ee6c191c1e629405cc7",
+        "cupti.activities.jsonl": "fd556aab76b29f23956f29587ab4b48ca82e920e4d4b2ae5c13d8a0020983588",
+        "MAPPED_ACTIVITY.jsonl": "9ef2fc11f85ac5e85d53042639830ce1e2798e6e7a2a5e6178191d751bb0bdc4"
+      }
+    },
+    "C4": {
+      "request": "rtx-release-device-r02-C4",
+      "loaded_modules_verified": 11,
+      "prefill_admissions": 0,
+      "native_verify_dispatch": [
+        8550,
+        8550,
+        33750,
+        8325,
+        225,
+        0
+      ],
+      "native_forward_submissions": 227,
+      "request_kernel_links": 246252,
+      "kernels_by_phase": {
+        "target_prefill_s": 116240,
+        "kv_export": 79,
+        "draft_prefill_s": 16091,
+        "draft_sync_s": 17252,
+        "draft_propose_s": 46762,
+        "target_verify_s": 49828
+      },
+      "target_verify_q8_0_mmvq": {
+        "q4": 8325,
+        "q2": 225
+      },
+      "cupti_dropped": 0,
+      "unassociated_request_records": 0,
+      "correlation_multiset_sha256": "dde8954f959c2a9e90a0e38df68bcedb088cbdbc063cf17b5dafee9e160662b7",
+      "intermediate_F16_KV_objects": 75,
+      "intermediate_F16_KV_bytes": 5065667352,
+      "complete_F32_vectors_against_SD_U": 339,
+      "complete_F32_target_vectors_against_q1": 174,
+      "full_F32_sha256": "9c687127512e06d4486b86b732c74cf2de0555651d3855b246cdd65c19f094d4",
+      "terminal_objects_equal_to_independent_reference": 2,
+      "own_successor_links": 37,
+      "peak_used_mib_observed": 9288,
+      "compute_inventory_samples": 29,
+      "retained_trace_sha256": {
+        "cupti.buffers.bin": "dc535f8d9eca5ea006a15ee8a93f3a230ab32a74acf7ddf1eb3a6e2d5807617d",
+        "cupti.activities.jsonl": "73702ac3ebe61adfcc246425e877875e1713a6fd14b52c99b0f0ed53aafa3326",
+        "MAPPED_ACTIVITY.jsonl": "85cea62443154980a579e7a43defdc508f5c17577616877a37a0609cb2b80578"
+      }
+    }
+  },
+  "historical_originals": "BLOCKED"
+}

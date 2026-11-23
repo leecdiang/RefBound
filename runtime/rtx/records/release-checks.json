@@ -1,0 +1,72 @@
+{
+  "schema": "refbound.rtx.release.checks.v1",
+  "platform": "Windows x64",
+  "qualification_device": "GeForce RTX 5070 Ti Laptop GPU",
+  "release_build_environment": {
+    "Python": "3.11.9",
+    "MSVC": "19.44.35229",
+    "CMake": "3.31.8",
+    "Ninja": "1.13.1",
+    "CUDA": "12.9",
+    "nvcc": "12.9.86",
+    "cuobjdump": "12.9.82",
+    "CUPTI": "12.9.79",
+    "archived_capture_driver": "621.24"
+  },
+  "checks": {
+    "materialize_source.py": {
+      "status": "PASS",
+      "upstream_files": 4176,
+      "exact_patched_files": 4,
+      "exact_worker_sources": 3
+    },
+    "build.ps1 and verify_build.py": {
+      "status": "PASS",
+      "complete_worker_link": true,
+      "backend_DLLs": 5,
+      "native_sm_120a_cubins": 150,
+      "stored_Q8_0_kernel_entry_widths": [2, 3, 4],
+      "CPU_control_fixtures": 20,
+      "synthetic_canonical_state_SHA256": "74457e770fadc92211bec5a4653bebf61702fb452c9f6c3b55ee413ec0f3c0fd"
+    },
+    "instrument.py and build_capture.ps1": {
+      "status": "PASS",
+      "capture_worker_source_SHA256": "e1d5a5ac94c507cad93ee41b9601e915fedb21bd3fa4a0536e93ef488051d8a4",
+      "CUPTI_API_version": 28,
+      "CUPTI_timestamp_nonzero": true,
+      "CPU_control_fixtures": 20
+    },
+    "trace_independent.py against original activity export": {
+      "status": "PASS",
+      "relational_recomputed_kernel_links_per_arm": 246252,
+      "matches_frozen_report": true
+    },
+    "verify_capture.py against original capture and independent references": {
+      "status": "PASS",
+      "exact_full_F32_vectors_per_arm": 339,
+      "exact_intermediate_KV_bytes_per_arm": 5065667352,
+      "exact_terminal_objects_per_arm": 2,
+      "own_successor_links_per_arm": 37
+    },
+    "paper qualification manifest": {
+      "status": "PASS",
+      "matches_frozen_RTX_counts_and_binaries": true
+    },
+    "verify.py at repository root": {
+      "status": "FAIL",
+      "first_mismatch": ".github/ISSUE_TEMPLATE/config.yml",
+      "reproduced_at_parent_commit": "f95b936b1cd60f43de4e6a7d12ccf41c13088f69"
+    },
+    "new device capture on the release build": {
+      "status": "PASS",
+      "run": "rtx-release-device-r02",
+      "receipt": "device-replay.json",
+      "requests": 2,
+      "native_forward_submissions": 454,
+      "independent_profiler_review": "PASS",
+      "complete_numerical_qualification": "PASS"
+    },
+    "new formal panel requests": 0
+  },
+  "commands": "See the quick-check, build and local capture commands in ../README.md. Archive checks used the local original run and independent reference paths."
+}
