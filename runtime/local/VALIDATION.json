@@ -1,0 +1,82 @@
+{
+  "schema": "refbound.local.validation.v1",
+  "release_build": {
+    "platform": "Linux x86-64 / sm86",
+    "toolchain": {
+      "gcc": "11.4.0",
+      "cuda": "12.5.40",
+      "cmake": "3.22.1",
+      "ninja": "1.10.1",
+      "glibc": "2.35",
+      "nccl": "2.22.3"
+    },
+    "a5000_driver": "595.84",
+    "backend_tree": "4aeefeb2f7c132a9273e3b6367dbf0befeb9bcc7",
+    "command": "bash runtime/local/build_cuda.sh NEW_OUTPUT_DIR",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "",
+      "build_jobs": 2
+    },
+    "status": "PASS",
+    "completed_steps": 363,
+    "planned_steps": 363,
+    "worker_sha256": "11cc7f79657bae5346541139b859f4cd76bdc9a55a74cc6505241a706d36a9fa",
+    "configure_log_sha256": "a247f2ac2ef070d946ff174883f7aed38605ae8c01879f55c3068448424dbb97",
+    "build_log_sha256": "7dad19474bc6408bae0c37e10561c6b1941a1277c2c6cfa7da981fb6745ffbcd",
+    "link_command_sha256": "4b146b291e7ee240c1cda41d4090dbdf0b9cc80980e3f581c71503b5e70d107b",
+    "link_map_sha256": "8a2b0e3948fc9d8e1c7c93d7ef009e34c1621ada314739c5a40105e692b5a154",
+    "link_verified": [
+      "mmvq.cu.o",
+      "hs_a5000_native4_capability_v1",
+      "hs_prefill_pack4_capability_v1",
+      "hs_prefill_pack4_audit"
+    ],
+    "missing_link_dependencies": [],
+    "cpu_only_checks": [
+      "SHA-256 known answer",
+      "canonical KV bytes, both V layouts",
+      "truncation/suffix rejection",
+      "SIMPLE and LOCAL immutable profiles in separate processes",
+      "P4-on rejection"
+    ],
+    "gpu_qualification_of_this_elf": "NOT_RUN"
+  },
+  "cpu_and_trace": {
+    "status": "PASS",
+    "commands": [
+      "python3 -B runtime/local/check.py --quick",
+      "bash runtime/local/test_cpu.sh NEW_OUTPUT_DIR"
+    ],
+    "python": "3.10.12",
+    "cpu_draft_state_fixture_cases": 257082,
+    "histories": 2,
+    "object_identities": 42,
+    "recorded_comparisons": 82,
+    "negative_test": "Edited copy with finite=false was rejected"
+  },
+  "saved_capture_readback": {
+    "status": "PASS",
+    "command": "python3 -B runtime/local/check.py --captures \"$CAPTURE_DIR\"",
+    "frozen_qualification_commit": "6b6bba605b4f4ae58dd661327fdc74438ea989ee",
+    "numpy": "2.3.5",
+    "reference_F32_byte_pairs": 18,
+    "reference_KV_byte_pairs": 10,
+    "own_retained_prefix_byte_pairs": 12,
+    "frozen_canonical_hash_matches": 42,
+    "saved_raw_serializer_hash_matches": 42
+  },
+  "top_level_verify": {
+    "status": "PASS",
+    "command": "python3 -B verify.py",
+    "files_verified_against_frozen_root_manifest": 1743
+  },
+  "frozen_statistics": {
+    "status": "PASS",
+    "command": "python3 -B reproduce/scripts/reproduce.py",
+    "numpy": "2.3.5",
+    "maximum_absolute_reference_error": 1.2434497875801753e-14
+  },
+  "new_GPU_requests": 0,
+  "new_model_loads": 0,
+  "new_performance_measurements": 0
+}

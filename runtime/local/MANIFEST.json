@@ -1,0 +1,175 @@
+{
+  "schema": "refbound.local.inventory.v1",
+  "component": "A5000 LOCAL two-history diagnostic",
+  "manifest_scope": "Paths are relative to the repository root. The manifest itself is bound by the Git commit.",
+  "refbound_base": "f95b936b1cd60f43de4e6a7d12ccf41c13088f69",
+  "public_core_pin": "58697de93d86fc39c105bdfb8d8c0fd2949f192c",
+  "backend_tree": "4aeefeb2f7c132a9273e3b6367dbf0befeb9bcc7",
+  "manuscript_head": "fc32d1af7dc0eac36c8d6dfc5709b0daaf3fb077",
+  "historical_frontend_and_traces": "0cac675cc757f195b74893da53af2161c2599c97",
+  "saved_crossing_qualification": "6b6bba605b4f4ae58dd661327fdc74438ea989ee",
+  "files": [
+    {
+      "path": "docs/A5000_LOCAL.md",
+      "class": "public-record",
+      "bytes": 3994,
+      "sha256": "a3d2955b8324fd5881f30dfc1c6a12977d943e891f4ed18e63aea1e70d046bb7"
+    },
+    {
+      "path": "runtime/local/CMakeLists.txt",
+      "class": "public-source",
+      "bytes": 996,
+      "sha256": "bab4202b910ab7d15e99e65df993513eb91228bd9255cf86e2bf5e3c9a923d42"
+    },
+    {
+      "path": "runtime/local/README.md",
+      "class": "public-record",
+      "bytes": 7480,
+      "sha256": "ba96979495b386efe8a26057d092b30c8d594842dc1ed6124ff8e2eceb8bb18d"
+    },
+    {
+      "path": "runtime/local/VALIDATION.json",
+      "class": "public-record",
+      "bytes": 2803,
+      "sha256": "7a05e52982d871df77bd385bc1fd9ae7916780a2e5ec31d32080b45077965693"
+    },
+    {
+      "path": "runtime/local/build_cuda.sh",
+      "class": "public-source",
+      "bytes": 2293,
+      "sha256": "7d7cfaf56562d63eae63b52245940c4b728f7326e45c0e8e089f8fd6c88396a1"
+    },
+    {
+      "path": "runtime/local/check.py",
+      "class": "public-source",
+      "bytes": 10424,
+      "sha256": "91606c2b382d7c91ef03f82e485fa92c1f455564f79a0219faf2cd399fc04482"
+    },
+    {
+      "path": "runtime/local/evidence/CASE.json",
+      "class": "public-record",
+      "bytes": 2424,
+      "sha256": "144d13e650f1284cdf099ca8ab5085c9d129372129b9971e575fe89e0d7de199"
+    },
+    {
+      "path": "runtime/local/evidence/CROSSING_OBJECTS.json",
+      "class": "redacted-derived",
+      "bytes": 46988,
+      "sha256": "17f3fe90e9da255264227db3681aeecda0542303e6bbfe3e8a03006eaea882ca"
+    },
+    {
+      "path": "runtime/local/evidence/STATE_PROFILE.json",
+      "class": "public-record",
+      "bytes": 5492,
+      "sha256": "6e09accbda4fb7df281604f4a58ead62ca0d1e7ebcda89bb82c868f79e370aec",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/evidence/TWO_HISTORIES.json",
+      "class": "redacted-derived",
+      "bytes": 10127,
+      "sha256": "9e52f351121a8ceb22c41b7d0ffc57f62fabb74e1abd911049e47529d4e6471b"
+    },
+    {
+      "path": "runtime/local/readers/active_kv.py",
+      "class": "public-source",
+      "bytes": 3513,
+      "sha256": "72add4ff0dfef1019333328a027f8ff7b15ef220a75bbb6e11bb61e83780ad7e",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/readers/common.py",
+      "class": "public-source",
+      "bytes": 565,
+      "sha256": "97da4a22894ee47b26dd8c05d39713b0ce7a167b6838e7b8ece2255165e5d8bf"
+    },
+    {
+      "path": "runtime/local/src/draft_work.hpp",
+      "class": "public-source",
+      "bytes": 1312,
+      "sha256": "bcb85a9854f7cdd874b2c0dd20b347104efa307e82d1932674cc6dfbc1c98b2e",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/inherited/phase_plan.hpp",
+      "class": "public-source",
+      "bytes": 4571,
+      "sha256": "d379ba5518dd03c6d6439ad5024a957af0f1b71d92f062688bc8cc1de52935b5",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/inherited/resident_context.hpp",
+      "class": "public-source",
+      "bytes": 4936,
+      "sha256": "66a912d3320f9761093d76b77b0dddffae040bc20a67cbdf43fc04298add4a01",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/inherited/work_counts.h",
+      "class": "public-source",
+      "bytes": 892,
+      "sha256": "794274917cd2c1196eb2fcf84fb9d2b426faca65c3a967a86b5e7b8ab6739742",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/local_replay.inc",
+      "class": "public-source",
+      "bytes": 9933,
+      "sha256": "3b5c8b4950ad08d4cf37f9a59543ad11c3b9e865d30fbe9eb8206422c65c2511",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/native.cpp",
+      "class": "public-source",
+      "bytes": 37035,
+      "sha256": "431cd4a9f5dcfa155f31b17c2e176ac2907166de2438c08f0a45e51f7eacf75b",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/state.hpp",
+      "class": "public-source",
+      "bytes": 5708,
+      "sha256": "6df28df35b0fd7c88452b3db86097eea3c3b828ccb0159ba5523de2d88fe797d",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/test_draft_work.cpp",
+      "class": "public-source",
+      "bytes": 5501,
+      "sha256": "2ebe1b8fff2a1c8d6caa681e62b12d2951933e6f85686adcb96f00fb3edb7ad6",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/test_transaction.cpp",
+      "class": "public-source",
+      "bytes": 2509,
+      "sha256": "c57112bde7b82d0fba0bdeb23ac05d7b5e2adc5f09b46e6b118510c2036001c6",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/transaction.hpp",
+      "class": "public-source",
+      "bytes": 1815,
+      "sha256": "f6ab6d5aaeb893c4242d99cefe6ec857cd0e330fbc6bcce37fc4e81455c99cd8",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/src/work_counts.cpp",
+      "class": "public-source",
+      "bytes": 5383,
+      "sha256": "0353e8a497ae63d56cf605f57b8687d34ba58a1f5cfa5ef9ca56b2fd3f4ebdd5",
+      "frozen_bytes": true
+    },
+    {
+      "path": "runtime/local/test_cpu.sh",
+      "class": "public-source",
+      "bytes": 418,
+      "sha256": "bde1f84b232b92ef177dda4d3fc83b142889e00886cd0594c501e6cd546f1d93"
+    }
+  ],
+  "private": [
+    "Original benchmark text, prompt/history IDs, full proposals and generated sequences",
+    "Model weights, original ELF files, full vocabulary outputs and native KV payloads",
+    "Original controller logs, filesystem and host identities, and raw profiler captures"
+  ]
+}
