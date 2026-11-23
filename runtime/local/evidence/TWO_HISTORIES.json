@@ -1,0 +1,389 @@
+{
+  "schema": "refbound.local.two-history-trace.v1",
+  "source_commit": "0cac675cc757f195b74893da53af2161c2599c97",
+  "role": "Redacted historical qualification receipts. No timings, prompt, history or proposal streams.",
+  "histories": [
+    {
+      "id": "noncrossing",
+      "cycle": 0,
+      "prompt_rows": 137,
+      "history_rows": 137,
+      "history_sha256": "1eaaace215aaf170b6071a9509a9c67a3e02221bdfc9c7eb4000ba390d6337ed",
+      "canonical_case_sha256": "c3340e2373c3cd2def10f63bc881b1e48e355a9d1679101de9d2a0e2bb09949f",
+      "source_identity": "CodeContests/train/161",
+      "proposal_counts": [
+        3,
+        3
+      ],
+      "extents": [
+        [
+          256,
+          256,
+          256,
+          256
+        ],
+        [
+          256,
+          256,
+          256,
+          256
+        ]
+      ],
+      "arms": {
+        "R": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 137,
+              "keep": 139,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "work": {}
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 139,
+              "keep": 141,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "work": {}
+            }
+          ],
+          "original_receipt_sha256": "fbb0bcf94e771f742e9e67a63a1f0ce42693836cb01f8a2c336014d4412233a3"
+        },
+        "SIMPLE": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 137,
+              "keep": 139,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 1,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 139,
+              "keep": 141,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 0,
+                "graphs_reused": 1,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          ],
+          "original_receipt_sha256": "3dbba250f93436e0bfb7375c2a1cc69e68b01e6f23c22a6cdffbcc451cf737f0"
+        },
+        "LOCAL": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 137,
+              "keep": 139,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 1,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 139,
+              "keep": 141,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 0,
+                "graphs_reused": 1,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          ],
+          "original_receipt_sha256": "9468b9189e6038842709082be1cdeca0e99288e08c6c8af710d5c6594606d9b4"
+        }
+      }
+    },
+    {
+      "id": "crossing",
+      "cycle": 37,
+      "prompt_rows": 137,
+      "history_rows": 253,
+      "history_sha256": "f468b665d90381a202df267f90d52c826d2826c9b1cffd60d050cdf8cf908340",
+      "canonical_case_sha256": "e802e01bbf19fd567aa8a7d98b8d5704906744772ded3e108eed7e14948f8d70",
+      "source_identity": "CodeContests/train/161",
+      "proposal_counts": [
+        3,
+        3
+      ],
+      "extents": [
+        [
+          256,
+          256,
+          256,
+          512
+        ],
+        [
+          256,
+          512,
+          512,
+          512
+        ]
+      ],
+      "arms": {
+        "R": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 253,
+              "keep": 255,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "work": {}
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 255,
+              "keep": 259,
+              "accepted": 3,
+              "rejected": false,
+              "frontier_row": 3,
+              "physical_widths": [
+                1,
+                1,
+                1,
+                1
+              ],
+              "work": {}
+            }
+          ],
+          "original_receipt_sha256": "73f8d1803d63ff9239509da77e7809820d0d9cfa66fe5c9b17a698041bd618bc"
+        },
+        "SIMPLE": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 253,
+              "keep": 255,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                3,
+                1
+              ],
+              "work": {
+                "dot_calls": 834,
+                "dot_columns": 1732,
+                "native4_dispatches": 449,
+                "native4_columns": 1347,
+                "graphs_built": 2,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 255,
+              "keep": 259,
+              "accepted": 3,
+              "rejected": false,
+              "frontier_row": 3,
+              "physical_widths": [
+                1,
+                3
+              ],
+              "work": {
+                "dot_calls": 834,
+                "dot_columns": 1732,
+                "native4_dispatches": 449,
+                "native4_columns": 1347,
+                "graphs_built": 2,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          ],
+          "original_receipt_sha256": "4f773f9ef2c419032d0bcb7ad5bc3c1537c83d5dd7f700d3259afa63c3cda82a"
+        },
+        "LOCAL": {
+          "phases": [
+            {
+              "phase": "LOCAL_PRIMARY",
+              "base": 253,
+              "keep": 255,
+              "accepted": 1,
+              "rejected": true,
+              "frontier_row": 1,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 1,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            },
+            {
+              "phase": "LOCAL_CONTINUATION",
+              "base": 255,
+              "keep": 259,
+              "accepted": 3,
+              "rejected": false,
+              "frontier_row": 3,
+              "physical_widths": [
+                4
+              ],
+              "work": {
+                "dot_calls": 449,
+                "dot_columns": 1796,
+                "native4_dispatches": 449,
+                "native4_columns": 1796,
+                "graphs_built": 1,
+                "graphs_reused": 0,
+                "P4": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ]
+              }
+            }
+          ],
+          "original_receipt_sha256": "79f8a4a6d10aac1017fd05cd85368558938776831faa15aa2bd6236f8283bf6f"
+        }
+      }
+    }
+  ]
+}
